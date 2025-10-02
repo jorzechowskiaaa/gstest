@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field tracks the status whether the feedback is sent to National successfully or not --></help>
+        <label><!-- Is Sent To National --></label>
+        <name>Is_Sent_To_National__c</name>
+    </CustomFieldTranslation>

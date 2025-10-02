@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>FSL Club Dispatcher Service Territory Layout</layout>
+        <sections>
+            <label><!-- Facility Phone Information --></label>
+            <section>Facility Phone Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reporting Information --></label>
+            <section>Reporting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Information --></label>
+            <section>Scheduling Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Territory Layout</layout>
+        <sections>
+            <label><!-- Facility Phone Information --></label>
+            <section>Facility Phone Information</section>
+        </sections>
+        <sections>
+            <label><!-- Owner Information --></label>
+            <section>Owner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reporting Information --></label>
+            <section>Reporting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Information --></label>
+            <section>Scheduling Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Comments --></label>
+        <name>Comments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Comments --></label>
+        <name>Comments2</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Territory that handles all types of services --></description>
+        <label><!-- Facility Territory --></label>
+        <name>Facility_Territory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lightning Scheduler --></label>
+        <name>Lightning_Scheduler</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Map Territory - only handle certain types of servicves --></description>
+        <label><!-- Map Territory --></label>
+        <name>Map_Territory</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change the operating hours for a service territory. --></errorMessage>
+        <name>No_Update_to_Operating_Hours</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to make updates to a service territory. Please contact your supervisor or CSR. --></errorMessage>
+        <name>No_Updates_from_Dispatchers</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Update_Public_Group_Membership --></label>
+        <name>Update_Public_Group_Membership</name>
+    </webLinks>
+</CustomObjectTranslation>

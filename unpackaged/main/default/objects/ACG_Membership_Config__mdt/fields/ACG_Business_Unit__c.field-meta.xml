@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Business_Unit__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Business Unit</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACG Core - Club 014</fullName>
+                <default>true</default>
+                <label>ACG Core - Club 014</label>
+            </value>
+            <value>
+                <fullName>ACG Core - Others</fullName>
+                <default>false</default>
+                <label>ACG Core - Others</label>
+            </value>
+            <value>
+                <fullName>Colorado</fullName>
+                <default>false</default>
+                <label>Colorado</label>
+            </value>
+            <value>
+                <fullName>Carolinas</fullName>
+                <default>false</default>
+                <label>Carolinas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

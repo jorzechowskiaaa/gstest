@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Toggle to run RSO when an Appointment is scheduled with an overlap --></help>
+        <label><!-- Optimize Emergency Overlaps --></label>
+        <name>Optimize_Emergency_Overlaps__c</name>
+    </CustomFieldTranslation>

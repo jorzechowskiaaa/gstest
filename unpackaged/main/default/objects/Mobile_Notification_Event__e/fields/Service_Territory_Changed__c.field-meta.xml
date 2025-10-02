@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territory_Changed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Upon reassignment did the Service Territory Change</description>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Service Territory Changed</label>
+    <type>Checkbox</type>
+</CustomField>

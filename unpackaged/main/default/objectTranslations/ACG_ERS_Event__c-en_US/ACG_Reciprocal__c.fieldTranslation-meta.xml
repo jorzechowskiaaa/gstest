@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Denotes that this call was a reciprocal performed by another AAA club --></help>
+        <label><!-- Reciprocal --></label>
+        <name>ACG_Reciprocal__c</name>
+    </CustomFieldTranslation>

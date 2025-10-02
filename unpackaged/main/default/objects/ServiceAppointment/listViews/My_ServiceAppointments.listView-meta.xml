@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_ServiceAppointments</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Payment_Required__c</columns>
+    <columns>Payment_Required_Flag__c</columns>
+    <columns>Cash_Indicator__c</columns>
+    <columns>Appt_Number_Cash_Work_type__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Subject</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Payment_Required__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Service Appointments</label>
+    <sharedTo>
+        <group>FSL_Facility_Account_viewer_Group</group>
+        <group>FSL_Member_Account_viewer_Group</group>
+    </sharedTo>
+</ListView>

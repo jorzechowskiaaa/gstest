@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Read</accessLevel>
+        <object>Case</object>
+        <objectField>FSL_Work_Order__c.Account</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
+    <accessMappings>
+        <accessLevel>Read</accessLevel>
+        <object>Statement__c</object>
+        <objectField>Service_Territory__c.ACG_Facility__c</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
+    <name>Contractor Access</name>
+    <profiles>FSL Contractor Dispatcher Access</profiles>
+    <profiles>FSL Contractor Lead Technician</profiles>
+</SharingSet>

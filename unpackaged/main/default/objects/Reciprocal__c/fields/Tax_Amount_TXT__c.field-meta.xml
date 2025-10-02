@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Amount_TXT__c</fullName>
+    <description>reciprocal tax amount conversion from dollars to text</description>
+    <externalId>false</externalId>
+    <formula>IF(FIND(&#39;.&#39;, TEXT(Tax_Amount__c)) = 0,
+TEXT(Tax_Amount__c) + &#39;.00&#39;,
+(LEFT(TEXT(Tax_Amount__c), FIND(&#39;.&#39;, TEXT(Tax_Amount__c) ) ) ) +
+RPAD(RIGHT(TEXT(Tax_Amount__c), LEN(TEXT(Tax_Amount__c)) - FIND(&#39;.&#39;, TEXT(Tax_Amount__c) ) ), 2, &#39;0&#39;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>this field is a conversion of tax amount from dollars to text for use in reports</inlineHelpText>
+    <label>Tax Amount TXT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

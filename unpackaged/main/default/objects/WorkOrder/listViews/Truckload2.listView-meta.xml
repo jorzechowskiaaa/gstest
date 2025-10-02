@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Truckload2</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>CreatedDate</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Status</columns>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>WorkType</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>Tow_Address__c</columns>
+    <columns>Vehicle_Profile__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>291000,292000,294000,290611,290240</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>PTA__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Clone Me - Metro Fleet Truckload</label>
+    <sharedTo>
+        <group>NNE_Dispatch</group>
+    </sharedTo>
+</ListView>

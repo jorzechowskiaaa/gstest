@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Location_TZ_Offset__c</fullName>
+    <description>The members location. This is the Timezone Offset needed to send SMS messages with member&#39;s local time. This will get copied to the Work order once it is submitted.</description>
+    <externalId>false</externalId>
+    <label>Member Location Timezone Offset</label>
+    <length>9</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

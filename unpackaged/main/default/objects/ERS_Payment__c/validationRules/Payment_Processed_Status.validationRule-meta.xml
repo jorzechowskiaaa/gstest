@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Processed_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ OR( RecordType.DeveloperName = &#39;Call_Payment&#39;,
+     RecordType.DeveloperName = &#39;Call_Adjustment&#39;
+    ),
+    ISPICKVAL(PRIORVALUE(Status__c), &#39;Payment Processed&#39;)
+)</errorConditionFormula>
+    <errorMessage>Payment Processed. This Payment can no longer be updated.</errorMessage>
+</ValidationRule>

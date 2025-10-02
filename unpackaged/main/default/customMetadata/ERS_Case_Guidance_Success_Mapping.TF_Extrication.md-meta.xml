@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TF-Extrication</label>
+    <protected>false</protected>
+    <values>
+        <field>BSP_Available__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Case_Guidance_Success_Status__c</field>
+        <value xsi:type="xsd:string">Active</value>
+    </values>
+    <values>
+        <field>Flat_Tire_Status__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Guidance_Success__c</field>
+        <value xsi:type="xsd:string">Add to Driver&#39;s Notes: How far off the paved road is the vehicle? What is the vehicle in/on?</value>
+    </values>
+    <values>
+        <field>Membership_Level__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Name_of_Triage_Tab__c</field>
+        <value xsi:type="xsd:string">Extrication</value>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:type="xsd:string">Extrication</value>
+    </values>
+    <values>
+        <field>Vehicle_Fuel_Type__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Vehicle_Type__c</field>
+        <value xsi:nil="true" />
+    </values>
+</CustomMetadata>

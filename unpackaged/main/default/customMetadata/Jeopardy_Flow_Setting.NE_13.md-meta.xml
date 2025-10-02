@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>NE 13</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">In Development - Do Not Use                                                                              
+
+Case Dispatcher Status is not Working 
+
+WO Priority is Medium 
+SA Status changed to Declined 
+SA Decline Reason is one of the facility decline reasons
+
+SA Jeopardy Reason = Facility Decline
+Case Violation Type = Facility Decline
+Case owner = Reroute Queue</value>
+    </values>
+    <values>
+        <field>isExecute__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

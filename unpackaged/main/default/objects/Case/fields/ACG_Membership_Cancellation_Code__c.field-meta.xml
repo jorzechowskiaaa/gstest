@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Membership_Cancellation_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(ACG_Membership_Cancellation_Reason__c,&quot;Abuser Downgrade&quot;,&quot;997&quot;,&quot;Bad Check&quot;,&quot;129&quot;,&quot;Bought New Car&quot;,&quot;107&quot;,&quot;Cancel per CC Co.&quot;,&quot;125&quot;,&quot;Cancel per Management&quot;,&quot;120&quot;,&quot;Cancel per National&quot;,&quot;123&quot;,&quot;Can&#39;t Afford&quot;,&quot;141&quot;,&quot;Deceased&quot;,&quot;103&quot;,&quot;Disagree with Policy&quot;,&quot;204&quot;,&quot;Divorced/Separated Per Primary&quot;,&quot;105&quot;,&quot;Donor Request&quot;,&quot;117&quot;,&quot;Don&#39;t Use/Don&#39;t Need&quot;,&quot;111&quot;,&quot;Dues Increase&quot;,&quot;140&quot;,&quot;Duplicate&quot;,&quot;135&quot;,&quot;Email Request - No Reason Given&quot;,&quot;503&quot;,&quot;Error&quot;,&quot;900&quot;,&quot;ERS 00T Cancel&quot;,&quot;901&quot;,&quot;ERS Service Problem&quot;,&quot;108&quot;,&quot;Fleet Request&quot;,&quot;118&quot;,&quot;Full Year Money Back Guarantee&quot;,&quot;115&quot;,&quot;Issue Management Request - No Reason Given&quot;,&quot;502&quot;,&quot;Joined Non-AAA Club&quot;,&quot;110&quot;,&quot;Marketing Verbiage&quot;,&quot;204&quot;,&quot;Moved Out of Territory&quot;,&quot;102&quot;,&quot;MRL Request&quot;,&quot;200&quot;,&quot;No Longer Driving&quot;,&quot;104&quot;,&quot;Non-Renewable Product&quot;,&quot;150&quot;,&quot;Not Reinstated&quot;,&quot;131&quot;,&quot;Not Worth the Money&quot;,&quot;142&quot;,&quot;Phone Request - No Reason Given&quot;,&quot;501&quot;,&quot;Requested in Writing&quot;,&quot;500&quot;,&quot;Road Service Abuser&quot;,&quot;128&quot;,&quot;Roll as Gift - Unqualified Associate&quot;,&quot;113&quot;,&quot;Roll Off to New Membership&quot;,&quot;130&quot;,&quot;Unpaid - System Cancellation&quot;,&quot;155&quot;,&quot;Unqualified Associate&quot;,&quot;109&quot;,&quot;Unqualified Highway Patrol&quot;,&quot;119&quot;,&quot;N/A&quot;)</formula>
+    <label>Membership Cancellation Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

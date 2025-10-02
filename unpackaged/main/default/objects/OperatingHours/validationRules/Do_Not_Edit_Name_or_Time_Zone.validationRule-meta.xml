@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Edit_Name_or_Time_Zone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				NOT(CONTAINS( $Profile.Name , &quot;Admin&quot; )),
+				OR(
+				ISCHANGED(Name),
+    ISCHANGED(TimeZone)
+				)
+								)</errorConditionFormula>
+    <errorMessage>You do not have permission to edit the name or time zone for operating hours. Please contact the support team for assistance.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AA_Org_Level_Messaging_Switch__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Org-Level switch for enabling AA Outbound SMS notifications</description>
+    <label>AA Org-Level Messaging Switch</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

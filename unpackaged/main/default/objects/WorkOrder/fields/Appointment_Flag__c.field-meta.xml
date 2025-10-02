@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_Flag__c</fullName>
+    <formula>IF( Non_Emergency_Appointment_Time__c != null , true,false)</formula>
+    <label>Appointment Flag</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

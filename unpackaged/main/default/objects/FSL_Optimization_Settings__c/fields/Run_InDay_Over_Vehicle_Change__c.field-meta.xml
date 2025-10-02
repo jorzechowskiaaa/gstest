@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_InDay_Over_Vehicle_Change__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>On/Off to trigger InDay upon Vehicle change</description>
+    <inlineHelpText>It is being used to trigger the InDay upon Vehicle change.</inlineHelpText>
+    <label>Run InDay Over Vehicle Change</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

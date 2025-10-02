@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instructions__c</fullName>
+    <description>Instructions to be displayed to the ERS Advocate, when validating a membership.  The instructions may describe the method of collecting the payment from the member if applicable</description>
+    <inlineHelpText>Impairment found. Follow these instructions in order to create a Work Order for this call</inlineHelpText>
+    <label>Instructions</label>
+    <length>1024</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

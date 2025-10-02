@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reasons_for_Not_Booking__c</fullName>
+    <description>Reasons the customer provided for not booking the trip</description>
+    <inlineHelpText>Reasons the customer provided for not booking the trip</inlineHelpText>
+    <label>Reasons for Not Booking?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change of Plans</fullName>
+                <default>false</default>
+                <label>Change of Plans</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>No Trip or Different Trip</fullName>
+                <default>false</default>
+                <label>No Trip or Different Trip</label>
+            </value>
+            <value>
+                <fullName>Booked Elsewhere</fullName>
+                <default>false</default>
+                <label>Booked Elsewhere</label>
+            </value>
+            <value>
+                <fullName>Agent Response</fullName>
+                <default>false</default>
+                <label>Agent Response</label>
+            </value>
+            <value>
+                <fullName>Agent Knowledge/Expertise</fullName>
+                <default>false</default>
+                <label>Agent Knowledge/Expertise</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

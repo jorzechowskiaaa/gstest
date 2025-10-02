@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Adjustment_Category__c</fullName>
+    <label>Adjustment Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAR</fullName>
+                <default>false</default>
+                <label>AAR</label>
+            </value>
+            <value>
+                <fullName>Advances</fullName>
+                <default>false</default>
+                <label>Advances</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>false</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>Basic Reciprocal</fullName>
+                <default>false</default>
+                <label>Basic Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Battery and Battery Charger Costs</fullName>
+                <default>false</default>
+                <label>Battery and Battery Charger Costs</label>
+            </value>
+            <value>
+                <fullName>Battery Warranty Reserve-Club Assist</fullName>
+                <default>false</default>
+                <label>Battery Warranty Reserve-Club Assist</label>
+            </value>
+            <value>
+                <fullName>Battery Warranty Reserve-Interstate</fullName>
+                <default>false</default>
+                <label>Battery Warranty Reserve-Interstate</label>
+            </value>
+            <value>
+                <fullName>BKGRND</fullName>
+                <default>false</default>
+                <label>BKGRND</label>
+            </value>
+            <value>
+                <fullName>Bonus</fullName>
+                <default>false</default>
+                <label>Bonus</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Fuel Subsidy</fullName>
+                <default>false</default>
+                <label>Fuel Subsidy</label>
+            </value>
+            <value>
+                <fullName>GOODYEAR</fullName>
+                <default>false</default>
+                <label>GOODYEAR</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Interstate Battery</fullName>
+                <default>false</default>
+                <label>Interstate Battery</label>
+            </value>
+            <value>
+                <fullName>NSF</fullName>
+                <default>false</default>
+                <label>NSF</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Reciprocal</fullName>
+                <default>false</default>
+                <label>Other Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Overdrawn</fullName>
+                <default>false</default>
+                <label>Overdrawn</label>
+            </value>
+            <value>
+                <fullName>Plus</fullName>
+                <default>false</default>
+                <label>Plus</label>
+            </value>
+            <value>
+                <fullName>Plus Reciprocal</fullName>
+                <default>false</default>
+                <label>Plus Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Premier</fullName>
+                <default>false</default>
+                <label>Premier</label>
+            </value>
+            <value>
+                <fullName>Premier Reciprocal</fullName>
+                <default>false</default>
+                <label>Premier Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Rent</fullName>
+                <default>false</default>
+                <label>Rent</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <label>RV</label>
+            </value>
+            <value>
+                <fullName>RV Reciprocal</fullName>
+                <default>false</default>
+                <label>RV Reciprocal</label>
+            </value>
+            <value>
+                <fullName>Sign On Bonus</fullName>
+                <default>false</default>
+                <label>Sign On Bonus</label>
+            </value>
+            <value>
+                <fullName>Sonsio</fullName>
+                <default>false</default>
+                <label>Sonsio</label>
+            </value>
+            <value>
+                <fullName>Tablets</fullName>
+                <default>false</default>
+                <label>Tablets</label>
+            </value>
+            <value>
+                <fullName>Truck Lease</fullName>
+                <default>false</default>
+                <label>Truck Lease</label>
+            </value>
+            <value>
+                <fullName>Truck Purchase</fullName>
+                <default>false</default>
+                <label>Truck Purchase</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>A W DIRECT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>A W DIRECT</label>
+            </value>
+            <value>
+                <fullName>AAR APP FEES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AAR APP FEES</label>
+            </value>
+            <value>
+                <fullName>AAR PROG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AAR PROG</label>
+            </value>
+            <value>
+                <fullName>AAR PROG FEE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AAR PROG FEE</label>
+            </value>
+            <value>
+                <fullName>ADDL_TRK_BO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ADDL_TRK_BO</label>
+            </value>
+            <value>
+                <fullName>ADDL_TRK_BON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ADDL_TRK_BON</label>
+            </value>
+            <value>
+                <fullName>ADV INT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ADV INT</label>
+            </value>
+            <value>
+                <fullName>BACKGROU 909660   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BACKGROU 909660   B</label>
+            </value>
+            <value>
+                <fullName>BASIC    929100   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BASIC    929100   B</label>
+            </value>
+            <value>
+                <fullName>BATT EQUIP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BATT EQUIP</label>
+            </value>
+            <value>
+                <fullName>BATTERY  928245   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BATTERY  928245   B</label>
+            </value>
+            <value>
+                <fullName>BATTERY_INV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BATTERY_INV</label>
+            </value>
+            <value>
+                <fullName>BATTWITH 196037   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BATTWITH 196037   B</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_ADMI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_ADMI</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_CT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_CT</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_IN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_IN</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_KS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_KS</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_KY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_KY</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_MD/DE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_MD/DE</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_NJ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_NJ</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_OH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_OH</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_OK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_OK</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_PA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_PA</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_SD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_SD</label>
+            </value>
+            <value>
+                <fullName>BD_DBT_VA/DC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD_DBT_VA/DC</label>
+            </value>
+            <value>
+                <fullName>BG_CK_CN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_CN</label>
+            </value>
+            <value>
+                <fullName>BG_CK_CT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_CT</label>
+            </value>
+            <value>
+                <fullName>BG_CK_IN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_IN</label>
+            </value>
+            <value>
+                <fullName>BG_CK_KS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_KS</label>
+            </value>
+            <value>
+                <fullName>BG_CK_KY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_KY</label>
+            </value>
+            <value>
+                <fullName>BG_CK_MD/DE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_MD/DE</label>
+            </value>
+            <value>
+                <fullName>BG_CK_NJ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_NJ</label>
+            </value>
+            <value>
+                <fullName>BG_CK_OH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_OH</label>
+            </value>
+            <value>
+                <fullName>BG_CK_OK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_OK</label>
+            </value>
+            <value>
+                <fullName>BG_CK_PA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_PA</label>
+            </value>
+            <value>
+                <fullName>BG_CK_SD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_SD</label>
+            </value>
+            <value>
+                <fullName>BG_CK_VA/DC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_VA/DC</label>
+            </value>
+            <value>
+                <fullName>BG_CK_WV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BG_CK_WV</label>
+            </value>
+            <value>
+                <fullName>CK/GUART 182002   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CK/GUART 182002   O</label>
+            </value>
+            <value>
+                <fullName>CUST APP 950101   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CUST APP 950101   B</label>
+            </value>
+            <value>
+                <fullName>D2ME_PHONE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D2ME_PHONE</label>
+            </value>
+            <value>
+                <fullName>D2ME_REPAIR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D2ME_REPAIR</label>
+            </value>
+            <value>
+                <fullName>D3ME     929570   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D3ME     929570   O</label>
+            </value>
+            <value>
+                <fullName>DAMAGE   929140   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DAMAGE   929140   B</label>
+            </value>
+            <value>
+                <fullName>DE_OTHER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DE_OTHER</label>
+            </value>
+            <value>
+                <fullName>FUEL SUB 929210   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FUEL SUB 929210   O</label>
+            </value>
+            <value>
+                <fullName>FUEL_SUBSID</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FUEL_SUBSID</label>
+            </value>
+            <value>
+                <fullName>HOLD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HOLD</label>
+            </value>
+            <value>
+                <fullName>IRS_LEVY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IRS_LEVY</label>
+            </value>
+            <value>
+                <fullName>LEASE PAYME</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LEASE PAYME</label>
+            </value>
+            <value>
+                <fullName>Lease Payment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lease Payment</label>
+            </value>
+            <value>
+                <fullName>NETWORK_LEA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NETWORK_LEA</label>
+            </value>
+            <value>
+                <fullName>NTWKLSIN 196036   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NTWKLSIN 196036   B</label>
+            </value>
+            <value>
+                <fullName>NTWKLSIN 334006   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NTWKLSIN 334006   B</label>
+            </value>
+            <value>
+                <fullName>OTHER    929125   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OTHER    929125   O</label>
+            </value>
+            <value>
+                <fullName>OVER DRA 337006   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OVER DRA 337006   O</label>
+            </value>
+            <value>
+                <fullName>OVER DRAWN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OVER DRAWN</label>
+            </value>
+            <value>
+                <fullName>OVERCHAR 929100   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OVERCHAR 929100   B</label>
+            </value>
+            <value>
+                <fullName>PAPER CH 950600   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PAPER CH 950600   B</label>
+            </value>
+            <value>
+                <fullName>PAYABLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PAYABLE</label>
+            </value>
+            <value>
+                <fullName>PERF PAY 929180   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PERF PAY 929180   B</label>
+            </value>
+            <value>
+                <fullName>PLUS     PLUS0000 P</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLUS     PLUS0000 P</label>
+            </value>
+            <value>
+                <fullName>PREMIER  PREM0000</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PREMIER  PREM0000</label>
+            </value>
+            <value>
+                <fullName>PREMIER  PRV00000</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PREMIER  PRV00000</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_CT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_CT</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_KY/W</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_KY/W</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_MD/D</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_MD/D</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_NJ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_NJ</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_OH/I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_OH/I</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_OK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_OK</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_PA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_PA</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_SD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_SD</label>
+            </value>
+            <value>
+                <fullName>PSPBEN_VA/D</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PSPBEN_VA/D</label>
+            </value>
+            <value>
+                <fullName>PUERTO R 338003   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PUERTO R 338003   O</label>
+            </value>
+            <value>
+                <fullName>RD_WARRIOR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RD_WARRIOR</label>
+            </value>
+            <value>
+                <fullName>RECIP BA 929135   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP BA 929135   B</label>
+            </value>
+            <value>
+                <fullName>RECIP PL 929560   P</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP PL 929560   P</label>
+            </value>
+            <value>
+                <fullName>RECIP PLUS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP PLUS</label>
+            </value>
+            <value>
+                <fullName>RECIP PR          R</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP PR          R</label>
+            </value>
+            <value>
+                <fullName>RECIP PR RPREM000</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP PR RPREM000</label>
+            </value>
+            <value>
+                <fullName>RECIP PREM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP PREM</label>
+            </value>
+            <value>
+                <fullName>RECIP RV 929561   R</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIP RV 929561   R</label>
+            </value>
+            <value>
+                <fullName>RECOV_COST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECOV_COST</label>
+            </value>
+            <value>
+                <fullName>RENT     886001   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RENT     886001   B</label>
+            </value>
+            <value>
+                <fullName>RTN_CHK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RTN_CHK</label>
+            </value>
+            <value>
+                <fullName>RV       929525   R</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RV       929525   R</label>
+            </value>
+            <value>
+                <fullName>Recip Basic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recip Basic</label>
+            </value>
+            <value>
+                <fullName>SPECIALE 916150   B</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SPECIALE 916150   B</label>
+            </value>
+            <value>
+                <fullName>SPECIAL_PAY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SPECIAL_PAY</label>
+            </value>
+            <value>
+                <fullName>SURVEY_INCE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SURVEY_INCE</label>
+            </value>
+            <value>
+                <fullName>SPECIAL PAY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Special Pay</label>
+            </value>
+            <value>
+                <fullName>TAXES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TAXES</label>
+            </value>
+            <value>
+                <fullName>TAXES    929250   O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TAXES    929250   O</label>
+            </value>
+            <value>
+                <fullName>TIRE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TIRE</label>
+            </value>
+            <value>
+                <fullName>TRAIN REIM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TRAIN REIM</label>
+            </value>
+            <value>
+                <fullName>TRUCK LOAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TRUCK LOAN</label>
+            </value>
+            <value>
+                <fullName>VA_GOODWILL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VA_GOODWILL</label>
+            </value>
+            <value>
+                <fullName>WIRE FEE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wire Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

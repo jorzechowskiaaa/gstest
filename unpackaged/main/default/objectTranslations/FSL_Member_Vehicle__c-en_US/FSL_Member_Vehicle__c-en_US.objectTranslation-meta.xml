@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Member Vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Member Vehicles</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Member Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Codes --></label>
+            <section>Key Codes</section>
+        </sections>
+        <sections>
+            <label><!-- RV Informaiton --></label>
+            <section>RV Informaiton</section>
+        </sections>
+        <sections>
+            <label><!-- Vehicle Details --></label>
+            <section>Vehicle Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician Member Vehicle Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update VIN/Odometer Reading --></label>
+        <name>Update_Odometer_Reading</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Member --></label>
+        <name>Member</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Vehicle odometer can not be greater than 6 digits --></errorMessage>
+        <name>Odometer_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Member Vehicle can not be updated if Work order status is Cleared --></errorMessage>
+        <name>Restrict_Mem_Vehicle_Update_On_WO_Clear</name>
+    </validationRules>
+</CustomObjectTranslation>

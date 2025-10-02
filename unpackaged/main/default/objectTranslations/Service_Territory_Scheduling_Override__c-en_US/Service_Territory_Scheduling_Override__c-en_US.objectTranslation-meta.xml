@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Territory Scheduling Override</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Territory Scheduling Overrides</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Service Territory Scheduling Override Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Scheduling Override --></label>
+        <name>Scheduling_Override</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Override Service Territory during call receive --></description>
+        <label><!-- Territory Override --></label>
+        <name>Territory_Override</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Start time should not be greater than or equal to End time. --></errorMessage>
+        <name>FSl_Start_Hour_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

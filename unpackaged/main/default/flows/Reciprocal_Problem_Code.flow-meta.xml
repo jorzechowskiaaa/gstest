@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_Problem_Code_P6_1</name>
+        <label>Add Problem Code P6</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P6- Member Name doesnt match Number</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Add_Problem_Code_P8_1</name>
+        <label>Add Problem Code P8</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P8 - Invalid Membership Number</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Add_Problem_Code_P9</name>
+        <label>Add Problem Code P9</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P9 - Past Expiration Date</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Apply_P6_1</name>
+        <label>Apply P6</label>
+        <locationX>842</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P6- Member Name doesnt match Number</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Member__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Account_Matching_Member_Id.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Clear_Problem_Code_1</name>
+        <label>Clear Problem Code</label>
+        <locationX>1634</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_Member_1</name>
+        <label>Update Member</label>
+        <locationX>1106</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Problem_Code__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Member__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Account_Matching_Member_Id.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Account_found</name>
+        <label>Account found</label>
+        <locationX>1172</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Member_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Account_Matching_Member_Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>And_P6</targetReference>
+            </connector>
+            <label>Member found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>And_P6</name>
+        <label>And P6</label>
+        <locationX>974</locationX>
+        <locationY>611</locationY>
+        <defaultConnector>
+            <targetReference>Update_Member_1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Just Update Member</defaultConnectorLabel>
+        <rules>
+            <name>Apply_P6</name>
+            <conditionLogic>(1 OR 2)</conditionLogic>
+            <conditions>
+                <leftValueReference>Account_Matching_Member_Id.FirstName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Member_First_Name__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Account_Matching_Member_Id.LastName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Member_Last_Name__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Apply_P6_1</targetReference>
+            </connector>
+            <label>Apply P6?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Problem_Code_Assignment</name>
+        <label>Problem Code Assignment</label>
+        <locationX>974</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>P9_Past_Expiration_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Membership_Expiration_Date__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <elementReference>$Record.Service_Call_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>P9 - Past Expiration Date</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Membership_Expiration_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Problem_Code_P9</targetReference>
+            </connector>
+            <label>P9 - Past Expiration Date</label>
+        </rules>
+        <rules>
+            <name>P8_Membership</name>
+            <conditionLogic>NOT(1 OR 2) AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>MembershipNumberLength</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>16.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>MembershipNumberLength</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>9.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>P8 - Invalid Membership Number</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Problem_Code_P8_1</targetReference>
+            </connector>
+            <label>P8 Invalid MembershipNumber</label>
+        </rules>
+        <rules>
+            <name>P6_Membership_Name</name>
+            <conditionLogic>1 AND( 2 OR 3) AND 4</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Member__r.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Member_First_Name__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Member__r.FirstName</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Member_Last_Name__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Member__r.LastName</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>P6- Member Name doesnt match Number</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Problem_Code_P6_1</targetReference>
+            </connector>
+            <label>P6 Membership Name does not Match</label>
+        </rules>
+        <rules>
+            <name>Member_field_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Member__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Member_ID__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Matching_Member_Id</targetReference>
+            </connector>
+            <label>Member field null and MemberId changed</label>
+        </rules>
+        <rules>
+            <name>Existing_Problem_Code</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P6- Member Name doesnt match Number</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P8 - Invalid Membership Number</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Problem_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P9 - Past Expiration Date</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Clear_Problem_Code_1</targetReference>
+            </connector>
+            <label>Existing Problem Code</label>
+        </rules>
+    </decisions>
+    <description>04/12/2024: v1 PR893288-4883</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>MembershipNumberLength</name>
+        <dataType>Number</dataType>
+        <expression>LEN({!$Record.Member_ID__c})</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Reciprocal Problem Code {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Reciprocal Problem Code</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Account_Matching_Member_Id</name>
+        <label>Account Matching Member Id</label>
+        <locationX>1172</locationX>
+        <locationY>395</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account_found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Member_ID__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Member_ID__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>848</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Problem_Code_Assignment</targetReference>
+        </connector>
+        <filterFormula>ISNEW() ||
+ISCHANGED({!$Record.Member_ID__c}) ||
+ISCHANGED({!$Record.Service_Call_Date__c}) ||
+ISCHANGED({!$Record.Member_Last_Name__c}) ||
+ISCHANGED({!$Record.Member_First_Name__c}) ||
+ISCHANGED({!$Record.Membership_Expiration_Date__c}) ||
+ISCHANGED({!$Record.Member__c})</filterFormula>
+        <object>Reciprocal__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>PCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Problem_Code__c</elementReference>
+        </value>
+    </variables>
+</Flow>

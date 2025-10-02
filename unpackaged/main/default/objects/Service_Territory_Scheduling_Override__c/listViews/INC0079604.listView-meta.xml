@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INC0079604</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Work_Types__c</columns>
+    <columns>Override_Service_Territory__c</columns>
+    <columns>Start_Hour__c</columns>
+    <columns>End_Hour__c</columns>
+    <columns>Days_Applied__c</columns>
+    <columns>Scheduling_Policy__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_Territory_Scheduling_Override__c.Territory_Override</value>
+    </filters>
+    <filters>
+        <field>Service_Territory__c</field>
+        <operation>contains</operation>
+        <value>626,627,628,629,631</value>
+    </filters>
+    <filters>
+        <field>Work_Types__c</field>
+        <operation>equals</operation>
+        <value>Battery Test</value>
+    </filters>
+    <label>INC0079604</label>
+    <sharedTo>
+        <group>Delegated_Admin_Group</group>
+        <role>Delegated_Admin</role>
+    </sharedTo>
+</ListView>

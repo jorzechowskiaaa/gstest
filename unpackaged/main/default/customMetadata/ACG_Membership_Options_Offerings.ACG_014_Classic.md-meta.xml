@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ACG 014 Classic</label>
+    <protected>false</protected>
+    <values>
+        <field>ACG_Business_Unit__c</field>
+        <value xsi:type="xsd:string">ACG Core - Club 014</value>
+    </values>
+    <values>
+        <field>ACG_Category__c</field>
+        <value xsi:type="xsd:string">membershipSelection</value>
+    </values>
+    <values>
+        <field>ACG_Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ACG_Offering__c</field>
+        <value xsi:type="xsd:string">Classic</value>
+    </values>
+    <values>
+        <field>Child_Offerings__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Price_Compare_Tool_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Price__c</field>
+        <value xsi:type="xsd:string">68</value>
+    </values>
+    <values>
+        <field>Sort_Order__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decline_Work_Reason__c</fullName>
+    <label>Decline Work Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Unavailable</fullName>
+                <default>false</default>
+                <label>Equipment Unavailable</label>
+            </value>
+            <value>
+                <fullName>Out of Primary Area</fullName>
+                <default>false</default>
+                <label>Out of Primary Area</label>
+            </value>
+            <value>
+                <fullName>Station Busy - AAA Call</fullName>
+                <default>false</default>
+                <label>Station Busy - AAA Call</label>
+            </value>
+            <value>
+                <fullName>Station Busy - Commercial Call</fullName>
+                <default>false</default>
+                <label>Station Busy - Commercial Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

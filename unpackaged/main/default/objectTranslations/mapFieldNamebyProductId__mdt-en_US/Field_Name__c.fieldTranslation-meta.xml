@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Field Name --></label>
+        <name>Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Advance_Charge_Fees_Miscellaneous__c</masterLabel>
+            <translation><!-- Advance_Charge_Fees_Miscellaneous__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance_Charge_Fees_Storage__c</masterLabel>
+            <translation><!-- Advance_Charge_Fees_Storage__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance_Charge_Fees_Towing_and_Mileage__c</masterLabel>
+            <translation><!-- Advance_Charge_Fees_Towing_and_Mileage__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advance_Charge_fees__c</masterLabel>
+            <translation><!-- Advance_Charge_fees__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean_up_an_labour__c</masterLabel>
+            <translation><!-- Clean_up_an_labour__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mileage__c</masterLabel>
+            <translation><!-- Mileage__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original_Tow_Amount__c</masterLabel>
+            <translation><!-- Original_Tow_Amount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special_Equipment__c</masterLabel>
+            <translation><!-- Special_Equipment__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Storage_Fees__c</masterLabel>
+            <translation><!-- Storage_Fees__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

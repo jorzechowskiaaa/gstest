@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>New Years Day</label>
+    <protected>false</protected>
+    <values>
+        <field>ACG_Description__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ACG_End_Date__c</field>
+        <value xsi:type="xsd:dateTime">2022-01-02T05:59:00.000Z</value>
+    </values>
+    <values>
+        <field>ACG_Start_Date__c</field>
+        <value xsi:type="xsd:dateTime">2022-01-01T06:00:00.000Z</value>
+    </values>
+</CustomMetadata>

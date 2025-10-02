@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AAA North Dakota - 113</fullName>
+        <default>false</default>
+        <label>AAA North Dakota - 113</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Carolinas - 111</fullName>
+        <default>false</default>
+        <label>AAA Carolinas - 111</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Chicago - 020</fullName>
+        <default>false</default>
+        <label>AAA Chicago - 020</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Colorado - 006</fullName>
+        <default>false</default>
+        <label>AAA Colorado - 006</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Michigan - 047</fullName>
+        <default>false</default>
+        <label>AAA Michigan - 047</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Minnesota/lowa - 049</fullName>
+        <default>false</default>
+        <label>AAA Minnesota/lowa - 049</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Nebraska - 069</fullName>
+        <default>false</default>
+        <label>AAA Nebraska - 069</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Wisconsin - 270</fullName>
+        <default>false</default>
+        <label>AAA Wisconsin - 270</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Club South - 014</fullName>
+        <default>false</default>
+        <label>Auto Club South - 014</label>
+    </customValue>
+    <masterLabel>Club Name-code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

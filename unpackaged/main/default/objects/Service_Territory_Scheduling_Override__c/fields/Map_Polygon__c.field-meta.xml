@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Map_Polygon__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Map Polygon Lookup for Service Territory Override during call receive.</description>
+    <label>Map Polygon</label>
+    <referenceTo>FSL__Polygon__c</referenceTo>
+    <relationshipLabel>Service Territory Scheduling Overrides</relationshipLabel>
+    <relationshipName>Service_Territory_Scheduling_Overrides</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

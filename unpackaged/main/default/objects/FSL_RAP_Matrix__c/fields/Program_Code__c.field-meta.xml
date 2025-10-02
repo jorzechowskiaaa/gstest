@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Code__c</fullName>
+    <description>3 digit program code that uniquely identifies the program</description>
+    <externalId>true</externalId>
+    <inlineHelpText>3 digit program code that uniquely identifies the program</inlineHelpText>
+    <label>Program Code</label>
+    <length>3</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

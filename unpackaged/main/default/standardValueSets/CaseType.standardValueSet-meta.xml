@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Accounting</fullName>
+        <default>false</default>
+        <label>Accounting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agency Tech</fullName>
+        <default>false</default>
+        <label>Agency Tech</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agent Error</fullName>
+        <default>false</default>
+        <label>Agent Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agent Max</fullName>
+        <default>false</default>
+        <label>Agent Max</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Apollo</fullName>
+        <default>false</default>
+        <label>Apollo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing &amp; Credits Information</fullName>
+        <default>false</default>
+        <label>Billing &amp; Credits Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Branch Re-Opening Assistance</fullName>
+        <default>false</default>
+        <label>Branch Re-Opening Assistance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car</fullName>
+        <default>false</default>
+        <label>Car</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car Care POS Support</fullName>
+        <default>false</default>
+        <label>Car Care POS Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car Care Vendor Issue</fullName>
+        <default>false</default>
+        <label>Car Care Vendor Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change Membership</fullName>
+        <default>false</default>
+        <label>Change Membership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commission</fullName>
+        <default>false</default>
+        <label>Commission</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complaint</fullName>
+        <default>false</default>
+        <label>Complaint</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliment</fullName>
+        <default>false</default>
+        <label>Compliment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Configuration</fullName>
+        <default>false</default>
+        <label>Configuration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>COVID-19</fullName>
+        <default>false</default>
+        <label>COVID-19</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Allowance</fullName>
+        <default>false</default>
+        <label>Customer Allowance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Damage</fullName>
+        <default>false</default>
+        <label>Damage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee/Employee Gift Membership</fullName>
+        <default>false</default>
+        <label>Employee/Employee Gift Membership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EOD</fullName>
+        <default>false</default>
+        <label>EOD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Error</fullName>
+        <default>false</default>
+        <label>Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facility Management</fullName>
+        <default>false</default>
+        <label>Facility Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fins Support</fullName>
+        <default>false</default>
+        <label>Fins Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fins Vendor Issue</fullName>
+        <default>false</default>
+        <label>Fins Vendor Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fleet Membership Maintenance</fullName>
+        <default>false</default>
+        <label>Fleet Membership Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FSL Intake</fullName>
+        <default>false</default>
+        <label>FSL Intake</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FYI Only</fullName>
+        <default>false</default>
+        <label>FYI Only</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Info</fullName>
+        <default>false</default>
+        <label>General Info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Globalware</fullName>
+        <default>false</default>
+        <label>Globalware</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Groups</fullName>
+        <default>false</default>
+        <label>Groups</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Homebased Agent</fullName>
+        <default>false</default>
+        <label>Homebased Agent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interaction Desktop</fullName>
+        <default>false</default>
+        <label>Interaction Desktop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manage Gifts</fullName>
+        <default>false</default>
+        <label>Manage Gifts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Relations Issue</fullName>
+        <default>false</default>
+        <label>Member Relations Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Retention</fullName>
+        <default>false</default>
+        <label>Membership Retention</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Response</fullName>
+        <default>false</default>
+        <label>No Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promotions &amp; Pricing</fullName>
+        <default>false</default>
+        <label>Promotions &amp; Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report</fullName>
+        <default>false</default>
+        <label>Report</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Data</fullName>
+        <default>false</default>
+        <label>Salesforce Data</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Permissions</fullName>
+        <default>false</default>
+        <label>Salesforce Permissions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Wish List</fullName>
+        <default>false</default>
+        <label>Salesforce Wish List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Smartpoint</fullName>
+        <default>false</default>
+        <label>Smartpoint</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Systems</fullName>
+        <default>false</default>
+        <label>Systems</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Accounting</fullName>
+        <default>false</default>
+        <label>Travel Accounting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Loadsheets</fullName>
+        <default>false</default>
+        <label>Travel Loadsheets</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travelport Cruise</fullName>
+        <default>false</default>
+        <label>Travelport Cruise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel POS Support</fullName>
+        <default>false</default>
+        <label>Travel POS Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Training</fullName>
+        <default>false</default>
+        <label>Travel Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>User Assistance</fullName>
+        <default>false</default>
+        <label>User Assistance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vehicle Provisioning Request</fullName>
+        <default>false</default>
+        <label>Vehicle Provisioning Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PTA Violation</fullName>
+        <default>false</default>
+        <label>PTA Violation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spotted Violation</fullName>
+        <default>false</default>
+        <label>Spotted Violation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Violation</fullName>
+        <default>false</default>
+        <label>Other Violation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Lat/Long</fullName>
+        <default>false</default>
+        <label>No Lat/Long</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Candidates Found</fullName>
+        <default>false</default>
+        <label>No Candidates Found</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Landline Dispatch</fullName>
+        <default>false</default>
+        <label>Landline Dispatch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Landline</fullName>
+        <default>false</default>
+        <label>Landline</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facility Declined</fullName>
+        <default>false</default>
+        <label>Facility Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ETA Request</fullName>
+        <default>false</default>
+        <label>ETA Request</label>
+    </standardValue>
+</StandardValueSet>

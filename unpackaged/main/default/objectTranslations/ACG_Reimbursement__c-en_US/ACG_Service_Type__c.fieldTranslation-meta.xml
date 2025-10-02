@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Type --></label>
+        <name>ACG_Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accident</masterLabel>
+            <translation><!-- Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery</masterLabel>
+            <translation><!-- Battery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicycle</masterLabel>
+            <translation><!-- Bicycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electric Charge</masterLabel>
+            <translation><!-- Electric Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Tire</masterLabel>
+            <translation><!-- Flat Tire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel</masterLabel>
+            <translation><!-- Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockout</masterLabel>
+            <translation><!-- Lockout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorcycle</masterLabel>
+            <translation><!-- Motorcycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow</masterLabel>
+            <translation><!-- Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winch</masterLabel>
+            <translation><!-- Winch --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

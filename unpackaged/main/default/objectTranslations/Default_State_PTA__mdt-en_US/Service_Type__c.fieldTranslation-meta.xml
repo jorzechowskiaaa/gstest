@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Battery</masterLabel>
+            <translation><!-- Battery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery Test</masterLabel>
+            <translation><!-- Battery Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrication</masterLabel>
+            <translation><!-- Extrication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrication Tow Only</masterLabel>
+            <translation><!-- Extrication Tow Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Tire</masterLabel>
+            <translation><!-- Flat Tire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel</masterLabel>
+            <translation><!-- Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Lockout</masterLabel>
+            <translation><!-- Home Lockout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Service</masterLabel>
+            <translation><!-- Light Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow</masterLabel>
+            <translation><!-- Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Lockout</masterLabel>
+            <translation><!-- Vehicle Lockout --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

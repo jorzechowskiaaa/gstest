@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Location of Keys --></label>
+        <name>Location_of_Keys__c</name>
+        <picklistValues>
+            <masterLabel>Keys Locked in Trunk - No Release</masterLabel>
+            <translation><!-- Keys Locked in Trunk - No Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keys Locked in Trunk - Release</masterLabel>
+            <translation><!-- Keys Locked in Trunk - Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keys in Passenger Compartment</masterLabel>
+            <translation><!-- Keys in Passenger Compartment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

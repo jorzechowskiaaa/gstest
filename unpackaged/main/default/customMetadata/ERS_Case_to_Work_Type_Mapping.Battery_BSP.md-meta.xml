@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Battery_BSP</label>
+    <protected>false</protected>
+    <values>
+        <field>Appointment_Requested__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>BSP_Available__c</field>
+        <value xsi:type="xsd:string">Yes</value>
+    </values>
+    <values>
+        <field>Battery_Service_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Breakdown_Location_City__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Breakdown_Location_State__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Case_to_Work_Type_Mapping_Status__c</field>
+        <value xsi:type="xsd:string">Inactive</value>
+    </values>
+    <values>
+        <field>Club__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ERS_Event_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Enter_Home_during_Lockout__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Flat_Tire_Status__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Gross_Weight__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Location_of_Keys__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Member_Needs_Air__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Membership_Level__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>PCC_DISP_CODE__c</field>
+        <value xsi:type="xsd:string">L302</value>
+    </values>
+    <values>
+        <field>Priority__c</field>
+        <value xsi:type="xsd:double">492.0</value>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:type="xsd:string">Battery</value>
+    </values>
+    <values>
+        <field>Special_Equipment_Selection__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>T_Code__c</field>
+        <value xsi:type="xsd:string">1B</value>
+    </values>
+    <values>
+        <field>Total_Mileage__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Tow_Request_Reason__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Type_of_Issue__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Drivetrain__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Fuel_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Location_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Lockout_Reason__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Won_t_Go_in_Gear__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Work_Type__c</field>
+        <value xsi:type="xsd:string">Battery Test</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Optimize_Absence_Overlaps__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Toggle to run RSO when a Resource Absence creates an overlap</description>
+    <inlineHelpText>Toggle to run RSO when a Resource Absence creates an overlap</inlineHelpText>
+    <label>Optimize Absence Overlaps</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

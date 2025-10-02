@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Applied__c</fullName>
+    <inlineHelpText>Days which this override will be applied</inlineHelpText>
+    <label>Days Applied</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Days_of_the_Week</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

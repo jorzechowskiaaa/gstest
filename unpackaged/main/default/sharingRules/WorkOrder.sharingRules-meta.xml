@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_WO_w_Delegated_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share all Work Orders with Delegated Admins with Public Read/Write which in conjunction with Permission Sets will determine the final permission each Delegated Admin User will have.</description>
+        <label>Share WO w/ Delegated Admin</label>
+        <sharedTo>
+            <group>Delegated_Admin_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>WorkOrderNumber</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_WO_with_BO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share all Work Orders with BO with Public Read/Write which in conjunction with Permission Sets will determine the final permission each BO persona will have.</description>
+        <label>Share WO with BO</label>
+        <sharedTo>
+            <group>Back_Office_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>WorkOrderNumber</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

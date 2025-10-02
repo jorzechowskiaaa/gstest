@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opt_In__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Would you like us to contact you in the future as special travel offers become available that you might be interested in?</description>
+    <label>Opt-In For Specials</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

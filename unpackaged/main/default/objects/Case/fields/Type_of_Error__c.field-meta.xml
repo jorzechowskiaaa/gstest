@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Error__c</fullName>
+    <label>Type of Error</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Address Mismatch</fullName>
+                <default>false</default>
+                <label>Address Mismatch</label>
+            </value>
+            <value>
+                <fullName>Cancel pending</fullName>
+                <default>false</default>
+                <label>Cancel pending</label>
+            </value>
+            <value>
+                <fullName>Change equal to or after DOL</fullName>
+                <default>false</default>
+                <label>Change equal to or after DOL</label>
+            </value>
+            <value>
+                <fullName>Claim Registration Failed</fullName>
+                <default>false</default>
+                <label>Claim Registration Failed</label>
+            </value>
+            <value>
+                <fullName>Coverage Dispute</fullName>
+                <default>false</default>
+                <label>Coverage Dispute</label>
+            </value>
+            <value>
+                <fullName>DOL Too Old</fullName>
+                <default>false</default>
+                <label>DOL Too Old</label>
+            </value>
+            <value>
+                <fullName>Endorsements added on or around loss date</fullName>
+                <default>false</default>
+                <label>Endorsements added on or around loss date</label>
+            </value>
+            <value>
+                <fullName>Force Coverage</fullName>
+                <default>false</default>
+                <label>Force Coverage</label>
+            </value>
+            <value>
+                <fullName>Incorrect VIN</fullName>
+                <default>false</default>
+                <label>Incorrect VIN</label>
+            </value>
+            <value>
+                <fullName>Insufficient Funds</fullName>
+                <default>false</default>
+                <label>Insufficient Funds</label>
+            </value>
+            <value>
+                <fullName>Loss date occurred on or before Vehicle added</fullName>
+                <default>false</default>
+                <label>Loss date occurred on or before Vehicle added</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Policy expired not renewed</fullName>
+                <default>false</default>
+                <label>Policy expired not renewed</label>
+            </value>
+            <value>
+                <fullName>Policy is Cancelled/Loss Occurred During Lapse</fullName>
+                <default>false</default>
+                <label>Policy is Cancelled/Loss Occurred During Lapse</label>
+            </value>
+            <value>
+                <fullName>Policy not available for this loss</fullName>
+                <default>false</default>
+                <label>Policy not available for this loss</label>
+            </value>
+            <value>
+                <fullName>Policy Not Found</fullName>
+                <default>false</default>
+                <label>Policy Not Found</label>
+            </value>
+            <value>
+                <fullName>Possible Duplicate</fullName>
+                <default>false</default>
+                <label>Possible Duplicate</label>
+            </value>
+            <value>
+                <fullName>Returned Bank Item</fullName>
+                <default>false</default>
+                <label>Returned Bank Item</label>
+            </value>
+            <value>
+                <fullName>Vehicle Not Found</fullName>
+                <default>false</default>
+                <label>Vehicle Not Found</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

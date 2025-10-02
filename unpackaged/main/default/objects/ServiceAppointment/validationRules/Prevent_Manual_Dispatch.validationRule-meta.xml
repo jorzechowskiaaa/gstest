@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Manual_Dispatch</fullName>
+    <active>true</active>
+    <description>Prevent scheduling of calls for Dispatcher profile users without the Schedule Custom Permission.</description>
+    <errorConditionFormula>AND(
+OR($User.ProfileId = &#39;00e1U000002OGJG&#39;),
+NOT($Permission.FSL__Schedule)
+)</errorConditionFormula>
+    <errorMessage>You do not have the proper permissions to override scheduled appointments.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Glympse_Login_Threshold__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Value is set in Hours format(HH). If the user has not logged into Glympse for last threshold hours then user would be prompted if not already prompted for the current day</inlineHelpText>
+    <label>Glympse Login Threshold</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

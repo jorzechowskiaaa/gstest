@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Orders_for_MSC</fullName>
+    <columns>Member_Account__c</columns>
+    <columns>Case</columns>
+    <columns>Status</columns>
+    <columns>Membership_Benefit_Level__c</columns>
+    <columns>WO_Member_Phone_Number__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Priority</columns>
+    <columns>Subject</columns>
+    <columns>CreatedDate</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Call_Type__c</columns>
+    <columns>Call_Type_Sub__c</columns>
+    <columns>T_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>Resolution_Code__c</field>
+        <operation>equals</operation>
+        <value>R001,R002,R003,R006,R007,R199,X001,X002</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>notEqual</operation>
+        <value>Y1050,996-Test Facility</value>
+    </filters>
+    <label>Work Orders for MSC</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Call_Center</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Club_Dispatcher</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

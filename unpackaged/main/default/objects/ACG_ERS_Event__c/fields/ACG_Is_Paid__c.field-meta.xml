@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Is_Paid__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes that the provider has been paid for this ERS event
+(No updates occur after an event has been paid)</description>
+    <label>Is Paid</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

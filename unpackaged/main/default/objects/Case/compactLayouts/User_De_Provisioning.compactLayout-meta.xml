@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_De_Provisioning</fullName>
+    <fields>Subject</fields>
+    <fields>CaseNumber</fields>
+    <fields>Status</fields>
+    <fields>FSL_User__c</fields>
+    <fields>FSL_User_Profile__c</fields>
+    <fields>FSL_LastLoginDate__c</fields>
+    <label>User De-Provisioning</label>
+</CompactLayout>

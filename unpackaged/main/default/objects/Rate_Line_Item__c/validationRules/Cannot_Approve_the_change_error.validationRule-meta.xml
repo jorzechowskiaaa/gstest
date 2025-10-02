@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Approve_the_change_error</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    ISPICKVAL(Approval_Status__c, &#39;Approved&#39;),
+    ISPICKVAL(Approval_Status__c, &#39;Rejected&#39;)
+  ),
+  $Profile.Name != &#39;System Administrator&#39;,
+  Pending_User__c = $User.Id,
+  ISCHANGED(Approval_Status__c)
+)</errorConditionFormula>
+    <errorMessage>You cannot approve or reject the change you submitted</errorMessage>
+</ValidationRule>

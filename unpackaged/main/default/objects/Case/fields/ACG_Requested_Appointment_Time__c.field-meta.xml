@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Requested_Appointment_Time__c</fullName>
+    <description>Car Care Appointment Requested Time . Populated via Car Care Appointments community public page</description>
+    <label>Requested Appointment Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>07:00 AM</fullName>
+                <default>false</default>
+                <label>07:00 AM</label>
+            </value>
+            <value>
+                <fullName>07:30 AM</fullName>
+                <default>false</default>
+                <label>07:30 AM</label>
+            </value>
+            <value>
+                <fullName>08:00 AM</fullName>
+                <default>false</default>
+                <label>08:00 AM</label>
+            </value>
+            <value>
+                <fullName>08:30 AM</fullName>
+                <default>false</default>
+                <label>08:30 AM</label>
+            </value>
+            <value>
+                <fullName>09:00 AM</fullName>
+                <default>false</default>
+                <label>09:00 AM</label>
+            </value>
+            <value>
+                <fullName>09:30 AM</fullName>
+                <default>false</default>
+                <label>09:30 AM</label>
+            </value>
+            <value>
+                <fullName>7:00 AM</fullName>
+                <default>false</default>
+                <label>7:00 AM</label>
+            </value>
+            <value>
+                <fullName>7:30 AM</fullName>
+                <default>false</default>
+                <label>7:30 AM</label>
+            </value>
+            <value>
+                <fullName>8:00 AM</fullName>
+                <default>false</default>
+                <label>8:00 AM</label>
+            </value>
+            <value>
+                <fullName>8:30 AM</fullName>
+                <default>false</default>
+                <label>8:30 AM</label>
+            </value>
+            <value>
+                <fullName>9:00 AM</fullName>
+                <default>false</default>
+                <label>9:00 AM</label>
+            </value>
+            <value>
+                <fullName>9:30 AM</fullName>
+                <default>false</default>
+                <label>9:30 AM</label>
+            </value>
+            <value>
+                <fullName>10:00 AM</fullName>
+                <default>false</default>
+                <label>10:00 AM</label>
+            </value>
+            <value>
+                <fullName>10:30 AM</fullName>
+                <default>false</default>
+                <label>10:30 AM</label>
+            </value>
+            <value>
+                <fullName>11:00 AM</fullName>
+                <default>false</default>
+                <label>11:00 AM</label>
+            </value>
+            <value>
+                <fullName>11:30 AM</fullName>
+                <default>false</default>
+                <label>11:30 AM</label>
+            </value>
+            <value>
+                <fullName>12:00 PM</fullName>
+                <default>false</default>
+                <label>12:00 PM</label>
+            </value>
+            <value>
+                <fullName>12:30 PM</fullName>
+                <default>false</default>
+                <label>12:30 PM</label>
+            </value>
+            <value>
+                <fullName>01:00 PM</fullName>
+                <default>false</default>
+                <label>01:00 PM</label>
+            </value>
+            <value>
+                <fullName>01:30 PM</fullName>
+                <default>false</default>
+                <label>01:30 PM</label>
+            </value>
+            <value>
+                <fullName>02:00 PM</fullName>
+                <default>false</default>
+                <label>02:00 PM</label>
+            </value>
+            <value>
+                <fullName>02:30 PM</fullName>
+                <default>false</default>
+                <label>02:30 PM</label>
+            </value>
+            <value>
+                <fullName>03:00 PM</fullName>
+                <default>false</default>
+                <label>03:00 PM</label>
+            </value>
+            <value>
+                <fullName>03:30 PM</fullName>
+                <default>false</default>
+                <label>03:30 PM</label>
+            </value>
+            <value>
+                <fullName>04:00 PM</fullName>
+                <default>false</default>
+                <label>04:00 PM</label>
+            </value>
+            <value>
+                <fullName>04:30 PM</fullName>
+                <default>false</default>
+                <label>04:30 PM</label>
+            </value>
+            <value>
+                <fullName>05:00 PM</fullName>
+                <default>false</default>
+                <label>05:00 PM</label>
+            </value>
+            <value>
+                <fullName>05:30 PM</fullName>
+                <default>false</default>
+                <label>05:30 PM</label>
+            </value>
+            <value>
+                <fullName>06:00 PM</fullName>
+                <default>false</default>
+                <label>06:00 PM</label>
+            </value>
+            <value>
+                <fullName>06:30 PM</fullName>
+                <default>false</default>
+                <label>06:30 PM</label>
+            </value>
+            <value>
+                <fullName>07:00 PM</fullName>
+                <default>false</default>
+                <label>07:00 PM</label>
+            </value>
+            <value>
+                <fullName>07:30 PM</fullName>
+                <default>false</default>
+                <label>07:30 PM</label>
+            </value>
+            <value>
+                <fullName>08:00 PM</fullName>
+                <default>false</default>
+                <label>08:00 PM</label>
+            </value>
+            <value>
+                <fullName>08:30 PM</fullName>
+                <default>false</default>
+                <label>08:30 PM</label>
+            </value>
+            <value>
+                <fullName>09:00 PM</fullName>
+                <default>false</default>
+                <label>09:00 PM</label>
+            </value>
+            <value>
+                <fullName>09:30 PM</fullName>
+                <default>false</default>
+                <label>09:30 PM</label>
+            </value>
+            <value>
+                <fullName>1:00 PM</fullName>
+                <default>false</default>
+                <label>1:00 PM</label>
+            </value>
+            <value>
+                <fullName>1:30 PM</fullName>
+                <default>false</default>
+                <label>1:30 PM</label>
+            </value>
+            <value>
+                <fullName>2:00 PM</fullName>
+                <default>false</default>
+                <label>2:00 PM</label>
+            </value>
+            <value>
+                <fullName>2:30 PM</fullName>
+                <default>false</default>
+                <label>2:30 PM</label>
+            </value>
+            <value>
+                <fullName>3:00 PM</fullName>
+                <default>false</default>
+                <label>3:00 PM</label>
+            </value>
+            <value>
+                <fullName>3:30 PM</fullName>
+                <default>false</default>
+                <label>3:30 PM</label>
+            </value>
+            <value>
+                <fullName>4:00 PM</fullName>
+                <default>false</default>
+                <label>4:00 PM</label>
+            </value>
+            <value>
+                <fullName>4:30 PM</fullName>
+                <default>false</default>
+                <label>4:30 PM</label>
+            </value>
+            <value>
+                <fullName>5:00 PM</fullName>
+                <default>false</default>
+                <label>5:00 PM</label>
+            </value>
+            <value>
+                <fullName>5:30 PM</fullName>
+                <default>false</default>
+                <label>5:30 PM</label>
+            </value>
+            <value>
+                <fullName>6:00 PM</fullName>
+                <default>false</default>
+                <label>6:00 PM</label>
+            </value>
+            <value>
+                <fullName>6:30 PM</fullName>
+                <default>false</default>
+                <label>6:30 PM</label>
+            </value>
+            <value>
+                <fullName>7:00 PM</fullName>
+                <default>false</default>
+                <label>7:00 PM</label>
+            </value>
+            <value>
+                <fullName>7:30 PM</fullName>
+                <default>false</default>
+                <label>7:30 PM</label>
+            </value>
+            <value>
+                <fullName>8:00 PM</fullName>
+                <default>false</default>
+                <label>8:00 PM</label>
+            </value>
+            <value>
+                <fullName>8:30 PM</fullName>
+                <default>false</default>
+                <label>8:30 PM</label>
+            </value>
+            <value>
+                <fullName>9:00 PM</fullName>
+                <default>false</default>
+                <label>9:00 PM</label>
+            </value>
+            <value>
+                <fullName>9:30 PM</fullName>
+                <default>false</default>
+                <label>9:30 PM</label>
+            </value>
+            <value>
+                <fullName>10:00 PM</fullName>
+                <default>false</default>
+                <label>10:00 PM</label>
+            </value>
+            <value>
+                <fullName>10:30 PM</fullName>
+                <default>false</default>
+                <label>10:30 PM</label>
+            </value>
+            <value>
+                <fullName>11:00 PM</fullName>
+                <default>false</default>
+                <label>11:00 PM</label>
+            </value>
+            <value>
+                <fullName>11:30 PM</fullName>
+                <default>false</default>
+                <label>11:30 PM</label>
+            </value>
+            <value>
+                <fullName>12:00 AM</fullName>
+                <default>false</default>
+                <label>12:00 AM</label>
+            </value>
+            <value>
+                <fullName>12:30 AM</fullName>
+                <default>false</default>
+                <label>12:30 AM</label>
+            </value>
+            <value>
+                <fullName>01:00 AM</fullName>
+                <default>false</default>
+                <label>01:00 AM</label>
+            </value>
+            <value>
+                <fullName>01:30 AM</fullName>
+                <default>false</default>
+                <label>01:30 AM</label>
+            </value>
+            <value>
+                <fullName>02:00 AM</fullName>
+                <default>false</default>
+                <label>02:00 AM</label>
+            </value>
+            <value>
+                <fullName>02:30 AM</fullName>
+                <default>false</default>
+                <label>02:30 AM</label>
+            </value>
+            <value>
+                <fullName>03:00 AM</fullName>
+                <default>false</default>
+                <label>03:00 AM</label>
+            </value>
+            <value>
+                <fullName>03:30 AM</fullName>
+                <default>false</default>
+                <label>03:30 AM</label>
+            </value>
+            <value>
+                <fullName>04:00 AM</fullName>
+                <default>false</default>
+                <label>04:00 AM</label>
+            </value>
+            <value>
+                <fullName>04:30 AM</fullName>
+                <default>false</default>
+                <label>04:30 AM</label>
+            </value>
+            <value>
+                <fullName>05:00 AM</fullName>
+                <default>false</default>
+                <label>05:00 AM</label>
+            </value>
+            <value>
+                <fullName>05:30 AM</fullName>
+                <default>false</default>
+                <label>05:30 AM</label>
+            </value>
+            <value>
+                <fullName>06:00 AM</fullName>
+                <default>false</default>
+                <label>06:00 AM</label>
+            </value>
+            <value>
+                <fullName>06:30 AM</fullName>
+                <default>false</default>
+                <label>06:30 AM</label>
+            </value>
+            <value>
+                <fullName>1:00 AM</fullName>
+                <default>false</default>
+                <label>1:00 AM</label>
+            </value>
+            <value>
+                <fullName>1:30 AM</fullName>
+                <default>false</default>
+                <label>1:30 AM</label>
+            </value>
+            <value>
+                <fullName>2:00 AM</fullName>
+                <default>false</default>
+                <label>2:00 AM</label>
+            </value>
+            <value>
+                <fullName>2:30 AM</fullName>
+                <default>false</default>
+                <label>2:30 AM</label>
+            </value>
+            <value>
+                <fullName>3:00 AM</fullName>
+                <default>false</default>
+                <label>3:00 AM</label>
+            </value>
+            <value>
+                <fullName>3:30 AM</fullName>
+                <default>false</default>
+                <label>3:30 AM</label>
+            </value>
+            <value>
+                <fullName>4:00 AM</fullName>
+                <default>false</default>
+                <label>4:00 AM</label>
+            </value>
+            <value>
+                <fullName>4:30 AM</fullName>
+                <default>false</default>
+                <label>4:30 AM</label>
+            </value>
+            <value>
+                <fullName>5:00 AM</fullName>
+                <default>false</default>
+                <label>5:00 AM</label>
+            </value>
+            <value>
+                <fullName>5:30 AM</fullName>
+                <default>false</default>
+                <label>5:30 AM</label>
+            </value>
+            <value>
+                <fullName>6:00 AM</fullName>
+                <default>false</default>
+                <label>6:00 AM</label>
+            </value>
+            <value>
+                <fullName>6:30 AM</fullName>
+                <default>false</default>
+                <label>6:30 AM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

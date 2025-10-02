@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the Member associated with the Case is a VIP --></help>
+        <label><!-- VIP Case --></label>
+        <name>VIP_Case__c</name>
+    </CustomFieldTranslation>

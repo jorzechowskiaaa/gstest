@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ClubName To Region Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ClubName_To_Region_Mapping</value>
+    </caseValues>
+    
+    
+    
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

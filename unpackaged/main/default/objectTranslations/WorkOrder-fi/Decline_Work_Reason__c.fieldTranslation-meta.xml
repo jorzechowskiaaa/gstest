@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decline Work Reason --></label>
+        <name>Decline_Work_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Equipment Unavailable</masterLabel>
+            <translation><!-- Equipment Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Primary Area</masterLabel>
+            <translation><!-- Out of Primary Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Station Busy - AAA Call</masterLabel>
+            <translation><!-- Station Busy - AAA Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Station Busy - Commercial Call</masterLabel>
+            <translation><!-- Station Busy - Commercial Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

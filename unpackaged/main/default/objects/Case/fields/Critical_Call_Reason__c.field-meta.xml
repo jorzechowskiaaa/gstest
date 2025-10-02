@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Critical_Call_Reason__c</fullName>
+    <label>Critical Call Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baby Locked in Car</fullName>
+                <default>false</default>
+                <label>Baby Locked in Car</label>
+            </value>
+            <value>
+                <fullName>Member Safety/Medical Concern</fullName>
+                <default>false</default>
+                <label>Member Safety/Medical Concern</label>
+            </value>
+            <value>
+                <fullName>Other Priority</fullName>
+                <default>false</default>
+                <label>Other Priority</label>
+            </value>
+            <value>
+                <fullName>Public Agency/Police on Scene</fullName>
+                <default>false</default>
+                <label>Public Agency/Police on Scene</label>
+            </value>
+            <value>
+                <fullName>Blocking Traffic</fullName>
+                <default>false</default>
+                <label>Blocking Traffic</label>
+            </value>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>Freeway/Highway Call</fullName>
+                <default>false</default>
+                <label>Freeway/Highway Call</label>
+            </value>
+            <value>
+                <fullName>Lockout, Car Running</fullName>
+                <default>false</default>
+                <label>Lockout, Car Running</label>
+            </value>
+            <value>
+                <fullName>Baby or Pet Locked in Car</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Baby or Pet Locked in Car</label>
+            </value>
+            <value>
+                <fullName>Expressway/Interstate /Dangerous location</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expressway/Interstate /Dangerous location</label>
+            </value>
+            <value>
+                <fullName>Expressway/Interstate/Safely to the side</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expressway/Interstate/Safely to the side</label>
+            </value>
+            <value>
+                <fullName>Interstate/Freeway/Turnpike Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interstate/Freeway/Turnpike Call</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Person/ Animal/ Medication locked in veh</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Person/ Animal/ Medication locked in veh</label>
+            </value>
+            <value>
+                <fullName>Police Call - Accident/Traffic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Police Call - Accident/Traffic</label>
+            </value>
+            <value>
+                <fullName>Police Needed/Safety/Medical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Police Needed/Safety/Medical</label>
+            </value>
+            <value>
+                <fullName>Police, Agency or Accident Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Police, Agency or Accident Call</label>
+            </value>
+            <value>
+                <fullName>Vehicle Blocking Traffic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vehicle Blocking Traffic</label>
+            </value>
+            <value>
+                <fullName>Weather Emergency</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Weather Emergency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

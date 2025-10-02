@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatch_Context__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Dispatch Context</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>ServiceAppointment.isBreakdown__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceAppointment</referenceTo>
+    <relationshipLabel>Contacts (Dispatch Context)</relationshipLabel>
+    <relationshipName>DispContacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

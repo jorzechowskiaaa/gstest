@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Override Resource Preference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Override Resource Preferences</value>
+    </caseValues>
+    
+    
+    
+    
+    <layouts>
+        <layout>Override Resource Preference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot select both a Service Territory and Service Resource on the same Override Preference --></errorMessage>
+        <name>Cannot_Select_Territory_and_Resource</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select either a Service Territory or Service Resource --></errorMessage>
+        <name>Must_Select_Either_Territory_or_Resource</name>
+    </validationRules>
+</CustomObjectTranslation>

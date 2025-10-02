@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ACG Colorado12</label>
+    <protected>false</protected>
+    <values>
+        <field>ACG_Club__c</field>
+        <value xsi:type="xsd:string">ACG Colorado</value>
+    </values>
+    <values>
+        <field>Auto_Renew__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Club__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">6.0</value>
+    </values>
+    <values>
+        <field>Verbiage_Disclaimers__c</field>
+        <value xsi:type="xsd:string">Download the AAA app for a digital version of your member card, to request roadside assistance, access member-only savings, navigate travel with the digital TripTiik Planner and more!</value>
+    </values>
+    <values>
+        <field>boldCheck__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

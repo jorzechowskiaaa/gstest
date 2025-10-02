@@ -1,0 +1,23 @@
+Hi<br>
+
+A Rate Line Item is marked as deleted<br>
+Name: {!Rate_Line_Item__c.Name}<br>
+Approval Status: {!Rate_Line_Item__c.Approval_Status__c}<br>
+Calculation Type: {!Rate_Line_Item__c.Calculation_Type__c}<br>
+Charge to Account: {!Rate_Line_Item__c.Charge_to_Account__c}<br>
+Contract: {!Rate_Line_Item__c.Contract__c}<br>
+End Date: {!Rate_Line_Item__c.End_Date__c}<br>
+Fixed Amount:{!Rate_Line_Item__c.Fixed_Amount_Adjusted_Value__c}<br>
+Max Date Range: {!Rate_Line_Item__c.Max_Data_Range__c}<br>
+Min Date Range: {!Rate_Line_Item__c.Min_Data_Range__c}<br>
+Product: {!Rate_Line_Item__c.Product__c}<br>
+Product Code: {!Rate_Line_Item__c.Product_Code__c}<br>
+Service Type: {!Rate_Line_Item__c.Service_Type_Picklist__c}<br>
+Start Date: {!Rate_Line_Item__c.Start_Date__c}<br>
+Time of Day Code: {!Rate_Line_Item__c.Time_of_Day_Code__c}<br>
+Unit of Measure: {!Rate_Line_Item__c.Unit_of_Measure__c}<br>
+Time of Day: {!Rate_Line_Item__c.Uses_Time_of_Day__c}<br>
+Deleted by: {!Rate_Line_Item__c.LastModifiedBy}<br><br><br>
+
+
+Thank you

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Go_Visited_Web_Site__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>In the last 12 months, have you visited the Go Magazine web site (AAA.com) as a result of reading Go Magazine?</description>
+    <inlineHelpText>In the last 12 months, have you visited the Go Magazine web site (AAA.com) as a result of reading Go Magazine?</inlineHelpText>
+    <label>Visited Web Site</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

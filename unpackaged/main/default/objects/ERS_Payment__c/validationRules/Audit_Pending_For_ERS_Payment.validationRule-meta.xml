@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Pending_For_ERS_Payment</fullName>
+    <active>true</active>
+    <description>Audit checkbox must be marked true before moving the status to &quot;Ready for Payment&quot; or &quot;Payment Processed&quot;</description>
+    <errorConditionFormula>AND(
+NOT($Setup.ACG_Skip_Automations__c.ACG_Skip_Validation_Rules__c),
+ISPICKVAL(Call_Type__c ,&quot;Accident Assist&quot;),
+RecordType.Name == &quot;Call&quot;,
+OR(ISPICKVAL(Status__c,&quot;Ready for Payment&quot;),
+ISPICKVAL(Status__c,&quot;Payment Processed&quot;)),
+NOT(Audit__c)
+)</errorConditionFormula>
+    <errorDisplayField>Audit__c</errorDisplayField>
+    <errorMessage>Confirm that Audit has been completed for this payment</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Queue where cleared calls stay for x number of minutes until cleared to D3/IRAS.</description>
+    <label>FSL Clearing Queue</label>
+    <pluralLabel>FSL Clearing Queues</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Vehicle_Compact_Layout</fullName>
+    <fields>YearMakeModel__c</fields>
+    <fields>Vehicle_Color__c</fields>
+    <fields>Vehicle_Drive_Type__c</fields>
+    <fields>Vehicle_VIN__c</fields>
+    <fields>Vehicle_Odometer__c</fields>
+    <label>Member Vehicle Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Transaction Type --></label>
+        <name>Transaction__c</name>
+        <picklistValues>
+            <masterLabel>ACP</masterLabel>
+            <translation><!-- ACP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSP</masterLabel>
+            <translation><!-- DSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERR</masterLabel>
+            <translation><!-- ERR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAY</masterLabel>
+            <translation><!-- PAY --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Violation_SST_Before_Earliest_Time</fullName>
+    <active>true</active>
+    <description>Service Appt cannot be moved before the earliest start time permitted</description>
+    <errorConditionFormula>$Permission.Allow_to_schedule_before_earliest_start = FALSE &amp;&amp; ISCHANGED(SchedStartTime) &amp;&amp; SchedStartTime &lt; EarliestStartTime</errorConditionFormula>
+    <errorMessage>The service appointment cannot be moved prior to the earliest start time permitted.</errorMessage>
+</ValidationRule>

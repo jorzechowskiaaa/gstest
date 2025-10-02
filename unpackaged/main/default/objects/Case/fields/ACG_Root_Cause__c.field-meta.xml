@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Root_Cause__c</fullName>
+    <description>Denotes the root cause of this issue.</description>
+    <inlineHelpText>In your opinion, what was the root cause for this Case?</inlineHelpText>
+    <label>Root Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Code-Related Issue</fullName>
+                <default>false</default>
+                <label>Code-Related Issue</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>How-To/Instruction Request</fullName>
+                <default>false</default>
+                <label>How-To/Instruction Request</label>
+            </value>
+            <value>
+                <fullName>Process Automation Issue</fullName>
+                <default>false</default>
+                <label>Process Automation Issue</label>
+            </value>
+            <value>
+                <fullName>Profiles &amp; Permissions Issue</fullName>
+                <default>false</default>
+                <label>Profiles &amp; Permissions Issue</label>
+            </value>
+            <value>
+                <fullName>Roles &amp; Sharing Issue</fullName>
+                <default>false</default>
+                <label>Roles &amp; Sharing Issue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

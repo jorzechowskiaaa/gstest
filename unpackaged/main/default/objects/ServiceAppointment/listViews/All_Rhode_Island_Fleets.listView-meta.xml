@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Rhode_Island_Fleets</fullName>
+    <columns>Original_Service_Territory__c</columns>
+    <columns>Call_Age__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>FSL_Enroute_Time_Stamp__c</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <columns>Automation_Level__c</columns>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>notContain</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>Service_Resource__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>11/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>startsWith</operation>
+        <value>33-AAA,44-AAA,66-AAA</value>
+    </filters>
+    <label>All Rhode Island Fleets</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

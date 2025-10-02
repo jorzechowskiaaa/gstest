@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Violation_Type__c</fullName>
+    <label>Violation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Facility Decline</fullName>
+                <default>false</default>
+                <label>Facility Decline</label>
+            </value>
+            <value>
+                <fullName>Landline Dispatch</fullName>
+                <default>false</default>
+                <label>Landline Dispatch</label>
+            </value>
+            <value>
+                <fullName>Member Messaging</fullName>
+                <default>false</default>
+                <label>Member Messaging</label>
+            </value>
+            <value>
+                <fullName>No Candidates Found</fullName>
+                <default>false</default>
+                <label>No Candidates Found</label>
+            </value>
+            <value>
+                <fullName>PTA Violation</fullName>
+                <default>false</default>
+                <label>PTA Violation</label>
+            </value>
+            <value>
+                <fullName>Priority Calls</fullName>
+                <default>false</default>
+                <label>Priority Calls</label>
+            </value>
+            <value>
+                <fullName>Spotted Violation</fullName>
+                <default>false</default>
+                <label>Spotted Violation</label>
+            </value>
+            <value>
+                <fullName>Cancelled or NSR RAP Calls</fullName>
+                <default>false</default>
+                <label>Cancelled or NSR RAP Calls</label>
+            </value>
+            <value>
+                <fullName>ETA Update</fullName>
+                <default>false</default>
+                <label>ETA Update</label>
+            </value>
+            <value>
+                <fullName>Decline Calls</fullName>
+                <default>false</default>
+                <label>Decline Calls</label>
+            </value>
+            <value>
+                <fullName>Driver Schedule</fullName>
+                <default>false</default>
+                <label>Driver Schedule</label>
+            </value>
+            <value>
+                <fullName>Unscheduled Work</fullName>
+                <default>false</default>
+                <label>Unscheduled Work</label>
+            </value>
+            <value>
+                <fullName>Keep Member Informed</fullName>
+                <default>false</default>
+                <label>Keep Member Informed</label>
+            </value>
+            <value>
+                <fullName>Non Tech</fullName>
+                <default>false</default>
+                <label>Non Tech</label>
+            </value>
+            <value>
+                <fullName>Late - Delay</fullName>
+                <default>false</default>
+                <label>Late - Delay</label>
+            </value>
+            <value>
+                <fullName>Driver Messages</fullName>
+                <default>false</default>
+                <label>Driver Messages</label>
+            </value>
+            <value>
+                <fullName>Rap Call</fullName>
+                <default>false</default>
+                <label>Rap Call</label>
+            </value>
+            <value>
+                <fullName>Other Violation</fullName>
+                <default>false</default>
+                <label>Other Violation</label>
+            </value>
+            <value>
+                <fullName>Not Geo-Coded</fullName>
+                <default>false</default>
+                <label>Not Geo-Coded</label>
+            </value>
+            <value>
+                <fullName>Priority - Late Delay</fullName>
+                <default>false</default>
+                <label>Priority - Late Delay</label>
+            </value>
+            <value>
+                <fullName>Priority - Safety Check Missing</fullName>
+                <default>false</default>
+                <label>Priority - Safety Check Missing</label>
+            </value>
+            <value>
+                <fullName>Landline Facility</fullName>
+                <default>false</default>
+                <label>Landline Facility</label>
+            </value>
+            <value>
+                <fullName>Driver Decline</fullName>
+                <default>false</default>
+                <label>Driver Decline</label>
+            </value>
+            <value>
+                <fullName>Driver Needs Help</fullName>
+                <default>false</default>
+                <label>Driver Needs Help</label>
+            </value>
+            <value>
+                <fullName>Dispatch Violation</fullName>
+                <default>false</default>
+                <label>Dispatch Violation</label>
+            </value>
+            <value>
+                <fullName>Priority - Not Scheduled</fullName>
+                <default>false</default>
+                <label>Priority - Not Scheduled</label>
+            </value>
+            <value>
+                <fullName>Priority - En Route Violation</fullName>
+                <default>false</default>
+                <label>Priority - En Route Violation</label>
+            </value>
+            <value>
+                <fullName>Priority - Safety Check Call</fullName>
+                <default>false</default>
+                <label>Priority - Safety Check Call</label>
+            </value>
+            <value>
+                <fullName>En Route Violation</fullName>
+                <default>false</default>
+                <label>En Route Violation</label>
+            </value>
+            <value>
+                <fullName>In Tow Violation</fullName>
+                <default>false</default>
+                <label>In Tow Violation</label>
+            </value>
+            <value>
+                <fullName>Priority - Late/Delay</fullName>
+                <default>false</default>
+                <label>Priority - Late/Delay</label>
+            </value>
+            <value>
+                <fullName>Service Appointment Canceled</fullName>
+                <default>false</default>
+                <label>Service Appointment Canceled</label>
+            </value>
+            <value>
+                <fullName>Tow Loaded Violation</fullName>
+                <default>false</default>
+                <label>Tow Loaded Violation</label>
+            </value>
+            <value>
+                <fullName>Not Scheduled</fullName>
+                <default>false</default>
+                <label>Not Scheduled</label>
+            </value>
+            <value>
+                <fullName>On Location Violation</fullName>
+                <default>false</default>
+                <label>On Location Violation</label>
+            </value>
+            <value>
+                <fullName>Priority - PTA Violation</fullName>
+                <default>false</default>
+                <label>Priority - PTA Violation</label>
+            </value>
+            <value>
+                <fullName>Cleared Violation</fullName>
+                <default>false</default>
+                <label>Cleared Violation</label>
+            </value>
+            <value>
+                <fullName>Aging 60</fullName>
+                <default>false</default>
+                <label>Aging 60</label>
+            </value>
+            <value>
+                <fullName>Aging 120</fullName>
+                <default>false</default>
+                <label>Aging 120</label>
+            </value>
+            <value>
+                <fullName>Aging 75</fullName>
+                <default>false</default>
+                <label>Aging 75</label>
+            </value>
+            <value>
+                <fullName>Cancelled Call</fullName>
+                <default>false</default>
+                <label>Cancelled Call</label>
+            </value>
+            <value>
+                <fullName>No Service Territory</fullName>
+                <default>false</default>
+                <label>No Service Territory</label>
+            </value>
+            <value>
+                <fullName>Driver Canceled or NSR RAP Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Driver Canceled or NSR RAP Call</label>
+            </value>
+            <value>
+                <fullName>Late/Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Late/Delay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

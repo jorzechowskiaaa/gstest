@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Re plus</label>
+    <protected>false</protected>
+    <values>
+        <field>Call_Type__c</field>
+        <value xsi:type="xsd:string">Member</value>
+    </values>
+    <values>
+        <field>Department_ID__c</field>
+        <value xsi:type="xsd:string">COL016</value>
+    </values>
+    <values>
+        <field>Payment_Category_Membership_Level__c</field>
+        <value xsi:type="xsd:string">PLUS</value>
+    </values>
+    <values>
+        <field>Product_Id__c</field>
+        <value xsi:type="xsd:string">1403</value>
+    </values>
+</CustomMetadata>

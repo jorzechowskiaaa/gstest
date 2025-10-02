@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Miles driven is coming from the Glympse - Distance travelled by phase --></help>
+        <label><!-- Actual Miles Driven --></label>
+        <name>FSL_Actual_Miles_Driven__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appt_Number_Cash_Work_type__c</fullName>
+    <description>appt number and cash call</description>
+    <externalId>false</externalId>
+    <formula>IF( Payment_Required__c =true,
+ AppointmentNumber &amp;&quot;|&quot;&amp;&quot;$CASH$|&quot; &amp; Work_Type_Name__c,
+ AppointmentNumber &amp;&quot;|&quot;&amp; Work_Type_Name__c )</formula>
+    <label>Appt Number + Cash + Work type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

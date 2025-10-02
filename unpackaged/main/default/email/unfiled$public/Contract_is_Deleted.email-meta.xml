@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Contract is Deleted</name>
+    <style>none</style>
+    <subject>A Contract is Deleted</subject>
+    <textOnly>Hi
+A Contract:{!Contract__c.Name} has been deleted by {!User.Name}
+Name: {!Contract__c.Name}
+Description: {!Contract__c.Description__c}
+
+Thank you.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

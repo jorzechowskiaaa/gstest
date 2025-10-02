@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vehicle Location Type --></label>
+        <name>ACG_Vehicle_Location_Type__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alley</masterLabel>
+            <translation><!-- Alley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach</masterLabel>
+            <translation><!-- Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ditch</masterLabel>
+            <translation><!-- Ditch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driveway</masterLabel>
+            <translation><!-- Driveway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Parking Lot</masterLabel>
+            <translation><!-- Front Parking Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highway</masterLabel>
+            <translation><!-- Highway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Clearance Garage</masterLabel>
+            <translation><!-- Low Clearance Garage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Median</masterLabel>
+            <translation><!-- Median --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking Lot</masterLabel>
+            <translation><!-- Parking Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking Structure</masterLabel>
+            <translation><!-- Parking Structure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rear Driveway</masterLabel>
+            <translation><!-- Rear Driveway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rear Parking Lot</masterLabel>
+            <translation><!-- Rear Parking Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Garage</masterLabel>
+            <translation><!-- Residential Garage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road Shoulder</masterLabel>
+            <translation><!-- Road Shoulder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopping Center</masterLabel>
+            <translation><!-- Shopping Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Street</masterLabel>
+            <translation><!-- Street --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

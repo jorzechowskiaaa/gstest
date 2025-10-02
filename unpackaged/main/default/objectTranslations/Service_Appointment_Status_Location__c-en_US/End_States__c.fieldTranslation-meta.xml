@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- End States --></label>
+        <name>End_States__c</name>
+        <picklistValues>
+            <masterLabel>ER - Cancelled_Clear</masterLabel>
+            <translation><!-- ER - Cancelled_Clear --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

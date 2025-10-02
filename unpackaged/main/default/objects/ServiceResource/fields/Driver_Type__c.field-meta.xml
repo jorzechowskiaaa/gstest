@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Driver_Type__c</fullName>
+    <label>Driver Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dispatcher</fullName>
+                <default>false</default>
+                <label>Dispatcher</label>
+            </value>
+            <value>
+                <fullName>Dispatcher Seasonal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dispatcher Seasonal</label>
+            </value>
+            <value>
+                <fullName>Driver</fullName>
+                <default>true</default>
+                <label>Driver</label>
+            </value>
+            <value>
+                <fullName>Driver BA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Driver BA</label>
+            </value>
+            <value>
+                <fullName>Driver Seasonal</fullName>
+                <default>false</default>
+                <label>Driver Seasonal</label>
+            </value>
+            <value>
+                <fullName>Lead Driver</fullName>
+                <default>false</default>
+                <label>Lead Driver</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Owner BA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Owner BA</label>
+            </value>
+            <value>
+                <fullName>Owner BA Seasonal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Owner BA Seasonal</label>
+            </value>
+            <value>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+                <label>Suspended</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

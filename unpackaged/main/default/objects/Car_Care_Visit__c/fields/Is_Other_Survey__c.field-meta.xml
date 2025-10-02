@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Other_Survey__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if the Car Care Visit (RO) has been selected for another survey.</description>
+    <label>Is Other Survey</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

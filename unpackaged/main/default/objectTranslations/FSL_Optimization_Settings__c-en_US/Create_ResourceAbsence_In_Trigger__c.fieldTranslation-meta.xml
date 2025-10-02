@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Create ResourceAbsnece Records through Trigger/Flow.
+True: When Run_LKL__c is enabled, it will create the ResourceAbsence Records in the LKL Trigger.
+False: The LKL Trigger will not create the ResourceAbsence Records. --></help>
+        <label><!-- Create ResourceAbsence In Trigger --></label>
+        <name>Create_ResourceAbsence_In_Trigger__c</name>
+    </CustomFieldTranslation>

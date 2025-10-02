@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Approved_Adjustment_SLI__c</fullName>
+    <label>No. of Approved Adjustment SLI</label>
+    <summaryFilterItems>
+        <field>FSL_Service_Line_Item__c.Adjustment_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </summaryFilterItems>
+    <summaryForeignKey>FSL_Service_Line_Item__c.Work_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

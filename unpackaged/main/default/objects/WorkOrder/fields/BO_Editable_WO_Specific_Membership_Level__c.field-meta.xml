@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BO_Editable_WO_Specific_Membership_Level__c</fullName>
+    <label>BO Editable WO Specific Membership Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plus</fullName>
+                <default>false</default>
+                <label>Plus</label>
+            </value>
+            <value>
+                <fullName>Premier</fullName>
+                <default>false</default>
+                <label>Premier</label>
+            </value>
+            <value>
+                <fullName>Premier RV</fullName>
+                <default>false</default>
+                <label>Premier RV</label>
+            </value>
+            <value>
+                <fullName>Plus RV</fullName>
+                <default>false</default>
+                <label>Plus RV</label>
+            </value>
+            <value>
+                <fullName>Classic RV</fullName>
+                <default>false</default>
+                <label>Classic RV</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>true</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>Everyday</fullName>
+                <default>false</default>
+                <label>Everyday</label>
+            </value>
+            <value>
+                <fullName>CLASSICRV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CLASSICRV</label>
+            </value>
+            <value>
+                <fullName>PLUSRV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLUSRV</label>
+            </value>
+            <value>
+                <fullName>PREMIERRV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PREMIERRV</label>
+            </value>
+            <value>
+                <fullName>Premier Motorcycle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Premier Motorcycle</label>
+            </value>
+            <value>
+                <fullName>Y</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Y</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

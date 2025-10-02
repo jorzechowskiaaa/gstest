@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Club_Code1__c</fullName>
+    <label>Club Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Club_Name1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Club_Code</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>CAA Atlantic</controllingFieldValue>
+            <valueName>277</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA Club Group</controllingFieldValue>
+            <valueName>282</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA Quebec</controllingFieldValue>
+            <valueName>285</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA Saskatchewan</controllingFieldValue>
+            <valueName>286</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA Niagara</controllingFieldValue>
+            <valueName>288</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA North &amp; East Ontario</controllingFieldValue>
+            <valueName>290</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA New Mexico</controllingFieldValue>
+            <valueName>601</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Northern New England</controllingFieldValue>
+            <valueName>036</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Pioneer Valley</controllingFieldValue>
+            <valueName>045</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Michigan</controllingFieldValue>
+            <valueName>047</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Minnesota/Iowa</controllingFieldValue>
+            <valueName>049</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Minneapolis</controllingFieldValue>
+            <valueName>057</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Missouri</controllingFieldValue>
+            <valueName>065</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA MountainWest</controllingFieldValue>
+            <valueName>066</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Nebraska</controllingFieldValue>
+            <valueName>069</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA South Jersey</controllingFieldValue>
+            <valueName>071</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Hudson Valley</controllingFieldValue>
+            <valueName>080</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Alabama</controllingFieldValue>
+            <valueName>001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Arizona</controllingFieldValue>
+            <valueName>002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Auto Club Enterprises</controllingFieldValue>
+            <valueName>004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mountain West Group</controllingFieldValue>
+            <valueName>005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Colorado</controllingFieldValue>
+            <valueName>006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Auto Club South</controllingFieldValue>
+            <valueName>014</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Hawaii</controllingFieldValue>
+            <valueName>018</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Chicago Motor Club</controllingFieldValue>
+            <valueName>020</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Hoosier Motor Club</controllingFieldValue>
+            <valueName>023</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Western &amp; Central NY</controllingFieldValue>
+            <valueName>084</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Northway</controllingFieldValue>
+            <valueName>104</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Carolinas</controllingFieldValue>
+            <valueName>111</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA North Dakota</controllingFieldValue>
+            <valueName>113</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Akron Auto Club</controllingFieldValue>
+            <valueName>115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Ohio Auto Club</controllingFieldValue>
+            <valueName>130</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Findlay Automobile Club</controllingFieldValue>
+            <valueName>137</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Shelby County</controllingFieldValue>
+            <valueName>160</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Oregon/Idaho</controllingFieldValue>
+            <valueName>177</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Northampton County</controllingFieldValue>
+            <valueName>188</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Central Penn</controllingFieldValue>
+            <valueName>195</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Club Alliance</controllingFieldValue>
+            <valueName>212</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA East Central</controllingFieldValue>
+            <valueName>215</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Reading-Berks</controllingFieldValue>
+            <valueName>219</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA North Penn</controllingFieldValue>
+            <valueName>222</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Southern Pennsylvania</controllingFieldValue>
+            <valueName>238</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Northeast</controllingFieldValue>
+            <valueName>240</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Texas</controllingFieldValue>
+            <valueName>252</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Tidewater</controllingFieldValue>
+            <valueName>258</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Washington</controllingFieldValue>
+            <valueName>260</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AAA Wisconsin</controllingFieldValue>
+            <valueName>270</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alberta Motor Association</controllingFieldValue>
+            <valueName>272</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA British Columbia</controllingFieldValue>
+            <valueName>273</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAA Manitoba</controllingFieldValue>
+            <valueName>275</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

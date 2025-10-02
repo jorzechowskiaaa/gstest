@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Does_Not_Have__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if Member Doesn&#39;t have Email</description>
+    <inlineHelpText>to be checked if Member Doesn&#39;t have Email</inlineHelpText>
+    <label>Does Not Have Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

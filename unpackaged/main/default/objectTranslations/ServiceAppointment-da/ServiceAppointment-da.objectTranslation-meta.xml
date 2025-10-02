@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Admin FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+        <sections>
+            <label><!-- Time Stamps --></label>
+            <section>Time Stamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BETA Dispatcher FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Priority Scoring Info --></label>
+            <section>Priority Scoring Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Service Appointment Layout_Version2</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Tow Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Priority Scoring Info --></label>
+            <section>Priority Scoring Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Tow Service Appointment Layout_Version2</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Priority Scoring Info --></label>
+            <section>Priority Scoring Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Service Appointment Layout_Version2</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Tow Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Priority Scoring Info --></label>
+            <section>Priority Scoring Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Tow Service Appointment Layout_Version2</layout>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Service Appointment Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Udsendelseskonsol</label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label>Tidsbegrænsninger</label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Tow Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Adjust ETA --></label>
+        <name>Adjust_ETA</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Appointment Call Details --></label>
+        <name>Appointment_Call_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Autoschedule --></label>
+        <name>Autoschedule</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Decline --></label>
+        <name>Decline</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Tow Destination --></label>
+        <name>Edit_Tow_Destination</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- En Route --></label>
+        <name>En_Route</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Get Candidates --></label>
+        <name>Get_Candidates</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Launch Filtered Gantt --></label>
+        <name>Launch_Filtered_Gantt</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manual Override Reason --></label>
+        <name>Manual_Override_Reason</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Override Justification --></label>
+        <name>Override_Justification</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reroute --></label>
+        <name>Reroute</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SA Provider Details --></label>
+        <name>SA_Provider_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Tow Appointment --></label>
+        <name>Tow_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Clear Flag --></label>
+        <name>UpdateClearFlag</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Breakdown --></label>
+        <name>Update_Breakdown</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Breakdown Address --></label>
+        <name>Update_Breakdown_Address</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Breakdown --></label>
+        <name>Breakdown</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tow --></label>
+        <name>Tow</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- That is not a valid status transition for a Breakdown appointment. --></errorMessage>
+        <name>Check_Breakdown_Appointment_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- That is not a valid status for a Tow appointment. Please update status on the Breakdown Appointment. --></errorMessage>
+        <name>Check_Tow_Appointment_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Unscheduling appointments is not permitted. Please contact AAA dispatch if you need to decline a call. --></errorMessage>
+        <name>Community_Unschedule_Violation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Resolution Code is required to Clear the Call --></errorMessage>
+        <name>FSL_Resolution_Code_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Input only Numbers in Postalcode For USA Citizens --></errorMessage>
+        <name>Postal_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have the proper permissions to override scheduled appointments. --></errorMessage>
+        <name>Prevent_Manual_Dispatch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a manual override reason before changing the schedule --></errorMessage>
+        <name>Prevent_Manual_Override</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a valid dependency type. If the appointments must be assigned to the same resource, the dependency type can’t be Same Start. --></errorMessage>
+        <name>Related_Service_with_time_dependency_byp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Service appointment can be assigned to one resource only --></errorMessage>
+        <name>Restrict_assignment_to_one_resource_only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Service Appointment cannot be updated after status is set to Cleared --></errorMessage>
+        <name>SA_Read_Only_On_Cleared</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Resource dependency is invalid. Time Dependency can&apos;t be Same Start when same resource is required. --></errorMessage>
+        <name>Same_Resource_Same_Start_byp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Scheduled Start cannot precede current time. --></errorMessage>
+        <name>Schedule_Time_Cannot_Precede_NOW</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Related Service. --></errorMessage>
+        <name>Time_dependency_with_related_service_byp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The service appointment cannot be moved prior to the earliest start time permitted. --></errorMessage>
+        <name>Violation_SST_Before_Earliest_Time</name>
+    </validationRules>
+</CustomObjectTranslation>

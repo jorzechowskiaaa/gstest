@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ER_Mileage__c</fullName>
+    <externalId>false</externalId>
+    <formula>DISTANCE (GEOLOCATION(IF(Latitude =0,D3_Address_Geocode__Latitude__s,Latitude ),
+IF(Longitude = 0,D3_Address_Geocode__Longitude__s,Longitude)),
+GEOLOCATION(Resource_Latitude__c,Resource_Longitude__c),&#39;mi&#39; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>En Route Mileage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

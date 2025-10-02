@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Membership Level --></label>
+        <name>Membership_Level__c</name>
+        <picklistValues>
+            <masterLabel>BASIC</masterLabel>
+            <translation><!-- BASIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLASSIC RV</masterLabel>
+            <translation><!-- CLASSIC RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS</masterLabel>
+            <translation><!-- PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS RV</masterLabel>
+            <translation><!-- PLUS RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER</masterLabel>
+            <translation><!-- PREMIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER RV</masterLabel>
+            <translation><!-- PREMIER RV --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

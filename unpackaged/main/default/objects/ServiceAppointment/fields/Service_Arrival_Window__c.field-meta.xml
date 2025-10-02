@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Arrival_Window__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT( MONTH( DATEVALUE(ArrivalWindow__c) ) ) &amp; &quot;/&quot; &amp; TEXT( DAY( DATEVALUE(ArrivalWindow__c) ) ) &amp; &quot;/&quot; &amp; TEXT( YEAR(
+DATEVALUE(ArrivalWindow__c) ) ) &amp;&#39; &#39;&amp;
+IF ( DATEVALUE(ArrivalWindow__c) &gt;=
+DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),3,1)
++
+(
+14-
+CASE( MOD(DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),3,1) - DATE (1900,1,7),7) ,
+0,7,MOD(DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),3,1) - DATE (1900,1,7),7))
+)
+&amp;&amp;
+DATEVALUE(ArrivalWindow__c) &lt;
+DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),11,1)
++
+(
+7-
+CASE( MOD(DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),11,1) - DATE (1900,1,7),7) ,
+0,7,MOD(DATE ( YEAR (DATEVALUE(ArrivalWindow__c)),11,1) - DATE (1900,1,7),7))
+),
+
+IF( OR( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) = 0,
+VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) = 12 ), &quot;12&quot;,
+TEXT( VALUE( MID( TEXT( ArrivalWindow__c ), 12, 2 ) ) -
+IF( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) &lt; 12, 0, 12 ) ) ) &amp; &quot;:&quot; &amp;
+MID( TEXT( ArrivalWindow__c), 15, 2 )&amp;
+&quot; &quot; &amp;
+IF( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; ),
+
+IF( OR( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) = 0,
+VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) = 12 ), &quot;12&quot;,
+TEXT( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) -
+IF( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) &lt; 12, 0, 12 ) ) ) &amp; &quot;:&quot; &amp;
+MID( TEXT( ArrivalWindow__c), 15, 2 )&amp;
+&quot; &quot; &amp;
+IF( VALUE( MID( TEXT( ArrivalWindow__c), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service Arrival Window</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

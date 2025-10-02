@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Sent_To_National__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field tracks the status whether the feedback is sent to National successfully or not</description>
+    <inlineHelpText>This field tracks the status whether the feedback is sent to National successfully or not</inlineHelpText>
+    <label>Is Sent To National</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

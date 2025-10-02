@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tow</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Service_Appointment_Highlight_Tow</compactLayoutAssignment>
+    <label>Tow</label>
+    <picklistValues>
+        <picklist>Call_Source__c</picklist>
+        <values>
+            <fullName>D3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decline_Reason__c</picklist>
+        <values>
+            <fullName>Equipment Required Unavailable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extended ETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Mismarked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Driver Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Trucks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not My Service Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refused Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decline_Work_Reason__c</picklist>
+        <values>
+            <fullName>Equipment Unavailable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Primary Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Station Busy - AAA Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Station Busy - Commercial Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Driver_Needs_Help_Reason__c</picklist>
+        <values>
+            <fullName>Emergency %28ER Situation Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Needs a Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please Call Me</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Will Not Meet PTA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Driver_Needs_Help__c</picklist>
+        <values>
+            <fullName>Emergency %28ER Situation Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Needs a Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please Call Me</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Will Not Meet PTA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL__InJeopardyReason__c</picklist>
+        <values>
+            <fullName>Aging 120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aging 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aging 75</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canceled Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled or NSR RAP Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleared Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed Finish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatched Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driver Decline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driver Needs Help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Date Approaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Route Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Landline Dispatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Tow Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landline Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late%2FDelay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Candidates Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Lat%2FLong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Service Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Geo-Coded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Location Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTA Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - Driver Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - ETA Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - En Route Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - Late Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - Safety Check Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority - Safety Check Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Check Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotted Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow Complete Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow Loaded Violation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL__Schedule_Mode__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Optimization</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL__Time_Dependency__c</picklist>
+        <values>
+            <fullName>Finish Before Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Start After Finish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PTA_Violation_Detail__c</picklist>
+        <values>
+            <fullName>PTA%2B14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTA%2B29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTA%2B44</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTA%2B59</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Potential_Issue_Reason__c</picklist>
+        <values>
+            <fullName>Cleared Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor Driver Needs Help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETA Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Route Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleet Driver Needs Help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Tow Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late%2FDelay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Message Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Tech Facility Not Notified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Geo-Coded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow Loaded Violation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Code__c</picklist>
+        <values>
+            <fullName>G101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G102</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G104</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G190</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G290</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G306</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G307</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G308</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G322</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G390</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G414</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G490</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G501</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G504</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G510</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G511</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G590</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G609</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G690</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G701</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G702</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G790</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G801</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G803</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G804</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G805</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G809</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G890</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G931</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N106</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N107</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N190</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N290</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N301</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N380</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N390</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N396</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N403</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N480</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N481</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N483</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N484</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N490</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N580</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N581</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N582</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N590</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N607</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N608</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N680</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N690</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N703</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N790</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N896</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N908</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N909</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N910</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N921</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N922</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N932</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N950</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N951</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N980</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R199</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X002</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Schedule_Overridden_By__c</picklist>
+        <values>
+            <fullName>Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ServiceAppointment_Location_Type__c</picklist>
+        <values>
+            <fullName>Breakdown Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow Destination</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dispatched</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Tow Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow Loaded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_Acceptance_Status__c</picklist>
+        <values>
+            <fullName>Accept</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reject</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reimbursement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reimbursements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Reimbursement Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alternative Address Information --></label>
+            <section>Alternative Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Member Information --></label>
+            <section>Member Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reimbursement --></label>
+            <section>Reimbursement</section>
+        </sections>
+        <sections>
+            <label><!-- Service Details --></label>
+            <section>Service Details</section>
+        </sections>
+        <sections>
+            <label><!-- Special Entitlement Requested --></label>
+            <section>Special Entitlement Requested</section>
+        </sections>
+        <sections>
+            <label><!-- Vehicle Information --></label>
+            <section>Vehicle Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>Clone</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Amount approved is zero. Please, specify an amount before updating reimbursement status. --></errorMessage>
+        <name>ACG_BO_Amount_Is_Zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Decision is null. Please, select a value before updating status. --></errorMessage>
+        <name>ACG_Decision_Is_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason is null. A value must be selected once decision is updated. --></errorMessage>
+        <name>ACG_Reason_Is_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Escalation summary is required for case escalation --></errorMessage>
+        <name>ACG_Subject_Should_Not_Be_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Review Address section. Clear address fields if address change is not desired. --></errorMessage>
+        <name>Address_change_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Review Address section. Required fields for address change have not been completed. --></errorMessage>
+        <name>Address_change_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please confirm the member&apos;s email is accurate. If the member has not included their email within the reimbursement request, please clear the email address before confirming --></errorMessage>
+        <name>Member_Email_Should_Be_Confirmed</name>
+    </validationRules>
+</CustomObjectTranslation>

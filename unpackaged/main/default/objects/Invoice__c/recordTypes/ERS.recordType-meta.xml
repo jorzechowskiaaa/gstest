@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERS</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Invoice</compactLayoutAssignment>
+    <label>ERS</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Payment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Call Adjustments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERS Calls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reciprocal Adjustments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reciprocals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

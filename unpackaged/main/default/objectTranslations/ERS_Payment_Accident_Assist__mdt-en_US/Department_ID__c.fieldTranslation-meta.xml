@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Department ID --></label>
+        <name>Department_ID__c</name>
+        <picklistValues>
+            <masterLabel>140000</masterLabel>
+            <translation><!-- 140000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200011</masterLabel>
+            <translation><!-- 200011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>420999</masterLabel>
+            <translation><!-- 420999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7112</masterLabel>
+            <translation><!-- 7112 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9230</masterLabel>
+            <translation><!-- 9230 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

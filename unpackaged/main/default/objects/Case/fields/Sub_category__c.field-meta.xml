@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_category__c</fullName>
+    <label>Sub-category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ACG_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>App Download</fullName>
+                <default>false</default>
+                <label>App Download</label>
+            </value>
+            <value>
+                <fullName>FSL Login</fullName>
+                <default>false</default>
+                <label>FSL Login</label>
+            </value>
+            <value>
+                <fullName>Cannot See Calls</fullName>
+                <default>false</default>
+                <label>Cannot See Calls</label>
+            </value>
+            <value>
+                <fullName>Call Clearing</fullName>
+                <default>false</default>
+                <label>Call Clearing</label>
+            </value>
+            <value>
+                <fullName>Reports/Dashboards</fullName>
+                <default>false</default>
+                <label>Reports/Dashboards</label>
+            </value>
+            <value>
+                <fullName>Operational Issues</fullName>
+                <default>false</default>
+                <label>Operational Issues</label>
+            </value>
+            <value>
+                <fullName>Operation Hours</fullName>
+                <default>false</default>
+                <label>Operation Hours</label>
+            </value>
+            <value>
+                <fullName>Technician Process Issues</fullName>
+                <default>false</default>
+                <label>Technician Process Issues</label>
+            </value>
+            <value>
+                <fullName>Auditing Issue</fullName>
+                <default>false</default>
+                <label>Auditing Issue</label>
+            </value>
+            <value>
+                <fullName>Owner Creation</fullName>
+                <default>false</default>
+                <label>Owner Creation</label>
+            </value>
+            <value>
+                <fullName>Trucks</fullName>
+                <default>false</default>
+                <label>Trucks</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>App Download</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>FSL Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Cannot See Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Call Clearing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Reports/Dashboards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Operational Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Operation Hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Technician Process Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Auditing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Owner Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ERS</controllingFieldValue>
+            <valueName>Trucks</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

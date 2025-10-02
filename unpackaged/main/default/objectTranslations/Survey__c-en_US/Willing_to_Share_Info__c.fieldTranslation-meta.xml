@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- I am willing to share info to help --></help>
+        <label><!-- Willing to Share Info --></label>
+        <name>Willing_to_Share_Info__c</name>
+    </CustomFieldTranslation>

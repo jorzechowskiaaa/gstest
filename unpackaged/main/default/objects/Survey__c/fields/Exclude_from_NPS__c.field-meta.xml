@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclude_from_NPS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When checked, this survey will be excluded from Insurance Agent&#39;s personal NPS Score.</description>
+    <inlineHelpText>When checked, this survey will be excluded from Insurance Agent&#39;s personal NPS Score. Can only be checked through an approval process.</inlineHelpText>
+    <label>Exclude from NPS</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

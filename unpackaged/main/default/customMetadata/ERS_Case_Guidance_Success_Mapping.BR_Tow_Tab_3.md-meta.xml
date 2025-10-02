@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>BR Tow Tab 3</label>
+    <protected>false</protected>
+    <values>
+        <field>BSP_Available__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Case_Guidance_Success_Status__c</field>
+        <value xsi:type="xsd:string">Active</value>
+    </values>
+    <values>
+        <field>Flat_Tire_Status__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Guidance_Success__c</field>
+        <value xsi:type="xsd:string">&lt;p style=&quot;color:red&quot;&gt;Your {Membership_Level__c} Membership is covered for {Allotted_Mileage__c} miles. The Tow Mileage is {Total_Mileage__c} miles. As a result, {Over_Miles__c} miles out-of-pocket expense to be paid to the service provider. You are only covered for the first {Allotted_Mileage__c} miles.&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>Membership_Level__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Name_of_Triage_Tab__c</field>
+        <value xsi:type="xsd:string">Tow</value>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Vehicle_Fuel_Type__c</field>
+        <value xsi:nil="true" />
+    </values>
+    <values>
+        <field>Vehicle_Type__c</field>
+        <value xsi:nil="true" />
+    </values>
+</CustomMetadata>

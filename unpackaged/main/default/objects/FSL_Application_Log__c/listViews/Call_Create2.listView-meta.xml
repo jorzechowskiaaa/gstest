@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Create2</fullName>
+    <columns>NAME</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Operation__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Error_Caught__c</columns>
+    <columns>Error_Message__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Work_Order__c</field>
+        <operation>equals</operation>
+        <value>07315643</value>
+    </filters>
+    <label>Call Create2</label>
+</ListView>

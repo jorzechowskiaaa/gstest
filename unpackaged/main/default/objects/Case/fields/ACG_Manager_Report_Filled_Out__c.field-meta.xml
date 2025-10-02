@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Manager_Report_Filled_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check to keep ownership of the Case and bypass assignment rules.</description>
+    <label>Manager Report Filled Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Override_Reason__c</fullName>
+    <label>Manual Override Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tow Requires WL</fullName>
+                <default>false</default>
+                <label>Tow Requires WL</label>
+            </value>
+            <value>
+                <fullName>Tow Requires FB</fullName>
+                <default>false</default>
+                <label>Tow Requires FB</label>
+            </value>
+            <value>
+                <fullName>Tow Requires MD</fullName>
+                <default>false</default>
+                <label>Tow Requires MD</label>
+            </value>
+            <value>
+                <fullName>Tow Requires HD</fullName>
+                <default>false</default>
+                <label>Tow Requires HD</label>
+            </value>
+            <value>
+                <fullName>Tow Requires Low Clearance</fullName>
+                <default>false</default>
+                <label>Tow Requires Low Clearance</label>
+            </value>
+            <value>
+                <fullName>Member - Request - ICS</fullName>
+                <default>false</default>
+                <label>Member - Request - ICS</label>
+            </value>
+            <value>
+                <fullName>Member - Request - FB</fullName>
+                <default>false</default>
+                <label>Member - Request - FB</label>
+            </value>
+            <value>
+                <fullName>Member - Request Alternate ICS</fullName>
+                <default>false</default>
+                <label>Member - Request Alternate ICS</label>
+            </value>
+            <value>
+                <fullName>Moving to LS Unit</fullName>
+                <default>false</default>
+                <label>Moving to LS Unit</label>
+            </value>
+            <value>
+                <fullName>Moving to Tow Unit</fullName>
+                <default>false</default>
+                <label>Moving to Tow Unit</label>
+            </value>
+            <value>
+                <fullName>Moving due to Battery Availability</fullName>
+                <default>false</default>
+                <label>Moving due to Battery Availability</label>
+            </value>
+            <value>
+                <fullName>Moving to Available Driver - Faster Response Time</fullName>
+                <default>false</default>
+                <label>Moving to Available Driver - Faster Response Time</label>
+            </value>
+            <value>
+                <fullName>Driver - Extended on Previous Call - (End Time Updated)</fullName>
+                <default>false</default>
+                <label>Driver - Extended on Previous Call - (End Time Updated)</label>
+            </value>
+            <value>
+                <fullName>Driver - Late Start Time - (Exception Entered)</fullName>
+                <default>false</default>
+                <label>Driver - Late Start Time - (Exception Entered)</label>
+            </value>
+            <value>
+                <fullName>Driver - Tablet Issues - (Exception Entered)</fullName>
+                <default>false</default>
+                <label>Driver - Tablet Issues - (Exception Entered)</label>
+            </value>
+            <value>
+                <fullName>Driver - End of Shift</fullName>
+                <default>false</default>
+                <label>Driver - End of Shift</label>
+            </value>
+            <value>
+                <fullName>Driver/Truck Out of Service - (Schedule Updated)</fullName>
+                <default>false</default>
+                <label>Driver/Truck Out of Service - (Schedule Updated)</label>
+            </value>
+            <value>
+                <fullName>Appointment Time Call</fullName>
+                <default>false</default>
+                <label>Appointment Time Call</label>
+            </value>
+            <value>
+                <fullName>Broken Service Appointment (Tow Only)</fullName>
+                <default>false</default>
+                <label>Broken Service Appointment (Tow Only)</label>
+            </value>
+            <value>
+                <fullName>Emergency Call – Stacking</fullName>
+                <default>false</default>
+                <label>Emergency Call – Stacking</label>
+            </value>
+            <value>
+                <fullName>Stacked Calls</fullName>
+                <default>false</default>
+                <label>Stacked Calls</label>
+            </value>
+            <value>
+                <fullName>Unscheduled Call</fullName>
+                <default>false</default>
+                <label>Unscheduled Call</label>
+            </value>
+            <value>
+                <fullName>Facility Declined Service to Member</fullName>
+                <default>false</default>
+                <label>Facility Declined Service to Member</label>
+            </value>
+            <value>
+                <fullName>Higher Scoring Candidate Found</fullName>
+                <default>false</default>
+                <label>Higher Scoring Candidate Found</label>
+            </value>
+            <value>
+                <fullName>Schedule Time Adjustment on Same Technician (Overlap/Fill in gap)</fullName>
+                <default>false</default>
+                <label>Schedule Time Adjustment on Same Technician (Overlap/Fill in gap)</label>
+            </value>
+            <value>
+                <fullName>Battery Service Assigned to Tow Truck</fullName>
+                <default>false</default>
+                <label>Battery Service Assigned to Tow Truck</label>
+            </value>
+            <value>
+                <fullName>Flatbed Required</fullName>
+                <default>false</default>
+                <label>Flatbed Required</label>
+            </value>
+            <value>
+                <fullName>Additional Equipment Needed</fullName>
+                <default>false</default>
+                <label>Additional Equipment Needed</label>
+            </value>
+            <value>
+                <fullName>Light Service Reclassified as Tow</fullName>
+                <default>false</default>
+                <label>Light Service Reclassified as Tow</label>
+            </value>
+            <value>
+                <fullName>Other (Provide Comments)</fullName>
+                <default>false</default>
+                <label>Other (Provide Comments)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

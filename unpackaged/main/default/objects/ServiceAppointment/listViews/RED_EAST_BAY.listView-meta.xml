@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RED_EAST_BAY</fullName>
+    <booleanFilter>1 AND 2 AND 4 AND (3 OR 5 OR 6)</booleanFilter>
+    <columns>Unattended_Tow__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Status</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Facility_Number__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>FSL__InJeopardyReason__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>Service_Resource__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Declined,Spotted,Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>,1112-EAST COAST TOWING &amp; RECOVERY INC.,1128-LEONARD&#39;S AUTO REPAIR &amp; PERFORMANCE,1143-LL-BILL&#39;S TOWING &amp; AUTO REPAIR,1173-LL-TECH SERVICE CENTER INC,1178-F.E. BRAYTON JR AUTO SALES &amp; SVC,1191-LL-MASTRIA TOWING</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>399-LL-SOUTH COAST TOWING INC.,9039-LL-GASKELL&#39;S TOWING,INC.,DQ11-A AAA SERVICE PROVIDER,DQ25-A AAA SERVICE PROVIDER,DQ26-A AAA SERVICE PROVIDER</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>195-ASSURED COLLISION INC</value>
+    </filters>
+    <label>RED RI EAST BAY for admin</label>
+    <sharedTo>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

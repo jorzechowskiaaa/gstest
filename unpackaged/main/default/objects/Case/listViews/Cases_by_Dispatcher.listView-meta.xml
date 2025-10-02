@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cases_by_Dispatcher</fullName>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>FSL_Service_Appointment_Territory__c</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>FSL_Work_Order__c</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Facility_State__c</field>
+        <operation>equals</operation>
+        <value>ME,NH,VT</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Spotted Violation,No Lat/Long,No Candidates Found,Landline Dispatch,Facility Declined</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>NNE Open Cases by Dispatcher</label>
+    <sharedTo>
+        <group>NNE_Dispatch</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Address_Valid__c</fullName>
+    <description>Used to store the response of Address Validation API.
+
+DWN --- When Address validation Service is down.
+
+NO---When the Address validation was successful
+
+YES --- When the Address validation is invalid or was declined/overridden by the user</description>
+    <externalId>false</externalId>
+    <label>Is Address Valid?</label>
+    <length>3</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

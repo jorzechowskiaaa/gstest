@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Berkshires</fullName>
+        <default>false</default>
+        <label>Berkshires</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Worcester Fleet</fullName>
+        <default>false</default>
+        <label>Blue Worcester Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Merrimack Valley</fullName>
+        <default>false</default>
+        <label>Blue Merrimack Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Millbury Fleet</fullName>
+        <default>false</default>
+        <label>Blue Millbury Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue North Shore</fullName>
+        <default>false</default>
+        <label>Blue North Shore</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Peabody Fleet</fullName>
+        <default>false</default>
+        <label>Blue Peabody Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Brooklyn/Staten Island</fullName>
+        <default>false</default>
+        <label>Brooklyn/Staten Island</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Facilities</fullName>
+        <default>false</default>
+        <label>Commercial Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>CT Fleet</fullName>
+        <default>false</default>
+        <label>CT Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Dutchess/Putnum</fullName>
+        <default>false</default>
+        <label>Dutchess/Putnum</label>
+    </customValue>
+    <customValue>
+        <fullName>Essex</fullName>
+        <default>false</default>
+        <label>Essex</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactive Facilities</fullName>
+        <default>false</default>
+        <label>Inactive Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Litchfield/New Haven/N.Fairfield</fullName>
+        <default>false</default>
+        <label>Litchfield/New Haven/N.Fairfield</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Fairfield</fullName>
+        <default>false</default>
+        <label>Lower Fairfield</label>
+    </customValue>
+    <customValue>
+        <fullName>Manhattan/Bronx</fullName>
+        <default>false</default>
+        <label>Manhattan/Bronx</label>
+    </customValue>
+    <customValue>
+        <fullName>Morris/Union</fullName>
+        <default>false</default>
+        <label>Morris/Union</label>
+    </customValue>
+    <customValue>
+        <fullName>Nassau</fullName>
+        <default>false</default>
+        <label>Nassau</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ Fleet</fullName>
+        <default>false</default>
+        <label>NJ Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ Turnpike Facilities</fullName>
+        <default>false</default>
+        <label>NJ Turnpike Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>NY Fleet</fullName>
+        <default>false</default>
+        <label>NY Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>NY Northway - Club 104</fullName>
+        <default>false</default>
+        <label>NY Northway - Club 104</label>
+    </customValue>
+    <customValue>
+        <fullName>NY Thruway Facilities</fullName>
+        <default>false</default>
+        <label>NY Thruway Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Orange/Ulster/Sullivan</fullName>
+        <default>false</default>
+        <label>Orange/Ulster/Sullivan</label>
+    </customValue>
+    <customValue>
+        <fullName>Pioneer Valley</fullName>
+        <default>false</default>
+        <label>Pioneer Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Queens</fullName>
+        <default>false</default>
+        <label>Queens</label>
+    </customValue>
+    <customValue>
+        <fullName>Radio 1, 2, 3, 4</fullName>
+        <default>false</default>
+        <label>Radio 1, 2, 3, 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Radio 5, 6, 8</fullName>
+        <default>false</default>
+        <label>Radio 5, 6, 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Cape and Islands</fullName>
+        <default>false</default>
+        <label>Red Cape and Islands</label>
+    </customValue>
+    <customValue>
+        <fullName>Red East Bay</fullName>
+        <default>false</default>
+        <label>Red East Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Red RI Contractor</fullName>
+        <default>false</default>
+        <label>Red RI Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Red RI Fleet</fullName>
+        <default>false</default>
+        <label>Red RI Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Red RI Fleet 33</fullName>
+        <default>false</default>
+        <label>Red RI Fleet 33</label>
+    </customValue>
+    <customValue>
+        <fullName>Red RI Fleet 66</fullName>
+        <default>false</default>
+        <label>Red RI Fleet 66</label>
+    </customValue>
+    <customValue>
+        <fullName>Spotting Supervisor</fullName>
+        <default>false</default>
+        <label>Spotting Supervisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Suffolk</fullName>
+        <default>false</default>
+        <label>Suffolk</label>
+    </customValue>
+    <customValue>
+        <fullName>Testing Facilities</fullName>
+        <default>false</default>
+        <label>Testing Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Utica, Otsago, Chenango, Shcoharie, Delware</fullName>
+        <default>false</default>
+        <label>Utica, Otsago, Chenango, Shcoharie, Delware</label>
+    </customValue>
+    <customValue>
+        <fullName>Westchester/Rockland</fullName>
+        <default>false</default>
+        <label>Westchester/Rockland</label>
+    </customValue>
+    <customValue>
+        <fullName>White Avon Fleet</fullName>
+        <default>false</default>
+        <label>White Avon Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>White Boston South</fullName>
+        <default>false</default>
+        <label>White Boston South</label>
+    </customValue>
+    <customValue>
+        <fullName>White Boston West</fullName>
+        <default>false</default>
+        <label>White Boston West</label>
+    </customValue>
+    <customValue>
+        <fullName>White Boston</fullName>
+        <default>false</default>
+        <label>White Boston</label>
+    </customValue>
+    <customValue>
+        <fullName>KS Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KS Region</label>
+    </customValue>
+    <customValue>
+        <fullName>DCVA Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DCVA Region</label>
+    </customValue>
+    <customValue>
+        <fullName>DEMDNWO Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DEMDNWO Region</label>
+    </customValue>
+    <customValue>
+        <fullName>Dayton Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dayton Region</label>
+    </customValue>
+    <customValue>
+        <fullName>KYWV Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KYWV Region</label>
+    </customValue>
+    <customValue>
+        <fullName>PANJ Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PANJ Region</label>
+    </customValue>
+    <customValue>
+        <fullName>NJ Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NJ Region</label>
+    </customValue>
+    <customValue>
+        <fullName>CT Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CT Region</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Marlboro (Landover) Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Upper Marlboro (Landover) Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>CIN Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CIN Region</label>
+    </customValue>
+    <customValue>
+        <fullName>Springfield Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Springfield Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Richmond Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Richmond Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Philadelphia Tow</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philadelphia Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Philadelphia LS/BA Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philadelphia LS/BA Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>New Castle Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Castle Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Hartford Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hartford Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamilton Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hamilton Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Baltimore Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Baltimore Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>Cincinnati Fleet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cincinnati Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>OKSD Region</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OKSD Region</label>
+    </customValue>
+    <masterLabel>Case Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

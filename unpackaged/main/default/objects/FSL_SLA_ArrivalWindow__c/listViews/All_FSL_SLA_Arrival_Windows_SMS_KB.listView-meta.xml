@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_FSL_SLA_Arrival_Windows_SMS_KB</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Scheduling_Policy__c</columns>
+    <columns>LS_SLA__c</columns>
+    <columns>Tow_SLA__c</columns>
+    <columns>First_Retry_Policy__c</columns>
+    <columns>Retry_Policy__c</columns>
+    <columns>Priority__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scheduling_Policy__c</field>
+        <operation>startsWith</operation>
+        <value>Virtual</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Normal</value>
+    </filters>
+    <label>All FSL SLA Arrival Windows - SMS - KB</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

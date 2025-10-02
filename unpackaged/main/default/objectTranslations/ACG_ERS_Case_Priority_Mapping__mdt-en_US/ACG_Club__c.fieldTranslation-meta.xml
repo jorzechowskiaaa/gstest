@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Club --></label>
+        <name>ACG_Club__c</name>
+        <picklistValues>
+            <masterLabel>AAA Akron Auto Club</masterLabel>
+            <translation><!-- AAA Akron Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Alabama</masterLabel>
+            <translation><!-- AAA Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Alaska</masterLabel>
+            <translation><!-- AAA Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Allegheny</masterLabel>
+            <translation><!-- AAA Allegheny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Allied Group, Inc.</masterLabel>
+            <translation><!-- AAA Allied Group, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Arizona</masterLabel>
+            <translation><!-- AAA Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Auto Club South</masterLabel>
+            <translation><!-- AAA Auto Club South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Blair County</masterLabel>
+            <translation><!-- AAA Blair County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Blue Grass/Kentucky</masterLabel>
+            <translation><!-- AAA Blue Grass/Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Butler County</masterLabel>
+            <translation><!-- AAA Butler County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Carolinas</masterLabel>
+            <translation><!-- AAA Carolinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Central Penn</masterLabel>
+            <translation><!-- AAA Central Penn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Central-West Jersey</masterLabel>
+            <translation><!-- AAA Central-West Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Cincinnati</masterLabel>
+            <translation><!-- AAA Cincinnati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Club Partners, Inc.</masterLabel>
+            <translation><!-- AAA Club Partners, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Colorado</masterLabel>
+            <translation><!-- AAA Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA East Central</masterLabel>
+            <translation><!-- AAA East Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA East Penn</masterLabel>
+            <translation><!-- AAA East Penn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Florida/Louisana/Miss</masterLabel>
+            <translation><!-- AAA Florida/Louisana/Miss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Hawaii</masterLabel>
+            <translation><!-- AAA Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Hoosier Motor Club</masterLabel>
+            <translation><!-- AAA Hoosier Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Hudson Valley</masterLabel>
+            <translation><!-- AAA Hudson Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Huntingdon County</masterLabel>
+            <translation><!-- AAA Huntingdon County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Iowa</masterLabel>
+            <translation><!-- AAA Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Kansas</masterLabel>
+            <translation><!-- AAA Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Kentucky</masterLabel>
+            <translation><!-- AAA Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Lancaster County</masterLabel>
+            <translation><!-- AAA Lancaster County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Lehigh Valley</masterLabel>
+            <translation><!-- AAA Lehigh Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Lewistown</masterLabel>
+            <translation><!-- AAA Lewistown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Louisiana</masterLabel>
+            <translation><!-- AAA Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Maryland</masterLabel>
+            <translation><!-- AAA Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Massachusetts/New Hampshre</masterLabel>
+            <translation><!-- AAA Massachusetts/New Hampshre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Massillon Automobile Club</masterLabel>
+            <translation><!-- AAA Massillon Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Mercer County</masterLabel>
+            <translation><!-- AAA Mercer County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Merrimack Valley</masterLabel>
+            <translation><!-- AAA Merrimack Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Miami County</masterLabel>
+            <translation><!-- AAA Miami County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Miami Valley</masterLabel>
+            <translation><!-- AAA Miami Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Mid-Atlantic</masterLabel>
+            <translation><!-- AAA Mid-Atlantic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Minneapolis</masterLabel>
+            <translation><!-- AAA Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Minnesota</masterLabel>
+            <translation><!-- AAA Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Mississippi</masterLabel>
+            <translation><!-- AAA Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Missouri</masterLabel>
+            <translation><!-- AAA Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Motor Club Holdings, LLC</masterLabel>
+            <translation><!-- AAA Motor Club Holdings, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA MountainWest</masterLabel>
+            <translation><!-- AAA MountainWest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Nebraska</masterLabel>
+            <translation><!-- AAA Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA New Mexico</masterLabel>
+            <translation><!-- AAA New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Nittany</masterLabel>
+            <translation><!-- AAA Nittany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA North Central PA</masterLabel>
+            <translation><!-- AAA North Central PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA North Dakota</masterLabel>
+            <translation><!-- AAA North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA North Jersey</masterLabel>
+            <translation><!-- AAA North Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Northampton County</masterLabel>
+            <translation><!-- AAA Northampton County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Northern California, Nevada &amp; Utah</masterLabel>
+            <translation><!-- AAA Northern California, Nevada &amp; Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Northern New England</masterLabel>
+            <translation><!-- AAA Northern New England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Northway</masterLabel>
+            <translation><!-- AAA Northway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Northwest Ohio</masterLabel>
+            <translation><!-- AAA Northwest Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Of Tidewater Virginia</masterLabel>
+            <translation><!-- AAA Of Tidewater Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Of Virginia</masterLabel>
+            <translation><!-- AAA Of Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Ohio Auto Club</masterLabel>
+            <translation><!-- AAA Ohio Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Oklahoma</masterLabel>
+            <translation><!-- AAA Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Oregon/Idaho</masterLabel>
+            <translation><!-- AAA Oregon/Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Pioneer Valley</masterLabel>
+            <translation><!-- AAA Pioneer Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Potomac</masterLabel>
+            <translation><!-- AAA Potomac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Reading-Berks</masterLabel>
+            <translation><!-- AAA Reading-Berks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Schuylkill County</masterLabel>
+            <translation><!-- AAA Schuylkill County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Shelby County</masterLabel>
+            <translation><!-- AAA Shelby County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA South Central New England</masterLabel>
+            <translation><!-- AAA South Central New England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA South Central Ohio</masterLabel>
+            <translation><!-- AAA South Central Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA South Dakota</masterLabel>
+            <translation><!-- AAA South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA South Jersey</masterLabel>
+            <translation><!-- AAA South Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Southern Indiana</masterLabel>
+            <translation><!-- AAA Southern Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Southern New York</masterLabel>
+            <translation><!-- AAA Southern New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Southern Pennsylvania</masterLabel>
+            <translation><!-- AAA Southern Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA St Lawrence</masterLabel>
+            <translation><!-- AAA St Lawrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Susquehanna Valley</masterLabel>
+            <translation><!-- AAA Susquehanna Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Texas/New Mexico/Oklahoma</masterLabel>
+            <translation><!-- AAA Texas/New Mexico/Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Tuscarawas County</masterLabel>
+            <translation><!-- AAA Tuscarawas County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Vermont</masterLabel>
+            <translation><!-- AAA Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Washington</masterLabel>
+            <translation><!-- AAA Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA West Jersey</masterLabel>
+            <translation><!-- AAA West Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Western and Central New York</masterLabel>
+            <translation><!-- AAA Western and Central New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Winston-Salem</masterLabel>
+            <translation><!-- AAA Winston-Salem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Wisconsin</masterLabel>
+            <translation><!-- AAA Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Wyoming</masterLabel>
+            <translation><!-- AAA Wyoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alberta Motor Association</masterLabel>
+            <translation><!-- Alberta Motor Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alliance Automobile Club</masterLabel>
+            <translation><!-- Alliance Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anthracite Motor Club</masterLabel>
+            <translation><!-- Anthracite Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashland County Auto Club</masterLabel>
+            <translation><!-- Ashland County Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club Enterprises</masterLabel>
+            <translation><!-- Auto Club Enterprises --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club International</masterLabel>
+            <translation><!-- Auto Club International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club Minneapolis</masterLabel>
+            <translation><!-- Auto Club Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Berkshire County</masterLabel>
+            <translation><!-- Auto Club of Berkshire County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Fulton County</masterLabel>
+            <translation><!-- Auto Club of Fulton County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Hartford</masterLabel>
+            <translation><!-- Auto Club of Hartford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Indiana County</masterLabel>
+            <translation><!-- Auto Club of Indiana County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of New York</masterLabel>
+            <translation><!-- Auto Club of New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Oklahoma</masterLabel>
+            <translation><!-- Auto Club of Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Oregon</masterLabel>
+            <translation><!-- Auto Club of Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Pioneer Valley</masterLabel>
+            <translation><!-- Auto Club of Pioneer Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Rochester</masterLabel>
+            <translation><!-- Auto Club of Rochester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Syacuse</masterLabel>
+            <translation><!-- Auto Club of Syacuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Utah</masterLabel>
+            <translation><!-- Auto Club of Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club of Utica, Central NY</masterLabel>
+            <translation><!-- Auto Club of Utica, Central NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automobile Club of Southern California.</masterLabel>
+            <translation><!-- Automobile Club of Southern California. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barberton Automobile Club</masterLabel>
+            <translation><!-- Barberton Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver County Motor Club</masterLabel>
+            <translation><!-- Beaver County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belmont/Monroe</masterLabel>
+            <translation><!-- Belmont/Monroe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bluefield Auto Club</masterLabel>
+            <translation><!-- Bluefield Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Columbia Auto Assn.</masterLabel>
+            <translation><!-- British Columbia Auto Assn. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Atlantic</masterLabel>
+            <translation><!-- CAA Atlantic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Central Ontario</masterLabel>
+            <translation><!-- CAA Central Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Eastern Ontario</masterLabel>
+            <translation><!-- CAA Eastern Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Elgin Norfolk</masterLabel>
+            <translation><!-- CAA Elgin Norfolk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Manitoba Motor League</masterLabel>
+            <translation><!-- CAA Manitoba Motor League --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Maritimes</masterLabel>
+            <translation><!-- CAA Maritimes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Mid-Western Ontario</masterLabel>
+            <translation><!-- CAA Mid-Western Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA National Office</masterLabel>
+            <translation><!-- CAA National Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Niagara</masterLabel>
+            <translation><!-- CAA Niagara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA North &amp; East Ontario</masterLabel>
+            <translation><!-- CAA North &amp; East Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Northeastern Ontario</masterLabel>
+            <translation><!-- CAA Northeastern Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Ottawa</masterLabel>
+            <translation><!-- CAA Ottawa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Peterborough</masterLabel>
+            <translation><!-- CAA Peterborough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Saskatchewan</masterLabel>
+            <translation><!-- CAA Saskatchewan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA South Central Ontario</masterLabel>
+            <translation><!-- CAA South Central Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Thunder Bay</masterLabel>
+            <translation><!-- CAA Thunder Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA Windsor</masterLabel>
+            <translation><!-- CAA Windsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA-Quebec</masterLabel>
+            <translation><!-- CAA-Quebec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California State Auto Asc</masterLabel>
+            <translation><!-- California State Auto Asc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cattaraugus-Allegany Auto Club</masterLabel>
+            <translation><!-- Cattaraugus-Allegany Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayuga County Auto Club</masterLabel>
+            <translation><!-- Cayuga County Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central W. Virginia Auto Club</masterLabel>
+            <translation><!-- Central W. Virginia Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chautauqua County Auto Club</masterLabel>
+            <translation><!-- Chautauqua County Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicago Motor Club</masterLabel>
+            <translation><!-- Chicago Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbiana County Motor Club</masterLabel>
+            <translation><!-- Columbiana County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut Motor Club</masterLabel>
+            <translation><!-- Connecticut Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crawford County Auto Club</masterLabel>
+            <translation><!-- Crawford County Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Tennessee Auto Club</masterLabel>
+            <translation><!-- East Tennessee Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erie County Motor Club</masterLabel>
+            <translation><!-- Erie County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairfield County Auto Club</masterLabel>
+            <translation><!-- Fairfield County Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Findlay Automobile Club</masterLabel>
+            <translation><!-- Findlay Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hudson Valley Auto Club</masterLabel>
+            <translation><!-- Hudson Valley Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huntington Automobile Club</masterLabel>
+            <translation><!-- Huntington Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho State Auto Association</masterLabel>
+            <translation><!-- Idaho State Auto Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Auto Association</masterLabel>
+            <translation><!-- Inland Auto Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamestown Auto Club</masterLabel>
+            <translation><!-- Jamestown Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marion County Motor Club</masterLabel>
+            <translation><!-- Marion County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mckean County Motor Club</masterLabel>
+            <translation><!-- Mckean County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-South Auto Club</masterLabel>
+            <translation><!-- Mid-South Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mon-Yough Motor Club</masterLabel>
+            <translation><!-- Mon-Yough Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey Auto Club</masterLabel>
+            <translation><!-- New Jersey Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niagara-Orleans Auto Club</masterLabel>
+            <translation><!-- Niagara-Orleans Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Member Calls</masterLabel>
+            <translation><!-- Non-Member Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Central Motor Club</masterLabel>
+            <translation><!-- North Central Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Jersey Auto club</masterLabel>
+            <translation><!-- North Jersey Auto club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern W. Virginia Auto Club</masterLabel>
+            <translation><!-- Northern W. Virginia Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northway Auto Club</masterLabel>
+            <translation><!-- Northway Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio Motorists Association</masterLabel>
+            <translation><!-- Ohio Motorists Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out Of Territory</masterLabel>
+            <translation><!-- Out Of Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parkersburg Automobile Club</masterLabel>
+            <translation><!-- Parkersburg Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seneca Auto Club</masterLabel>
+            <translation><!-- Seneca Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sherrill Auto Club</masterLabel>
+            <translation><!-- Sherrill Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern New York Auto Club</masterLabel>
+            <translation><!-- Southern New York Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern W. Virginia Auto Club</masterLabel>
+            <translation><!-- Southern W. Virginia Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Member Calls</masterLabel>
+            <translation><!-- Temporary Member Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Auto Club Group - Dearborn, Michigan</masterLabel>
+            <translation><!-- The Auto Club Group - Dearborn, Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Auto Club Group - Tampa Florida</masterLabel>
+            <translation><!-- The Auto Club Group - Tampa Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Automobile Club</masterLabel>
+            <translation><!-- The Automobile Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Ohio Auto Club</masterLabel>
+            <translation><!-- The Ohio Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tri County Motor Club</masterLabel>
+            <translation><!-- Tri County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turnpike Garages-OAC</masterLabel>
+            <translation><!-- Turnpike Garages-OAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uniontown Motor Club</masterLabel>
+            <translation><!-- Uniontown Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valley Auto Club</masterLabel>
+            <translation><!-- Valley Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warren County Motor Club</masterLabel>
+            <translation><!-- Warren County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weirton Auto Club</masterLabel>
+            <translation><!-- Weirton Auto Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Penn AAA</masterLabel>
+            <translation><!-- West Penn AAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westmoreland County Motor Club</masterLabel>
+            <translation><!-- Westmoreland County Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheeling Automobile Club</masterLabel>
+            <translation><!-- Wheeling Automobile Club --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

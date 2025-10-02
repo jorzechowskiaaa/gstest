@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>https://na-01.workspaces.avayacloud.com/sfdc-workspaces/?tenantId=ZFRFSI&amp;tenantUrl=na.cc.avayacloud.com/auth/realms/ZFRFSI</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;640&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;300&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
+    <displayName>AXP Connect - Avaya Workspaces for Salesforce</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Web Agent Widget URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://na-01.workspaces.avayacloud.com/sfdc-workspaces/?tenantId=ZFRFSI&amp;tenantUrl=na.cc.avayacloud.com/auth/realms/ZFRFSI</value>
+        </items>
+        <items>
+            <label>Softphone Login Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>640</value>
+        </items>
+        <items>
+            <label>Softphone Login Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Main Page Height</label>
+            <name>activeSoftphoneHeight</name>
+            <value>640</value>
+        </items>
+        <items>
+            <label>Softphone Main Page Width</label>
+            <name>activeSoftphoneWidth</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Main Page Idle Height</label>
+            <name>idleSoftphoneHeight</name>
+            <value>520</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Classic_and_Lightning</value>
+        </items>
+        <items>
+            <label>Salesforce File Attachment valid extensions</label>
+            <name>validAttachmentFileExtension</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Salesforce High Velocity Sales (Y/N)</label>
+            <name>highVelocitySalesEnabled</name>
+            <value>N</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Outside Prefix</label>
+            <name>reqOutsidePrefix</name>
+            <value>9</value>
+        </items>
+        <items>
+            <label>Long Distance Prefix</label>
+            <name>reqLongDistPrefix</name>
+            <value>1</value>
+        </items>
+        <items>
+            <label>International Prefix</label>
+            <name>reqInternationalPrefix</name>
+            <value>+</value>
+        </items>
+        <items>
+            <label>Internal Number Length</label>
+            <name>dialInternalLength</name>
+            <value>4</value>
+        </items>
+        <items>
+            <label>Country Code</label>
+            <name>dialCountryCode</name>
+            <value>1</value>
+        </items>
+        <items>
+            <label>Local Number Length</label>
+            <name>dialLocalLength</name>
+            <value>7</value>
+        </items>
+        <items>
+            <label>Long Distance Length</label>
+            <name>dialLongDistanceLength</name>
+            <value>10</value>
+        </items>
+        <items>
+            <label>Emergency Codes</label>
+            <name>emergencyCodes</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Dialing Options</label>
+        <name>DialingOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Default Language</label>
+            <name>language</name>
+            <value>en_US</value>
+        </items>
+        <items>
+            <label>Start Work State (R/NR)</label>
+            <name>startWorkState</name>
+            <value>NR</value>
+        </items>
+        <items>
+            <label>Auto start work enabled? (Y/N)</label>
+            <name>autoStartWorkEnabled</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Auto Sign Out Enabled? (Y/N)</label>
+            <name>autoSignOutEnabled</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Apex User Retrieval Class</label>
+            <name>apexUserRetrieval</name>
+            <value>AvayaIXWS.UserRetrieval</value>
+        </items>
+        <items>
+            <label>Apex Data Retrieval Class</label>
+            <name>apexDataRetrieval</name>
+            <value>AvayaIXWS.DataRetrieval</value>
+        </items>
+        <items>
+            <label>Apex Object Retrieval Class</label>
+            <name>apexObjectRetrieval</name>
+            <value>AvayaIXWS.ObjectDetailsRetrieval</value>
+        </items>
+        <items>
+            <label>Apex Salesforce Directory Class</label>
+            <name>salesforceDirectory</name>
+            <value>AvayaIXWS.SalesforceDirectory</value>
+        </items>
+        <items>
+            <label>Apex Get Pick List Values Class</label>
+            <name>pickListValues</name>
+            <value>AvayaIXWS.PickListValues</value>
+        </items>
+        <items>
+            <label>Log Report URL</label>
+            <name>urlReportLink</name>
+            <value>/00O/o</value>
+        </items>
+        <items>
+            <label>Click-to-Dial Enabled? (Y/N/P/I)</label>
+            <name>clickToDial</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Click-to-Consult Enabled? (Y/N/T/C/P/I)</label>
+            <name>clickToConsultEnabled</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable manual Not Ready selection (Y/N)</label>
+            <name>enableAuxSelection</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable manual After Contact Work selection (Y/N)</label>
+            <name>enableAcwSelection</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable Transfer? (Y/C/N)</label>
+            <name>enableTransfer</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable Conference? (Y/C/N)</label>
+            <name>enableConference</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Server Response Timeout (seconds)</label>
+            <name>serverResponseTimeout</name>
+            <value>120</value>
+        </items>
+        <items>
+            <label>Auto Accept Interaction? (Y/A/N)</label>
+            <name>autoAcceptInteraction</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Logging security level (N/M/H/D)</label>
+            <name>loggingSecurityLevel</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Log persistence duration (minutes)</label>
+            <name>loggingPersistenceDuration</name>
+            <value>60</value>
+        </items>
+        <items>
+            <label>Enable drop incoming interaction (Y/I/N)</label>
+            <name>enableDropIncomingInteraction</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable manual outbound interaction (Y/N)</label>
+            <name>enableManualOutboundInteraction</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Omnichannel Enabled?(C/S/N)</label>
+            <name>omnichannelEnabled</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Omnichannel Ready Status Id</label>
+            <name>omnichannelReadyStatusId</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Omnichannel Not Ready Status Id</label>
+            <name>omnichannelNotReadyStatusId</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Omnichannel After Contact Work Status Id</label>
+            <name>omnichannelWrapupStatusId</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Omnichannel Not Ready Reason Code</label>
+            <name>omnichannelNotReadyRC</name>
+            <value>21=Digital Ready</value>
+        </items>
+        <items>
+            <label>Customer Journey Button Enabled (Y/N)</label>
+            <name>customerJourneyButtonEnabled</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Toggle Channels Enabled (Y/N/P)</label>
+            <name>toggleChannelsEnabled</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Enable Notifications? (Y/L/T/N)</label>
+            <name>notificationsEnabled</name>
+            <value>L</value>
+        </items>
+        <items>
+            <label>Set Agent State to Not Ready on RONA?</label>
+            <name>autoNotReadyRona</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Enable Advanced Customer History? (Y/N)</label>
+            <name>enableAdvancedCustomerHistory</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Debounce Time (seconds)</label>
+            <name>debounceTime</name>
+            <value>0</value>
+        </items>
+        <items>
+            <label>Voicemail Number</label>
+            <name>voicemailNumber</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Directory Search Options (A/N/E/U/S/P)</label>
+            <name>aadsSearchOptions</name>
+            <value>A</value>
+        </items>
+        <items>
+            <label>Display channel origin (Y/N)</label>
+            <name>displayChannelOrigin</name>
+            <value>Y</value>
+        </items>
+        <label>Softphone Options</label>
+        <name>SoftphoneOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Start Work Buttons (SW/R/NR/US)</label>
+            <name>startWorkButtons</name>
+            <value>US</value>
+        </items>
+        <label>Softphone Options AXP</label>
+        <name>SoftphoneOptionsAXP</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Activity Log Enabled (Y/N/A/E)</label>
+            <name>callLogEnabled</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Show Activity Details (Y/N/S/A)</label>
+            <name>callLogShow</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Show Name(Y/N)</label>
+            <name>callLogShowName</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Show Related To? (Y/N)</label>
+            <name>callLogShowRelatedTo</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Show Comments? (Y/N)</label>
+            <name>callLogShowComments</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Make Activity Related Data Sticky (Y/X/N)</label>
+            <name>callLogSelect</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Prioritize Related to (Y/N)</label>
+            <name>prioritizeRelatedTo</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Enable Activity Log on Incomplete Interactions (Y/N)</label>
+            <name>logOnIncompleteCalls</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Custom Voice Activity Field 1</label>
+            <name>callLogCustomField1</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Voice Activity Field 2</label>
+            <name>callLogCustomField2</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Voice Activity Field 3</label>
+            <name>callLogCustomField3</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Digital Activity Field 1</label>
+            <name>transactionLogCustomField1</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Digital Activity Field 2</label>
+            <name>transactionLogCustomField2</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Digital Activity Field 3</label>
+            <name>transactionLogCustomField3</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Agent ID Field API Name</label>
+            <name>callLogAgentId</name>
+            <value>AgentId__c</value>
+        </items>
+        <items>
+            <label>Caller Field API Name</label>
+            <name>callLogCaller</name>
+            <value>Caller__c</value>
+        </items>
+        <items>
+            <label>Called Field API Name</label>
+            <name>callLogCalled</name>
+            <value>Called__c</value>
+        </items>
+        <items>
+            <label>From Field API Name</label>
+            <name>callLogFrom</name>
+            <value>From__c</value>
+        </items>
+        <items>
+            <label>To Field API Name</label>
+            <name>callLogTo</name>
+            <value>To__c</value>
+        </items>
+        <items>
+            <label>Consult Field API Name</label>
+            <name>callLogConsult</name>
+            <value>Consult__c</value>
+        </items>
+        <items>
+            <label>Work Codes Field API Name</label>
+            <name>interactionLogWorkCodes</name>
+            <value>WorkCodes__c</value>
+        </items>
+        <items>
+            <label>Start Time Field API Name</label>
+            <name>startTimeAPI</name>
+            <value>Call_Start__c</value>
+        </items>
+        <items>
+            <label>Queue Field API Name</label>
+            <name>callLogQueue</name>
+            <value>Queue__c</value>
+        </items>
+        <items>
+            <label>Queue Id Field API Name</label>
+            <name>callLogQueueId</name>
+            <value>QueueId__c</value>
+        </items>
+        <items>
+            <label>Skill Name Field API Name</label>
+            <name>callLogSkillName</name>
+            <value>SkillName__c</value>
+        </items>
+        <items>
+            <label>Skill Id Field API Name</label>
+            <name>callLogSkillId</name>
+            <value>SkillId__c</value>
+        </items>
+        <items>
+            <label>UUI Field API Name</label>
+            <name>callLogUUI</name>
+            <value>UUI__c</value>
+        </items>
+        <items>
+            <label>ASAI UUI Field API Name</label>
+            <name>callLogASAIUUI</name>
+            <value>ASAIUUI__c</value>
+        </items>
+        <items>
+            <label>UCID Field API Name</label>
+            <name>callLogUCID</name>
+            <value>UCID__c</value>
+        </items>
+        <items>
+            <label>Call End Time Field API Name</label>
+            <name>callLogEnd</name>
+            <value>Call_End__c</value>
+        </items>
+        <items>
+            <label>Interaction History Size</label>
+            <name>interactionHistorySize</name>
+            <value>5</value>
+        </items>
+        <items>
+            <label>Default Voice Activity Subject</label>
+            <name>defaultVoiceLogSubject</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Default Digital Activity Subject</label>
+            <name>defaultDigitalLogSubject</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Voice Header Labels</label>
+            <name>voiceHeaderLabels</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Email Header Labels</label>
+            <name>emailHeaderLabels</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Chat Header Labels</label>
+            <name>chatHeaderLabels</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Messaging Header Labels</label>
+            <name>messagingHeaderLabels</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Handle Click-To-Dial from Task? (N/R/U/C)</label>
+            <name>clickToDialFromTask</name>
+            <value>R</value>
+        </items>
+        <items>
+            <label>Log Data 1</label>
+            <name>logData1</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Log Data 2</label>
+            <name>logData2</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>High Velocity sales categories list field name</label>
+            <name>hvsCategoriesList</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Activity Options</label>
+        <name>LogOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Pop on ANI? (Y/N)</label>
+            <name>screenPopOnAni</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Pop on DNIS? (Y/N)</label>
+            <name>screenPopOnDnis</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Screen pop on consult or completed conference/transfer (C/S/N)</label>
+            <name>screenPopOnConsultOrCompleted</name>
+            <value>C</value>
+        </items>
+        <items>
+            <label>International ANI search? (Y/N)</label>
+            <name>internationalAniSearch</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Suppress Screen Pop (Y/N)</label>
+            <name>suppressScreenPop</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Wait for media before performing screenpop (Y/N)</label>
+            <name>waitBeforePerformScreenpop</name>
+            <value>N</value>
+        </items>
+        <items>
+            <label>Custom Parameter 1</label>
+            <name>contextPop1</name>
+            <value>param:ID=customerType</value>
+        </items>
+        <items>
+            <label>Custom Parameter 2</label>
+            <name>contextPop2</name>
+            <value>attr:ID=caseID</value>
+        </items>
+        <items>
+            <label>Custom Parameter 3</label>
+            <name>contextPop3</name>
+            <value>uui:ID=UUI2</value>
+        </items>
+        <items>
+            <label>Custom Parameter 4</label>
+            <name>contextPop4</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 5</label>
+            <name>contextPop5</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 6</label>
+            <name>contextPop6</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 7</label>
+            <name>contextPop7</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 8</label>
+            <name>contextPop8</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 9</label>
+            <name>contextPop9</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Custom Parameter 10</label>
+            <name>contextPop10</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 1</label>
+            <name>VFPop1</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 2</label>
+            <name>VFPop2</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 3</label>
+            <name>VFPop3</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 4</label>
+            <name>VFPop4</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 5</label>
+            <name>VFPop5</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 6</label>
+            <name>VFPop6</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 7</label>
+            <name>VFPop7</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 8</label>
+            <name>VFPop8</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 9</label>
+            <name>VFPop9</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Advanced Pop 10</label>
+            <name>VFPop10</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Pop to Lightning Component Class Name</label>
+            <name>lightningComponentName</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Screen Pop Code Order</label>
+            <name>screenPopCodeOrder</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>UUI Start</label>
+            <name>uuiStart</name>
+            <value>;</value>
+        </items>
+        <items>
+            <label>UUI Stop</label>
+            <name>uuiStop</name>
+            <value>:</value>
+        </items>
+        <items>
+            <label>UUI Separator</label>
+            <name>uuiSep</name>
+            <value>|</value>
+        </items>
+        <label>Screen Pop Options</label>
+        <name>CallScreenPopOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Host URL</label>
+            <name>serverHostName</name>
+            <value>https://na-01.workspaces.avayacloud.com</value>
+        </items>
+        <items>
+            <label>Use local session sharing (Y/N)</label>
+            <name>useLocalSessionSharing</name>
+            <value>N</value>
+        </items>
+        <label>Server Configuration</label>
+        <name>ServerConfig</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Not Ready Reason Enabled? (Y/N/Z)</label>
+            <name>auxReasonEnabled</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Disposition Codes Enabled? (Y/N)</label>
+            <name>dispositionCodesEnabled</name>
+            <value>Y</value>
+        </items>
+        <items>
+            <label>Work Codes Enabled? (Y/N)</label>
+            <name>workCodesEnabled</name>
+            <value>Y</value>
+        </items>
+        <label>Reason Codes Enabled</label>
+        <name>ReasonCodesEnabled</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 1</label>
+            <name>notReadyReasonCodeMapWithOmichannel01</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 2</label>
+            <name>notReadyReasonCodeMapWithOmichannel02</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 3</label>
+            <name>notReadyReasonCodeMapWithOmichannel03</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 4</label>
+            <name>notReadyReasonCodeMapWithOmichannel04</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 5</label>
+            <name>notReadyReasonCodeMapWithOmichannel05</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 6</label>
+            <name>notReadyReasonCodeMapWithOmichannel06</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 7</label>
+            <name>notReadyReasonCodeMapWithOmichannel07</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 8</label>
+            <name>notReadyReasonCodeMapWithOmichannel08</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 9</label>
+            <name>notReadyReasonCodeMapWithOmichannel09</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 10</label>
+            <name>notReadyReasonCodeMapWithOmichannel10</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 11</label>
+            <name>notReadyReasonCodeMapWithOmichannel11</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 12</label>
+            <name>notReadyReasonCodeMapWithOmichannel12</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 13</label>
+            <name>notReadyReasonCodeMapWithOmichannel13</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 14</label>
+            <name>notReadyReasonCodeMapWithOmichannel14</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 15</label>
+            <name>notReadyReasonCodeMapWithOmichannel15</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 16</label>
+            <name>notReadyReasonCodeMapWithOmichannel16</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 17</label>
+            <name>notReadyReasonCodeMapWithOmichannel17</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 18</label>
+            <name>notReadyReasonCodeMapWithOmichannel18</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 19</label>
+            <name>notReadyReasonCodeMapWithOmichannel19</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready Reason Code Map with Omichannel 20</label>
+            <name>notReadyReasonCodeMapWithOmichannel20</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Not Ready Reason Codes Map with Omichannel</label>
+        <name>NotReadyReasonCodesMapWithOmichannel</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Ready</label>
+            <name>ready</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Not Ready</label>
+            <name>notReady</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Go Ready</label>
+            <name>goReady</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Go Not Ready</label>
+            <name>goNotReady</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>After Contact Work</label>
+            <name>afterContactWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Go After Contact Work</label>
+            <name>goAfterContactWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>After Contact Work (Extended)</label>
+            <name>afterContactWorkExtended</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Pending Not Ready</label>
+            <name>pendingNotReady</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Pending After Contact Work</label>
+            <name>pendingAfterContactWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Disposition Codes</label>
+            <name>dispositionCodes</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Work Codes</label>
+            <name>workCodes</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Cancel</label>
+            <name>cancel</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Activate</label>
+            <name>activate</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Activate Agent</label>
+            <name>activateAgent</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Start Work</label>
+            <name>startWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>To Start Work</label>
+            <name>toStartWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Start Work Pending</label>
+            <name>startWorkPending</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Finish Work</label>
+            <name>finishWork</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Finish Work Pending</label>
+            <name>finishWorkPending</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Sign Out</label>
+            <name>signOut</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Connected</label>
+            <name>connected</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Welcome {{name}}, you are connected!</label>
+            <name>welcomeConnected</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Offline</label>
+            <name>offline</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Show Offline Agents</label>
+            <name>showOfflineAgents</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Hide Offline Agents</label>
+            <name>hideOfflineAgents</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Force Logout</label>
+            <name>forceLogout</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Label Options</label>
+        <name>LabelOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Google Maps API KEY</label>
+            <name>googleMapsApiKey</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Location Api Settings</label>
+        <name>LocationApiSettings</name>
+    </sections>
+</CallCenter>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Identifying Attribute --></label>
+        <name>Identifying_Attribute__c</name>
+        <picklistValues>
+            <masterLabel>Clear Code</masterLabel>
+            <translation><!-- Clear Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entitlement Code</masterLabel>
+            <translation><!-- Entitlement Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Code</masterLabel>
+            <translation><!-- Resolution Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Item Code</masterLabel>
+            <translation><!-- Service Item Code --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

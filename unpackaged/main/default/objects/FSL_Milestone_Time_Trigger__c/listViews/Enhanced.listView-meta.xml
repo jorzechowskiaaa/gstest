@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enhanced</fullName>
+    <columns>NAME</columns>
+    <columns>Milestone_Name__c</columns>
+    <columns>Time_Trigger_Minutes__c</columns>
+    <columns>User_Message_Id__c</columns>
+    <columns>Worktype_Duration__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Enhanced</label>
+    <language>en_US</language>
+</ListView>

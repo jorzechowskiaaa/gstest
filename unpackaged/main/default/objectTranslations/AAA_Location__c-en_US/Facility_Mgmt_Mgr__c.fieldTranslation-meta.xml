@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Facility Mgmt Mgr --></label>
+        <name>Facility_Mgmt_Mgr__c</name>
+        <relationshipLabel><!-- AAA Locations (Facility Mgmt Mgr) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Expiration_Date_MDY__c</fullName>
+    <description>This is the Membership Expiration Date compatible with Nationals RCB</description>
+    <externalId>false</externalId>
+    <formula>IF( MONTH( Membership_Expiration_Date__c ) &lt; 10 , &#39;0&#39; &amp; TEXT(MONTH( Membership_Expiration_Date__c )), TEXT(MONTH( Membership_Expiration_Date__c ))) &amp; TEXT(DAY(  Membership_Expiration_Date__c )) &amp; TEXT( YEAR(  Membership_Expiration_Date__c  ))</formula>
+    <label>Membership Expiration Date MDY</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

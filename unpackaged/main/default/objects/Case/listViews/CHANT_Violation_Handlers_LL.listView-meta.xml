@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHANT_Violation_Handlers_LL</fullName>
+    <columns>FSL_Work_Order__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Facility_State__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Decline_Work_Reason__c</columns>
+    <columns>FSL_Service_Appointment_Territory__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Appointment_State__c</field>
+        <operation>contains</operation>
+        <value>CA,HI,NM,TX</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notContain</operation>
+        <value>PTA</value>
+    </filters>
+    <label>CHANT - Violation Handlers + LL</label>
+</ListView>

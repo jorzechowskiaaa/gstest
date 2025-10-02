@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Decision_Is_Null</fullName>
+    <active>false</active>
+    <description>Decision should not be blank</description>
+    <errorConditionFormula>AND(
+NOT($Setup.ACG_Skip_Automations__c.ACG_Skip_Validation_Rules__c),
+ISPICKVAL(ACG_Decision__c, &quot;&quot;),
+OR(
+ISPICKVAL(ACG_Status__c, &quot;Decision Approved&quot;),
+ISPICKVAL(ACG_Status__c, &quot;Decision Submitted&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>ACG_Decision__c</errorDisplayField>
+    <errorMessage>Decision is null. Please, select a value before updating status.</errorMessage>
+</ValidationRule>

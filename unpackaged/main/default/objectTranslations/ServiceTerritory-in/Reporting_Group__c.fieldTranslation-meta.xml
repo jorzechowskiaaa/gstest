@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reporting Group --></label>
+        <name>Reporting_Group__c</name>
+        <picklistValues>
+            <masterLabel>BONUS</masterLabel>
+            <translation><!-- BONUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOBONUS</masterLabel>
+            <translation><!-- NOBONUS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

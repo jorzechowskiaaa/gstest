@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>API Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Admin FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- RAP --></label>
+            <section>RAP</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BO Work Order Layout</layout>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- RAP --></label>
+            <section>RAP</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Dispatcher FSL Work Order Layout_Version2</layout>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contractor Dispatcher FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- RV Information --></label>
+            <section>RV Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamps --></label>
+            <section>Status Timestamps</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Contact --></label>
+            <section>Tow Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Information --></label>
+            <section>Tow Information</section>
+        </sections>
+        <sections>
+            <label><!-- Trailer Information --></label>
+            <section>Trailer Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dispatcher FSL Work Order Layout_Version2</layout>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Work Order Layout</layout>
+        <sections>
+            <label>Адреса</label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Driver FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Driver FSL Work Order Layout V2</layout>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Driver FSL Work Order Layout V2 Read Only</layout>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Driver FSL Work Order Layout_Version2</layout>
+        <sections>
+            <label><!-- RAP Details --></label>
+            <section>RAP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OLD Community Dispatcher FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamp --></label>
+            <section>Status Timestamp</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Tow Work Order Layout</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Tow Work Order Layout V2 Read Only</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Tow Work Order Layout V2.0</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Work Order Layout</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Work Order Layout V2 Read Only</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technician FSL Work Order Layout V2.0</layout>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout</layout>
+        <sections>
+            <label><!-- Appointment Status Duration --></label>
+            <section>Appointment Status Duration</section>
+        </sections>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Intake Information --></label>
+            <section>Intake Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- RV Information --></label>
+            <section>RV Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamps --></label>
+            <section>Status Timestamps</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Contact --></label>
+            <section>Tow Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Information --></label>
+            <section>Tow Information</section>
+        </sections>
+        <sections>
+            <label><!-- Trailer Information --></label>
+            <section>Trailer Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout Read Only</layout>
+        <sections>
+            <label><!-- Appointment Status Duration --></label>
+            <section>Appointment Status Duration</section>
+        </sections>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Intake Information --></label>
+            <section>Intake Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- RV Information --></label>
+            <section>RV Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Timestamps --></label>
+            <section>Status Timestamps</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Contact --></label>
+            <section>Tow Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Tow Information --></label>
+            <section>Tow Information</section>
+        </sections>
+        <sections>
+            <label><!-- Trailer Information --></label>
+            <section>Trailer Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Call Comment --></label>
+        <name>Add_Call_Comment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Approve / Reject Pending SLIs --></label>
+        <name>Approve_Reject_Pending_SLIs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Battery Testing --></label>
+        <name>Battery_Testing</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Called Member --></label>
+        <name>Called_Member</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Work Order Info --></label>
+        <name>Case_Work_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clear Call --></label>
+        <name>Clear_Call_Guided</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Service Line Item --></label>
+        <name>Create_Service_Line_Item</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Decline --></label>
+        <name>Decline</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Decline --></label>
+        <name>Mobile_Decline</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Re-Cal Mileages --></label>
+        <name>Re_Cal_Mileages</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reassign Call --></label>
+        <name>Reassign_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Recalculate Price --></label>
+        <name>Recalculate_Price</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reroute --></label>
+        <name>Reroute</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Work Order --></label>
+        <name>Update_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Tow Contact --></label>
+        <name>Update_Tow_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- WO Details --></label>
+        <name>WO_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Work Order Status --></label>
+        <name>Work_Order_Status</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Light Service --></label>
+        <name>Light_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tow --></label>
+        <name>Tow</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Work Orders cannot be moved back to Spotted status --></errorMessage>
+        <name>Cannot_Change_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The selected status requires the child service appointments to be assigned to a resource. --></errorMessage>
+        <name>Check_Assignment_Before_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Backoffice Editable Membership Level value cannot be blank. --></errorMessage>
+        <name>Editable_Membership_Level_Cannot_be_Blan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Resolution Code is required to Clear the Call --></errorMessage>
+        <name>Resolution_Code_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Work Order cannot be updated after status is set to Cleared --></errorMessage>
+        <name>WO_Read_Only_On_Cleared</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Work order status CANT  be changed after call clear. --></errorMessage>
+        <name>Work_Order_status_changed_after_clear</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Override_Entitlement --></label>
+        <name>Override_Entitlement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Printable_View --></label>
+        <name>Printable_View</name>
+    </webLinks>
+</CustomObjectTranslation>

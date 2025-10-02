@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_Total_of_Calls_Allowed__c</fullName>
+    <defaultValue>4</defaultValue>
+    <description>Field to store the allowed number of calls each member is entitled to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of Service Calls the member is entitled to during the Service Contract period.</inlineHelpText>
+    <label>Total # of Calls Allowed</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

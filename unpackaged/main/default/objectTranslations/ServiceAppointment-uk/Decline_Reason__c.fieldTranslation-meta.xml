@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decline Reason --></label>
+        <name>Decline_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Equipment Required Unavailable</masterLabel>
+            <translation><!-- Equipment Required Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extended ETA</masterLabel>
+            <translation><!-- Extended ETA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Closed</masterLabel>
+            <translation><!-- Facility Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Mismarked</masterLabel>
+            <translation><!-- Facility Mismarked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Driver Available</masterLabel>
+            <translation><!-- No Driver Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Enough Trucks</masterLabel>
+            <translation><!-- Not Enough Trucks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not My Service Area</masterLabel>
+            <translation><!-- Not My Service Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refused Call</masterLabel>
+            <translation><!-- Refused Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

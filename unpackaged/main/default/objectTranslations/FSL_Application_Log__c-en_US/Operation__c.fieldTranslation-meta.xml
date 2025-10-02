@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Operation --></label>
+        <name>Operation__c</name>
+        <picklistValues>
+            <masterLabel>AddressChange</masterLabel>
+            <translation><!-- AddressChange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CalculateDistanceInMiles</masterLabel>
+            <translation><!-- CalculateDistanceInMiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CalculatedMileage</masterLabel>
+            <translation><!-- CalculatedMileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Clear</masterLabel>
+            <translation><!-- Call Clear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CallCommentMerge</masterLabel>
+            <translation><!-- CallCommentMerge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CallCreate</masterLabel>
+            <translation><!-- CallCreate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CaseCreation</masterLabel>
+            <translation><!-- CaseCreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear</masterLabel>
+            <translation><!-- Clear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear Queue</masterLabel>
+            <translation><!-- Clear Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Copy to Clear Queue</masterLabel>
+            <translation><!-- Delayed Copy to Clear Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERS_GrabRAPReadyWorkOrdersBatch</masterLabel>
+            <translation><!-- ERS_GrabRAPReadyWorkOrdersBatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETALog</masterLabel>
+            <translation><!-- ETALog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glympse</masterLabel>
+            <translation><!-- Glympse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GlympseIn</masterLabel>
+            <translation><!-- GlympseIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GlympseOut</masterLabel>
+            <translation><!-- GlympseOut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVRLookup</masterLabel>
+            <translation><!-- IVRLookup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LKL</masterLabel>
+            <translation><!-- LKL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Call Mover</masterLabel>
+            <translation><!-- National Call Mover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Repair Shop</masterLabel>
+            <translation><!-- National Repair Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Query</masterLabel>
+            <translation><!-- Query --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RetrieveWorkOrders</masterLabel>
+            <translation><!-- RetrieveWorkOrders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RoutingChange</masterLabel>
+            <translation><!-- RoutingChange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduling</masterLabel>
+            <translation><!-- Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceLineItemFailed</masterLabel>
+            <translation><!-- ServiceLineItemFailed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceTrackingLog</masterLabel>
+            <translation><!-- ServiceTrackingLog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unscheduling</masterLabel>
+            <translation><!-- Unscheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Facility</masterLabel>
+            <translation><!-- Update Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UpsertResourceAbsence</masterLabel>
+            <translation><!-- UpsertResourceAbsence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ValidateWaitTime</masterLabel>
+            <translation><!-- ValidateWaitTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOCreateEventLog</masterLabel>
+            <translation><!-- WOCreateEventLog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOJeopardyAPI</masterLabel>
+            <translation><!-- WOJeopardyAPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOSClearLog</masterLabel>
+            <translation><!-- WOSClearLog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOStatusUpdateLog</masterLabel>
+            <translation><!-- WOStatusUpdateLog --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

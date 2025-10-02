@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View_STMs</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>View STMs</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://aaacarolinas--capdevsfs.lightning.force.com/lightning/r/Report/00O19000000jUFREA2/view?fv1={!FSL_Service_Territory_STM_Rule__c.Primary_Service_Territory_Member_s_Of__c}&amp;fv2={!FSL_Service_Territory_STM_Rule__c.Of_Service_Territory__c}</url>
+</WebLink>

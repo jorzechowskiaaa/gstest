@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Field for OUtgoing Reciprocal file to convert the TRUE/FALSE to Y/N --></help>
+        <label><!-- Blended Rate Indicator Outgoing --></label>
+        <name>Blended_Rate_Indicator_Outgoing__c</name>
+    </CustomFieldTranslation>

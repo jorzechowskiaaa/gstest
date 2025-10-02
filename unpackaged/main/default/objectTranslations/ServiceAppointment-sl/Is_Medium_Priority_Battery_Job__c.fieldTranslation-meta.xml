@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Is Medium Priority Battery Job --></label>
+        <name>Is_Medium_Priority_Battery_Job__c</name>
+    </CustomFieldTranslation>

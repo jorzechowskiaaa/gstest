@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WO_Pricing_In_Progress__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>prevents recursion calling pricing engine on SLIs and WO at same time</description>
+    <label>WO Pricing In Progress</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

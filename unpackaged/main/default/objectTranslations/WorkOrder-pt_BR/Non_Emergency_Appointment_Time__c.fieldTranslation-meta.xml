@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Non-Emergency Appointment Time --></label>
+        <name>Non_Emergency_Appointment_Time__c</name>
+    </CustomFieldTranslation>

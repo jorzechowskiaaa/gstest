@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Backup_Facility__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Backup Facility</label>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Alternate Backups</relationshipLabel>
+    <relationshipName>Backup_Facilities2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

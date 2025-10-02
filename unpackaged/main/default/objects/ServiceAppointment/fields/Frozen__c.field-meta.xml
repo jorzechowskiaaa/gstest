@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frozen__c</fullName>
+    <formula>IF(
+   AND(
+      NOT(ISBLANK(Work_Order__r.Schedule_Freeze__c)),
+      NOW()&lt; Work_Order__r.Schedule_Freeze__r.End_Date__c ,
+      NOW()&gt;  Work_Order__r.Schedule_Freeze__r.Start_Date__c 
+   ), 
+TRUE, FALSE)</formula>
+    <inlineHelpText>Indicates if the appointment is currently impacted by a schedule freeze</inlineHelpText>
+    <label>Frozen</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

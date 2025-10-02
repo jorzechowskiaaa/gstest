@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Limited length to meet the restriction of 15 characters in Outgoing reciprocal file --></help>
+        <label><!-- Member First Name Truncated --></label>
+        <name>Member_First_Name_Truncated__c</name>
+    </CustomFieldTranslation>

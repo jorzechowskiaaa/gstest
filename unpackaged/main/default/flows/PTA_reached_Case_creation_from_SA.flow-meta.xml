@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>SchedStart_and_Status_check</name>
+        <label>SchedStart and Status check</label>
+        <locationX>473</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_Sched_Start_was_not_changed_and_Status_is_before_En_Route</name>
+            <conditionLogic>1 AND (2 OR 3) AND 4</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SchedStartTime</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Original_Scheduled_Start__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dispatched</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Is_Landline__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_In_Jeopardy_to_true_and_In_Jeopardy_reason</targetReference>
+            </connector>
+            <label>If Sched Start was not changed and Status is before En Route</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Whether_open_PTA_Case_exists</name>
+        <label>Whether open PTA Case exists</label>
+        <locationX>275</locationX>
+        <locationY>648</locationY>
+        <defaultConnector>
+            <targetReference>Get_Owner_Queue</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No PTA Case</defaultConnectorLabel>
+        <rules>
+            <name>Open_PTA_Case_exists</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Open_PTA_Case</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Open PTA Case exists</label>
+        </rules>
+    </decisions>
+    <description>Hard coded Case Subject</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>New_Case_subject</name>
+        <dataType>String</dataType>
+        <expression>&#39;WO#&#39; + {!$Record.Work_Order__r.WorkOrderNumber} + &#39; - &#39; + &#39;PTA Violation&#39;</expression>
+    </formulas>
+    <formulas>
+        <name>SA_prev_SchedStartTime_plus_14_mins</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record__Prior.SchedStartTime} + (14/1440)</expression>
+    </formulas>
+    <formulas>
+        <name>SA_PTA_plus_14_mins</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record.PTA__c} + (14/1440)</expression>
+    </formulas>
+    <formulas>
+        <name>SA_PTA_plus_29_mins</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record.PTA__c} + (29/1440)</expression>
+    </formulas>
+    <formulas>
+        <name>SA_PTA_plus_44_mins</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record.PTA__c} + (44/1440)</expression>
+    </formulas>
+    <formulas>
+        <name>SA_PTA_plus_59_mins</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Record.PTA__c} + (59/1440)</expression>
+    </formulas>
+    <interviewLabel>PTA reached Case creation from SA: {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PTA reached Case creation from SA</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_PTA_Case</name>
+        <label>Create PTA Case</label>
+        <locationX>407</locationX>
+        <locationY>1008</locationY>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL_In_Jeopardy_Reason__c</field>
+            <value>
+                <stringValue>PTA Violation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL_Service_Appointment_Territory__c</field>
+            <value>
+                <elementReference>$Record.ServiceTerritoryId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL_Service_Appointment__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL_Service_Resource__c</field>
+            <value>
+                <elementReference>$Record.Service_Resource__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL_Work_Order__c</field>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Automation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Get_Owner_Queue.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Medium</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>Get_Violation_Resolution_Record_Type.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>New_Case_subject</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Open_PTA_Case</name>
+        <label>Get Open PTA Case</label>
+        <locationX>275</locationX>
+        <locationY>528</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Whether_open_PTA_Case_exists</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsClosed</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>FSL_Service_Appointment__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>FSL_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>PTA Violation</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Owner_Queue</name>
+        <label>Get Owner Queue</label>
+        <locationX>407</locationX>
+        <locationY>768</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Violation_Resolution_Record_Type</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Queue</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>PTA_Violations</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Violation_Resolution_Record_Type</name>
+        <label>Get Violation Resolution Record Type</label>
+        <locationX>407</locationX>
+        <locationY>888</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_PTA_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Violation_Resolution</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Set_In_Jeopardy_to_true_and_In_Jeopardy_reason</name>
+        <label>Set &quot;In Jeopardy&quot; to true and &quot;In Jeopardy&quot; reason</label>
+        <locationX>275</locationX>
+        <locationY>408</locationY>
+        <connector>
+            <targetReference>Get_Open_PTA_Case</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.FSL__Related_Service__r.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>FSL__InJeopardyReason__c</field>
+            <value>
+                <stringValue>PTA Violation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FSL__InJeopardy__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>ServiceAppointment</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <filterFormula>AND(
+OR(ISPICKVAL({!$Record.Status},&quot;Dispatched&quot;),ISPICKVAL({!$Record.Status},&quot;Scheduled&quot;)),
+NOT(ISCHANGED({!$Record.SchedStartTime})),
+{!$Record.Subject}=&quot;Breakdown Appointment&quot;,
+NOT(ISBLANK({!$Record.SchedStartTime})),
+NOT(ISBLANK({!$Record.PTA__c})),
+NOT(ISBLANK({!$Record.Work_Order__r.Priority_Code__c})),
+NOT({!$Record.Work_Order__r.Servicing_Technology_Type__c} = &quot;Landline&quot;),
+CONTAINS({!$Label.PTA_Case_Priorities},{!$Record.Work_Order__r.Priority_Code__c})
+)</filterFormula>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>PTA_Time_Reached</name>
+            <connector>
+                <targetReference>SchedStart_and_Status_check</targetReference>
+            </connector>
+            <label>PTA Time Reached</label>
+            <offsetNumber>0</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>PTA__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

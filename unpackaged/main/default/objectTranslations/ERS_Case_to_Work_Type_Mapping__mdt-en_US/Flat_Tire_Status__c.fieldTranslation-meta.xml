@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Flat Tire Status --></label>
+        <name>Flat_Tire_Status__c</name>
+        <picklistValues>
+            <masterLabel>Air Only</masterLabel>
+            <translation><!-- Air Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Has Spares</masterLabel>
+            <translation><!-- Has Spares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Spares</masterLabel>
+            <translation><!-- No Spares --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

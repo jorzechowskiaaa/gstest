@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <picklistValues>
+            <masterLabel>182002</masterLabel>
+            <translation><!-- 182002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>196036</masterLabel>
+            <translation><!-- 196036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334006</masterLabel>
+            <translation><!-- 334006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337006</masterLabel>
+            <translation><!-- 337006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338003</masterLabel>
+            <translation><!-- 338003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>886001</masterLabel>
+            <translation><!-- 886001 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

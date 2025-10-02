@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>BR_Premier/RV</label>
+    <protected>false</protected>
+    <values>
+        <field>BSP_Available__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Case_Guidance_Success_Status__c</field>
+        <value xsi:type="xsd:string">Active</value>
+    </values>
+    <values>
+        <field>Flat_Tire_Status__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Guidance_Success__c</field>
+        <value xsi:type="xsd:string">Includes RV Coverage at Household Level of $500 per event / $1K max per Membership Year.</value>
+    </values>
+    <values>
+        <field>Membership_Level__c</field>
+        <value xsi:type="xsd:string">Premier RV</value>
+    </values>
+    <values>
+        <field>Name_of_Triage_Tab__c</field>
+        <value xsi:type="xsd:string">Vehicle</value>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Fuel_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

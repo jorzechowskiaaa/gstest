@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- RAP Status --></label>
+        <name>RAP_Status__c</name>
+        <picklistValues>
+            <masterLabel>PnA Review Required</masterLabel>
+            <translation><!-- PnA Review Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP Cleared</masterLabel>
+            <translation><!-- RAP Cleared --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

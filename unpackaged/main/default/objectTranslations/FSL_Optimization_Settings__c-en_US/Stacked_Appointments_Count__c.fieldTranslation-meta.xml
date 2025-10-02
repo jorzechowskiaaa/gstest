@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of stacked appointments should have to trigger RSO and In-Day --></help>
+        <label><!-- Stacked Appointments Count --></label>
+        <name>Stacked_Appointments_Count__c</name>
+    </CustomFieldTranslation>

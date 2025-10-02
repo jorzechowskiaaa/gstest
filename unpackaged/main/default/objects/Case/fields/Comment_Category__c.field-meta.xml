@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment_Category__c</fullName>
+    <label>Comment Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Comment_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Altercation/Inappropriate Behavior</fullName>
+                <default>false</default>
+                <label>Altercation/Inappropriate Behavior</label>
+            </value>
+            <value>
+                <fullName>Apps</fullName>
+                <default>false</default>
+                <label>Apps</label>
+            </value>
+            <value>
+                <fullName>Availability</fullName>
+                <default>false</default>
+                <label>Availability</label>
+            </value>
+            <value>
+                <fullName>Bad Diagnosis</fullName>
+                <default>false</default>
+                <label>Bad Diagnosis</label>
+            </value>
+            <value>
+                <fullName>Benefit</fullName>
+                <default>false</default>
+                <label>Benefit</label>
+            </value>
+            <value>
+                <fullName>Call Dispute</fullName>
+                <default>false</default>
+                <label>Call Dispute</label>
+            </value>
+            <value>
+                <fullName>Cleanliness</fullName>
+                <default>false</default>
+                <label>Cleanliness</label>
+            </value>
+            <value>
+                <fullName>Collections</fullName>
+                <default>false</default>
+                <label>Collections</label>
+            </value>
+            <value>
+                <fullName>Communications</fullName>
+                <default>false</default>
+                <label>Communications</label>
+            </value>
+            <value>
+                <fullName>Cost of Battery</fullName>
+                <default>false</default>
+                <label>Cost of Battery</label>
+            </value>
+            <value>
+                <fullName>Critical Incident</fullName>
+                <default>false</default>
+                <label>Critical Incident</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Deduct Notice Pending</fullName>
+                <default>false</default>
+                <label>Deduct Notice Pending</label>
+            </value>
+            <value>
+                <fullName>ERS Fees</fullName>
+                <default>false</default>
+                <label>ERS Fees</label>
+            </value>
+            <value>
+                <fullName>Etiquette</fullName>
+                <default>false</default>
+                <label>Etiquette</label>
+            </value>
+            <value>
+                <fullName>Extended ETA</fullName>
+                <default>false</default>
+                <label>Extended ETA</label>
+            </value>
+            <value>
+                <fullName>Failure to Retain Parts</fullName>
+                <default>false</default>
+                <label>Failure to Retain Parts</label>
+            </value>
+            <value>
+                <fullName>Fees/Charges</fullName>
+                <default>false</default>
+                <label>Fees/Charges</label>
+            </value>
+            <value>
+                <fullName>Fraud</fullName>
+                <default>false</default>
+                <label>Fraud</label>
+            </value>
+            <value>
+                <fullName>Keep Member Informed</fullName>
+                <default>false</default>
+                <label>Keep Member Informed</label>
+            </value>
+            <value>
+                <fullName>Membership Payments</fullName>
+                <default>false</default>
+                <label>Membership Payments</label>
+            </value>
+            <value>
+                <fullName>Missing Items</fullName>
+                <default>false</default>
+                <label>Missing Items</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outage</fullName>
+                <default>false</default>
+                <label>Outage</label>
+            </value>
+            <value>
+                <fullName>Phone IVR</fullName>
+                <default>false</default>
+                <label>Phone IVR</label>
+            </value>
+            <value>
+                <fullName>Poor Workmanship</fullName>
+                <default>false</default>
+                <label>Poor Workmanship</label>
+            </value>
+            <value>
+                <fullName>Pricing Concerns</fullName>
+                <default>false</default>
+                <label>Pricing Concerns</label>
+            </value>
+            <value>
+                <fullName>Processing Error</fullName>
+                <default>false</default>
+                <label>Processing Error</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Reimbursement</fullName>
+                <default>false</default>
+                <label>Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Repair Quote</fullName>
+                <default>false</default>
+                <label>Repair Quote</label>
+            </value>
+            <value>
+                <fullName>Response Time</fullName>
+                <default>false</default>
+                <label>Response Time</label>
+            </value>
+            <value>
+                <fullName>Service Failure</fullName>
+                <default>false</default>
+                <label>Service Failure</label>
+            </value>
+            <value>
+                <fullName>Setting Exceptions</fullName>
+                <default>false</default>
+                <label>Setting Exceptions</label>
+            </value>
+            <value>
+                <fullName>Unauthorized Repairs</fullName>
+                <default>false</default>
+                <label>Unauthorized Repairs</label>
+            </value>
+            <value>
+                <fullName>Unnecessary Repairs</fullName>
+                <default>false</default>
+                <label>Unnecessary Repairs</label>
+            </value>
+            <value>
+                <fullName>Unprepared for Service</fullName>
+                <default>false</default>
+                <label>Unprepared for Service</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <label>Vehicle</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Altercation/Inappropriate Behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Bad Diagnosis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Cleanliness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Communications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Failure to Retain Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Fraud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <controllingFieldValue>Battery Service</controllingFieldValue>
+            <controllingFieldValue>Call Center Agent</controllingFieldValue>
+            <controllingFieldValue>Damage</controllingFieldValue>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Poor Workmanship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Pricing Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Repair Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Unauthorized Repairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <valueName>Unnecessary Repairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automotive Repair</controllingFieldValue>
+            <controllingFieldValue>Battery Service</controllingFieldValue>
+            <valueName>Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Battery Service</controllingFieldValue>
+            <valueName>Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Battery Service</controllingFieldValue>
+            <valueName>Cost of Battery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Battery Service</controllingFieldValue>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Fees/Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center Agent</controllingFieldValue>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Etiquette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center Agent</controllingFieldValue>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Keep Member Informed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center Agent</controllingFieldValue>
+            <valueName>Processing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center Agent</controllingFieldValue>
+            <valueName>Setting Exceptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damage</controllingFieldValue>
+            <valueName>Deduct Notice Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damage</controllingFieldValue>
+            <valueName>Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damage</controllingFieldValue>
+            <valueName>Vehicle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Benefit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Call Dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Collections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>ERS Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Membership Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Critical Incident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Extended ETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Missing Items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Response Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Service Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>Unprepared for Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Apps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Outage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System</controllingFieldValue>
+            <valueName>Phone IVR</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Yellow_Manhattan_Bronx</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5 OR 6)</booleanFilter>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource_Name__c</columns>
+    <columns>Age__c</columns>
+    <columns>Status</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>En_Route_Timestamp__c</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <columns>WorkType</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>Declined,Spotted,Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Canceled</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>2/2/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>contains</operation>
+        <value>0HhJx0000000SkH</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>Towbook Reroute</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Yellow Manhattan/Bronx 2025</label>
+    <sharedTo>
+        <role>Club_Dispatcher</role>
+        <role>Delegated_Admin</role>
+        <role>Dispatcher_Supervisor</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Travel6</label>
+    <protected>false</protected>
+    <values>
+        <field>Bookmark__c</field>
+        <value xsi:type="xsd:string">AAA Vacations E-Brochure</value>
+    </values>
+    <values>
+        <field>Email__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">http://digitaledition.qwinc.com/publication/?i=532015&amp;zip=28227&amp;devicecd=PC#{%22issue_id%22:532015,%22page%22:0}</value>
+    </values>
+</CustomMetadata>

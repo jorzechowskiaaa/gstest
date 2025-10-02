@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>SMS_AA_En_Route_Battery_Link</name>
+        <label>SMS AA En Route (Battery + Link)</label>
+        <locationX>50</locationX>
+        <locationY>1032</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Driver_En_Route</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>AA_Driver_En_Route_Battery_Video</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;Driver_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_driverName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Address&quot;,
+    &quot;textValue&quot;: &quot;{!v_address}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Contact_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_contactName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Battery_Service_Link&quot;,
+    &quot;textValue&quot;: &quot;{!v_batteryLink}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Territory_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_territoryName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;ApptAssistantInfoUrl&quot;,
+    &quot;textValue&quot;: &quot;{!v_aaUrl}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>SMS_AA_En_Route_Battery_No_Link</name>
+        <label>SMS AA En Route Battery No Link</label>
+        <locationX>314</locationX>
+        <locationY>1032</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Driver_En_Route</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>AA_Driver_En_Route_Battery_Video_Tracker_Removed</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;Territory_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_territoryName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Driver_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_driverName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Address&quot;,
+    &quot;textValue&quot;: &quot;{!v_address}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Contact_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_contactName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Battery_Service_Link&quot;,
+    &quot;textValue&quot;: &quot;{!v_batteryLink}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>SMS_AA_En_Route_Non_Batt</name>
+        <label>SMS AA En Route Non Batt</label>
+        <locationX>578</locationX>
+        <locationY>1032</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Driver_En_Route</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>AA_Driver_En_Route</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;Driver_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_driverName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Address&quot;,
+    &quot;textValue&quot;: &quot;{!v_address}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Territory_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_territoryName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;ApptAssistantInfoUrl&quot;,
+    &quot;textValue&quot;: &quot;{!v_aaUrl}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Contact_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_contactName}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>SMS_AA_En_Route_Non_Batt_Non_AA</name>
+        <label>SMS AA En Route Non Batt Non AA</label>
+        <locationX>842</locationX>
+        <locationY>1032</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Driver_En_Route</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>AA_Driver_En_Route_No_AA_Link</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;Contact_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_contactName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Driver_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_driverName}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Address&quot;,
+    &quot;textValue&quot;: &quot;{!v_address}&quot;
+  },
+  {
+    &quot;name&quot;: &quot;Territory_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_territoryName}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_messaging_user_id_message_values</name>
+        <label>Assign messaging user id &amp; message values</label>
+        <locationX>446</locationX>
+        <locationY>708</locationY>
+        <assignmentItems>
+            <assignToReference>v_messagingUserIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Create_messaging_user.messagingUserOutput</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_contactName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Contact_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_territoryName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Service_Territory_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_address</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.SMSWOBreakdownAddress__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_batteryLink</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Assigned_Resource.Battery_Service_Link__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_aaUrl</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Assigned_Resource.ApptAssistantInfoUrl</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_driverName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Assigned_Resource.Driver_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Battery_call</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Battery_call</name>
+        <label>Battery call?</label>
+        <locationX>446</locationX>
+        <locationY>816</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_Is_AA_Link_Populated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default / Non Battery Call</defaultConnectorLabel>
+        <rules>
+            <name>yes_battery_call</name>
+            <conditionLogic>1 AND 5 AND 10 AND (2 OR 3 OR 4) AND (6 OR 7 OR (8 AND NOT 9))</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.WO_Call_Type__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>RAP</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.T_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>L304</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.T_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>L302</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Battery Test</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>f_timeCheckBatteryLink</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ServiceTerritory.Facility_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Battery with Full Svc</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ServiceTerritory.Facility_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Battery with Light Svc</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service_Resource__r.Vehicle__r.VehicleType__r.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>BAT</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service_Resource__r.Vehicle__r.VehicleType__r.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue> NO Jump or Battery</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>v_batteryLink</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_AA_Link_Populated</targetReference>
+            </connector>
+            <label>Battery call</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Is_AA_Link_Populated</name>
+        <label>Copy 1 of Is AA Link Populated</label>
+        <locationX>710</locationX>
+        <locationY>924</locationY>
+        <defaultConnector>
+            <targetReference>SMS_AA_En_Route_Non_Batt_Non_AA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>AA Link Not Populated</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_AA_Link_Populated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Assigned_Resource.ApptAssistantInfoUrl</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SMS_AA_En_Route_Non_Batt</targetReference>
+            </connector>
+            <label>AA Link Populated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_AA_Enabled</name>
+        <label>Is AA Enabled?</label>
+        <locationX>776</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>AA_is_On</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.Appointment_Assistant_Settings__c.AA_Org_Level_Messaging_Switch__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ServiceTerritory.Enabled_For_Appointment_Assistant__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact.Sms_Optin__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SMS_Driver_En_Route__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ContactId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact.MobilePhone</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.isBreakdown__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Assigned_Resource</targetReference>
+            </connector>
+            <label>AA is On</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_AA_Link_Populated</name>
+        <label>Is AA Link Populated</label>
+        <locationX>182</locationX>
+        <locationY>924</locationY>
+        <defaultConnector>
+            <targetReference>SMS_AA_En_Route_Battery_No_Link</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>AA Link Not Populated</defaultConnectorLabel>
+        <rules>
+            <name>AA_Link_Populated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Assigned_Resource.ApptAssistantInfoUrl</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SMS_AA_En_Route_Battery_Link</targetReference>
+            </connector>
+            <label>AA Link Populated</label>
+        </rules>
+    </decisions>
+    <description>2025-03-10: Add battery service SMS template
+2025-05-12: Add time check and veh checks
+2025-06-16: updated for enhanced SMS channel</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>time is between 6am ET and 9pm ET -- based on GMT, and cannot use some time functions in flows</description>
+        <name>f_timeCheckBatteryLink</name>
+        <dataType>Boolean</dataType>
+        <expression>OR(VALUE(MID(TEXT({!$Flow.CurrentDateTime}),12,2)) &gt;= 10, VALUE(MID(TEXT({!$Flow.CurrentDateTime}),12,2)) &lt; 1)</expression>
+    </formulas>
+    <interviewLabel>SMS - Driver En Route {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SMS - Driver En Route</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Assigned_Resource</name>
+        <label>Get Assigned Resource</label>
+        <locationX>446</locationX>
+        <locationY>384</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_WO</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ServiceAppointmentId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>AssignedResource</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_WO</name>
+        <label>Get WO</label>
+        <locationX>446</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_messaging_user</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_SA_Checkbox_SMS_Driver_En_Route</name>
+        <label>Update SA Checkbox &quot;SMS - Driver En Route&quot;</label>
+        <locationX>446</locationX>
+        <locationY>1308</locationY>
+        <inputAssignments>
+            <field>SMS_Driver_En_Route__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>155</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>En Route</stringValue>
+            </value>
+        </filters>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Wait_1_Mins</name>
+            <connector>
+                <targetReference>Is_AA_Enabled</targetReference>
+            </connector>
+            <label>Wait 1 Mins</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Create_messaging_user</name>
+        <label>Create messaging user</label>
+        <locationX>446</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Assign_messaging_user_id_message_values</targetReference>
+        </connector>
+        <flowName>Create_Messaging_User_Subflow</flowName>
+        <inputAssignments>
+            <name>workOrderRecord</name>
+            <value>
+                <elementReference>Get_WO</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>v_aaUrl</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_address</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_batteryLink</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_contactName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_driverName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_messagingUserIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_territoryName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

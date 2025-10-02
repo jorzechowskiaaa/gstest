@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drivers_can_View_Scheduled_Calls__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Drivers from service territory to be able to view scheduled class.</description>
+    <label>Drivers can View Scheduled Calls</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

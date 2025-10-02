@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CSR Reporting Group --></label>
+        <name>CSR_Reporting_Group__c</name>
+        <picklistValues>
+            <masterLabel>Alabama Rural</masterLabel>
+            <translation><!-- Alabama Rural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albuquerque</masterLabel>
+            <translation><!-- Albuquerque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auburn</masterLabel>
+            <translation><!-- Auburn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baton Rouge</masterLabel>
+            <translation><!-- Baton Rouge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birmingham</masterLabel>
+            <translation><!-- Birmingham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burbank</masterLabel>
+            <translation><!-- Burbank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Alabama</masterLabel>
+            <translation><!-- Central Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chino</masterLabel>
+            <translation><!-- Chino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbia</masterLabel>
+            <translation><!-- Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Mesa</masterLabel>
+            <translation><!-- Costa Mesa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dallas</masterLabel>
+            <translation><!-- Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East St. Louis</masterLabel>
+            <translation><!-- East St. Louis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Shore</masterLabel>
+            <translation><!-- Eastern Shore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evansville</masterLabel>
+            <translation><!-- Evansville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Shores</masterLabel>
+            <translation><!-- Gulf Shores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii (Big Island)</masterLabel>
+            <translation><!-- Hawaii (Big Island) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Houston</masterLabel>
+            <translation><!-- Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huntsville</masterLabel>
+            <translation><!-- Huntsville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of White and Suffolk</masterLabel>
+            <translation><!-- Isle of White and Suffolk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jackson</masterLabel>
+            <translation><!-- Jackson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas City, KS</masterLabel>
+            <translation><!-- Kansas City, KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas City, MO</masterLabel>
+            <translation><!-- Kansas City, MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kauai</masterLabel>
+            <translation><!-- Kauai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landline NNE</masterLabel>
+            <translation><!-- Landline NNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Las Cruces</masterLabel>
+            <translation><!-- Las Cruces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Beach</masterLabel>
+            <translation><!-- Long Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Angeles</masterLabel>
+            <translation><!-- Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine Central</masterLabel>
+            <translation><!-- Maine Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine Coastal</masterLabel>
+            <translation><!-- Maine Coastal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine Metro</masterLabel>
+            <translation><!-- Maine Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine Rural</masterLabel>
+            <translation><!-- Maine Rural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui</masterLabel>
+            <translation><!-- Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle Peninsula</masterLabel>
+            <translation><!-- Middle Peninsula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi Gulf Coast</masterLabel>
+            <translation><!-- Mississippi Gulf Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montgomery</masterLabel>
+            <translation><!-- Montgomery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire Metro</masterLabel>
+            <translation><!-- New Hampshire Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire Southeast</masterLabel>
+            <translation><!-- New Hampshire Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire West</masterLabel>
+            <translation><!-- New Hampshire West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico Rural</masterLabel>
+            <translation><!-- New Mexico Rural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Orleans</masterLabel>
+            <translation><!-- New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Alabama</masterLabel>
+            <translation><!-- North Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Shore New Orleans</masterLabel>
+            <translation><!-- North Shore New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Neck.</masterLabel>
+            <translation><!-- Northern Neck. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu</masterLabel>
+            <translation><!-- Oahu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peninsula</masterLabel>
+            <translation><!-- Peninsula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pittsburgh</masterLabel>
+            <translation><!-- Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Antonio Metro</masterLabel>
+            <translation><!-- San Antonio Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Diego</masterLabel>
+            <translation><!-- San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Fe</masterLabel>
+            <translation><!-- Santa Fe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shreveport</masterLabel>
+            <translation><!-- Shreveport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Alabama</masterLabel>
+            <translation><!-- South Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southside</masterLabel>
+            <translation><!-- Southside --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Charles</masterLabel>
+            <translation><!-- St. Charles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Louis, MO</masterLabel>
+            <translation><!-- St. Louis, MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Rural Market North</masterLabel>
+            <translation><!-- Texas Rural Market North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Rural Market South</masterLabel>
+            <translation><!-- Texas Rural Market South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tidewater North</masterLabel>
+            <translation><!-- Tidewater North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tidewater South</masterLabel>
+            <translation><!-- Tidewater South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuscaloosa</masterLabel>
+            <translation><!-- Tuscaloosa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

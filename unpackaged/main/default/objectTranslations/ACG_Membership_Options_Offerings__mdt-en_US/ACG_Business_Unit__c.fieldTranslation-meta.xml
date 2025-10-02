@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Unit --></label>
+        <name>ACG_Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>ACG Core - Club 014</masterLabel>
+            <translation><!-- ACG Core - Club 014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACG Core - Others</masterLabel>
+            <translation><!-- ACG Core - Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carolinas</masterLabel>
+            <translation><!-- Carolinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

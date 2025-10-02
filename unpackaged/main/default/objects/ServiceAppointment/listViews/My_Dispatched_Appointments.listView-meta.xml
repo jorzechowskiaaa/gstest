@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Dispatched_Appointments</fullName>
+    <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6) OR (7 AND 8) AND 9</booleanFilter>
+    <columns>Appt_Number_Cash_Work_type__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <columns>Benefit_Level__c</columns>
+    <columns>Legacy_Priority_Code__c</columns>
+    <filterScope>AssignedToMe</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,En Route,On Location,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>Work_Order_Priority__c</field>
+        <operation>equals</operation>
+        <value>Medium</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>Work_Order_Priority__c</field>
+        <operation>equals</operation>
+        <value>Critical</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,En Route,On Location,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>Work_Order_Priority__c</field>
+        <operation>equals</operation>
+        <value>High</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,En Route,On Location,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>Work_Order_Priority__c</field>
+        <operation>equals</operation>
+        <value>Low</value>
+    </filters>
+    <filters>
+        <field>SchedStartTime</field>
+        <operation>equals</operation>
+    </filters>
+    <label>My Dispatched Appointments</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>X240_EXPRESS_TOWING</group>
+        <group>Y1050_GP_s_Testing_Facility</group>
+        <role>Driver</role>
+        <role>NY_Fleet_Technicians</role>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

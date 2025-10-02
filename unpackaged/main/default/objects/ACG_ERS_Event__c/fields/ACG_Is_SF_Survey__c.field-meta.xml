@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Is_SF_Survey__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identified car care visits that have been sent a survey through Salesforce</description>
+    <label>Is SF Survey</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Approved_Garage_Mapping</fullName>
+    <columns>NAME</columns>
+    <columns>Approved_Garage_Type__c</columns>
+    <columns>Ignore_Make__c</columns>
+    <columns>Ignore_Type__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Tow_Service_Reason__c</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>SETUP_TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Approved Garage Mapping</label>
+    <language>en_US</language>
+</ListView>

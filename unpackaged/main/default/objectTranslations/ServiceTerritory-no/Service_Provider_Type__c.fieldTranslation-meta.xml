@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Provider Type --></label>
+        <name>Service_Provider_Type__c</name>
+        <picklistValues>
+            <masterLabel>Club Owned Fleet (COF)</masterLabel>
+            <translation><!-- Club Owned Fleet (COF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor (C)</masterLabel>
+            <translation><!-- Contractor (C) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Commercial Service Provider (O)</masterLabel>
+            <translation><!-- Other/Commercial Service Provider (O) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Service Provider (PSP)</masterLabel>
+            <translation><!-- Preferred Service Provider (PSP) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

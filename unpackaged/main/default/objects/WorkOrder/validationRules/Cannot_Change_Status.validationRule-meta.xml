@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Status</fullName>
+    <active>false</active>
+    <description>Don&#39;t allow users to update Work Order status to Spotted.</description>
+    <errorConditionFormula>AND(
+				ISPICKVAL(Status,&#39;Spotted&#39;),
+				ISCHANGED(Status)
+				)</errorConditionFormula>
+    <errorMessage>Work Orders cannot be moved back to Spotted status</errorMessage>
+</ValidationRule>

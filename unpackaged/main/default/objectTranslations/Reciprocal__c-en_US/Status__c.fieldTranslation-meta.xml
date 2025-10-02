@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disputed</masterLabel>
+            <translation><!-- Disputed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold For Next File</masterLabel>
+            <translation><!-- Hold For Next File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manually Billed</masterLabel>
+            <translation><!-- Manually Billed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overturned Dispute</masterLabel>
+            <translation><!-- Overturned Dispute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebilled</masterLabel>
+            <translation><!-- Rebilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Club</masterLabel>
+            <translation><!-- Waiting on Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write-Off</masterLabel>
+            <translation><!-- Write-Off --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

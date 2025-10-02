@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Alternate_Vendor_Provider_Contact__c</fullName>
+    <inlineHelpText>Populate this filed with contact details if unable to locate a Contact using the lookup above.</inlineHelpText>
+    <label>Alternate Vendor/Provider Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill__c</fullName>
+    <inlineHelpText>Please include all the skills for Truck capability or select a different Truck Capability</inlineHelpText>
+    <label>Skill</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lockout Calls</fullName>
+                <default>false</default>
+                <label>Lockout Calls</label>
+            </value>
+            <value>
+                <fullName>Locksmith Calls</fullName>
+                <default>false</default>
+                <label>Locksmith Calls</label>
+            </value>
+            <value>
+                <fullName>Battery Jump</fullName>
+                <default>false</default>
+                <label>Battery Jump</label>
+            </value>
+            <value>
+                <fullName>AAA Battery Service</fullName>
+                <default>false</default>
+                <label>AAA Battery Service</label>
+            </value>
+            <value>
+                <fullName>Fuel Deliveries</fullName>
+                <default>false</default>
+                <label>Fuel Deliveries</label>
+            </value>
+            <value>
+                <fullName>Tire Changes</fullName>
+                <default>false</default>
+                <label>Tire Changes</label>
+            </value>
+            <value>
+                <fullName>Low Clearance</fullName>
+                <default>false</default>
+                <label>Low Clearance</label>
+            </value>
+            <value>
+                <fullName>Extrication</fullName>
+                <default>false</default>
+                <label>Extrication</label>
+            </value>
+            <value>
+                <fullName>RV/Heavy Duty Tows</fullName>
+                <default>false</default>
+                <label>RV/Heavy Duty Tows</label>
+            </value>
+            <value>
+                <fullName>Flatbed Tow</fullName>
+                <default>false</default>
+                <label>Flatbed Tow</label>
+            </value>
+            <value>
+                <fullName>Motorcycles</fullName>
+                <default>false</default>
+                <label>Motorcycles</label>
+            </value>
+            <value>
+                <fullName>Wheel Lift Tows</fullName>
+                <default>false</default>
+                <label>Wheel Lift Tows</label>
+            </value>
+            <value>
+                <fullName>Dollies</fullName>
+                <default>false</default>
+                <label>Dollies</label>
+            </value>
+            <value>
+                <fullName>Battery Technician</fullName>
+                <default>false</default>
+                <label>Battery Technician</label>
+            </value>
+            <value>
+                <fullName>Motorcyle Expert</fullName>
+                <default>false</default>
+                <label>Motorcyle Expert</label>
+            </value>
+            <value>
+                <fullName>Locksmith Expert</fullName>
+                <default>false</default>
+                <label>Locksmith Expert</label>
+            </value>
+            <value>
+                <fullName>Motorcycle Expert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Motorcycle Expert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

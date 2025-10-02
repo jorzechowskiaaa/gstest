@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>D3_Address_Geocode__c</fullName>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <label>D3 Address Geocode</label>
+    <required>false</required>
+    <scale>5</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Location</type>
+</CustomField>

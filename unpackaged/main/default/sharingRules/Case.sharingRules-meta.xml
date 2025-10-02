@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Always_Share_Cases_for_Internal_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Always Share Cases for Internal Users</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Landline Call Cancellation,Declined Work,Violation Resolution,ERS,Non Technology</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Case_with_BO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share all Cases with BO with Public Read/Write which in conjunction with Permission Sets will determine the final permission each BO persona will have.</description>
+        <label>Share Case with BO</label>
+        <sharedTo>
+            <group>Back_Office_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>ACG_Call_Id__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Call_Receiver_access_to_club_dispatchers_cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Gives ERS Advocates to see other advocates cases if a member calls back. They will see existing notes.</description>
+        <label>Call Receiver access to club dispatchers cases</label>
+        <sharedTo>
+            <role>Club_Dispatcher</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Club_Dispatcher</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

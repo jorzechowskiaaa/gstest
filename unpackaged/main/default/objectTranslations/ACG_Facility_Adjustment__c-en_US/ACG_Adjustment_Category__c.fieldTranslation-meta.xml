@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Adjustment Category --></label>
+        <name>ACG_Adjustment_Category__c</name>
+        <picklistValues>
+            <masterLabel>AAR</masterLabel>
+            <translation><!-- AAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advances</masterLabel>
+            <translation><!-- Advances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BKGRND</masterLabel>
+            <translation><!-- BKGRND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Reciprocal</masterLabel>
+            <translation><!-- Basic Reciprocal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery Warranty Reserve-Club Assist</masterLabel>
+            <translation><!-- Battery Warranty Reserve-Club Assist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery Warranty Reserve-Interstate</masterLabel>
+            <translation><!-- Battery Warranty Reserve-Interstate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery and Battery Charger Costs</masterLabel>
+            <translation><!-- Battery and Battery Charger Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus</masterLabel>
+            <translation><!-- Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damage</masterLabel>
+            <translation><!-- Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Subsidy</masterLabel>
+            <translation><!-- Fuel Subsidy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOODYEAR</masterLabel>
+            <translation><!-- GOODYEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interstate Battery</masterLabel>
+            <translation><!-- Interstate Battery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF</masterLabel>
+            <translation><!-- NSF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reciprocal</masterLabel>
+            <translation><!-- Other Reciprocal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overdrawn</masterLabel>
+            <translation><!-- Overdrawn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus Reciprocal</masterLabel>
+            <translation><!-- Plus Reciprocal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier</masterLabel>
+            <translation><!-- Premier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier Reciprocal</masterLabel>
+            <translation><!-- Premier Reciprocal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV</masterLabel>
+            <translation><!-- RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Reciprocal</masterLabel>
+            <translation><!-- RV Reciprocal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent</masterLabel>
+            <translation><!-- Rent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign On Bonus</masterLabel>
+            <translation><!-- Sign On Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonsio</masterLabel>
+            <translation><!-- Sonsio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tablets</masterLabel>
+            <translation><!-- Tablets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Lease</masterLabel>
+            <translation><!-- Truck Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Purchase</masterLabel>
+            <translation><!-- Truck Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

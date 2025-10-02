@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Updates_from_Dispatchers</fullName>
+    <active>true</active>
+    <description>Prevent Club Dispatchers from making edits.</description>
+    <errorConditionFormula>$Profile.Name = &#39;FSL Club Dispatcher&#39;</errorConditionFormula>
+    <errorMessage>You are not allowed to make updates to a service territory. Please contact your supervisor or CSR.</errorMessage>
+</ValidationRule>

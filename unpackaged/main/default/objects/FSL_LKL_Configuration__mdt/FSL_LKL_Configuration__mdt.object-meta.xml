@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Any configuration settings used by the FSL_LastKnownLocationUtility class</description>
+    <label>FSL LKL Configuration</label>
+    <pluralLabel>FSL LKL Configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

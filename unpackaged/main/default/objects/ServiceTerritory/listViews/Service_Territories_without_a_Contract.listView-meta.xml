@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territories_without_a_Contract</fullName>
+    <columns>Name</columns>
+    <columns>Description</columns>
+    <columns>Contract__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>Eligible_for_Payment__c</columns>
+    <columns>IsActive</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>FSL_Manager__c</columns>
+    <columns>Facility_Taxable__c</columns>
+    <columns>Payment_Schedule__c</columns>
+    <columns>Enable_Calculate_Mileage__c</columns>
+    <columns>Enable_Calculate_Tow_Mileage__c</columns>
+    <columns>Group__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Group__c</field>
+        <operation>equals</operation>
+        <value>CT,MA,NWJERSEY,RI,YORK</value>
+    </filters>
+    <filters>
+        <field>Contract__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Service Territories without a Contract</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

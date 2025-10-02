@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tow_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(IsBlank(Tow_Street__c)),Tow_Street__c &amp; &#39;, &#39;, &#39;&#39;) &amp; IF(NOT(IsBlank(Tow_City__c)),Tow_City__c &amp; &#39;, &#39;,&#39;&#39;) &amp; IF(NOT(IsBlank(Tow_State__c)),Tow_State__c &amp; &#39; &#39;,&#39;&#39;) &amp; IF(NOT(IsBlank(Tow_Postal_Code__c)), Tow_Postal_Code__c,&#39;&#39;)</formula>
+    <label>Tow Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

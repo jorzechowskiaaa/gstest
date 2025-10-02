@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orange_Hub_Live_Service_Appointments</fullName>
+    <columns>Unattended_Tow__c</columns>
+    <columns>KMI__c</columns>
+    <columns>Age__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>Status</columns>
+    <columns>WorkType</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>Red_Flag__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>11/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Declined,Spotted,Scheduled,Dispatched,Canceled</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Landline_Resource__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Service_Territory_Name__c</field>
+        <operation>notContain</operation>
+        <value>Y1050,996</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>0HhJx0000000SKT,0HhJx0000000SIr,0HhJx0000000SM5,0HhJx0000000SNh</value>
+    </filters>
+    <label>Orange Hub Live Service Appointments</label>
+    <sharedTo>
+        <group>Delegated_Admin_Group</group>
+        <role>Dispatcher_Supervisor</role>
+    </sharedTo>
+</ListView>

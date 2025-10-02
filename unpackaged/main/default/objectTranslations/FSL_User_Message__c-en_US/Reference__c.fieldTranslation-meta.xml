@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reference --></label>
+        <name>Reference__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleared</masterLabel>
+            <translation><!-- Cleared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Route</masterLabel>
+            <translation><!-- En Route --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Tow</masterLabel>
+            <translation><!-- In Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Location</masterLabel>
+            <translation><!-- On Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Override Resource Preference</masterLabel>
+            <translation><!-- Override Resource Preference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Complete</masterLabel>
+            <translation><!-- Tow Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Loaded</masterLabel>
+            <translation><!-- Tow Loaded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassignment</masterLabel>
+            <translation><!-- Unassignment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

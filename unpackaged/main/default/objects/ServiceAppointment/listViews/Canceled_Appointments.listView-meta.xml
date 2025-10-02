@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canceled_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Status</columns>
+    <columns>WorkType</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>FSL__InJeopardyReason__c</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <filters>
+        <field>Subject</field>
+        <operation>equals</operation>
+        <value>Breakdown Appointment</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>11/1/2024 12:00 AM</value>
+    </filters>
+    <label>Canceled Appointments</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Club_Dispatcher</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

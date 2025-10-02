@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isHighPriority__c</fullName>
+    <formula>If(ISPICKVAL(Work_Order__r.Priority, &#39;High&#39;), TRUE, FALSE)</formula>
+    <label>High Priority</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

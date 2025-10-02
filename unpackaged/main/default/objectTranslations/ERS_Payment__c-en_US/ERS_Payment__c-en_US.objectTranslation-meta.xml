@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ERS Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ERS Payments</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- Call Adjustment --></label>
+        <name>Call_Adjustment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Call --></label>
+        <name>Call_Payment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Facility Adjustment --></label>
+        <name>Facility_Adjustment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reimbursement Payment --></label>
+        <name>Reimbursement_Payment</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Confirm that Audit has been completed for this payment --></errorMessage>
+        <name>Audit_Pending_For_ERS_Payment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Processed. This Payment can no longer be updated. --></errorMessage>
+        <name>Payment_Processed_Status</name>
+    </validationRules>
+</CustomObjectTranslation>

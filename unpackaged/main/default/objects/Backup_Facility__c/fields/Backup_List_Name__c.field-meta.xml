@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Backup_List_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Backup_Level__c) &amp; &quot; - &quot; &amp;  Backup_Facility__r.Name &amp; if(Backup_Facility__r.IsLandline__c = TRUE,&quot;(LL)&quot;,&quot;&quot;)</formula>
+    <label>Backup List Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

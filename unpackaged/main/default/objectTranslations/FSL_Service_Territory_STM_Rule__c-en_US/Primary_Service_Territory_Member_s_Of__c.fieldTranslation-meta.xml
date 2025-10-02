@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Provide the territory of those primary and its sibling primary STM&apos;s can become STM&apos;s of the given &apos;of Service Territory&apos; --></help>
+        <label><!-- Primary Service Territory Member&apos;s Of --></label>
+        <name>Primary_Service_Territory_Member_s_Of__c</name>
+        <relationshipLabel><!-- Service Territory STM Rules --></relationshipLabel>
+    </CustomFieldTranslation>

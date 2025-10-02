@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding_Queue_Service_Territories</fullName>
+    <columns>Name</columns>
+    <columns>Facility_Number__c</columns>
+    <columns>OperatingHours</columns>
+    <columns>ParentTerritory</columns>
+    <columns>IsActive</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ParentTerritory</field>
+        <operation>contains</operation>
+        <value>HOLDING QUEUE</value>
+    </filters>
+    <label>Holding Queue Service Territories</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

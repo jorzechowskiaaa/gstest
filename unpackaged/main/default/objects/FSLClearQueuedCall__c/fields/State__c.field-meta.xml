@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <description>Indicates if the call is ready to be cleared or waiting for Glympse mileage information or if there was an error in clearing it</description>
+    <label>State</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending</fullName>
+                <default>true</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Cleared With Mileage</fullName>
+                <default>false</default>
+                <label>Cleared With Mileage</label>
+            </value>
+            <value>
+                <fullName>Cleared Without Mileage</fullName>
+                <default>false</default>
+                <label>Cleared Without Mileage</label>
+            </value>
+            <value>
+                <fullName>Case Created</fullName>
+                <default>false</default>
+                <label>Case Created</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

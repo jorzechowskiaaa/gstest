@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>true</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
+    <emailSenderAddress>no-reply-salesforce@ers.aaanortheast.com</emailSenderAddress>
+    <emailSenderName>NE Contractor Community</emailSenderName>
+    <embeddedLoginEnabled>true</embeddedLoginEnabled>
+    <enableApexCDNCaching>false</enableApexCDNCaching>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableExpFriendlyUrlsAsDefault>false</enableExpFriendlyUrlsAsDefault>
+    <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableImageOptimizationCDN>true</enableImageOptimizationCDN>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableLWRExperienceConnectedApp>false</enableLWRExperienceConnectedApp>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
+    <headlessRegistrationTemplate>unfiled$public/CommunityHeadlessRegistrationTemplate</headlessRegistrationTemplate>
+    <networkMemberGroups>
+        <permissionSet>FSL_Community_Dispatcher_Permissions</permissionSet>
+        <permissionSet>Read_Only_Contracts_Statements_Invoices_RatelineItems_and_Facility_Adjustments</permissionSet>
+        <profile>Admin</profile>
+        <profile>Admin Support</profile>
+        <profile>FSL Club Administrator</profile>
+        <profile>FSL Contractor Dispatcher Access</profile>
+        <profile>FSL Contractor Lead Technician</profile>
+        <profile>Tracker Resource RUL</profile>
+        <profile>FSL Contractor Technician Access</profile>
+        <profile>FSL Contractor Technician Access with OL</profile>
+        <profile>FSL Contractor Technician Access Testing</profile>
+        <profile>BO PM - Full Access</profile>
+        <profile>FSL Dispatch Supervisor</profile>
+        <profile>FSL Club Dispatcher</profile>
+        <profile>FSL Contractor Lead Technician with OL</profile>
+        <profile>FSL Contractor Lead Technician with AUTO_OL</profile>
+        <profile>FSl Contractor Technician Access with AUTO_OL</profile>
+        <profile>FSL Mobile %28Contractor Technician%29 with OL</profile>
+        <profile>FSL Mobile %28Contractor Lead Technician%29 with OL</profile>
+        <profile>FSL Mobile %28Fleet Technician%29</profile>
+        <profile>CLONE LOGIN ISSUE FSL CONTRACTOR DISPATCHER</profile>
+        <profile>CLONE LOGIN TESTING FSL Contractor Technician</profile>
+        <profile>CLONE LOGIN ISSUE FSL Mobile Fleet Lead Technician</profile>
+        <profile>CLONE LOGIN ISSUE FSL Mobile Fleet Lead Technician with OL</profile>
+        <profile>CLONE LOGIN ISSUE TEST FSL Mobile Fleet</profile>
+        <profile>CLONE LOGIN ISSUE FSL Mobile %28Fleet Technician%29 with OL</profile>
+        <profile>CLONE LOGIN ISSUE FSL Contractor Technician Access with OL</profile>
+        <profile>CLONE LOGIN ISSUE FSL Contractor Lead Technician</profile>
+        <profile>Testing Contractor Technician Access Clone - Lightning Flow</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Designer</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Standard</homePageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Northeast_Contractor_Community1</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>Northeast_Contractor_Community</site>
+    <siteArchiveStatus>NotArchived</siteArchiveStatus>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>NEContractorCommunity</urlPathPrefix>
+    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

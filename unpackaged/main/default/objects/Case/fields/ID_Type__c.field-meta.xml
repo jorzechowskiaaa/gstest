@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ID_Type__c</fullName>
+    <label>ID Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_of_Claims_Request__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CSIU Lit Log</fullName>
+                <default>false</default>
+                <label>CSIU Lit Log</label>
+            </value>
+            <value>
+                <fullName>Regional Lit Log</fullName>
+                <default>false</default>
+                <label>Regional Lit Log</label>
+            </value>
+            <value>
+                <fullName>MI BI Lit Log</fullName>
+                <default>false</default>
+                <label>MI BI Lit Log</label>
+            </value>
+            <value>
+                <fullName>MI PIP Lit Log</fullName>
+                <default>false</default>
+                <label>MI PIP Lit Log</label>
+            </value>
+            <value>
+                <fullName>MI Non Metro Lit Log</fullName>
+                <default>false</default>
+                <label>MI Non Metro Lit Log</label>
+            </value>
+            <value>
+                <fullName>Regional Manager</fullName>
+                <default>false</default>
+                <label>Regional Manager</label>
+            </value>
+            <value>
+                <fullName>MI Manager</fullName>
+                <default>false</default>
+                <label>MI Manager</label>
+            </value>
+            <value>
+                <fullName>CSIU Manager</fullName>
+                <default>false</default>
+                <label>CSIU Manager</label>
+            </value>
+            <value>
+                <fullName>PVU User</fullName>
+                <default>false</default>
+                <label>PVU User</label>
+            </value>
+            <value>
+                <fullName>PVU Manager</fullName>
+                <default>false</default>
+                <label>PVU Manager</label>
+            </value>
+            <value>
+                <fullName>VOC User</fullName>
+                <default>false</default>
+                <label>VOC User</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New PVU ID</controllingFieldValue>
+            <valueName>PVU User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New PVU ID</controllingFieldValue>
+            <valueName>PVU Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>CSIU Lit Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>Regional Lit Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>MI BI Lit Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>MI PIP Lit Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>MI Non Metro Lit Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>Regional Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>MI Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Lit Log ID</controllingFieldValue>
+            <valueName>CSIU Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New VOC ID</controllingFieldValue>
+            <valueName>VOC User</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

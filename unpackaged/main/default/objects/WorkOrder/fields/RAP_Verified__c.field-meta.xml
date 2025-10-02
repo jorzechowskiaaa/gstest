@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RAP_Verified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked, the technician has already verified the RAP requirements in the RAP subflow</description>
+    <inlineHelpText>If checked, the technician has already verified the RAP requirements in the RAP subflow</inlineHelpText>
+    <label>RAP Verified</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Calls_Green</fullName>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Status</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Member_Benefit_Level__c</columns>
+    <columns>Payment_Required__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <columns>ServiceTerritory</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>0HhJx0000000Fwk,0HhJx0000000Hgn,0HhJx0000000Fwl,0HhJx0000000Fwm,0HhJx0000000Fwn</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notContain</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>11/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>,0HhJx0000000Hgn,0HhJx0000000Fwm,0HhJx0000000Fwn,0HhJx0000000Fwk,0HhJx0000000Fwl</value>
+    </filters>
+    <label>Green Active Calls ALL SERV APPT</label>
+    <sharedTo>
+        <role>Club_Dispatcher</role>
+        <role>Dispatcher_Supervisor</role>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

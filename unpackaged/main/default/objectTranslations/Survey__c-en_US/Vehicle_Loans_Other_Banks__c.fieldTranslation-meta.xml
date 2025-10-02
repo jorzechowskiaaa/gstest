@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Applied for vehicle loans with other banks (Check =True) --></help>
+        <label><!-- Vehicle Loans Other Banks --></label>
+        <name>Vehicle_Loans_Other_Banks__c</name>
+    </CustomFieldTranslation>

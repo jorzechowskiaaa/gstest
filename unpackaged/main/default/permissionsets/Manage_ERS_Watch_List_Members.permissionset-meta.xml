@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>allows user to read, create, and edit ERS watch list members</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage ERS Watch List Members</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERS_Watch_List__c.AAA_ACA_AssociateID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERS_Watch_List__c.AAA_ACA_Club_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERS_Watch_List__c.AAA_ACA_MembershipID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERS_Watch_List__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ERS_Watch_List__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Winter_Advisory__c.ERS_Watch_List</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>ERS_Watch_List__c</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
+</PermissionSet>

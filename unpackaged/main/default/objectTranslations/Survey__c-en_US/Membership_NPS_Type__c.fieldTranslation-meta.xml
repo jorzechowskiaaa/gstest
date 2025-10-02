@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Membership NPS Type --></label>
+        <name>Membership_NPS_Type__c</name>
+        <picklistValues>
+            <masterLabel>Join</masterLabel>
+            <translation><!-- Join --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew</masterLabel>
+            <translation><!-- Renew --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

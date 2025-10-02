@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Sub_category__c</fullName>
+    <description>Dependent field off of Category</description>
+    <label>Sub-category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AC Machine</fullName>
+                <default>false</default>
+                <label>AC Machine</label>
+            </value>
+            <value>
+                <fullName>Add AR Account Request</fullName>
+                <default>false</default>
+                <label>Add AR Account Request</label>
+            </value>
+            <value>
+                <fullName>Add Employee</fullName>
+                <default>false</default>
+                <label>Add Employee</label>
+            </value>
+            <value>
+                <fullName>Add Part</fullName>
+                <default>false</default>
+                <label>Add Part</label>
+            </value>
+            <value>
+                <fullName>Alignment Rack</fullName>
+                <default>false</default>
+                <label>Alignment Rack</label>
+            </value>
+            <value>
+                <fullName>AP</fullName>
+                <default>false</default>
+                <label>AP</label>
+            </value>
+            <value>
+                <fullName>Appliances</fullName>
+                <default>false</default>
+                <label>Appliances</label>
+            </value>
+            <value>
+                <fullName>Awning</fullName>
+                <default>false</default>
+                <label>Awning</label>
+            </value>
+            <value>
+                <fullName>Brake Lathe</fullName>
+                <default>false</default>
+                <label>Brake Lathe</label>
+            </value>
+            <value>
+                <fullName>CC Device</fullName>
+                <default>false</default>
+                <label>CC Device</label>
+            </value>
+            <value>
+                <fullName>Citrix/ROW</fullName>
+                <default>false</default>
+                <label>Citrix/ROW</label>
+            </value>
+            <value>
+                <fullName>Compressor</fullName>
+                <default>false</default>
+                <label>Compressor</label>
+            </value>
+            <value>
+                <fullName>Convert to Est</fullName>
+                <default>false</default>
+                <label>Convert to Est</label>
+            </value>
+            <value>
+                <fullName>Core Issue</fullName>
+                <default>false</default>
+                <label>Core Issue</label>
+            </value>
+            <value>
+                <fullName>Coupon Issue</fullName>
+                <default>false</default>
+                <label>Coupon Issue</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Customer/Vehicle Issue</fullName>
+                <default>false</default>
+                <label>Customer/Vehicle Issue</label>
+            </value>
+            <value>
+                <fullName>Data Corruption</fullName>
+                <default>false</default>
+                <label>Data Corruption</label>
+            </value>
+            <value>
+                <fullName>Deactivate Smart Job</fullName>
+                <default>false</default>
+                <label>Deactivate Smart Job</label>
+            </value>
+            <value>
+                <fullName>Duplicate Record</fullName>
+                <default>false</default>
+                <label>Duplicate Record</label>
+            </value>
+            <value>
+                <fullName>Electrical/Lighting</fullName>
+                <default>false</default>
+                <label>Electrical/Lighting</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Exhaust System</fullName>
+                <default>false</default>
+                <label>Exhaust System</label>
+            </value>
+            <value>
+                <fullName>Exterior Doors</fullName>
+                <default>false</default>
+                <label>Exterior Doors</label>
+            </value>
+            <value>
+                <fullName>Fleet Add</fullName>
+                <default>false</default>
+                <label>Fleet Add</label>
+            </value>
+            <value>
+                <fullName>Fleet Help Request</fullName>
+                <default>false</default>
+                <label>Fleet Help Request</label>
+            </value>
+            <value>
+                <fullName>Fleet Update</fullName>
+                <default>false</default>
+                <label>Fleet Update</label>
+            </value>
+            <value>
+                <fullName>Flooring/Carpet</fullName>
+                <default>false</default>
+                <label>Flooring/Carpet</label>
+            </value>
+            <value>
+                <fullName>Furniture</fullName>
+                <default>false</default>
+                <label>Furniture</label>
+            </value>
+            <value>
+                <fullName>Garage Doors</fullName>
+                <default>false</default>
+                <label>Garage Doors</label>
+            </value>
+            <value>
+                <fullName>Ghost Post</fullName>
+                <default>false</default>
+                <label>Ghost Post</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>Incorrect Customer/Vehicle</fullName>
+                <default>false</default>
+                <label>Incorrect Customer/Vehicle</label>
+            </value>
+            <value>
+                <fullName>Incorrect Mileage</fullName>
+                <default>false</default>
+                <label>Incorrect Mileage</label>
+            </value>
+            <value>
+                <fullName>Incorrect RO</fullName>
+                <default>false</default>
+                <label>Incorrect RO</label>
+            </value>
+            <value>
+                <fullName>Inspection Machine</fullName>
+                <default>false</default>
+                <label>Inspection Machine</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Interior Doors</fullName>
+                <default>false</default>
+                <label>Interior Doors</label>
+            </value>
+            <value>
+                <fullName>Inventory not Decreasing</fullName>
+                <default>false</default>
+                <label>Inventory not Decreasing</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>License Issue</fullName>
+                <default>false</default>
+                <label>License Issue</label>
+            </value>
+            <value>
+                <fullName>Lift</fullName>
+                <default>false</default>
+                <label>Lift</label>
+            </value>
+            <value>
+                <fullName>Mark Non Stocking</fullName>
+                <default>false</default>
+                <label>Mark Non Stocking</label>
+            </value>
+            <value>
+                <fullName>MechanicNet</fullName>
+                <default>false</default>
+                <label>MechanicNet</label>
+            </value>
+            <value>
+                <fullName>Merge</fullName>
+                <default>false</default>
+                <label>Merge</label>
+            </value>
+            <value>
+                <fullName>Michelin</fullName>
+                <default>false</default>
+                <label>Michelin</label>
+            </value>
+            <value>
+                <fullName>Missing AP</fullName>
+                <default>false</default>
+                <label>Missing AP</label>
+            </value>
+            <value>
+                <fullName>Move Employee</fullName>
+                <default>false</default>
+                <label>Move Employee</label>
+            </value>
+            <value>
+                <fullName>MSC Error</fullName>
+                <default>false</default>
+                <label>MSC Error</label>
+            </value>
+            <value>
+                <fullName>Napa/Advance</fullName>
+                <default>false</default>
+                <label>Napa/Advance</label>
+            </value>
+            <value>
+                <fullName>New Hire/ Move</fullName>
+                <default>false</default>
+                <label>New Hire/ Move</label>
+            </value>
+            <value>
+                <fullName>New Smart Job Request</fullName>
+                <default>false</default>
+                <label>New Smart Job Request</label>
+            </value>
+            <value>
+                <fullName>New Vendor</fullName>
+                <default>false</default>
+                <label>New Vendor</label>
+            </value>
+            <value>
+                <fullName>No Show</fullName>
+                <default>false</default>
+                <label>No Show</label>
+            </value>
+            <value>
+                <fullName>Oil Water Separator</fullName>
+                <default>false</default>
+                <label>Oil Water Separator</label>
+            </value>
+            <value>
+                <fullName>Parking Lot</fullName>
+                <default>false</default>
+                <label>Parking Lot</label>
+            </value>
+            <value>
+                <fullName>Part Issue</fullName>
+                <default>false</default>
+                <label>Part Issue</label>
+            </value>
+            <value>
+                <fullName>Parts</fullName>
+                <default>false</default>
+                <label>Parts</label>
+            </value>
+            <value>
+                <fullName>Parts Washer</fullName>
+                <default>false</default>
+                <label>Parts Washer</label>
+            </value>
+            <value>
+                <fullName>Payment Issue</fullName>
+                <default>false</default>
+                <label>Payment Issue</label>
+            </value>
+            <value>
+                <fullName>Plumbing</fullName>
+                <default>false</default>
+                <label>Plumbing</label>
+            </value>
+            <value>
+                <fullName>Posting Inventory Error</fullName>
+                <default>false</default>
+                <label>Posting Inventory Error</label>
+            </value>
+            <value>
+                <fullName>Posting Issue</fullName>
+                <default>false</default>
+                <label>Posting Issue</label>
+            </value>
+            <value>
+                <fullName>Printing</fullName>
+                <default>false</default>
+                <label>Printing</label>
+            </value>
+            <value>
+                <fullName>Remove Employee</fullName>
+                <default>false</default>
+                <label>Remove Employee</label>
+            </value>
+            <value>
+                <fullName>Repair Database</fullName>
+                <default>false</default>
+                <label>Repair Database</label>
+            </value>
+            <value>
+                <fullName>Repair Shop</fullName>
+                <default>false</default>
+                <label>Repair Shop</label>
+            </value>
+            <value>
+                <fullName>Return Issue</fullName>
+                <default>false</default>
+                <label>Return Issue</label>
+            </value>
+            <value>
+                <fullName>RHW</fullName>
+                <default>false</default>
+                <label>RHW</label>
+            </value>
+            <value>
+                <fullName>RO</fullName>
+                <default>false</default>
+                <label>RO</label>
+            </value>
+            <value>
+                <fullName>Roof</fullName>
+                <default>false</default>
+                <label>Roof</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Scheduler</fullName>
+                <default>false</default>
+                <label>Scheduler</label>
+            </value>
+            <value>
+                <fullName>Sidewalks</fullName>
+                <default>false</default>
+                <label>Sidewalks</label>
+            </value>
+            <value>
+                <fullName>Signage</fullName>
+                <default>false</default>
+                <label>Signage</label>
+            </value>
+            <value>
+                <fullName>Smart Job Issue</fullName>
+                <default>false</default>
+                <label>Smart Job Issue</label>
+            </value>
+            <value>
+                <fullName>SW Error</fullName>
+                <default>false</default>
+                <label>SW Error</label>
+            </value>
+            <value>
+                <fullName>Synchrony</fullName>
+                <default>false</default>
+                <label>Synchrony</label>
+            </value>
+            <value>
+                <fullName>System</fullName>
+                <default>false</default>
+                <label>System</label>
+            </value>
+            <value>
+                <fullName>Tech Missing on Labor</fullName>
+                <default>false</default>
+                <label>Tech Missing on Labor</label>
+            </value>
+            <value>
+                <fullName>Telecheck/Check</fullName>
+                <default>false</default>
+                <label>Telecheck/Check</label>
+            </value>
+            <value>
+                <fullName>Template Issue/Format</fullName>
+                <default>false</default>
+                <label>Template Issue/Format</label>
+            </value>
+            <value>
+                <fullName>Tempus</fullName>
+                <default>false</default>
+                <label>Tempus</label>
+            </value>
+            <value>
+                <fullName>Tempus Portal</fullName>
+                <default>false</default>
+                <label>Tempus Portal</label>
+            </value>
+            <value>
+                <fullName>Tire Changer</fullName>
+                <default>false</default>
+                <label>Tire Changer</label>
+            </value>
+            <value>
+                <fullName>Update Smart Job</fullName>
+                <default>false</default>
+                <label>Update Smart Job</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <label>Vehicle</label>
+            </value>
+            <value>
+                <fullName>Vendor Order Error</fullName>
+                <default>false</default>
+                <label>Vendor Order Error</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Waste Oil Heater</fullName>
+                <default>false</default>
+                <label>Waste Oil Heater</label>
+            </value>
+            <value>
+                <fullName>Waste Oil Tanks</fullName>
+                <default>false</default>
+                <label>Waste Oil Tanks</label>
+            </value>
+            <value>
+                <fullName>Water Heater</fullName>
+                <default>false</default>
+                <label>Water Heater</label>
+            </value>
+            <value>
+                <fullName>Wheel Balancer</fullName>
+                <default>false</default>
+                <label>Wheel Balancer</label>
+            </value>
+            <value>
+                <fullName>Windows</fullName>
+                <default>false</default>
+                <label>Windows</label>
+            </value>
+            <value>
+                <fullName>Quarterly Inspection</fullName>
+                <default>false</default>
+                <label>Quarterly Inspection</label>
+            </value>
+            <value>
+                <fullName>Semi-Annual Inspection</fullName>
+                <default>false</default>
+                <label>Semi-Annual Inspection</label>
+            </value>
+            <value>
+                <fullName>Annual Inspection</fullName>
+                <default>false</default>
+                <label>Annual Inspection</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>AAA Visa</fullName>
+                <default>false</default>
+                <label>AAA Visa</label>
+            </value>
+            <value>
+                <fullName>GoodRx</fullName>
+                <default>false</default>
+                <label>GoodRx</label>
+            </value>
+            <value>
+                <fullName>LifeLock</fullName>
+                <default>false</default>
+                <label>LifeLock</label>
+            </value>
+            <value>
+                <fullName>App Download</fullName>
+                <default>false</default>
+                <label>App Download</label>
+            </value>
+            <value>
+                <fullName>FSL Login</fullName>
+                <default>false</default>
+                <label>FSL Login</label>
+            </value>
+            <value>
+                <fullName>Glympse Login</fullName>
+                <default>false</default>
+                <label>Glympse Login</label>
+            </value>
+            <value>
+                <fullName>Cannot See Calls</fullName>
+                <default>false</default>
+                <label>Cannot See Calls</label>
+            </value>
+            <value>
+                <fullName>Call Clearing</fullName>
+                <default>false</default>
+                <label>Call Clearing</label>
+            </value>
+            <value>
+                <fullName>Reports/Dashboards</fullName>
+                <default>false</default>
+                <label>Reports/Dashboards</label>
+            </value>
+            <value>
+                <fullName>Operational Issues</fullName>
+                <default>false</default>
+                <label>Operational Issues</label>
+            </value>
+            <value>
+                <fullName>Operation Hours</fullName>
+                <default>false</default>
+                <label>Operation Hours</label>
+            </value>
+            <value>
+                <fullName>Technician Process Issues</fullName>
+                <default>false</default>
+                <label>Technician Process Issues</label>
+            </value>
+            <value>
+                <fullName>Auditing Issue</fullName>
+                <default>false</default>
+                <label>Auditing Issue</label>
+            </value>
+            <value>
+                <fullName>Profile</fullName>
+                <default>false</default>
+                <label>Profile</label>
+            </value>
+            <value>
+                <fullName>Permission Set</fullName>
+                <default>false</default>
+                <label>Permission Set</label>
+            </value>
+            <value>
+                <fullName>Role</fullName>
+                <default>false</default>
+                <label>Role</label>
+            </value>
+            <value>
+                <fullName>Owner Creation</fullName>
+                <default>false</default>
+                <label>Owner Creation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

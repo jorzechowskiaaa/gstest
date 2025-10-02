@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- On/Off to run InDay upon cancellation of Call --></help>
+        <label><!-- Run InDay on Cancellation --></label>
+        <name>Run_InDay_on_Cancellation__c</name>
+    </CustomFieldTranslation>

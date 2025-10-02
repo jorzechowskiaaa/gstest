@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Type__c</fullName>
+    <label>Technology Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full FSL Technology</fullName>
+                <default>false</default>
+                <label>Full FSL Technology</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Landline</fullName>
+                <default>false</default>
+                <label>Landline</label>
+            </value>
+            <value>
+                <fullName>TowBook</fullName>
+                <default>false</default>
+                <label>TowBook</label>
+            </value>
+            <value>
+                <fullName>TowBook Notify</fullName>
+                <default>false</default>
+                <label>TowBook Notify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

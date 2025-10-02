@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collision</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>T_Code__c</columns>
+    <columns>Tow_Request_Reason__c</columns>
+    <columns>Priority__c</columns>
+    <columns>PCC_DISP_CODE__c</columns>
+    <columns>Work_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Vehicle_Lockout_Reason__c</field>
+        <operation>equals</operation>
+        <value>Keys Locked in Trunk - No Release</value>
+    </filters>
+    <label>Collision</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

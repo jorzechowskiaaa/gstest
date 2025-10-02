@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Creation</fullName>
+    <active>false</active>
+    <description>Restrict creation of service resources to System Admins and FSL Club Administrator</description>
+    <errorConditionFormula>OR(CreatedBy.Profile.Name != &#39;FSL Club Administrator&#39;, CreatedBy.Profile.Name != &#39;System Administrator&#39;)</errorConditionFormula>
+    <errorMessage>Your permissions do not allow you to create Service Resources. Please contact your administrator.</errorMessage>
+</ValidationRule>

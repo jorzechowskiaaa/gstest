@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KMI_Auto_Call_Error__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to update the checkbox based on Call comments</description>
+    <label>KMI Auto Call Error</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

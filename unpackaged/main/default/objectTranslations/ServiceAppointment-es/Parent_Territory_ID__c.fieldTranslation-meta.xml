@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the internal SF ID for the Parent Territory of the Service Territory --></help>
+        <label><!-- Parent Territory ID --></label>
+        <name>Parent_Territory_ID__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Currently_Scheduled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Updated every time the Last Known Location Util Runs - Reflects in the resource is currently on the schedule</description>
+    <label>On Schedule</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

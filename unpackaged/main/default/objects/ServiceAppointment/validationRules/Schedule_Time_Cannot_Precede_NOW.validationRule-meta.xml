@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Time_Cannot_Precede_NOW</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Permission.Allow_to_schedule_before_earliest_start = FALSE &amp;&amp; ISCHANGED( SchedStartTime) &amp;&amp; SchedStartTime &lt; (NOW()-(5/1440))</errorConditionFormula>
+    <errorMessage>Scheduled Start cannot precede current time.</errorMessage>
+</ValidationRule>

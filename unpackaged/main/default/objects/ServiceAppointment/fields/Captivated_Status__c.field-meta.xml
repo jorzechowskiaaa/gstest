@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Captivated_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Status), 
+&#39;Spotted&#39;, &#39;SP&#39;, 
+&#39;Scheduled&#39;, &#39;AS&#39;,
+&#39;Dispatched&#39;, &#39;DI&#39;,
+&#39;En Route&#39;, &#39;ER&#39;,
+&#39;On Location&#39;, &#39;OL&#39;,
+&#39;Cleared&#39;, &#39;CL&#39;,
+&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Captivated Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

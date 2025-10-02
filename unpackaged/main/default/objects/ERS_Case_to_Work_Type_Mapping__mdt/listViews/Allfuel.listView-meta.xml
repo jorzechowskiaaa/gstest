@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allfuel</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>Vehicle_Lockout_Reason__c</columns>
+    <columns>Work_Type__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Case_to_Work_Type_Mapping_Status__c</columns>
+    <columns>Flat_Tire_Status__c</columns>
+    <columns>Gross_Weight__c</columns>
+    <columns>PCC_DISP_CODE__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>Vehicle_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Service_Type__c</field>
+        <operation>contains</operation>
+        <value>flat</value>
+    </filters>
+    <label>flats</label>
+    <language>en_US</language>
+</ListView>

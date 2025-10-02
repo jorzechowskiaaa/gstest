@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains the configuration for tasks used called in the minute schedule</description>
+    <label>FSL Minute Schedule Task</label>
+    <pluralLabel>FSL Minute Schedule Tasks</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

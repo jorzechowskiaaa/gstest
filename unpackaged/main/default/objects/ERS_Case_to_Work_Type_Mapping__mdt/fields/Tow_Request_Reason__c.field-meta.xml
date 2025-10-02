@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tow_Request_Reason__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Tow Request Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>Alternator</fullName>
+                <default>false</default>
+                <label>Alternator</label>
+            </value>
+            <value>
+                <fullName>Belt</fullName>
+                <default>false</default>
+                <label>Belt</label>
+            </value>
+            <value>
+                <fullName>Brakes</fullName>
+                <default>false</default>
+                <label>Brakes</label>
+            </value>
+            <value>
+                <fullName>Broken Windshield</fullName>
+                <default>false</default>
+                <label>Broken Windshield</label>
+            </value>
+            <value>
+                <fullName>Collision - Under AAA Insurance</fullName>
+                <default>false</default>
+                <label>Collision - Under AAA Insurance</label>
+            </value>
+            <value>
+                <fullName>Collision - Under Membership</fullName>
+                <default>false</default>
+                <label>Collision - Under Membership</label>
+            </value>
+            <value>
+                <fullName>Fuel Pump</fullName>
+                <default>false</default>
+                <label>Fuel Pump</label>
+            </value>
+            <value>
+                <fullName>Hose</fullName>
+                <default>false</default>
+                <label>Hose</label>
+            </value>
+            <value>
+                <fullName>Overheat</fullName>
+                <default>false</default>
+                <label>Overheat</label>
+            </value>
+            <value>
+                <fullName>Stalled While Driving</fullName>
+                <default>false</default>
+                <label>Stalled While Driving</label>
+            </value>
+            <value>
+                <fullName>Starter</fullName>
+                <default>false</default>
+                <label>Starter</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>No Spare Tires</fullName>
+                <default>false</default>
+                <label>No Spare Tires</label>
+            </value>
+            <value>
+                <fullName>Fuel Type of Diesel</fullName>
+                <default>false</default>
+                <label>Fuel Type of Diesel</label>
+            </value>
+            <value>
+                <fullName>Fuel Type of Electric</fullName>
+                <default>false</default>
+                <label>Fuel Type of Electric</label>
+            </value>
+            <value>
+                <fullName>Transmission</fullName>
+                <default>false</default>
+                <label>Transmission</label>
+            </value>
+            <value>
+                <fullName>Wont Start</fullName>
+                <default>false</default>
+                <label>Won&#39;t Start</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Collision</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Collision</label>
+            </value>
+            <value>
+                <fullName>Fuel Type of EV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fuel Type of EV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow custom clone button for reimbursements</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Clone Reimbursements</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Clone_Reimbursements</name>
+    </customPermissions>
+</PermissionSet>

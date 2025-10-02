@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_ID__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Department ID</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>420999</fullName>
+                <default>true</default>
+                <label>420999</label>
+            </value>
+            <value>
+                <fullName>7112</fullName>
+                <default>false</default>
+                <label>7112</label>
+            </value>
+            <value>
+                <fullName>140000</fullName>
+                <default>false</default>
+                <label>140000</label>
+            </value>
+            <value>
+                <fullName>200011</fullName>
+                <default>false</default>
+                <label>200011</label>
+            </value>
+            <value>
+                <fullName>9230</fullName>
+                <default>false</default>
+                <label>9230</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Cancelation__c</fullName>
+    <label>Reason for Cancelation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call Disconnected</fullName>
+                <default>false</default>
+                <label>Call Disconnected</label>
+            </value>
+            <value>
+                <fullName>Member Solved Problem</fullName>
+                <default>false</default>
+                <label>Member Solved Problem</label>
+            </value>
+            <value>
+                <fullName>Member will Call back</fullName>
+                <default>false</default>
+                <label>Member will Call back</label>
+            </value>
+            <value>
+                <fullName>Prior Open Case</fullName>
+                <default>false</default>
+                <label>Prior Open Case</label>
+            </value>
+            <value>
+                <fullName>Home Lockout</fullName>
+                <default>false</default>
+                <label>Home Lockout</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Call Disconnected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Member Solved Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Member will Call back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Prior Open Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Home Lockout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Miscellaneous</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

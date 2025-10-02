@@ -1,0 +1,65 @@
+<apex:page Id="idxPageId" lightningStylesheets="true" controller="FSL_CreateNewShiftController" showHeader="false" sidebar="false">
+    <apex:form Id="idxForm">
+        <script>
+            function closeLightBox(){
+                console.log('in close light box');
+                
+                //if( isErrorOcc === false || isErrorOcc === 'false') {
+                    parent.postMessage('closeLightbox','*');
+                //}
+                
+                //window.close();
+            }
+            function validatePage() {
+                var strtDate = document.getElementById("idxPageId:idxForm:idxPbId:idxShiftSec:idxStartDate").value;
+                var endDate = document.getElementById("idxPageId:idxForm:idxPbId:idxShiftSec:idxEndDate").value;
+                console.log('HIIIII==='+strtDate);
+                console.log('HIIIII==='+endDate);
+                if(strtDate === '' || endDate === '') {
+                    document.getElementById("idxMessageDiv").style.display="block";
+                    document.getElementById("idxMessageDiv").style.color="red";
+                    return false;
+                }
+                else if(strtDate === endDate) {
+                    document.getElementById("idxMessageDiv").style.display="block";
+                    document.getElementById("idxMessageDiv").style.color="red";
+                    return false;
+                }
+                else if(Date.parse(strtDate) > Date.parse(endDate)){
+                document.getElementById("idxDateValidation").style.display="block";
+                    document.getElementById("idxDateValidation").style.color="red";
+                    return false;
+                    
+                }
+                else {
+                    savePage();
+                }
+            }
+        </script>
+        <apex:slds />
+        <div class="slds-scope">
+        <apex:messages id="messageID" />
+        <apex:actionFunction name="savePage" action="{!saveShift}" rerender="out" status="myStatus" oncomplete="closeLightBox();"/>
+        <apex:pageBlock Id="idxPbId" title="Shift Management">
+            <apex:pageblockSection id="idxShiftSec" title="Shift Information" columns="2">
+                        <apex:outputField value="{!resource.Name }"/>
+                        <apex:outputField value="{!resource.Primary_Service_Territory__c }"/>
+                        <apex:outputField id="idxStatus" value="{!newShift.status}"/>
+                        <apex:outputField id="idxTimeSlotType" value="{!newShift.timeSlotType}"/>
+                        <apex:inputField id="idxStartDate" value="{!newShift.StartTime }"/>
+                        <apex:inputField id="idxEndDate" value="{!newShift.EndTime }"/>
+                        
+            </apex:pageblockSection>
+            <div id="idxMessageDiv" style="display:none;font-size:12px; font-weight:bold; color:red;">
+                <apex:outputText style="font-size:12px; font-weight:bold; color:red;">Start,End Times Should not be same And Should not be Blank </apex:outputText>
+            </div>
+            <div id="idxDateValidation" style="display:none;font-size:12px; font-weight:bold; color:red;">
+                <apex:outputText style="font-size:12px; font-weight:bold; color:red;">Start Time should not be greater than End Time </apex:outputText>
+            </div>
+            <apex:pageBlockButtons location="bottom" >
+                <apex:commandButton rerender="messageID"  styleClass="slds-button slds-button_neutral" value="Save" onclick="return validatePage();" />                   
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        </div>
+    </apex:form>
+</apex:page>

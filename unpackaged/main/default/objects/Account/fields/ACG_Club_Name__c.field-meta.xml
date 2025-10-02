@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Club_Name__c</fullName>
+    <label>Club Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ACG_Club__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAA Akron Auto Club</fullName>
+                <default>false</default>
+                <label>AAA Akron Auto Club</label>
+            </value>
+            <value>
+                <fullName>AAA Alabama</fullName>
+                <default>false</default>
+                <label>AAA Alabama</label>
+            </value>
+            <value>
+                <fullName>AAA Alaska</fullName>
+                <default>false</default>
+                <label>AAA Alaska</label>
+            </value>
+            <value>
+                <fullName>AAA Allegheny</fullName>
+                <default>false</default>
+                <label>AAA Allegheny</label>
+            </value>
+            <value>
+                <fullName>AAA Allied Group, Inc.</fullName>
+                <default>false</default>
+                <label>AAA Allied Group, Inc.</label>
+            </value>
+            <value>
+                <fullName>AAA Arizona</fullName>
+                <default>false</default>
+                <label>AAA Arizona</label>
+            </value>
+            <value>
+                <fullName>AAA Auto Club South</fullName>
+                <default>false</default>
+                <label>AAA Auto Club South</label>
+            </value>
+            <value>
+                <fullName>AAA Blair County</fullName>
+                <default>false</default>
+                <label>AAA Blair County</label>
+            </value>
+            <value>
+                <fullName>AAA Blue Grass/Kentucky</fullName>
+                <default>false</default>
+                <label>AAA Blue Grass/Kentucky</label>
+            </value>
+            <value>
+                <fullName>AAA Butler County</fullName>
+                <default>false</default>
+                <label>AAA Butler County</label>
+            </value>
+            <value>
+                <fullName>AAA Carolinas</fullName>
+                <default>false</default>
+                <label>AAA Carolinas</label>
+            </value>
+            <value>
+                <fullName>AAA Central Penn</fullName>
+                <default>false</default>
+                <label>AAA Central Penn</label>
+            </value>
+            <value>
+                <fullName>AAA Central-West Jersey</fullName>
+                <default>false</default>
+                <label>AAA Central-West Jersey</label>
+            </value>
+            <value>
+                <fullName>AAA Cincinnati</fullName>
+                <default>false</default>
+                <label>AAA Cincinnati</label>
+            </value>
+            <value>
+                <fullName>AAA Club Partners, Inc.</fullName>
+                <default>false</default>
+                <label>AAA Club Partners, Inc.</label>
+            </value>
+            <value>
+                <fullName>AAA Colorado</fullName>
+                <default>false</default>
+                <label>AAA Colorado</label>
+            </value>
+            <value>
+                <fullName>AAA East Central</fullName>
+                <default>false</default>
+                <label>AAA East Central</label>
+            </value>
+            <value>
+                <fullName>AAA East Penn</fullName>
+                <default>false</default>
+                <label>AAA East Penn</label>
+            </value>
+            <value>
+                <fullName>AAA Florida/Louisana/Miss</fullName>
+                <default>false</default>
+                <label>AAA Florida/Louisana/Miss</label>
+            </value>
+            <value>
+                <fullName>AAA Hawaii</fullName>
+                <default>false</default>
+                <label>AAA Hawaii</label>
+            </value>
+            <value>
+                <fullName>AAA Hoosier Motor Club</fullName>
+                <default>false</default>
+                <label>AAA Hoosier Motor Club</label>
+            </value>
+            <value>
+                <fullName>AAA Hudson Valley</fullName>
+                <default>false</default>
+                <label>AAA Hudson Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Huntingdon County</fullName>
+                <default>false</default>
+                <label>AAA Huntingdon County</label>
+            </value>
+            <value>
+                <fullName>AAA Iowa</fullName>
+                <default>false</default>
+                <label>AAA Iowa</label>
+            </value>
+            <value>
+                <fullName>AAA Kansas</fullName>
+                <default>false</default>
+                <label>AAA Kansas</label>
+            </value>
+            <value>
+                <fullName>AAA Kentucky</fullName>
+                <default>false</default>
+                <label>AAA Kentucky</label>
+            </value>
+            <value>
+                <fullName>AAA Lancaster County</fullName>
+                <default>false</default>
+                <label>AAA Lancaster County</label>
+            </value>
+            <value>
+                <fullName>AAA Lehigh Valley</fullName>
+                <default>false</default>
+                <label>AAA Lehigh Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Lewistown</fullName>
+                <default>false</default>
+                <label>AAA Lewistown</label>
+            </value>
+            <value>
+                <fullName>AAA Louisiana</fullName>
+                <default>false</default>
+                <label>AAA Louisiana</label>
+            </value>
+            <value>
+                <fullName>AAA Maryland</fullName>
+                <default>false</default>
+                <label>AAA Maryland</label>
+            </value>
+            <value>
+                <fullName>AAA Massachusetts/New Hampshre</fullName>
+                <default>false</default>
+                <label>AAA Massachusetts/New Hampshre</label>
+            </value>
+            <value>
+                <fullName>AAA Massillon Automobile Club</fullName>
+                <default>false</default>
+                <label>AAA Massillon Automobile Club</label>
+            </value>
+            <value>
+                <fullName>AAA Mercer County</fullName>
+                <default>false</default>
+                <label>AAA Mercer County</label>
+            </value>
+            <value>
+                <fullName>AAA Merrimack Valley</fullName>
+                <default>false</default>
+                <label>AAA Merrimack Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Miami County</fullName>
+                <default>false</default>
+                <label>AAA Miami County</label>
+            </value>
+            <value>
+                <fullName>AAA Miami Valley</fullName>
+                <default>false</default>
+                <label>AAA Miami Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>AAA Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>AAA Minneapolis</fullName>
+                <default>false</default>
+                <label>AAA Minneapolis</label>
+            </value>
+            <value>
+                <fullName>AAA Minnesota</fullName>
+                <default>false</default>
+                <label>AAA Minnesota</label>
+            </value>
+            <value>
+                <fullName>AAA Mississippi</fullName>
+                <default>false</default>
+                <label>AAA Mississippi</label>
+            </value>
+            <value>
+                <fullName>AAA Missouri</fullName>
+                <default>false</default>
+                <label>AAA Missouri</label>
+            </value>
+            <value>
+                <fullName>AAA Motor Club Holdings, LLC</fullName>
+                <default>false</default>
+                <label>AAA Motor Club Holdings, LLC</label>
+            </value>
+            <value>
+                <fullName>AAA MountainWest</fullName>
+                <default>false</default>
+                <label>AAA MountainWest</label>
+            </value>
+            <value>
+                <fullName>AAA Nebraska</fullName>
+                <default>false</default>
+                <label>AAA Nebraska</label>
+            </value>
+            <value>
+                <fullName>AAA New Mexico</fullName>
+                <default>false</default>
+                <label>AAA New Mexico</label>
+            </value>
+            <value>
+                <fullName>AAA Nittany</fullName>
+                <default>false</default>
+                <label>AAA Nittany</label>
+            </value>
+            <value>
+                <fullName>AAA Northampton County</fullName>
+                <default>false</default>
+                <label>AAA Northampton County</label>
+            </value>
+            <value>
+                <fullName>AAA North Central PA</fullName>
+                <default>false</default>
+                <label>AAA North Central PA</label>
+            </value>
+            <value>
+                <fullName>AAA North Dakota</fullName>
+                <default>false</default>
+                <label>AAA North Dakota</label>
+            </value>
+            <value>
+                <fullName>AAA Northern California, Nevada &amp; Utah</fullName>
+                <default>false</default>
+                <label>AAA Northern California, Nevada &amp; Utah</label>
+            </value>
+            <value>
+                <fullName>AAA Northern New England</fullName>
+                <default>false</default>
+                <label>AAA Northern New England</label>
+            </value>
+            <value>
+                <fullName>AAA North Jersey</fullName>
+                <default>false</default>
+                <label>AAA North Jersey</label>
+            </value>
+            <value>
+                <fullName>AAA Northway</fullName>
+                <default>false</default>
+                <label>AAA Northway</label>
+            </value>
+            <value>
+                <fullName>AAA Northwest Ohio</fullName>
+                <default>false</default>
+                <label>AAA Northwest Ohio</label>
+            </value>
+            <value>
+                <fullName>AAA Of Tidewater Virginia</fullName>
+                <default>false</default>
+                <label>AAA Of Tidewater Virginia</label>
+            </value>
+            <value>
+                <fullName>AAA Of Virginia</fullName>
+                <default>false</default>
+                <label>AAA Of Virginia</label>
+            </value>
+            <value>
+                <fullName>AAA Ohio Auto Club</fullName>
+                <default>false</default>
+                <label>AAA Ohio Auto Club</label>
+            </value>
+            <value>
+                <fullName>AAA Oklahoma</fullName>
+                <default>false</default>
+                <label>AAA Oklahoma</label>
+            </value>
+            <value>
+                <fullName>AAA Oregon/Idaho</fullName>
+                <default>false</default>
+                <label>AAA Oregon/Idaho</label>
+            </value>
+            <value>
+                <fullName>AAA Pioneer Valley</fullName>
+                <default>false</default>
+                <label>AAA Pioneer Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Potomac</fullName>
+                <default>false</default>
+                <label>AAA Potomac</label>
+            </value>
+            <value>
+                <fullName>AAA Reading-Berks</fullName>
+                <default>false</default>
+                <label>AAA Reading-Berks</label>
+            </value>
+            <value>
+                <fullName>AAA Schuylkill County</fullName>
+                <default>false</default>
+                <label>AAA Schuylkill County</label>
+            </value>
+            <value>
+                <fullName>AAA Shelby County</fullName>
+                <default>false</default>
+                <label>AAA Shelby County</label>
+            </value>
+            <value>
+                <fullName>AAA South Central New England</fullName>
+                <default>false</default>
+                <label>AAA South Central New England</label>
+            </value>
+            <value>
+                <fullName>AAA South Central Ohio</fullName>
+                <default>false</default>
+                <label>AAA South Central Ohio</label>
+            </value>
+            <value>
+                <fullName>AAA South Dakota</fullName>
+                <default>false</default>
+                <label>AAA South Dakota</label>
+            </value>
+            <value>
+                <fullName>AAA Southern Indiana</fullName>
+                <default>false</default>
+                <label>AAA Southern Indiana</label>
+            </value>
+            <value>
+                <fullName>AAA Southern New York</fullName>
+                <default>false</default>
+                <label>AAA Southern New York</label>
+            </value>
+            <value>
+                <fullName>AAA Southern Pennsylvania</fullName>
+                <default>false</default>
+                <label>AAA Southern Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>AAA South Jersey</fullName>
+                <default>false</default>
+                <label>AAA South Jersey</label>
+            </value>
+            <value>
+                <fullName>AAA St Lawrence</fullName>
+                <default>false</default>
+                <label>AAA St Lawrence</label>
+            </value>
+            <value>
+                <fullName>AAA Susquehanna Valley</fullName>
+                <default>false</default>
+                <label>AAA Susquehanna Valley</label>
+            </value>
+            <value>
+                <fullName>AAA Texas/New Mexico/Oklahoma</fullName>
+                <default>false</default>
+                <label>AAA Texas/New Mexico/Oklahoma</label>
+            </value>
+            <value>
+                <fullName>AAA Tuscarawas County</fullName>
+                <default>false</default>
+                <label>AAA Tuscarawas County</label>
+            </value>
+            <value>
+                <fullName>AAA Vermont</fullName>
+                <default>false</default>
+                <label>AAA Vermont</label>
+            </value>
+            <value>
+                <fullName>AAA Washington</fullName>
+                <default>false</default>
+                <label>AAA Washington</label>
+            </value>
+            <value>
+                <fullName>AAA Western and Central New York</fullName>
+                <default>false</default>
+                <label>AAA Western and Central New York</label>
+            </value>
+            <value>
+                <fullName>AAA West Jersey</fullName>
+                <default>false</default>
+                <label>AAA West Jersey</label>
+            </value>
+            <value>
+                <fullName>AAA Winston-Salem</fullName>
+                <default>false</default>
+                <label>AAA Winston-Salem</label>
+            </value>
+            <value>
+                <fullName>AAA Wisconsin</fullName>
+                <default>false</default>
+                <label>AAA Wisconsin</label>
+            </value>
+            <value>
+                <fullName>AAA Wyoming</fullName>
+                <default>false</default>
+                <label>AAA Wyoming</label>
+            </value>
+            <value>
+                <fullName>Alberta Motor Association</fullName>
+                <default>false</default>
+                <label>Alberta Motor Association</label>
+            </value>
+            <value>
+                <fullName>Alliance Automobile Club</fullName>
+                <default>false</default>
+                <label>Alliance Automobile Club</label>
+            </value>
+            <value>
+                <fullName>Anthracite Motor Club</fullName>
+                <default>false</default>
+                <label>Anthracite Motor Club</label>
+            </value>
+            <value>
+                <fullName>Ashland County Auto Club</fullName>
+                <default>false</default>
+                <label>Ashland County Auto Club</label>
+            </value>
+            <value>
+                <fullName>Auto Club Enterprises</fullName>
+                <default>false</default>
+                <label>Auto Club Enterprises</label>
+            </value>
+            <value>
+                <fullName>Auto Club International</fullName>
+                <default>false</default>
+                <label>Auto Club International</label>
+            </value>
+            <value>
+                <fullName>Auto Club Minneapolis</fullName>
+                <default>false</default>
+                <label>Auto Club Minneapolis</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Berkshire County</fullName>
+                <default>false</default>
+                <label>Auto Club of Berkshire County</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Fulton County</fullName>
+                <default>false</default>
+                <label>Auto Club of Fulton County</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Hartford</fullName>
+                <default>false</default>
+                <label>Auto Club of Hartford</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Indiana County</fullName>
+                <default>false</default>
+                <label>Auto Club of Indiana County</label>
+            </value>
+            <value>
+                <fullName>Auto Club of New York</fullName>
+                <default>false</default>
+                <label>Auto Club of New York</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Oklahoma</fullName>
+                <default>false</default>
+                <label>Auto Club of Oklahoma</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Oregon</fullName>
+                <default>false</default>
+                <label>Auto Club of Oregon</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Pioneer Valley</fullName>
+                <default>false</default>
+                <label>Auto Club of Pioneer Valley</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Rochester</fullName>
+                <default>false</default>
+                <label>Auto Club of Rochester</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Syacuse</fullName>
+                <default>false</default>
+                <label>Auto Club of Syacuse</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Utah</fullName>
+                <default>false</default>
+                <label>Auto Club of Utah</label>
+            </value>
+            <value>
+                <fullName>Auto Club of Utica, Central NY</fullName>
+                <default>false</default>
+                <label>Auto Club of Utica, Central NY</label>
+            </value>
+            <value>
+                <fullName>Automobile Club of Southern California</fullName>
+                <default>false</default>
+                <label>Automobile Club of Southern California</label>
+            </value>
+            <value>
+                <fullName>Barberton Automobile Club</fullName>
+                <default>false</default>
+                <label>Barberton Automobile Club</label>
+            </value>
+            <value>
+                <fullName>Beaver County Motor Club</fullName>
+                <default>false</default>
+                <label>Beaver County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Belmont/Monroe</fullName>
+                <default>false</default>
+                <label>Belmont/Monroe</label>
+            </value>
+            <value>
+                <fullName>Bluefield Auto Club</fullName>
+                <default>false</default>
+                <label>Bluefield Auto Club</label>
+            </value>
+            <value>
+                <fullName>British Columbia Auto Assn.</fullName>
+                <default>false</default>
+                <label>British Columbia Auto Assn.</label>
+            </value>
+            <value>
+                <fullName>CAA Atlantic</fullName>
+                <default>false</default>
+                <label>CAA Atlantic</label>
+            </value>
+            <value>
+                <fullName>CAA Central Ontario</fullName>
+                <default>false</default>
+                <label>CAA Central Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA Eastern Ontario</fullName>
+                <default>false</default>
+                <label>CAA Eastern Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA Elgin Norfolk</fullName>
+                <default>false</default>
+                <label>CAA Elgin Norfolk</label>
+            </value>
+            <value>
+                <fullName>CAA Manitoba Motor League</fullName>
+                <default>false</default>
+                <label>CAA Manitoba Motor League</label>
+            </value>
+            <value>
+                <fullName>CAA Maritimes</fullName>
+                <default>false</default>
+                <label>CAA Maritimes</label>
+            </value>
+            <value>
+                <fullName>CAA Mid-Western Ontario</fullName>
+                <default>false</default>
+                <label>CAA Mid-Western Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA National Office</fullName>
+                <default>false</default>
+                <label>CAA National Office</label>
+            </value>
+            <value>
+                <fullName>CAA Niagara</fullName>
+                <default>false</default>
+                <label>CAA Niagara</label>
+            </value>
+            <value>
+                <fullName>CAA North &amp; East Ontario</fullName>
+                <default>false</default>
+                <label>CAA North &amp; East Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA Northeastern Ontario</fullName>
+                <default>false</default>
+                <label>CAA Northeastern Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA Ottawa</fullName>
+                <default>false</default>
+                <label>CAA Ottawa</label>
+            </value>
+            <value>
+                <fullName>CAA Peterborough</fullName>
+                <default>false</default>
+                <label>CAA Peterborough</label>
+            </value>
+            <value>
+                <fullName>CAA-Quebec</fullName>
+                <default>false</default>
+                <label>CAA-Quebec</label>
+            </value>
+            <value>
+                <fullName>CAA Saskatchewan</fullName>
+                <default>false</default>
+                <label>CAA Saskatchewan</label>
+            </value>
+            <value>
+                <fullName>CAA South Central Ontario</fullName>
+                <default>false</default>
+                <label>CAA South Central Ontario</label>
+            </value>
+            <value>
+                <fullName>CAA Thunder Bay</fullName>
+                <default>false</default>
+                <label>CAA Thunder Bay</label>
+            </value>
+            <value>
+                <fullName>CAA Windsor</fullName>
+                <default>false</default>
+                <label>CAA Windsor</label>
+            </value>
+            <value>
+                <fullName>California State Auto Asc</fullName>
+                <default>false</default>
+                <label>California State Auto Asc</label>
+            </value>
+            <value>
+                <fullName>Cattaraugus-Allegany Auto Club</fullName>
+                <default>false</default>
+                <label>Cattaraugus-Allegany Auto Club</label>
+            </value>
+            <value>
+                <fullName>Cayuga County Auto Club</fullName>
+                <default>false</default>
+                <label>Cayuga County Auto Club</label>
+            </value>
+            <value>
+                <fullName>Central W. Virginia Auto Club</fullName>
+                <default>false</default>
+                <label>Central W. Virginia Auto Club</label>
+            </value>
+            <value>
+                <fullName>Chautauqua County Auto Club</fullName>
+                <default>false</default>
+                <label>Chautauqua County Auto Club</label>
+            </value>
+            <value>
+                <fullName>Chicago Motor Club</fullName>
+                <default>false</default>
+                <label>Chicago Motor Club</label>
+            </value>
+            <value>
+                <fullName>Columbiana County Motor Club</fullName>
+                <default>false</default>
+                <label>Columbiana County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Connecticut Motor Club</fullName>
+                <default>false</default>
+                <label>Connecticut Motor Club</label>
+            </value>
+            <value>
+                <fullName>Crawford County Auto Club</fullName>
+                <default>false</default>
+                <label>Crawford County Auto Club</label>
+            </value>
+            <value>
+                <fullName>East Tennessee Auto Club</fullName>
+                <default>false</default>
+                <label>East Tennessee Auto Club</label>
+            </value>
+            <value>
+                <fullName>Erie County Motor Club</fullName>
+                <default>false</default>
+                <label>Erie County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Fairfield County Auto Club</fullName>
+                <default>false</default>
+                <label>Fairfield County Auto Club</label>
+            </value>
+            <value>
+                <fullName>Findlay Automobile Club</fullName>
+                <default>false</default>
+                <label>Findlay Automobile Club</label>
+            </value>
+            <value>
+                <fullName>Hudson Valley Auto Club</fullName>
+                <default>false</default>
+                <label>Hudson Valley Auto Club</label>
+            </value>
+            <value>
+                <fullName>Huntington Automobile Club</fullName>
+                <default>false</default>
+                <label>Huntington Automobile Club</label>
+            </value>
+            <value>
+                <fullName>Idaho State Auto Association</fullName>
+                <default>false</default>
+                <label>Idaho State Auto Association</label>
+            </value>
+            <value>
+                <fullName>Inland Auto Association</fullName>
+                <default>false</default>
+                <label>Inland Auto Association</label>
+            </value>
+            <value>
+                <fullName>Jamestown Auto Club</fullName>
+                <default>false</default>
+                <label>Jamestown Auto Club</label>
+            </value>
+            <value>
+                <fullName>Marion County Motor Club</fullName>
+                <default>false</default>
+                <label>Marion County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Mckean County Motor Club</fullName>
+                <default>false</default>
+                <label>Mckean County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Michigan</fullName>
+                <default>false</default>
+                <label>Michigan</label>
+            </value>
+            <value>
+                <fullName>Mid-South Auto Club</fullName>
+                <default>false</default>
+                <label>Mid-South Auto Club</label>
+            </value>
+            <value>
+                <fullName>Mon-Yough Motor Club</fullName>
+                <default>false</default>
+                <label>Mon-Yough Motor Club</label>
+            </value>
+            <value>
+                <fullName>New Jersey Auto Club</fullName>
+                <default>false</default>
+                <label>New Jersey Auto Club</label>
+            </value>
+            <value>
+                <fullName>Niagara-Orleans Auto Club</fullName>
+                <default>false</default>
+                <label>Niagara-Orleans Auto Club</label>
+            </value>
+            <value>
+                <fullName>Non-Member Calls</fullName>
+                <default>false</default>
+                <label>Non-Member Calls</label>
+            </value>
+            <value>
+                <fullName>North Central Motor Club</fullName>
+                <default>false</default>
+                <label>North Central Motor Club</label>
+            </value>
+            <value>
+                <fullName>Northern W. Virginia Auto Club</fullName>
+                <default>false</default>
+                <label>Northern W. Virginia Auto Club</label>
+            </value>
+            <value>
+                <fullName>North Jersey Auto club</fullName>
+                <default>false</default>
+                <label>North Jersey Auto club</label>
+            </value>
+            <value>
+                <fullName>Northway Auto Club</fullName>
+                <default>false</default>
+                <label>Northway Auto Club</label>
+            </value>
+            <value>
+                <fullName>Ohio Motorists Association</fullName>
+                <default>false</default>
+                <label>Ohio Motorists Association</label>
+            </value>
+            <value>
+                <fullName>Out Of Territory</fullName>
+                <default>false</default>
+                <label>Out Of Territory</label>
+            </value>
+            <value>
+                <fullName>Parkersburg Automobile Club</fullName>
+                <default>false</default>
+                <label>Parkersburg Automobile Club</label>
+            </value>
+            <value>
+                <fullName>Seneca Auto Club</fullName>
+                <default>false</default>
+                <label>Seneca Auto Club</label>
+            </value>
+            <value>
+                <fullName>Sherrill Auto Club</fullName>
+                <default>false</default>
+                <label>Sherrill Auto Club</label>
+            </value>
+            <value>
+                <fullName>Southern New York Auto Club</fullName>
+                <default>false</default>
+                <label>Southern New York Auto Club</label>
+            </value>
+            <value>
+                <fullName>Southern W. Virginia Auto Club</fullName>
+                <default>false</default>
+                <label>Southern W. Virginia Auto Club</label>
+            </value>
+            <value>
+                <fullName>Temporary Member Calls</fullName>
+                <default>false</default>
+                <label>Temporary Member Calls</label>
+            </value>
+            <value>
+                <fullName>The Auto Club Group - Dearborn, Michigan</fullName>
+                <default>false</default>
+                <label>The Auto Club Group - Dearborn, Michigan</label>
+            </value>
+            <value>
+                <fullName>The Auto Club Group - Tampa Florida</fullName>
+                <default>false</default>
+                <label>The Auto Club Group - Tampa Florida</label>
+            </value>
+            <value>
+                <fullName>The Automobile Club</fullName>
+                <default>false</default>
+                <label>The Automobile Club</label>
+            </value>
+            <value>
+                <fullName>The Ohio Auto Club</fullName>
+                <default>false</default>
+                <label>The Ohio Auto Club</label>
+            </value>
+            <value>
+                <fullName>Tri County Motor Club</fullName>
+                <default>false</default>
+                <label>Tri County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Turnpike Garages-OAC</fullName>
+                <default>false</default>
+                <label>Turnpike Garages-OAC</label>
+            </value>
+            <value>
+                <fullName>Uniontown Motor Club</fullName>
+                <default>false</default>
+                <label>Uniontown Motor Club</label>
+            </value>
+            <value>
+                <fullName>Valley Auto Club</fullName>
+                <default>false</default>
+                <label>Valley Auto Club</label>
+            </value>
+            <value>
+                <fullName>Warren County Motor Club</fullName>
+                <default>false</default>
+                <label>Warren County Motor Club</label>
+            </value>
+            <value>
+                <fullName>Weirton Auto Club</fullName>
+                <default>false</default>
+                <label>Weirton Auto Club</label>
+            </value>
+            <value>
+                <fullName>Westmoreland County Motor Club</fullName>
+                <default>false</default>
+                <label>Westmoreland County Motor Club</label>
+            </value>
+            <value>
+                <fullName>West Penn AAA</fullName>
+                <default>false</default>
+                <label>West Penn AAA</label>
+            </value>
+            <value>
+                <fullName>Wheeling Automobile Club</fullName>
+                <default>false</default>
+                <label>Wheeling Automobile Club</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>183</controllingFieldValue>
+            <valueName>AAA Butler County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>188</controllingFieldValue>
+            <valueName>AAA Northampton County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>229</controllingFieldValue>
+            <valueName>Uniontown Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>230</controllingFieldValue>
+            <valueName>Warren County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>235</controllingFieldValue>
+            <valueName>Valley Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>237</controllingFieldValue>
+            <valueName>North Central Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>238</controllingFieldValue>
+            <valueName>AAA Southern Pennsylvania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>240</controllingFieldValue>
+            <valueName>AAA South Central New England</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>241</controllingFieldValue>
+            <valueName>AAA South Dakota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>189</controllingFieldValue>
+            <valueName>Erie County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>243</controllingFieldValue>
+            <valueName>East Tennessee Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>193</controllingFieldValue>
+            <valueName>Westmoreland County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>245</controllingFieldValue>
+            <valueName>Mid-South Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>194</controllingFieldValue>
+            <valueName>AAA Mercer County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>252</controllingFieldValue>
+            <valueName>AAA Texas/New Mexico/Oklahoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>195</controllingFieldValue>
+            <valueName>AAA Central Penn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>196</controllingFieldValue>
+            <valueName>Anthracite Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>197</controllingFieldValue>
+            <valueName>AAA Huntingdon County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>198</controllingFieldValue>
+            <valueName>Auto Club of Indiana County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>201</controllingFieldValue>
+            <valueName>AAA Lancaster County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>014</controllingFieldValue>
+            <valueName>AAA Auto Club South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>203</controllingFieldValue>
+            <valueName>AAA Lewistown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>017</controllingFieldValue>
+            <valueName>AAA Alaska</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>204</controllingFieldValue>
+            <valueName>AAA Nittany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>018</controllingFieldValue>
+            <valueName>AAA Hawaii</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>019</controllingFieldValue>
+            <valueName>Idaho State Auto Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>020</controllingFieldValue>
+            <valueName>Chicago Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>022</controllingFieldValue>
+            <valueName>AAA Southern Indiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>023</controllingFieldValue>
+            <valueName>AAA Hoosier Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>028</controllingFieldValue>
+            <valueName>AAA Iowa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>032</controllingFieldValue>
+            <valueName>AAA Blue Grass/Kentucky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>033</controllingFieldValue>
+            <valueName>AAA Kentucky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>255</controllingFieldValue>
+            <valueName>Auto Club of Utah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>256</controllingFieldValue>
+            <valueName>AAA Vermont</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>001</controllingFieldValue>
+            <valueName>AAA Alabama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>257</controllingFieldValue>
+            <valueName>Weirton Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>002</controllingFieldValue>
+            <valueName>AAA Arizona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>258</controllingFieldValue>
+            <valueName>AAA Of Tidewater Virginia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>004</controllingFieldValue>
+            <valueName>Automobile Club of Southern California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>259</controllingFieldValue>
+            <valueName>AAA Of Virginia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>005</controllingFieldValue>
+            <valueName>California State Auto Asc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>260</controllingFieldValue>
+            <valueName>AAA Washington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>006</controllingFieldValue>
+            <valueName>AAA Colorado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>261</controllingFieldValue>
+            <valueName>Inland Auto Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>007</controllingFieldValue>
+            <valueName>Auto Club of Hartford</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>262</controllingFieldValue>
+            <valueName>Bluefield Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>008</controllingFieldValue>
+            <valueName>Connecticut Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>263</controllingFieldValue>
+            <valueName>Southern W. Virginia Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>010</controllingFieldValue>
+            <valueName>AAA Potomac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>264</controllingFieldValue>
+            <valueName>Central W. Virginia Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>012</controllingFieldValue>
+            <valueName>AAA Florida/Louisana/Miss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>034</controllingFieldValue>
+            <valueName>AAA Kansas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>035</controllingFieldValue>
+            <valueName>AAA Louisiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>036</controllingFieldValue>
+            <valueName>AAA Northern New England</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>037</controllingFieldValue>
+            <valueName>AAA Maryland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>039</controllingFieldValue>
+            <valueName>AAA Massachusetts/New Hampshre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>042</controllingFieldValue>
+            <valueName>AAA Merrimack Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>044</controllingFieldValue>
+            <valueName>Auto Club of Berkshire County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>045</controllingFieldValue>
+            <valueName>Auto Club of Pioneer Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>047</controllingFieldValue>
+            <valueName>Michigan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>049</controllingFieldValue>
+            <valueName>AAA Minnesota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>265</controllingFieldValue>
+            <valueName>Marion County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>266</controllingFieldValue>
+            <valueName>Huntington Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>267</controllingFieldValue>
+            <valueName>Northern W. Virginia Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>268</controllingFieldValue>
+            <valueName>Parkersburg Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>269</controllingFieldValue>
+            <valueName>Wheeling Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>270</controllingFieldValue>
+            <valueName>AAA Wisconsin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>271</controllingFieldValue>
+            <valueName>AAA Wyoming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>272</controllingFieldValue>
+            <valueName>Alberta Motor Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>273</controllingFieldValue>
+            <valueName>British Columbia Auto Assn.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>275</controllingFieldValue>
+            <valueName>CAA Manitoba Motor League</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>057</controllingFieldValue>
+            <valueName>Auto Club Minneapolis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>063</controllingFieldValue>
+            <valueName>AAA Mississippi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>064</controllingFieldValue>
+            <valueName>The Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>065</controllingFieldValue>
+            <valueName>AAA Missouri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>066</controllingFieldValue>
+            <valueName>AAA MountainWest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>069</controllingFieldValue>
+            <valueName>AAA Nebraska</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>071</controllingFieldValue>
+            <valueName>AAA South Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>074</controllingFieldValue>
+            <valueName>New Jersey Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>075</controllingFieldValue>
+            <valueName>North Jersey Auto club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>076</controllingFieldValue>
+            <valueName>AAA West Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>277</controllingFieldValue>
+            <valueName>CAA Maritimes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>279</controllingFieldValue>
+            <valueName>CAA South Central Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>281</controllingFieldValue>
+            <valueName>CAA Elgin Norfolk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>282</controllingFieldValue>
+            <valueName>CAA Central Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>283</controllingFieldValue>
+            <valueName>CAA Windsor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>285</controllingFieldValue>
+            <valueName>CAA-Quebec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>286</controllingFieldValue>
+            <valueName>CAA Saskatchewan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>287</controllingFieldValue>
+            <valueName>CAA Mid-Western Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>288</controllingFieldValue>
+            <valueName>CAA Niagara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>289</controllingFieldValue>
+            <valueName>CAA Eastern Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>078</controllingFieldValue>
+            <valueName>AAA Central-West Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>080</controllingFieldValue>
+            <valueName>Hudson Valley Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>082</controllingFieldValue>
+            <valueName>Cayuga County Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>083</controllingFieldValue>
+            <valueName>Southern New York Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>084</controllingFieldValue>
+            <valueName>AAA Western and Central New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>086</controllingFieldValue>
+            <valueName>Chautauqua County Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>092</controllingFieldValue>
+            <valueName>Jamestown Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>093</controllingFieldValue>
+            <valueName>Auto Club of Fulton County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>095</controllingFieldValue>
+            <valueName>Niagara-Orleans Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>097</controllingFieldValue>
+            <valueName>Auto Club of New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>290</controllingFieldValue>
+            <valueName>CAA Ottawa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>291</controllingFieldValue>
+            <valueName>CAA Peterborough</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>292</controllingFieldValue>
+            <valueName>CAA Northeastern Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>293</controllingFieldValue>
+            <valueName>CAA Thunder Bay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>300</controllingFieldValue>
+            <valueName>Out Of Territory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>389</controllingFieldValue>
+            <valueName>CAA National Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>500</controllingFieldValue>
+            <valueName>Non-Member Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>501</controllingFieldValue>
+            <valueName>Temporary Member Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>601</controllingFieldValue>
+            <valueName>AAA New Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>602</controllingFieldValue>
+            <valueName>The Auto Club Group - Dearborn, Michigan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>602</controllingFieldValue>
+            <valueName>The Auto Club Group - Tampa Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>098</controllingFieldValue>
+            <valueName>AAA St Lawrence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>099</controllingFieldValue>
+            <valueName>Cattaraugus-Allegany Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>100</controllingFieldValue>
+            <valueName>Tri County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>102</controllingFieldValue>
+            <valueName>Auto Club of Rochester</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>104</controllingFieldValue>
+            <valueName>Northway Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>105</controllingFieldValue>
+            <valueName>Seneca Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>106</controllingFieldValue>
+            <valueName>Sherrill Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>107</controllingFieldValue>
+            <valueName>Auto Club of Syacuse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>109</controllingFieldValue>
+            <valueName>Auto Club of Utica, Central NY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>111</controllingFieldValue>
+            <valueName>AAA Carolinas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>605</controllingFieldValue>
+            <valueName>AAA Club Partners, Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>606</controllingFieldValue>
+            <valueName>Auto Club International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>607</controllingFieldValue>
+            <valueName>AAA Motor Club Holdings, LLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>112</controllingFieldValue>
+            <valueName>AAA Winston-Salem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>113</controllingFieldValue>
+            <valueName>AAA North Dakota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>114</controllingFieldValue>
+            <valueName>Turnpike Garages-OAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>115</controllingFieldValue>
+            <valueName>AAA Akron Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>116</controllingFieldValue>
+            <valueName>Alliance Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>117</controllingFieldValue>
+            <valueName>Ashland County Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>119</controllingFieldValue>
+            <valueName>Barberton Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>122</controllingFieldValue>
+            <valueName>Belmont/Monroe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>123</controllingFieldValue>
+            <valueName>Crawford County Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>127</controllingFieldValue>
+            <valueName>AAA Cincinnati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>128</controllingFieldValue>
+            <valueName>Ohio Motorists Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>130</controllingFieldValue>
+            <valueName>AAA Ohio Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>130</controllingFieldValue>
+            <valueName>The Ohio Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>133</controllingFieldValue>
+            <valueName>AAA Miami Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>135</controllingFieldValue>
+            <valueName>Columbiana County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>137</controllingFieldValue>
+            <valueName>Findlay Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>145</controllingFieldValue>
+            <valueName>Fairfield County Auto Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>151</controllingFieldValue>
+            <valueName>AAA Massillon Automobile Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>154</controllingFieldValue>
+            <valueName>AAA Tuscarawas County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>157</controllingFieldValue>
+            <valueName>AAA Miami County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>158</controllingFieldValue>
+            <valueName>AAA South Central Ohio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>205</controllingFieldValue>
+            <valueName>Mon-Yough Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>206</controllingFieldValue>
+            <valueName>AAA Allegheny</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>212</controllingFieldValue>
+            <valueName>AAA Mid-Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>215</controllingFieldValue>
+            <valueName>West Penn AAA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>216</controllingFieldValue>
+            <valueName>AAA East Penn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>217</controllingFieldValue>
+            <valueName>AAA Schuylkill County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>219</controllingFieldValue>
+            <valueName>AAA Reading-Berks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>160</controllingFieldValue>
+            <valueName>AAA Shelby County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>220</controllingFieldValue>
+            <valueName>Beaver County Motor Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>164</controllingFieldValue>
+            <valueName>AAA Northwest Ohio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>222</controllingFieldValue>
+            <valueName>AAA North Central PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>175</controllingFieldValue>
+            <valueName>AAA Oklahoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>227</controllingFieldValue>
+            <valueName>AAA Susquehanna Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>176</controllingFieldValue>
+            <valueName>Auto Club of Oklahoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>177</controllingFieldValue>
+            <valueName>Auto Club of Oregon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>178</controllingFieldValue>
+            <valueName>AAA Lehigh Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>179</controllingFieldValue>
+            <valueName>AAA Blair County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>182</controllingFieldValue>
+            <valueName>Mckean County Motor Club</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

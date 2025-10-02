@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_License_Mismatch__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Membership did not match driver&#39;s license (false = DID NOT MATCH)</description>
+    <label>Membership License Mismatch</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

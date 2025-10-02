@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_ServiceContracts</fullName>
+    <columns>CONTRACT.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.NAME</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>CONTRACT.STARTDATE</columns>
+    <columns>CONTRACT.ENDDATE</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>CONTRACT.LAST_UPDATE</columns>
+    <columns>AAA_Total_of_Calls_Remaining__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.STARTDATE</field>
+        <operation>lessThan</operation>
+        <value>1/1/2020</value>
+    </filters>
+    <filters>
+        <field>CONTRACT.ENDDATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2025</value>
+    </filters>
+    <filters>
+        <field>AAA_Total_of_Calls_Remaining__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Service Contracts</label>
+</ListView>

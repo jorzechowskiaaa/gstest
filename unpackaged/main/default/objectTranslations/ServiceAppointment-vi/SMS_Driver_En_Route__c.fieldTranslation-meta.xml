@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- SMS sent when driver updates the Service Appointment Status to &quot;En Route&quot; --></help>
+        <label><!-- SMS - Driver En Route --></label>
+        <name>SMS_Driver_En_Route__c</name>
+    </CustomFieldTranslation>

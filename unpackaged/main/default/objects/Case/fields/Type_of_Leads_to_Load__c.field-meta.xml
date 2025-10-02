@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Leads_to_Load__c</fullName>
+    <inlineHelpText>If Other lead type is selected please explain using the Additional Comments/Directions field</inlineHelpText>
+    <label>Type of Leads to Load</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Mem/Direct Mail (Auto)</fullName>
+                <default>true</default>
+                <label>New Mem/Direct Mail (Auto)</label>
+            </value>
+            <value>
+                <fullName>Membership Re-Instates</fullName>
+                <default>false</default>
+                <label>Membership Re-Instates</label>
+            </value>
+            <value>
+                <fullName>Regional: Member Transfers</fullName>
+                <default>false</default>
+                <label>Regional: Member Transfers</label>
+            </value>
+            <value>
+                <fullName>Associate Cross-Sell</fullName>
+                <default>false</default>
+                <label>Associate Cross-Sell</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

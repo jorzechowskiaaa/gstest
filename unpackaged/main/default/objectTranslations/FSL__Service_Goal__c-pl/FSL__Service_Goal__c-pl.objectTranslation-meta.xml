@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Cel usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Cele usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Cel usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Cele usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Celu usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Celów usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Celowi usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Celom usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Celem usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Celami usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Celu usługi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Celach usługi</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Objectives Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Relevancy Group --></label>
+            <section>Relevancy Group</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Gaps</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Travel Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Pole priorytetu zasobu</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Same Site Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Preference</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nazwa celu usługi</nameFieldLabel>
+</CustomObjectTranslation>

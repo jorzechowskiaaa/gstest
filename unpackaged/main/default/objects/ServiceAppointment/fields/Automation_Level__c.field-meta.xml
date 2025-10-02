@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automation_Level__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(AutoScheduled__c = TRUE, Dispatcher_Reassignment__c = FALSE),&#39;Fully Automated&#39;, 
+IF(Dispatcher_Reassignment__c = TRUE, &#39;Re-Assign&#39;, &#39;Manual&#39;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Automation Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

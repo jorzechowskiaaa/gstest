@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- It is being used to trigger the InDay upon Vehicle change. --></help>
+        <label><!-- Run InDay Over Vehicle Change --></label>
+        <name>Run_InDay_Over_Vehicle_Change__c</name>
+    </CustomFieldTranslation>

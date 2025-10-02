@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vehicle Type --></label>
+        <name>ACG_Vehicle_Type__c</name>
+        <picklistValues>
+            <masterLabel>2M (2-Wheeled Motorcycle)</masterLabel>
+            <translation><!-- 2M (2-Wheeled Motorcycle) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3M (3 - Wheeled Motorcycle)</masterLabel>
+            <translation><!-- 3M (3 - Wheeled Motorcycle) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4M (ATV)</masterLabel>
+            <translation><!-- 4M (ATV) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BK (Bicycles)</masterLabel>
+            <translation><!-- BK (Bicycles) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DW (Dual Wheels)</masterLabel>
+            <translation><!-- DW (Dual Wheels) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC (Golf Cart)</masterLabel>
+            <translation><!-- GC (Golf Cart) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PS (Passenger Car/Truck)</masterLabel>
+            <translation><!-- PS (Passenger Car/Truck) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1 (RV &lt; 23 feet)</masterLabel>
+            <translation><!-- R1 (RV &lt; 23 feet) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R2 (RV 24-32 feet)</masterLabel>
+            <translation><!-- R2 (RV 24-32 feet) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R3 (RV &gt; 33 feet)</masterLabel>
+            <translation><!-- R3 (RV &gt; 33 feet) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SM (Snowmobile)</masterLabel>
+            <translation><!-- SM (Snowmobile) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TR (Trailer)</masterLabel>
+            <translation><!-- TR (Trailer) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Identifying_Attribute__c</fullName>
+    <label>Identifying Attribute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Entity__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product__r.ProductCode</fullName>
+                <default>false</default>
+                <label>Service Item Code</label>
+            </value>
+            <value>
+                <fullName>Resolution_Code__c</fullName>
+                <default>false</default>
+                <label>Resolution Code</label>
+            </value>
+            <value>
+                <fullName>Clear_Code__c</fullName>
+                <default>false</default>
+                <label>Clear Code</label>
+            </value>
+            <value>
+                <fullName>Entitlement_code</fullName>
+                <default>false</default>
+                <label>Entitlement Code</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FSL_Service_Line_Item__c</controllingFieldValue>
+            <valueName>Product__r.ProductCode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Resolution_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Clear_Code__c</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

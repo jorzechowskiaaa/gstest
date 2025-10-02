@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_ID__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Department ID</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>COL015</fullName>
+                <default>true</default>
+                <label>COL015</label>
+            </value>
+            <value>
+                <fullName>COL016</fullName>
+                <default>false</default>
+                <label>COL016</label>
+            </value>
+            <value>
+                <fullName>COL024</fullName>
+                <default>false</default>
+                <label>COL024</label>
+            </value>
+            <value>
+                <fullName>COL017</fullName>
+                <default>false</default>
+                <label>COL017</label>
+            </value>
+            <value>
+                <fullName>COL025</fullName>
+                <default>false</default>
+                <label>COL025</label>
+            </value>
+            <value>
+                <fullName>COL022</fullName>
+                <default>false</default>
+                <label>COL022</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

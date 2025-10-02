@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PTA_formula__c</fullName>
+    <formula>DATETIMEVALUE(TEXT( YEAR( DATEVALUE( PTA__c ) )) &amp; &#39;-&#39; &amp; TEXT( MONTH( DATEVALUE( PTA__c ) ) ) &amp; &#39;-&#39; &amp; TEXT( DAY( DATEVALUE( PTA__c ) ) ) &amp; &#39; &#39; &amp; TEXT( HOUR( TIMEVALUE( PTA__c ) ) ) &amp; &#39;:&#39; &amp; TEXT( MINUTE(( TIMEVALUE( PTA__c ) ) ) ) &amp; &#39;:&#39; &amp; TEXT( SECOND(( TIMEVALUE( PTA__c ) ) ) )) +((PTA__c - CreatedDate) *24*60/1440)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PTA formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_of_Day_Code__c</fullName>
+    <label>Time of Day Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>D 06:00-18:59</fullName>
+                <default>false</default>
+                <label>D 06:00-18:59</label>
+            </value>
+            <value>
+                <fullName>N1 19:00-23:59</fullName>
+                <default>false</default>
+                <label>N1 19:00-23:59</label>
+            </value>
+            <value>
+                <fullName>N2 00:00 – 05:59</fullName>
+                <default>false</default>
+                <label>N2 00:00 – 05:59</label>
+            </value>
+            <value>
+                <fullName>D 07:00-18:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D 07:00-18:59</label>
+            </value>
+            <value>
+                <fullName>DA - 07:00-22:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DA - 07:00-22:59</label>
+            </value>
+            <value>
+                <fullName>N2 00:00 – 06:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N2 00:00 – 06:59</label>
+            </value>
+            <value>
+                <fullName>NA - 00:00-05:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NA - 00:00-05:59</label>
+            </value>
+            <value>
+                <fullName>NB - 06:00-06:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NB - 06:00-06:59</label>
+            </value>
+            <value>
+                <fullName>NT - 23:00-23:59</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NT - 23:00-23:59</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

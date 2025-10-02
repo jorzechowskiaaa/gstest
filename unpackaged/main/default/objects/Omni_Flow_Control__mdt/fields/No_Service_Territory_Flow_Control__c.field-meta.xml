@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Service_Territory_Flow_Control__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SSFI-575,577</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>No Service Territory Flow Control</label>
+    <type>Checkbox</type>
+</CustomField>

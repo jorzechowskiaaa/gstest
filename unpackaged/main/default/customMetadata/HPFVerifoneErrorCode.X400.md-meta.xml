@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>400</label>
+    <protected>false</protected>
+    <values>
+        <field>ErrorCode__c</field>
+        <value xsi:type="xsd:string">400</value>
+    </values>
+    <values>
+        <field>ErrorMessage__c</field>
+        <value xsi:type="xsd:string">Tracer value does not match. The tracer value is a regularly updated number that indicates the origin of the payment information. If the tracer value changes it indicates a corrupt or hacked payment form, and the transaction will not be processed.</value>
+    </values>
+</CustomMetadata>

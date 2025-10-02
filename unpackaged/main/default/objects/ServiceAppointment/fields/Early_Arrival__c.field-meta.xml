@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Early_Arrival__c</fullName>
+    <formula>ActualStartTime &lt;  Original_Scheduled_Start__c</formula>
+    <label>Early Arrival</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

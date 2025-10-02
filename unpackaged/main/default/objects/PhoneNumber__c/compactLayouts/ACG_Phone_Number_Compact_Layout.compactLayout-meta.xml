@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Phone_Number_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>ACG_Type__c</fields>
+    <fields>Short_Description__c</fields>
+    <label>Phone Number Compact Layout</label>
+</CompactLayout>

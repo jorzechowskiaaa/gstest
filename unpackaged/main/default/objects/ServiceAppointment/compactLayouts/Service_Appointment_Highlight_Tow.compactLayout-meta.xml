@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointment_Highlight_Tow</fullName>
+    <fields>AppointmentNumber</fields>
+    <fields>D3_Call_ID__c</fields>
+    <fields>WorkTypeId</fields>
+    <fields>SchedStartTime</fields>
+    <fields>SchedEndTime</fields>
+    <fields>Benefit_Level__c</fields>
+    <fields>Member_Scheduled_Icon_del__c</fields>
+    <fields>FSL__Related_Service__c</fields>
+    <label>Service Appointment Highlight Tow</label>
+</CompactLayout>

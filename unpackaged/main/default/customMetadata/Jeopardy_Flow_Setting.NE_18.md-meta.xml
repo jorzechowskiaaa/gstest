@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>NE 18</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Not in Scope - Do Not Use                                                                              
+
+30 minutes after SA Scheduled End time 
+
+SA record type = Breakdown 
+SA Status is still Spotted, Scheduled, Dispatched, En Route or On Location
+
+Case Violation Type = On Location Violation</value>
+    </values>
+    <values>
+        <field>isExecute__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

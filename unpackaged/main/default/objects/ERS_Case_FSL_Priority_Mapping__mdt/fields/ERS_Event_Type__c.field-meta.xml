@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERS_Event_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>ERS Event Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident Assist</fullName>
+                <default>true</default>
+                <label>Accident Assist</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>RAP</fullName>
+                <default>false</default>
+                <label>RAP</label>
+            </value>
+            <value>
+                <fullName>Tow To Go</fullName>
+                <default>false</default>
+                <label>Tow To Go</label>
+            </value>
+            <value>
+                <fullName>Dealership</fullName>
+                <default>false</default>
+                <label>Dealership</label>
+            </value>
+            <value>
+                <fullName>Motor Club</fullName>
+                <default>false</default>
+                <label>Motor Club</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

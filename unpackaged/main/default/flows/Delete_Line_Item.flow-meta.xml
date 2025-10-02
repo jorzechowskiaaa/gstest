@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Delete Line Item</description>
+    <interviewLabel>Delete Line Item {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Delete Line Item</label>
+    <processType>FieldServiceMobile</processType>
+    <recordDeletes>
+        <name>Delete_Line_Item</name>
+        <label>Delete Line Item</label>
+        <locationX>244</locationX>
+        <locationY>119</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </filters>
+        <object>FSL_Service_Line_Item__c</object>
+    </recordDeletes>
+    <startElementReference>Delete_Line_Item</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please tell us more about the ease of reading the magazine. --></help>
+        <label><!-- Ease of Reading Comments --></label>
+        <name>Go_Ease_of_Reading_Comments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do you find the magazine easy or difficult to read? --></help>
+        <label><!-- Ease of Reading --></label>
+        <name>Go_Ease_of_Reading__c</name>
+        <picklistValues>
+            <masterLabel>Difficult</masterLabel>
+            <translation><!-- Difficult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easy</masterLabel>
+            <translation><!-- Easy --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

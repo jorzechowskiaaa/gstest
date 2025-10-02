@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Default Error</description>
+        <name>Error</name>
+        <label>Error</label>
+        <locationX>1276</locationX>
+        <locationY>438</locationY>
+        <assignmentItems>
+            <assignToReference>strError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Error: {!$Flow.FaultMessage}</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Migrated from the Populate Vehicle Profile on Work Order process using Created or Edited criteria.
+Populate Year-Make-Model on Work Order for display in Mobile App</description>
+    <environments>Default</environments>
+    <interviewLabel>Populate Vehicle Profile on Work Order {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Populate Vehicle Profile on Work Order</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_1_A1</name>
+        <label>Add Vehicle Profile to Work Order</label>
+        <locationX>781</locationX>
+        <locationY>395</locationY>
+        <faultConnector>
+            <targetReference>Error</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>Vehicle_Profile__c</field>
+            <value>
+                <elementReference>$Record.YearMakeModel__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Work_Order__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>756</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>myRule_1_A1</targetReference>
+        </connector>
+        <object>FSL_Member_Vehicle__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>strError</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

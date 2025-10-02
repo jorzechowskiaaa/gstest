@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>define parameters to pass to batch process to remove records to selected objects.</description>
+    <label>Record Removal Support</label>
+    <pluralLabel>Record Removal Supports</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost__c</fullName>
+    <formula>Total_Basic_Cost__c +  Total_Plus_Cost__c +  Total_Premier_Cost__c +  Total_RV_Cost__c +  Total_Other_Cost__c + Total_Basic_Cost_Tax__c + Total_Other_Cost_Tax__c + Total_Plus_Cost_Tax__c + Total_Premier_Cost_Tax__c + Total_RV_Cost_Tax__c + Total_Credit__c - Total_Debit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Statement Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

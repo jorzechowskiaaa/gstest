@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates the type of technology that the servicing facility is using (i.e. Full FSL Technology, SMS, or Landline) --></help>
+        <label><!-- Servicing Technology Type --></label>
+        <name>Servicing_Technology_Type__c</name>
+    </CustomFieldTranslation>

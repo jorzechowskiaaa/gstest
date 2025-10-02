@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_Code__c</fullName>
+    <label>T-Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>T1</fullName>
+                <default>false</default>
+                <label>T1 - Flat tire with a spare</label>
+            </value>
+            <value>
+                <fullName>T3</fullName>
+                <default>false</default>
+                <label>T3 - Battery related service</label>
+            </value>
+            <value>
+                <fullName>T5</fullName>
+                <default>false</default>
+                <label>T5 - Fuel delivery</label>
+            </value>
+            <value>
+                <fullName>T6</fullName>
+                <default>false</default>
+                <label>T6 - Tow</label>
+            </value>
+            <value>
+                <fullName>T7</fullName>
+                <default>false</default>
+                <label>T7 - Lockout</label>
+            </value>
+            <value>
+                <fullName>7A</fullName>
+                <default>false</default>
+                <label>7A - Key delivery</label>
+            </value>
+            <value>
+                <fullName>7B</fullName>
+                <default>false</default>
+                <label>7B - Locksmith service</label>
+            </value>
+            <value>
+                <fullName>T8</fullName>
+                <default>false</default>
+                <label>T8 - Extrication (Winch out)</label>
+            </value>
+            <value>
+                <fullName>T9</fullName>
+                <default>false</default>
+                <label>T9 - Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>T0</fullName>
+                <default>false</default>
+                <label>T0 - GOA/Canceled Call</label>
+            </value>
+            <value>
+                <fullName>3B</fullName>
+                <default>false</default>
+                <label>3B - Battery Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

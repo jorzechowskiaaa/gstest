@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Skip Automation logic for a particular user</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Skip Automation Logic</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Skip_Automation_Logic</name>
+    </customPermissions>
+</PermissionSet>

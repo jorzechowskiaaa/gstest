@@ -1,0 +1,26 @@
+<apex:page controller="FSL_OverrideAppointmentHelper" showHeader="false" sidebar="false">
+<apex:form >
+
+  <script>
+  function sendToLC() {
+       var message = document.getElementById("message").value;
+        parent.postMessage('closeLightbox','*');
+    }
+  function closeLightBox(){
+      console.log('in close light box');
+      parent.postMessage('closeLightbox','*');
+      //window.close();
+  }
+</script>
+<apex:pageBlock title="Service AppointmentDetails">
+        <apex:pageblockSection title="Appointment Information">
+       <apex:inputField value="{!wrkOrder.Manual_Override_Reason__c }"/>
+        </apex:pageblockSection>
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save Appointment" action="{!save}" oncomplete="closeLightBox();"/>
+            <apex:commandButton value="Cancel" onclick="sendToLC"/>
+                  </apex:pageBlockButtons>
+    </apex:pageBlock>
+ 
+</apex:form>
+</apex:page>

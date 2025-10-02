@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>FSL_Cleared_Timestamp</fullName>
+        <description>Update Cleared Timestamp on Work Order</description>
+        <field>Cleared_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Cleared Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_Dispatched_Timestamp</fullName>
+        <description>Update Dispatched Timestamp on Work Order</description>
+        <field>Dispatched_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Dispatched Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_Enroute_Timestamp</fullName>
+        <description>Update En Route Timestamp on Work Order</description>
+        <field>Enroute_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Enroute Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_In_Tow_Timestamp</fullName>
+        <description>Update In Tow Timestamp on Work Order</description>
+        <field>In_Tow_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL In Tow Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_Last_Modified_Status_Timestamp</fullName>
+        <field>Last_Modified_Status_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Last Modified Status Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_On_Location_Timestamp</fullName>
+        <description>Update On Location Timestamp on Work Order</description>
+        <field>On_Location_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL On Location Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_Scheduled_Timestamp</fullName>
+        <description>Update Schedule Timestamp on Work Order</description>
+        <field>Scheduled_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Scheduled Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_Tow_Complete_Timestamp</fullName>
+        <description>Update Tow Complete Timestamp on Work Order</description>
+        <field>Tow_Complete_Timestamp__c</field>
+        <formula>NOW()</formula>
+        <name>FSL Tow Complete Timestamp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>FSL Update Cleared Timestamp</fullName>
+        <actions>
+            <name>FSL_Cleared_Timestamp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>FSL_Last_Modified_Status_Timestamp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>WorkOrder.Status</field>
+            <operation>equals</operation>
+            <value>Cleared</value>
+        </criteriaItems>
+        <description>Update Cleared Timestamp on Work Order</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

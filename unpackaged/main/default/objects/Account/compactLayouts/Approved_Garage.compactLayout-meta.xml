@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Garage</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Approved_Garage_Type__c</fields>
+    <fields>ShippingAddress</fields>
+    <fields>Phone</fields>
+    <label>Approved Garage</label>
+</CompactLayout>

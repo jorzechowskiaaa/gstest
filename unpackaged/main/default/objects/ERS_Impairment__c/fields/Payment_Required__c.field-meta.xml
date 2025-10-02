@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Required__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Indicates if a payment is required to get past this impairment or not</description>
+    <inlineHelpText>A Payment is Required to create a Work Order for this impairment do not select Reconcile or Information Only checkboxes if this is selected</inlineHelpText>
+    <label>Payment Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

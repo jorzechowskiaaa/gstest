@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ARR</fullName>
+                <default>false</default>
+                <label>ARR</label>
+            </value>
+            <value>
+                <fullName>DRR</fullName>
+                <default>false</default>
+                <label>DRR</label>
+            </value>
+            <value>
+                <fullName>ACG DRR</fullName>
+                <default>false</default>
+                <label>ACG DRR</label>
+            </value>
+            <value>
+                <fullName>SAIVR</fullName>
+                <default>false</default>
+                <label>SAIVR</label>
+            </value>
+            <value>
+                <fullName>CTI DRR</fullName>
+                <default>false</default>
+                <label>CTI DRR</label>
+            </value>
+            <value>
+                <fullName>CHATBOT</fullName>
+                <default>false</default>
+                <label>CHATBOT</label>
+            </value>
+            <value>
+                <fullName>IVR</fullName>
+                <default>false</default>
+                <label>IVR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>RV Coverage Details​</label>
+    <protected>false</protected>
+    <values>
+        <field>ACG_Club__c</field>
+        <value xsi:type="xsd:string">CMC</value>
+    </values>
+    <values>
+        <field>ACG_Order__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ACG_QuickLinks_URL__c</field>
+        <value xsi:type="xsd:string">https://carolinas.aaa.com/</value>
+    </values>
+</CustomMetadata>

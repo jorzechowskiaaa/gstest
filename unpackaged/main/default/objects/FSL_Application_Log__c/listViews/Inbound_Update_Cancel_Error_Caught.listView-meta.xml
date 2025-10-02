@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inbound_Update_Cancel_Error_Caught</fullName>
+    <columns>NAME</columns>
+    <columns>Operation__c</columns>
+    <columns>Success_Message__c</columns>
+    <columns>Error_Caught__c</columns>
+    <columns>Error_Message__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>API_Name__c</field>
+        <operation>equals</operation>
+        <value>Inbound Update/Cancel</value>
+    </filters>
+    <filters>
+        <field>Error_Caught__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Inbound Update/Cancel Error Caught</label>
+</ListView>

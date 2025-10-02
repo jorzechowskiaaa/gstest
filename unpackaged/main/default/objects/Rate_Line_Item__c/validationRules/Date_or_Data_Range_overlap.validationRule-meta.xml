@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_or_Data_Range_overlap</fullName>
+    <active>true</active>
+    <errorConditionFormula>Has_Overlapping_Date__c</errorConditionFormula>
+    <errorMessage>Start Date, End Dates, and Data Ranges can&#39;t overlap other Rate Line Items for same Product, Service Type, and Time of Day code</errorMessage>
+</ValidationRule>

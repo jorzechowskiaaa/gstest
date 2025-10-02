@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Description</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BASIC COST</fullName>
+                <default>false</default>
+                <label>BASIC COST</label>
+            </value>
+            <value>
+                <fullName>PLUS COST</fullName>
+                <default>false</default>
+                <label>PLUS COST</label>
+            </value>
+            <value>
+                <fullName>CAR RENTAL COST</fullName>
+                <default>false</default>
+                <label>CAR RENTAL COST</label>
+            </value>
+            <value>
+                <fullName>HOME LOCKOUT COST</fullName>
+                <default>false</default>
+                <label>HOME LOCKOUT COST</label>
+            </value>
+            <value>
+                <fullName>MOTORCYCLE COST</fullName>
+                <default>false</default>
+                <label>MOTORCYCLE COST</label>
+            </value>
+            <value>
+                <fullName>PREMIER COST</fullName>
+                <default>false</default>
+                <label>PREMIER COST</label>
+            </value>
+            <value>
+                <fullName>PLUS/RV COST</fullName>
+                <default>false</default>
+                <label>PLUS/RV COST</label>
+            </value>
+            <value>
+                <fullName>CUSTOMER APPEASEMENT</fullName>
+                <default>false</default>
+                <label>CUSTOMER APPEASEMENT</label>
+            </value>
+            <value>
+                <fullName>FACILITY COMPLAINT</fullName>
+                <default>false</default>
+                <label>FACILITY COMPLAINT</label>
+            </value>
+            <value>
+                <fullName>FLEET COMPLAINT</fullName>
+                <default>false</default>
+                <label>FLEET COMPLAINT</label>
+            </value>
+            <value>
+                <fullName>AAR PROGRAMS</fullName>
+                <default>false</default>
+                <label>AAR PROGRAMS</label>
+            </value>
+            <value>
+                <fullName>BATTERY CUSTOMER APPEASEMENT</fullName>
+                <default>false</default>
+                <label>BATTERY CUSTOMER APPEASEMENT</label>
+            </value>
+            <value>
+                <fullName>BATTERY FACILITY APPEASEMENT</fullName>
+                <default>false</default>
+                <label>BATTERY FACILITY APPEASEMENT</label>
+            </value>
+            <value>
+                <fullName>BATTERY FLEET APPEASEMENT</fullName>
+                <default>false</default>
+                <label>BATTERY FLEET APPEASEMENT</label>
+            </value>
+            <value>
+                <fullName>BACKGROUNDCK</fullName>
+                <default>false</default>
+                <label>BACKGROUNDCK</label>
+            </value>
+            <value>
+                <fullName>BASIC</fullName>
+                <default>false</default>
+                <label>BASIC</label>
+            </value>
+            <value>
+                <fullName>BATTERY</fullName>
+                <default>false</default>
+                <label>BATTERY</label>
+            </value>
+            <value>
+                <fullName>BATTWITHHOLD</fullName>
+                <default>false</default>
+                <label>BATTWITHHOLD</label>
+            </value>
+            <value>
+                <fullName>CK/GUARTEE</fullName>
+                <default>false</default>
+                <label>CK/GUARTEE</label>
+            </value>
+            <value>
+                <fullName>CUST APPEASE</fullName>
+                <default>false</default>
+                <label>CUST APPEASE</label>
+            </value>
+            <value>
+                <fullName>D3ME</fullName>
+                <default>false</default>
+                <label>D3ME</label>
+            </value>
+            <value>
+                <fullName>DAMAGE</fullName>
+                <default>false</default>
+                <label>DAMAGE</label>
+            </value>
+            <value>
+                <fullName>FUEL SUBSIDY</fullName>
+                <default>false</default>
+                <label>FUEL SUBSIDY</label>
+            </value>
+            <value>
+                <fullName>NTWKLSING AP</fullName>
+                <default>false</default>
+                <label>NTWKLSING AP</label>
+            </value>
+            <value>
+                <fullName>NTWKLSING AR</fullName>
+                <default>false</default>
+                <label>NTWKLSING AR</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>OVER DRAWN</fullName>
+                <default>false</default>
+                <label>OVER DRAWN</label>
+            </value>
+            <value>
+                <fullName>OVERCHARGE</fullName>
+                <default>false</default>
+                <label>OVERCHARGE</label>
+            </value>
+            <value>
+                <fullName>PAPER CHECK</fullName>
+                <default>false</default>
+                <label>PAPER CHECK</label>
+            </value>
+            <value>
+                <fullName>PERF PAY</fullName>
+                <default>false</default>
+                <label>PERF PAY</label>
+            </value>
+            <value>
+                <fullName>PLUS</fullName>
+                <default>false</default>
+                <label>PLUS</label>
+            </value>
+            <value>
+                <fullName>PREMIER</fullName>
+                <default>false</default>
+                <label>PREMIER</label>
+            </value>
+            <value>
+                <fullName>PREMIER RV</fullName>
+                <default>false</default>
+                <label>PREMIER RV</label>
+            </value>
+            <value>
+                <fullName>PUERTO R TAX</fullName>
+                <default>false</default>
+                <label>PUERTO R TAX</label>
+            </value>
+            <value>
+                <fullName>RECIP BASIC</fullName>
+                <default>false</default>
+                <label>RECIP BASIC</label>
+            </value>
+            <value>
+                <fullName>RECIP PLUS</fullName>
+                <default>false</default>
+                <label>RECIP PLUS</label>
+            </value>
+            <value>
+                <fullName>RECIP PREM R</fullName>
+                <default>false</default>
+                <label>RECIP PREM R</label>
+            </value>
+            <value>
+                <fullName>RECIP PREMRV  R</fullName>
+                <default>false</default>
+                <label>RECIP PREMRV  R</label>
+            </value>
+            <value>
+                <fullName>RECIP RV</fullName>
+                <default>false</default>
+                <label>RECIP RV</label>
+            </value>
+            <value>
+                <fullName>RENT</fullName>
+                <default>false</default>
+                <label>RENT</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <label>RV</label>
+            </value>
+            <value>
+                <fullName>SPECIALEVENT</fullName>
+                <default>false</default>
+                <label>SPECIALEVENT</label>
+            </value>
+            <value>
+                <fullName>TAXES</fullName>
+                <default>false</default>
+                <label>TAXES</label>
+            </value>
+            <value>
+                <fullName>RE-DISPATCH (TOW &amp; STORE)</fullName>
+                <default>false</default>
+                <label>RE-DISPATCH (TOW &amp; STORE)</label>
+            </value>
+            <value>
+                <fullName>ERS ACCIDENT ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>ERS ACCIDENT ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>BASE RATE</fullName>
+                <default>false</default>
+                <label>BASE RATE</label>
+            </value>
+            <value>
+                <fullName>TAX REPLACEMENT</fullName>
+                <default>false</default>
+                <label>TAX REPLACEMENT</label>
+            </value>
+            <value>
+                <fullName>CONTINUATION TOW</fullName>
+                <default>false</default>
+                <label>CONTINUATION TOW</label>
+            </value>
+            <value>
+                <fullName>MEDIUM DUTY TOW MILEAGE</fullName>
+                <default>false</default>
+                <label>MEDIUM DUTY TOW MILEAGE</label>
+            </value>
+            <value>
+                <fullName>EXTRA TIME</fullName>
+                <default>false</default>
+                <label>EXTRA TIME</label>
+            </value>
+            <value>
+                <fullName>EXTRICATION</fullName>
+                <default>false</default>
+                <label>EXTRICATION</label>
+            </value>
+            <value>
+                <fullName>FUEL ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>FUEL ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>FLAT WITH SPARE</fullName>
+                <default>false</default>
+                <label>FLAT WITH SPARE</label>
+            </value>
+            <value>
+                <fullName>FUEL</fullName>
+                <default>false</default>
+                <label>FUEL</label>
+            </value>
+            <value>
+                <fullName>HEAVY DUTY TIME - TOW AND EXTRICATIONS</fullName>
+                <default>false</default>
+                <label>HEAVY DUTY TIME - TOW AND EXTRICATIONS</label>
+            </value>
+            <value>
+                <fullName>HEAVY DUTY EXTRICATION ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>HEAVY DUTY EXTRICATION ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>HVY DUTY ENROUTE MILEAGE - TIRE</fullName>
+                <default>false</default>
+                <label>HVY DUTY ENROUTE MILEAGE - TIRE</label>
+            </value>
+            <value>
+                <fullName>HOLIDAY PAY</fullName>
+                <default>false</default>
+                <label>HOLIDAY PAY</label>
+            </value>
+            <value>
+                <fullName>HEAVY DUTY TIRE ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>HEAVY DUTY TIRE ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>HEAVY DUTY EXTRA TIME - TIRE</fullName>
+                <default>false</default>
+                <label>HEAVY DUTY EXTRA TIME - TIRE</label>
+            </value>
+            <value>
+                <fullName>HIGHWAY TOLL</fullName>
+                <default>false</default>
+                <label>HIGHWAY TOLL</label>
+            </value>
+            <value>
+                <fullName>DEAD BATTERY</fullName>
+                <default>false</default>
+                <label>DEAD BATTERY</label>
+            </value>
+            <value>
+                <fullName>LOCKSMITH BASIC ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>LOCKSMITH BASIC ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>LOCKSMITH PLUS ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>LOCKSMITH PLUS ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>LOCKSMITH PREMIER ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>LOCKSMITH PREMIER ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>LOCKOUT/LOCKSMITH</fullName>
+                <default>false</default>
+                <label>LOCKOUT/LOCKSMITH</label>
+            </value>
+            <value>
+                <fullName>PREMIER LONG TOW</fullName>
+                <default>false</default>
+                <label>PREMIER LONG TOW</label>
+            </value>
+            <value>
+                <fullName>MOTORCYCLE ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>MOTORCYCLE ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>MANAGEMENT DECISION</fullName>
+                <default>false</default>
+                <label>MANAGEMENT DECISION</label>
+            </value>
+            <value>
+                <fullName>MOTORCYCLE RIDER ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>MOTORCYCLE RIDER ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>MED DUTY ADJUSTMENT</fullName>
+                <default>false</default>
+                <label>MED DUTY ADJUSTMENT</label>
+            </value>
+            <value>
+                <fullName>ENROUTE MILEAGE</fullName>
+                <default>false</default>
+                <label>ENROUTE MILEAGE</label>
+            </value>
+            <value>
+                <fullName>RAP GOA</fullName>
+                <default>false</default>
+                <label>RAP GOA</label>
+            </value>
+            <value>
+                <fullName>RAP TIRE CHANGE</fullName>
+                <default>false</default>
+                <label>RAP TIRE CHANGE</label>
+            </value>
+            <value>
+                <fullName>RAP JUMPSTART</fullName>
+                <default>false</default>
+                <label>RAP JUMPSTART</label>
+            </value>
+            <value>
+                <fullName>RAP FUEL</fullName>
+                <default>false</default>
+                <label>RAP FUEL</label>
+            </value>
+            <value>
+                <fullName>RAP LOCKOUT</fullName>
+                <default>false</default>
+                <label>RAP LOCKOUT</label>
+            </value>
+            <value>
+                <fullName>RAP EXTRICATION</fullName>
+                <default>false</default>
+                <label>RAP EXTRICATION</label>
+            </value>
+            <value>
+                <fullName>RAP STORAGE/MISC</fullName>
+                <default>false</default>
+                <label>RAP STORAGE/MISC</label>
+            </value>
+            <value>
+                <fullName>EDS PRE-AUTHORIZED ADDED SVC</fullName>
+                <default>false</default>
+                <label>EDS PRE-AUTHORIZED ADDED SVC</label>
+            </value>
+            <value>
+                <fullName>RAP LOCKSMITH</fullName>
+                <default>false</default>
+                <label>RAP LOCKSMITH</label>
+            </value>
+            <value>
+                <fullName>2ND TRUCK FOR PARKING STRUCTURE</fullName>
+                <default>false</default>
+                <label>2ND TRUCK FOR PARKING STRUCTURE</label>
+            </value>
+            <value>
+                <fullName>SPECIAL EQUIPMENT</fullName>
+                <default>false</default>
+                <label>SPECIAL EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>STORAGE</fullName>
+                <default>false</default>
+                <label>STORAGE</label>
+            </value>
+            <value>
+                <fullName>TOLLS/PARKING</fullName>
+                <default>false</default>
+                <label>TOLLS/PARKING</label>
+            </value>
+            <value>
+                <fullName>TRANSPONDER/VATS KEYS</fullName>
+                <default>false</default>
+                <label>TRANSPONDER/VATS KEYS</label>
+            </value>
+            <value>
+                <fullName>TOW MILEAGE</fullName>
+                <default>false</default>
+                <label>TOW MILEAGE</label>
+            </value>
+            <value>
+                <fullName>ZONE PAYMENT</fullName>
+                <default>false</default>
+                <label>ZONE PAYMENT</label>
+            </value>
+            <value>
+                <fullName>PLUS 2ND TRUCK FOR EXTRICATION</fullName>
+                <default>false</default>
+                <label>PLUS 2ND TRUCK FOR EXTRICATION</label>
+            </value>
+            <value>
+                <fullName>AA-STORAGE</fullName>
+                <default>false</default>
+                <label>AA-STORAGE</label>
+            </value>
+            <value>
+                <fullName>AA-EXTRA TIME</fullName>
+                <default>false</default>
+                <label>AA-EXTRA TIME</label>
+            </value>
+            <value>
+                <fullName>AA-2ND TRUCK TIME</fullName>
+                <default>false</default>
+                <label>AA-2ND TRUCK TIME</label>
+            </value>
+            <value>
+                <fullName>AA-ENROUTE MILEAGE</fullName>
+                <default>false</default>
+                <label>AA-ENROUTE MILEAGE</label>
+            </value>
+            <value>
+                <fullName>AA-TOW MILEAGE</fullName>
+                <default>false</default>
+                <label>AA-TOW MILEAGE</label>
+            </value>
+            <value>
+                <fullName>AA-ADV FEE-ADMIN FEE</fullName>
+                <default>false</default>
+                <label>AA-ADV FEE-ADMIN FEE</label>
+            </value>
+            <value>
+                <fullName>AA-ADV FEE-MISC</fullName>
+                <default>false</default>
+                <label>AA-ADV FEE-MISC</label>
+            </value>
+            <value>
+                <fullName>AA-ADV FEE-STORAGE</fullName>
+                <default>false</default>
+                <label>AA-ADV FEE-STORAGE</label>
+            </value>
+            <value>
+                <fullName>AA-ADV FEE-TOW AND MILEAGE</fullName>
+                <default>false</default>
+                <label>AA-ADV FEE-TOW AND MILEAGE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

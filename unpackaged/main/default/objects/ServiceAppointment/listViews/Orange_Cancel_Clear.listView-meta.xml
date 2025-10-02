@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orange_Cancel_Clear</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Status</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>Cleared,Canceled</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>0HhJx0000000gNR,0HhJx0000000gLp,0HhJx0000000gSH,0HhJx0000000gQf</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>Y13</value>
+    </filters>
+    <label>Orange - Cancel/Clear</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Club_Dispatcher</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

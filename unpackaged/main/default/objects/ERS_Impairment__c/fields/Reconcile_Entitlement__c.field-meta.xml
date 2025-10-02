@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reconcile_Entitlement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>When Selected this Entitlement will be moved to next contract period and do not select COD ONLY or Information Only checkboxes if this is selected</inlineHelpText>
+    <label>Reconcile Entitlement</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Calculated_Mileage_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(ServiceTerritory.Enable_Calculate_Mileage__c)</formula>
+    <label>Facility Calculated Mileage Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_TXT__c</fullName>
+    <description>Field used to convert the total dollar amount from dollars to text</description>
+    <externalId>false</externalId>
+    <formula>IF(FIND(&#39;.&#39;, TEXT(Total_Dollar_Amount__c)) = 0,
+TEXT(Total_Dollar_Amount__c) + &#39;.00&#39;,
+(LEFT(TEXT(Total_Dollar_Amount__c), FIND(&#39;.&#39;, TEXT(Total_Dollar_Amount__c) ) ) ) +
+RPAD(RIGHT(TEXT(Total_Dollar_Amount__c), LEN(TEXT(Total_Dollar_Amount__c)) - FIND(&#39;.&#39;, TEXT(Total_Dollar_Amount__c) ) ), 2, &#39;0&#39;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Amount TXT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

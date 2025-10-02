@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_InDay_on_Cancellation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>On/Off to run InDay upon cancellation of Call</description>
+    <inlineHelpText>On/Off to run InDay upon cancellation of Call</inlineHelpText>
+    <label>Run InDay on Cancellation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

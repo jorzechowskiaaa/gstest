@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment_Sub_Category__c</fullName>
+    <label>Comment Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Comment_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AAA App</fullName>
+                <default>false</default>
+                <label>AAA App</label>
+            </value>
+            <value>
+                <fullName>App Download</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>App Download</label>
+            </value>
+            <value>
+                <fullName>Appointment Assistant</fullName>
+                <default>false</default>
+                <label>Appointment Assistant</label>
+            </value>
+            <value>
+                <fullName>Auditing Issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Auditing Issue</label>
+            </value>
+            <value>
+                <fullName>Battery Failed</fullName>
+                <default>false</default>
+                <label>Battery Failed</label>
+            </value>
+            <value>
+                <fullName>Benefit</fullName>
+                <default>false</default>
+                <label>Benefit</label>
+            </value>
+            <value>
+                <fullName>Body</fullName>
+                <default>false</default>
+                <label>Body</label>
+            </value>
+            <value>
+                <fullName>Call Clearing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call Clearing</label>
+            </value>
+            <value>
+                <fullName>Cannot See Calls</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cannot See Calls</label>
+            </value>
+            <value>
+                <fullName>Chatbot</fullName>
+                <default>false</default>
+                <label>Chatbot</label>
+            </value>
+            <value>
+                <fullName>Cosmetic</fullName>
+                <default>false</default>
+                <label>Cosmetic</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Engine</fullName>
+                <default>false</default>
+                <label>Engine</label>
+            </value>
+            <value>
+                <fullName>ETA</fullName>
+                <default>false</default>
+                <label>ETA</label>
+            </value>
+            <value>
+                <fullName>Express Service</fullName>
+                <default>false</default>
+                <label>Express Service</label>
+            </value>
+            <value>
+                <fullName>FSL Login</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FSL Login</label>
+            </value>
+            <value>
+                <fullName>Installation/Labor</fullName>
+                <default>false</default>
+                <label>Installation/Labor</label>
+            </value>
+            <value>
+                <fullName>Lug Nuts</fullName>
+                <default>false</default>
+                <label>Lug Nuts</label>
+            </value>
+            <value>
+                <fullName>Operational Issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operational Issues</label>
+            </value>
+            <value>
+                <fullName>Operation Hours</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operation Hours</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Owner Creation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Owner Creation</label>
+            </value>
+            <value>
+                <fullName>Reimbursement</fullName>
+                <default>false</default>
+                <label>Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Replace parts labor</fullName>
+                <default>false</default>
+                <label>Replace parts labor</label>
+            </value>
+            <value>
+                <fullName>Reports/Dashboards</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reports/Dashboards</label>
+            </value>
+            <value>
+                <fullName>Suspension</fullName>
+                <default>false</default>
+                <label>Suspension</label>
+            </value>
+            <value>
+                <fullName>Technician Process Issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technician Process Issues</label>
+            </value>
+            <value>
+                <fullName>Transmission</fullName>
+                <default>false</default>
+                <label>Transmission</label>
+            </value>
+            <value>
+                <fullName>Trucks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trucks</label>
+            </value>
+            <value>
+                <fullName>Wheels</fullName>
+                <default>false</default>
+                <label>Wheels</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Setting Exceptions</controllingFieldValue>
+            <valueName>Benefit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Setting Exceptions</controllingFieldValue>
+            <valueName>Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Setting Exceptions</controllingFieldValue>
+            <valueName>ETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Setting Exceptions</controllingFieldValue>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <controllingFieldValue>Fees/Charges</controllingFieldValue>
+            <controllingFieldValue>Apps</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Battery Failed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Body</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Cosmetic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Engine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Lug Nuts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Suspension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Transmission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle</controllingFieldValue>
+            <valueName>Wheels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fees/Charges</controllingFieldValue>
+            <valueName>Installation/Labor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fees/Charges</controllingFieldValue>
+            <valueName>Reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fees/Charges</controllingFieldValue>
+            <valueName>Replace parts labor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apps</controllingFieldValue>
+            <valueName>AAA App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apps</controllingFieldValue>
+            <valueName>Appointment Assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apps</controllingFieldValue>
+            <valueName>Chatbot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apps</controllingFieldValue>
+            <valueName>Express Service</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

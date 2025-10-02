@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_Member_Status__c</fullName>
+    <description>Maps the incoming value of memberStatus as per JSOn from D3 i.e. &quot;memberStatus&quot;: &quot;A&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Maps the incoming value of memberStatus as per JSOn from D3 i.e. &quot;memberStatus&quot;: &quot;A&quot;</inlineHelpText>
+    <label>Member Status</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

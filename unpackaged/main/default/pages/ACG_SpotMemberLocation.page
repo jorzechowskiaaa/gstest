@@ -1,0 +1,221 @@
+<apex:page docType="html-5.0" standardStylesheets="false" sidebar="false" showHeader="false" controller="ACG_SpotMemberLocationController">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+      <title>Spotting</title>
+      <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:slds />
+            <style type="text/css">
+                 body,html{
+                      width: 100%;
+                      height: 100%;
+                      margin: 0px;
+                  }
+                 #map{
+                      height: 100%;
+                      width: 100%;
+                      margin: 0px;
+                      padding: 200px;
+                  }
+                 #location{
+                      width: 70%;
+                  }
+            </style>
+      </head>
+      <body>
+          <div id="showmap" class="showmap slds-form-element" style="display:none;">
+                       <strong>Your current location </strong>
+                       <div id="location" class="slds-wrap"></div>
+                       <div id="map"></div><br/>
+                       <div class="slds-grid slds-wrap slds-align_absolute-center"><button class="slds-button slds-button_brand" onclick="updatecase()">Submit</button></div>
+           </div>
+           <div class="hidemap" style="display:none;">
+               <h1>
+                   <div style="font-size:20px;text-align:center;">Thank you! Your location has been submitted.</div>
+               </h1>
+           </div>
+    </body>
+    <script src="https://maps.googleapis.com/maps/api/js?V=3.45&key=AIzaSyDrqDOs4dvUGh74BkgI2DLz1_QWzrnXEcc" charset="UTF-8" type="text/javascript"></script>
+    <script type="text/javascript"> 
+    var urlParams = new URLSearchParams(window.parent.location.search);
+        var idCase;
+        if(urlParams.get('Case_Id')!=null)
+        idCase = urlParams.get('Case_Id');
+        fetchcasedetails();
+        var decLat;
+        var decLon;
+        var strLoc;
+        var street;
+        var city;
+        var country;
+        var state;
+        var zip;
+        
+        
+        function fetchcasedetails(){
+            console.log('caseID',idCase);
+            if(idCase!=null){
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ACG_SpotMemberLocationController.fetchcase}',
+                    idCase,
+                    function(result, event){
+                        if(event.status){ 
+                                document.querySelector(".showmap").style.display="block";
+                                document.querySelector(".hidemap").style.display="none";
+                                getLocation();
+                        }
+                     },{escape: true,buffer:true});
+          } else{               
+                                document.querySelector(".showmap").style.display="block";
+                                document.querySelector(".hidemap").style.display="none";
+                                getLocation();
+              }
+         }
+        
+        /*Function to spot the Member Location --*/
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition,showError,{maximumAge:1000});
+            }
+            else { 
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        
+        /*Function to handle Location error requests --*/
+        function showError(PositionError) {
+            var x = document.getElementById("location");
+            switch(PositionError.code) {
+                case PositionError.PERMISSION_DENIED:
+                    x.innerHTML = "User denied the request for Geolocation."
+                    break;
+                case PositionError.POSITION_UNAVAILABLE:
+                    x.innerHTML = "Location information is unavailable."
+                    break;
+                case PositionError.TIMEOUT:
+                    x.innerHTML = "The request to get user location timed out."
+                    break;
+                case PositionError.UNKNOWN_ERROR:
+                    x.innerHTML = "An unknown error occurred."
+                    break;
+            }
+        }
+        
+         /*-- Function to create map and plot markers on it --*/
+        function showPosition(position) {
+            var x = document.getElementById("location");
+            var geocoder = new google.maps.Geocoder();
+            var latlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+            console.log('116');
+            geocoder.geocode({'latLng': latlng}, function(results, status) {
+                            console.log('118');
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[1]) {
+                        street = (getSpecificAddress(results[0], 'street_number') + ' ' + getSpecificAddress(results[0], 'route')).trim();
+                        if(street || results[0].formatted_address.includes('+')){
+                         x.innerHTML=results[0].formatted_address;
+                         strLoc=results[0].formatted_address;                         
+                            }
+                        else{
+                            x.innerHTML=results[0].plus_code?.compound_code;
+                         strLoc=results[0].plus_code?.compound_code;                             
+                            }
+                        city = getSpecificAddress(results[0], 'locality');
+                        country = getSpecificAddress(results[0], 'country');
+                        state = getSpecificAddress(results[0], 'administrative_area_level_1');
+                        zip =  getSpecificAddress(results[0], 'postal_code');
+                        decLat= position.coords.latitude;
+                        decLon= position.coords.longitude;
+                        var map;
+                        map = new google.maps.Map(document.getElementById("map"), {
+                            zoom: 18,
+                            center: {lat: position.coords.latitude, lng: position.coords.longitude},
+                            streetViewControl: false,
+                            fullscreenControl: false,
+                            mapTypeControl: false
+                        });
+                        var myLatlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            title: 'Your location',
+                            draggable: true
+                        });
+                        marker.addListener('drag', (e) => showlocation(JSON.stringify(e.latLng.toJSON(), null, 2)));
+                        marker.addListener('dragend', (e) => showlocation(JSON.stringify(e.latLng.toJSON(), null, 2)));
+                    } 
+                    else {
+                        console.log('No results found');
+                    }
+                }
+                else {
+                    console.log('Geocoder failed due to: ' + status);
+                }
+            });
+        }
+        
+        /*--Function to spot the location upon Marker dragging--*/
+        function showlocation(lat){
+                 var lat1 = JSON.parse(lat).lat;
+                 var lng1 = JSON.parse(lat).lng;
+                 var x = document.getElementById("location");
+                 var geocoder = new google.maps.Geocoder();
+                 latlng = new google.maps.LatLng(lat1,lng1);
+                 decLat=lat1;
+                 decLon=lng1;
+                 geocoder.geocode({'latLng': latlng}, function(results, status) {
+                 if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[1]) {
+                        street = (getSpecificAddress(results[0], 'street_number') + ' ' + getSpecificAddress(results[0], 'route')).trim();
+                        if(street || results[0].formatted_address.includes('+')){
+                         x.innerHTML=results[0].formatted_address;
+                         strLoc=results[0].formatted_address;                         
+                            }
+                        else{
+                         x.innerHTML=results[0].plus_code?.compound_code;
+                         strLoc=results[0].plus_code?.compound_code;                         
+                            }
+                        city = getSpecificAddress(results[0], 'locality');
+                        country = getSpecificAddress(results[0], 'country');
+                        state = getSpecificAddress(results[0], 'administrative_area_level_1');
+                        zip =  getSpecificAddress(results[0], 'postal_code');
+                     }
+                  }
+                });
+              
+                }
+        
+        function getSpecificAddress(address, add){
+            for(let i = 0; i<address.address_components.length; i++){
+            if(address.address_components[i].types[0] === add){
+                    console.log("Address Found::"+address.address_components[i].long_name); 
+                    return address.address_components[i].long_name;
+                }
+            } 
+            return '';
+        }
+        
+        /*--Function to update the spot location on case record --*/
+        function updatecase(){
+        if(decLat!=null && decLon!=null && strLoc!=null && street!=null && city!=null && country!=null && state!=null && zip!=null && idCase!=null){
+            Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ACG_SpotMemberLocationController.updateCasedetails}', 
+                    decLat,decLon,strLoc,street,city,country,state,zip,idCase,
+                    function(result, event){
+                        console.log('result',result);
+                     console.log('event.status',event.status);
+
+                        if(event.status){ 
+                            document.querySelector(".showmap").style.display="none";
+                            document.querySelector(".hidemap").style.display="block";
+                        }
+                     },{escape: true,buffer:true});
+            }
+            }
+        
+  </script>
+  
+   
+  </html>
+</apex:page>

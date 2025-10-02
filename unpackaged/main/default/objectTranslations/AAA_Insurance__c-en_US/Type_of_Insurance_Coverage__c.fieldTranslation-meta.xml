@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of Insurance Coverage --></label>
+        <name>Type_of_Insurance_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Light Service</masterLabel>
+            <translation><!-- Light Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Towing Provider</masterLabel>
+            <translation><!-- Towing Provider --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

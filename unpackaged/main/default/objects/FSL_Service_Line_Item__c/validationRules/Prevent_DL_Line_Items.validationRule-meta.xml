@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_DL_Line_Items</fullName>
+    <active>true</active>
+    <description>Prevents the creation of Product Code &#39;DL&#39; Line Items under most conditions.</description>
+    <errorConditionFormula>AND(
+ Work_Order__r.Audit_Flag__c != true,
+ Product_Code__c == &#39;DL&#39;
+)</errorConditionFormula>
+    <errorMessage>Line Items with a Product Code of &#39;DL&#39; can only be created if the Audit flag is checked on the Work Order.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Payment_Not_Required</name>
+        <label>Payment Not Required</label>
+        <locationX>192</locationX>
+        <locationY>50</locationY>
+        <assignmentItems>
+            <assignToReference>PaymentRequired</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <choices>
+        <name>BasicService</name>
+        <choiceText>Basic Service</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>M8</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>CashCall</name>
+        <choiceText>Cash Call</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>M9</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NSP</name>
+        <choiceText>No Service Provided</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>MM</stringValue>
+        </value>
+    </choices>
+    <description>Empty Version With No logic and No screens.</description>
+    <interviewLabel>Member Misuse Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FSL Member Misuse Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <startElementReference>Payment_Not_Required</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Code</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Description</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>PaymentRequired</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>PotentialMisuse</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>workOrderID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

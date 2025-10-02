@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Breakdown_Appointment_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>isBreakdown__c 
+&amp;&amp;
+(ISPICKVAL( Status, &#39;In Tow&#39;)
+ ||
+ (ISPICKVAL( PRIORVALUE(Status), &#39;Canceled&#39;)
+  &amp;&amp;
+  ISPICKVAL( Status, &#39;Dispatched&#39;) )
+)</errorConditionFormula>
+    <errorMessage>That is not a valid status transition for a Breakdown appointment.</errorMessage>
+</ValidationRule>

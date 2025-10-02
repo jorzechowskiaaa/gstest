@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Manual_Override</fullName>
+    <active>false</active>
+    <description>Requires a Dispatcher to provide a manual override reason before a scheduled appointment can be moved on the gantt</description>
+    <errorConditionFormula>IF(
+AND(
+NOT(ISBLANK(PRIORVALUE(SchedStartTime))),
+NOT(ISBLANK(SchedStartTime)),
+ISCHANGED(SchedStartTime),
+CONTAINS($Profile.Name, &#39;Disp&#39;),
+ISBLANK( Manual_Override_Reason__c ),
+NOT(TEXT(Status) == &#39;Cleared&#39;),
+NOT(TEXT(Status) == &#39;Canceled&#39;),
+NOT(TEXT(Status) == &#39;Spotted&#39;)
+),
+true, false)</errorConditionFormula>
+    <errorMessage>You must provide a manual override reason before changing the schedule</errorMessage>
+</ValidationRule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Problem Code --></label>
+        <name>Problem_Code__c</name>
+        <picklistValues>
+            <masterLabel>P0 - Multiple reasons</masterLabel>
+            <translation><!-- P0 - Multiple reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P1 - Total charges are either less than $5 or greater than $500</masterLabel>
+            <translation><!-- P1 - Total charges are either less than $5 or greater than $500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2 - Classic Member with Plus/RV/Premier charges</masterLabel>
+            <translation><!-- P2 - Classic Member with Plus/RV/Premier charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P4 - Multiple records for same member/same day</masterLabel>
+            <translation><!-- P4 - Multiple records for same member/same day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P5 - Overentitlements</masterLabel>
+            <translation><!-- P5 - Overentitlements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P6 - Member Name does not match Membership Number</masterLabel>
+            <translation><!-- P6 - Member Name does not match Membership Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P8 - Invalid Membership Number</masterLabel>
+            <translation><!-- P8 - Invalid Membership Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P9 - Past Expiration Date</masterLabel>
+            <translation><!-- P9 - Past Expiration Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC - Authorization code missing from reciprocal record.</masterLabel>
+            <translation><!-- PC - Authorization code missing from reciprocal record. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PD - Authorization code missing from local call record.</masterLabel>
+            <translation><!-- PD - Authorization code missing from local call record. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE - Servicing club does not match authorization record.</masterLabel>
+            <translation><!-- PE - Servicing club does not match authorization record. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF - Member ID does not match authorization record.</masterLabel>
+            <translation><!-- PF - Member ID does not match authorization record. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG - Member club does not match authorization record.</masterLabel>
+            <translation><!-- PG - Member club does not match authorization record. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH - Feedback record does not exist.</masterLabel>
+            <translation><!-- PH - Feedback record does not exist. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

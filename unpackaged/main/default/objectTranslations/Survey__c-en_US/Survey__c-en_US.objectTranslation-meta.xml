@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Surveys</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <description><!-- CCC Customer Satisfaction Survey --></description>
+        <label><!-- CCC CSat --></label>
+        <name>ACG_CCC_CSat</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Fins customer NPS survey --></description>
+        <label><!-- Fins NPS Survey --></label>
+        <name>ACG_Fins_NPS_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Records responses submitted to Go Magazine surveys. --></description>
+        <label><!-- Go Magazine Readership Survey --></label>
+        <name>ACG_Go_Magazine_Readership_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Surveys collected in store --></description>
+        <label><!-- In Store --></label>
+        <name>ACG_In_Store</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Records Insurance NPS Survey responses. --></description>
+        <label><!-- Insurance NPS --></label>
+        <name>ACG_Insurance_NPS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Records Membership NPS survey responses. --></description>
+        <label><!-- Membership NPS --></label>
+        <name>ACG_Membership_NPS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tow provider survey (Initially used during COVID-19) --></description>
+        <label><!-- Tow Provider Survey --></label>
+        <name>ACG_Tow_Provider_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Travel Closed Lost survey --></description>
+        <label><!-- Travel Closed Lost --></label>
+        <name>ACG_Travel_Closed_Lost</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Records Travel NPS Survey responses. --></description>
+        <label><!-- Travel NPS --></label>
+        <name>ACG_Travel_NPS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- NPS survey --></description>
+        <label><!-- ERS Event Survey --></label>
+        <name>ERS_Event_Survey</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Action</fullName>
+    <active>true</active>
+    <label>Add Action</label>
+    <picklistValues>
+        <picklist>Action__c</picklist>
+        <values>
+            <fullName>ADD</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Entity__c</picklist>
+        <values>
+            <fullName>FSL_Service_Line_Item%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSL_TroubleCode%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkOrder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Identifying_Attribute__c</picklist>
+        <values>
+            <fullName>Clear_Code%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product%5F%5Fr%2EProductCode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolution_Code%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

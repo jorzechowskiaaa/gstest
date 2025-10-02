@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <picklistValues>
+            <masterLabel>CMCFLEET</masterLabel>
+            <translation><!-- CMCFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAFLEET</masterLabel>
+            <translation><!-- MAFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJFLEET</masterLabel>
+            <translation><!-- NJFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NWJERSEY</masterLabel>
+            <translation><!-- NWJERSEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYFLEET</masterLabel>
+            <translation><!-- NYFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RIFLEET</masterLabel>
+            <translation><!-- RIFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YORK</masterLabel>
+            <translation><!-- YORK --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

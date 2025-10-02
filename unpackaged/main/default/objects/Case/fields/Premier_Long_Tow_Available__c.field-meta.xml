@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Premier_Long_Tow_Available__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Account.Membership_IsLocalClub__pc = TRUE,
+
+IF(   AND(       OR(          ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier&quot;),          ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier RV&quot;)         ),        ServiceContract.ParentServiceContract.AAA_Long_Tow_Consumed__c = FALSE      ),   &quot;Yes&quot;,IF(   AND(       OR(          ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier&quot;),          ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier RV&quot;)         ),  ServiceContract.ParentServiceContract.AAA_Long_Tow_Consumed__c = TRUE      ),   &quot;No&quot;,   &quot;N/A&quot;  ))
+
+,
+IF(  AND( OR(  ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier&quot;), ISPICKVAL(Account.AAA_Membership_Level__c, &quot;Premier RV&quot;)), Account.AAA_200_Miles_Premier_Tow__c = TRUE) , &quot;Yes&quot; , &quot;No&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Premier Long Tow Available</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Breakdown_Appointment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Boolean is selected if the appointment is a breakdown appointment</description>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Breakdown Appointment</label>
+    <type>Checkbox</type>
+</CustomField>

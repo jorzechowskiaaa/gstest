@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- this field is a conversion of tax amount from dollars to text for use in reports --></help>
+        <label><!-- Tax Amount TXT --></label>
+        <name>Tax_Amount_TXT__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+        <picklistValues>
+            <masterLabel>ACG DRR</masterLabel>
+            <translation><!-- ACG DRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARR</masterLabel>
+            <translation><!-- ARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHATBOT</masterLabel>
+            <translation><!-- CHATBOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTI DRR</masterLabel>
+            <translation><!-- CTI DRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRR</masterLabel>
+            <translation><!-- DRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRCARPLAY IOS</masterLabel>
+            <translation><!-- DRRCARPLAY IOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0</masterLabel>
+            <translation><!-- DRRWeb 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 800SMS</masterLabel>
+            <translation><!-- DRRWeb 2.0 800SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 ACEAPP</masterLabel>
+            <translation><!-- DRRWeb 2.0 ACEAPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 ACEAPP-ANDROIDMOBILE</masterLabel>
+            <translation><!-- DRRWeb 2.0 ACEAPP-ANDROIDMOBILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 ACEAPP-IOS</masterLabel>
+            <translation><!-- DRRWeb 2.0 ACEAPP-IOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 AGENT</masterLabel>
+            <translation><!-- DRRWeb 2.0 AGENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 ANDROIDMOBILE</masterLabel>
+            <translation><!-- DRRWeb 2.0 ANDROIDMOBILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 BLUESKYDRR</masterLabel>
+            <translation><!-- DRRWeb 2.0 BLUESKYDRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 BQ</masterLabel>
+            <translation><!-- DRRWeb 2.0 BQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 IOSMOBILE</masterLabel>
+            <translation><!-- DRRWeb 2.0 IOSMOBILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 IVR</masterLabel>
+            <translation><!-- DRRWeb 2.0 IVR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 IVR SELF SERVICE</masterLabel>
+            <translation><!-- DRRWeb 2.0 IVR SELF SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRRWeb 2.0 SEO</masterLabel>
+            <translation><!-- DRRWeb 2.0 SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVR</masterLabel>
+            <translation><!-- IVR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSO Chatbot</masterLabel>
+            <translation><!-- RSO Chatbot --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

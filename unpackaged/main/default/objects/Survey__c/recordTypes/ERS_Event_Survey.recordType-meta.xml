@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERS_Event_Survey</fullName>
+    <active>true</active>
+    <description>NPS survey</description>
+    <label>ERS Event Survey</label>
+    <picklistValues>
+        <picklist>Booked_Trip_Elsewhere__c</picklist>
+        <values>
+            <fullName>Another AAA Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other On-Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storefront Agency</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Article_Length_Preference__c</picklist>
+        <values>
+            <fullName>Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Cover_Photography_Preference__c</picklist>
+        <values>
+            <fullName>International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Ease_of_Reading__c</picklist>
+        <values>
+            <fullName>Difficult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Magazine_Satisfaction__c</picklist>
+        <values>
+            <fullName>Not at all satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Reading_Format_Preference__c</picklist>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tablet or eReader</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_References_Carolinas_Events__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Typical_Amount_Read__c</picklist>
+        <values>
+            <fullName>Do not read</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Read %C2%BD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Read all or almost all</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skim only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Values_Member_Testimonials__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Visits_After_Reading__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance_Distribution__c</picklist>
+        <values>
+            <fullName>AAOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claims Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Partners</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance_NPS_Type__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claims Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Agent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance_Status__c</picklist>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need Help</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Least_Pleasant__c</picklist>
+        <values>
+            <fullName>Checking In or Dropping Off the Vehicle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving the Digital Vehicle Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving the repair estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setting the Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shuttle Transportation to or from Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The waiting area or facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle pickup and check out</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Membership_NPS_Type__c</picklist>
+        <values>
+            <fullName>Join</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Most_Pleasant__c</picklist>
+        <values>
+            <fullName>Checking In or Dropping Off the Vehicle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving the Digital Vehicle Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receiving the repair estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setting the Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shuttle Transportation to or from Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The waiting area or facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle pickup and check out</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reasons_for_Not_Booking__c</picklist>
+        <values>
+            <fullName>Agent Knowledge%2FExpertise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Booked Elsewhere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change of Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Trip or Different Trip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Survey_Channel__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Survey_Process_Criteria__c</picklist>
+        <values>
+            <fullName>Claim FNOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Final Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Policy Change</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Travel_Destination_Interests__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antartica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australia%2FNew Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caribbean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Travel_NPS_Type__c</picklist>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Home</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

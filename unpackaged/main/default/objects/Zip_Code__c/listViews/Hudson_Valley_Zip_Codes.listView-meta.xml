@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hudson_Valley_Zip_Codes</fullName>
+    <columns>NAME</columns>
+    <columns>Club_Code__c</columns>
+    <columns>Club_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Club_Name__c</field>
+        <operation>equals</operation>
+        <value>AAA Hudson Valley</value>
+    </filters>
+    <label>Hudson Valley Zip Codes</label>
+    <sharedTo>
+        <allInternalUsers />
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

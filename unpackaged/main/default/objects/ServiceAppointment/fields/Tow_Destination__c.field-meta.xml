@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tow_Destination__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ AND(
+  Subject=&quot;Breakdown Appointment&quot;,
+  FSL__Related_Service__c &lt;&gt; null
+ ), 
+ IF(NOT(ISBLANK(FSL__Related_Service__r.Landmark__c)),
+  FSL__Related_Service__r.Landmark__c &amp; &quot;, &quot;,
+  NULL
+ )
+ &amp;  FSL__Related_Service__r.Street &amp; &quot;, &quot; &amp; FSL__Related_Service__r.City &amp; &quot;, &quot; &amp; FSL__Related_Service__r.State &amp;  &quot;, &quot; &amp; FSL__Related_Service__r.PostalCode ,
+ NULL
+)</formula>
+    <label>Tow Destination</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

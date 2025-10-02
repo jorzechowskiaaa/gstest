@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Setting the Appointment</fullName>
+        <default>false</default>
+        <label>Setting the Appointment</label>
+    </customValue>
+    <customValue>
+        <fullName>Checking In or Dropping Off the Vehicle</fullName>
+        <default>false</default>
+        <label>Checking In or Dropping Off the Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>Shuttle Transportation to or from Store</fullName>
+        <default>false</default>
+        <label>Shuttle Transportation to or from Store</label>
+    </customValue>
+    <customValue>
+        <fullName>The waiting area or facilities</fullName>
+        <default>false</default>
+        <label>The waiting area or facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Receiving the Digital Vehicle Inspection</fullName>
+        <default>false</default>
+        <label>Receiving the Digital Vehicle Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Receiving the repair estimate</fullName>
+        <default>false</default>
+        <label>Receiving the repair estimate</label>
+    </customValue>
+    <customValue>
+        <fullName>Vehicle pickup and check out</fullName>
+        <default>false</default>
+        <label>Vehicle pickup and check out</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <description>Picklist used to ask which parts of a Car Care Visit were (un)pleasant.</description>
+    <masterLabel>Car Care Survey Responses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

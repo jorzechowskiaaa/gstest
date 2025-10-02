@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Green_All_Calls_Cleared_Cancelled</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Status</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Member_Benefit_Level__c</columns>
+    <columns>Payment_Required__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <columns>ServiceTerritory</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>Cleared,Canceled</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>0HhJx0000000Fwk,0HhJx0000000Hgn,0HhJx0000000Fwl,0HhJx0000000Fwm,0HhJx0000000Fwn</value>
+    </filters>
+    <label>Green All Calls Cleared/Cancelled</label>
+    <sharedTo>
+        <role>Club_Dispatcher</role>
+        <role>Dispatcher_Supervisor</role>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

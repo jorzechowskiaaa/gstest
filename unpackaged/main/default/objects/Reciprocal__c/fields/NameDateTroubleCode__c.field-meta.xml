@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameDateTroubleCode__c</fullName>
+    <externalId>false</externalId>
+    <formula>Member_First_Name__c&amp;&#39;-&#39;&amp;Member_Last_Name__c&amp;&#39;-&#39;&amp;TEXT(Service_Call_Date__c)&amp;&#39;-&#39;&amp;TEXT( Service_Call_Trouble_Code__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NameDateTroubleCode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

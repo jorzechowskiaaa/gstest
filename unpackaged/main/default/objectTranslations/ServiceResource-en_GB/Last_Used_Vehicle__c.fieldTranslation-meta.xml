@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Last Used Vehicle --></label>
+        <name>Last_Used_Vehicle__c</name>
+        <relationshipLabel><!-- Service Resources (Last Used Vehicle) --></relationshipLabel>
+    </CustomFieldTranslation>

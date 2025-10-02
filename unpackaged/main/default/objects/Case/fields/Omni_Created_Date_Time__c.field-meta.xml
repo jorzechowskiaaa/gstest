@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Omni_Created_Date_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(TEXT(Violation_Type__c))),
+
+IF(  
+    
+    ISPICKVAL($User.TimeZoneSidKey, &#39;America/New_York&#39;), 
+
+    TEXT(DATEVALUE(CreatedDate-5/24)) &amp; &#39; &#39; &amp; 
+    MID(TEXT(TIMEVALUE(CreatedDate-5/24)), FIND(TEXT(TIMEVALUE(CreatedDate-5/24)),&#39;:&#39;), 2) &amp;
+    &#39;:&#39; &amp; 
+    MID( TEXT(TIMEVALUE(CreatedDate-5/24)) , FIND(TEXT(TIMEVALUE(CreatedDate-5/24)),&#39;:&#39;)+4, 2) 
+    &amp; &#39;:&#39; &amp;
+    MID( TEXT(TIMEVALUE(CreatedDate-5/24)) , FIND(TEXT(TIMEVALUE(CreatedDate-5/24)),&#39;:&#39;)+7, 2), 
+
+    IF(  
+        
+    ISPICKVAL($User.TimeZoneSidKey, &#39;America/Los_Angeles&#39;), 
+
+    TEXT(DATEVALUE(CreatedDate-8/24)) &amp; &#39; &#39; &amp; 
+    MID(TEXT(TIMEVALUE(CreatedDate-8/24)), FIND(TEXT(TIMEVALUE(CreatedDate-8/24)),&#39;:&#39;), 2) &amp;
+    &#39;:&#39; &amp; 
+    MID( TEXT(TIMEVALUE(CreatedDate-8/24)) , FIND(TEXT(TIMEVALUE(CreatedDate-8/24)),&#39;:&#39;)+4, 2), 
+
+    TEXT(DATEVALUE(CreatedDate-5/24)) &amp; &#39; &#39; &amp; 
+    MID(TEXT(TIMEVALUE(CreatedDate-5/24)), FIND(TEXT(TIMEVALUE(CreatedDate-5/24)),&#39;:&#39;), 2) &amp;
+    &#39;:&#39; &amp; 
+    MID( TEXT(TIMEVALUE(CreatedDate-5/24)) , FIND(TEXT(TIMEVALUE(CreatedDate-5/24)),&#39;:&#39;)+4, 2))
+
+            
+    ),
+&#39;&#39; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Omni Created Date &amp; Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

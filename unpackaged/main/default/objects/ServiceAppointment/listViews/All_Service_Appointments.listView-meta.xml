@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Service_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>CITY</columns>
+    <columns>State_Lightbox__c</columns>
+    <columns>D3_Call_ID__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Work_Order__c</columns>
+    <columns>WorkType</columns>
+    <columns>Work_Type_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Cleared</value>
+    </filters>
+    <label>Unspotted Service Appointments</label>
+    <sharedTo>
+        <role>System_Admin</role>
+        <roleAndSubordinatesInternal>Club_Dispatcher</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

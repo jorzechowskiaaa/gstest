@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When selected, an automated process will create secondary STMs for this territory and any children territories when a primary service territory member is inserted for a child territory --></help>
+        <label><!-- Auto-Create STMs --></label>
+        <name>Auto_Create_STMs__c</name>
+    </CustomFieldTranslation>

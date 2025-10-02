@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_RAP_Kevan</fullName>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Created_Date_Reporting__c</columns>
+    <columns>RAP_Status__c</columns>
+    <columns>RAP_Verified__c</columns>
+    <columns>RAP_Case_Number__c</columns>
+    <columns>Call_Origin_OrgCode__c</columns>
+    <columns>Call_Origin_OrgName__c</columns>
+    <columns>WorkType</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Status</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Call_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Call_Type__c</field>
+        <operation>equals</operation>
+        <value>RAP</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>7/15/2024 12:00 AM</value>
+    </filters>
+    <label>D3 RAP CALLS TO BE CLEARED IN D3</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

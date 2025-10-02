@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Name_must_be_Unique</fullName>
+    <active>true</active>
+    <errorConditionFormula>UPPER(Name) == UPPER(VLOOKUP(
+$ObjectType.Contract__c.Fields.Name,
+$ObjectType.Contract__c.Fields.Name,
+Name
+))
+&amp;&amp;
+Id &lt;&gt; VLOOKUP(
+$ObjectType.Contract__c.Fields.Id,
+$ObjectType.Contract__c.Fields.Name,
+Name
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Contract Name must be unique</errorMessage>
+</ValidationRule>

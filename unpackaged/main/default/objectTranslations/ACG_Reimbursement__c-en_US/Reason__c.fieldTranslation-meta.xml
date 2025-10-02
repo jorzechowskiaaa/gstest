@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <picklistValues>
+            <masterLabel>2nd Tow</masterLabel>
+            <translation><!-- 2nd Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AP Re-issue</masterLabel>
+            <translation><!-- AP Re-issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident</masterLabel>
+            <translation><!-- Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Monies Approved</masterLabel>
+            <translation><!-- Additional Monies Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakdown</masterLabel>
+            <translation><!-- Breakdown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrication</masterLabel>
+            <translation><!-- Extrication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockout</masterLabel>
+            <translation><!-- Lockout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Emergency</masterLabel>
+            <translation><!-- Medical Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Relations</masterLabel>
+            <translation><!-- Member Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Call/illegal</masterLabel>
+            <translation><!-- Police Call/illegal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-issue</masterLabel>
+            <translation><!-- Re-issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stolen &amp; Recovered</masterLabel>
+            <translation><!-- Stolen &amp; Recovered --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

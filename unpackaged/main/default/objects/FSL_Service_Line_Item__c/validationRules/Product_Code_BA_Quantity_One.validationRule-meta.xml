@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Code_BA_Quantity_One</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+				    Product_Code__c = &quot;BA&quot;,
+        Unit__c &gt; 1,
+				    Unit__c &lt; 0
+)</errorConditionFormula>
+    <errorDisplayField>Unit__c</errorDisplayField>
+    <errorMessage>Product Code of BA can only have a quantity of 1</errorMessage>
+</ValidationRule>

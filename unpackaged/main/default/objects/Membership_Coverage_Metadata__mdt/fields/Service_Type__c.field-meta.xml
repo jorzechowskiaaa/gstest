@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Service Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Battery</fullName>
+                <default>true</default>
+                <label>Battery</label>
+            </value>
+            <value>
+                <fullName>Tow</fullName>
+                <default>false</default>
+                <label>Tow</label>
+            </value>
+            <value>
+                <fullName>Flat Tire</fullName>
+                <default>false</default>
+                <label>Flat Tire</label>
+            </value>
+            <value>
+                <fullName>Vehicle Lockout</fullName>
+                <default>false</default>
+                <label>Vehicle Lockout</label>
+            </value>
+            <value>
+                <fullName>Fuel</fullName>
+                <default>false</default>
+                <label>Fuel</label>
+            </value>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>Extrication</fullName>
+                <default>false</default>
+                <label>Extrication</label>
+            </value>
+            <value>
+                <fullName>Home Lockout</fullName>
+                <default>false</default>
+                <label>Home Lockout</label>
+            </value>
+            <value>
+                <fullName>Locksmith</fullName>
+                <default>false</default>
+                <label>Locksmith</label>
+            </value>
+            <value>
+                <fullName>Extrication Tow Only</fullName>
+                <default>false</default>
+                <label>Extrication Tow Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

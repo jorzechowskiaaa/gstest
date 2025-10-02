@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_Total_of_Reciprocals__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Field that gets incremented when the member is serviced outside of the club and a Reciprocal is received</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of Service Calls that the member has consumed outside AAA Northeast territory (Reciprocals and/or Feedbacks) where the “Charge Entitlement” checkbox is checked.</inlineHelpText>
+    <label>Total # of Reciprocals</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

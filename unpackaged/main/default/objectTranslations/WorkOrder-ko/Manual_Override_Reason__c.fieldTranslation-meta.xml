@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manual Override Reason --></label>
+        <name>Manual_Override_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Additional Equipment Needed</masterLabel>
+            <translation><!-- Additional Equipment Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appointment Time Call</masterLabel>
+            <translation><!-- Appointment Time Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery Service Assigned to Tow Truck</masterLabel>
+            <translation><!-- Battery Service Assigned to Tow Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Service Appointment (Tow Only)</masterLabel>
+            <translation><!-- Broken Service Appointment (Tow Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver - End of Shift</masterLabel>
+            <translation><!-- Driver - End of Shift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver - Extended on Previous Call - (End Time Updated)</masterLabel>
+            <translation><!-- Driver - Extended on Previous Call - (End Time Updated) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver - Late Start Time - (Exception Entered)</masterLabel>
+            <translation><!-- Driver - Late Start Time - (Exception Entered) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver - Tablet Issues - (Exception Entered)</masterLabel>
+            <translation><!-- Driver - Tablet Issues - (Exception Entered) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver/Truck Out of Service - (Schedule Updated)</masterLabel>
+            <translation><!-- Driver/Truck Out of Service - (Schedule Updated) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Call – Stacking</masterLabel>
+            <translation><!-- Emergency Call – Stacking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Declined Service to Member</masterLabel>
+            <translation><!-- Facility Declined Service to Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flatbed Required</masterLabel>
+            <translation><!-- Flatbed Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Higher Scoring Candidate Found</masterLabel>
+            <translation><!-- Higher Scoring Candidate Found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Service Reclassified as Tow</masterLabel>
+            <translation><!-- Light Service Reclassified as Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member - Request - FB</masterLabel>
+            <translation><!-- Member - Request - FB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member - Request - ICS</masterLabel>
+            <translation><!-- Member - Request - ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member - Request Alternate ICS</masterLabel>
+            <translation><!-- Member - Request Alternate ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moving due to Battery Availability</masterLabel>
+            <translation><!-- Moving due to Battery Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moving to Available Driver - Faster Response Time</masterLabel>
+            <translation><!-- Moving to Available Driver - Faster Response Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moving to LS Unit</masterLabel>
+            <translation><!-- Moving to LS Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moving to Tow Unit</masterLabel>
+            <translation><!-- Moving to Tow Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Provide Comments)</masterLabel>
+            <translation><!-- Other (Provide Comments) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Time Adjustment on Same Technician (Overlap/Fill in gap)</masterLabel>
+            <translation><!-- Schedule Time Adjustment on Same Technician (Overlap/Fill in gap) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stacked Calls</masterLabel>
+            <translation><!-- Stacked Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Requires FB</masterLabel>
+            <translation><!-- Tow Requires FB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Requires HD</masterLabel>
+            <translation><!-- Tow Requires HD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Requires Low Clearance</masterLabel>
+            <translation><!-- Tow Requires Low Clearance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Requires MD</masterLabel>
+            <translation><!-- Tow Requires MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Requires WL</masterLabel>
+            <translation><!-- Tow Requires WL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unscheduled Call</masterLabel>
+            <translation><!-- Unscheduled Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

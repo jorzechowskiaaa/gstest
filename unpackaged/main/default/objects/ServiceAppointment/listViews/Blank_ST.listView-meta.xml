@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blank_ST</fullName>
+    <columns>Name</columns>
+    <columns>D3_Call_ID__c</columns>
+    <columns>WorkType</columns>
+    <columns>Status</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>EarliestStartTime</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Auto_On_Location__c</columns>
+    <columns>LastModifiedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>ServiceAppointment.Breakdown</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Cleared</value>
+    </filters>
+    <label>Blank ST</label>
+    <sharedTo>
+        <role>System_Admin</role>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Air</fullName>
+        <default>false</default>
+        <label>Air</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car</fullName>
+        <default>false</default>
+        <label>Car</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cruise</fullName>
+        <default>false</default>
+        <label>Cruise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drive vacation</fullName>
+        <default>false</default>
+        <label>Drive vacation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FIT</fullName>
+        <default>false</default>
+        <label>FIT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vacation package</fullName>
+        <default>false</default>
+        <label>Vacation package</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Auto</fullName>
+        <default>false</default>
+        <label>Auto</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Home</fullName>
+        <default>false</default>
+        <label>Home</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renter</fullName>
+        <default>false</default>
+        <label>Renter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life</fullName>
+        <default>false</default>
+        <label>Life</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Airplane Ticket</fullName>
+        <default>false</default>
+        <label>Airplane Ticket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car Rental</fullName>
+        <default>false</default>
+        <label>Car Rental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disney</fullName>
+        <default>false</default>
+        <label>Disney</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Domestic Road Trip</fullName>
+        <default>false</default>
+        <label>Domestic Road Trip</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel Reservation</fullName>
+        <default>false</default>
+        <label>Hotel Reservation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tour</fullName>
+        <default>false</default>
+        <label>Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Insurance</fullName>
+        <default>false</default>
+        <label>Travel Insurance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Universal</fullName>
+        <default>false</default>
+        <label>Universal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tour/Package Domestic</fullName>
+        <default>false</default>
+        <label>Tour/Package Domestic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tour/Package International</fullName>
+        <default>false</default>
+        <label>Tour/Package International</label>
+    </standardValue>
+</StandardValueSet>

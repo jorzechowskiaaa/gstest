@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vehicle Lockout Reason --></label>
+        <name>Vehicle_Lockout_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Frozen Doors</masterLabel>
+            <translation><!-- Frozen Doors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen Locks</masterLabel>
+            <translation><!-- Frozen Locks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I don&#39;t know</masterLabel>
+            <translation><!-- I don&apos;t know --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Broken</masterLabel>
+            <translation><!-- Key Broken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Lost</masterLabel>
+            <translation><!-- Key Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Won&#39;t Turn in Ignition</masterLabel>
+            <translation><!-- Key Won&apos;t Turn in Ignition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keys Locked in Trunk - No Release</masterLabel>
+            <translation><!-- Keys Locked in Trunk - No Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keys Locked in Trunk/Trunk Release</masterLabel>
+            <translation><!-- Keys Locked in Trunk/Trunk Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keys in Trunk No Trunk Release</masterLabel>
+            <translation><!-- Keys in Trunk No Trunk Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locked in the vehicle</masterLabel>
+            <translation><!-- Locked in the vehicle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous / Other</masterLabel>
+            <translation><!-- Miscellaneous / Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My key is broken or lost</masterLabel>
+            <translation><!-- My key is broken or lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My key won&#39;t turn in the ignition</masterLabel>
+            <translation><!-- My key won&apos;t turn in the ignition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My key won&#39;t unlock the door</masterLabel>
+            <translation><!-- My key won&apos;t unlock the door --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

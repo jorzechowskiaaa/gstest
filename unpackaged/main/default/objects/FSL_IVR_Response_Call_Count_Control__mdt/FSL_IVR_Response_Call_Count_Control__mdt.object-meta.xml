@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>FSL IVR Response Call Count Control</label>
+    <pluralLabel>FSL IVR Response Call Count Controls</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

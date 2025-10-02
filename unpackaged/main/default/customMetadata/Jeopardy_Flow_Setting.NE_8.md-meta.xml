@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>NE 8</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Not in Scope - Do Not Use                                                                              
+
+180 minutes after SA created &amp;
+
+Case Dispatcher Status is not Working &amp;
+SA Status is Spotted, Scheduled, Dispatched or En Route &amp;
+SA Unattended Tow = true
+
+SA Jeopardy Reason = Priority - Late/Delay
+Case Violation Type = Priority - Late/Delay
+Case owner = PTA Queue</value>
+    </values>
+    <values>
+        <field>isExecute__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

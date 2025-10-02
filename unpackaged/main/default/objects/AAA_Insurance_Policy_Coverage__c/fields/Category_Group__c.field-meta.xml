@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Group__c</fullName>
+    <label>Category Group</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Auto</fullName>
+                <default>false</default>
+                <label>Auto</label>
+            </value>
+            <value>
+                <fullName>Care, Custody and Control Coverage</fullName>
+                <default>false</default>
+                <label>Care, Custody and Control Coverage</label>
+            </value>
+            <value>
+                <fullName>Garage Keepers</fullName>
+                <default>false</default>
+                <label>Garage Keepers</label>
+            </value>
+            <value>
+                <fullName>General Liability</fullName>
+                <default>false</default>
+                <label>General Liability</label>
+            </value>
+            <value>
+                <fullName>Liability</fullName>
+                <default>false</default>
+                <label>Liability</label>
+            </value>
+            <value>
+                <fullName>On Hook</fullName>
+                <default>false</default>
+                <label>On Hook</label>
+            </value>
+            <value>
+                <fullName>Umbrella</fullName>
+                <default>false</default>
+                <label>Umbrella</label>
+            </value>
+            <value>
+                <fullName>Workers Compensation</fullName>
+                <default>false</default>
+                <label>Workers Compensation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

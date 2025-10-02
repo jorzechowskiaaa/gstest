@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do member testimonials about AAA services have value to you? --></help>
+        <label><!-- Values Member Testimonials --></label>
+        <name>Go_Values_Member_Testimonials__c</name>
+    </CustomFieldTranslation>

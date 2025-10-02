@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_NE_SHOP_VIEW</fullName>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>Status</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Benefit_Level__c</columns>
+    <columns>Payment_Required__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <columns>ServiceTerritory</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>Declined,Spotted,Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>AAA NE SHOP VIEW - ACTIVE  CALLS</label>
+    <sharedTo>
+        <group>All_Community_Dispatchers</group>
+        <group>Lead_Drivers</group>
+        <role>System_Admin</role>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

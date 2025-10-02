@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Entity --></label>
+        <name>Business_Entity__c</name>
+        <picklistValues>
+            <masterLabel>Facility</masterLabel>
+            <translation><!-- Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation><!-- Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Vehicle</masterLabel>
+            <translation><!-- Member Vehicle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Call</masterLabel>
+            <translation><!-- Service Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Contract</masterLabel>
+            <translation><!-- Service Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Line Item</masterLabel>
+            <translation><!-- Service Line Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Resource</masterLabel>
+            <translation><!-- Service Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TroubleCode</masterLabel>
+            <translation><!-- TroubleCode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle</masterLabel>
+            <translation><!-- Vehicle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

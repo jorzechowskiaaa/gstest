@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AL_RAP</fullName>
+    <columns>Call_Id__c</columns>
+    <columns>Priority_Code__c</columns>
+    <columns>Name</columns>
+    <columns>RAP_Case_Number__c</columns>
+    <columns>Call_Origin_OrgCode__c</columns>
+    <columns>Program_Description__c</columns>
+    <columns>Contact</columns>
+    <columns>Channel__c</columns>
+    <columns>Call_Origin_OrgName__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Status</columns>
+    <columns>T_Code__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RAP_Case_Number__c</field>
+        <operation>equals</operation>
+        <value>44100909</value>
+    </filters>
+    <label>ALL RAP</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

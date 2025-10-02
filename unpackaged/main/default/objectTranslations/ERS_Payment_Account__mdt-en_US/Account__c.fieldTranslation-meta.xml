@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <picklistValues>
+            <masterLabel>182002</masterLabel>
+            <translation><!-- 182002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>196036</masterLabel>
+            <translation><!-- 196036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>196037</masterLabel>
+            <translation><!-- 196037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334006</masterLabel>
+            <translation><!-- 334006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337006</masterLabel>
+            <translation><!-- 337006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338003</masterLabel>
+            <translation><!-- 338003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>886001</masterLabel>
+            <translation><!-- 886001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>909660</masterLabel>
+            <translation><!-- 909660 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>916150</masterLabel>
+            <translation><!-- 916150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>928245</masterLabel>
+            <translation><!-- 928245 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929100</masterLabel>
+            <translation><!-- 929100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929110</masterLabel>
+            <translation><!-- 929110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929115</masterLabel>
+            <translation><!-- 929115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929125</masterLabel>
+            <translation><!-- 929125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929135</masterLabel>
+            <translation><!-- 929135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929140</masterLabel>
+            <translation><!-- 929140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929180</masterLabel>
+            <translation><!-- 929180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929190</masterLabel>
+            <translation><!-- 929190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929210</masterLabel>
+            <translation><!-- 929210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929250</masterLabel>
+            <translation><!-- 929250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929500</masterLabel>
+            <translation><!-- 929500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929525</masterLabel>
+            <translation><!-- 929525 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929540</masterLabel>
+            <translation><!-- 929540 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929550</masterLabel>
+            <translation><!-- 929550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929560</masterLabel>
+            <translation><!-- 929560 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929561</masterLabel>
+            <translation><!-- 929561 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929565</masterLabel>
+            <translation><!-- 929565 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>929570</masterLabel>
+            <translation><!-- 929570 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>950101</masterLabel>
+            <translation><!-- 950101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>950103</masterLabel>
+            <translation><!-- 950103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>950600</masterLabel>
+            <translation><!-- 950600 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

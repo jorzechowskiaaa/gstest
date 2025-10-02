@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Vehicle_Type__c</fullName>
+    <label>Vehicle Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2M (2-Wheeled Motorcycle)</fullName>
+                <default>false</default>
+                <label>2M (2-Wheeled Motorcycle)</label>
+            </value>
+            <value>
+                <fullName>3M (3 - Wheeled Motorcycle)</fullName>
+                <default>false</default>
+                <label>3M (3 - Wheeled Motorcycle)</label>
+            </value>
+            <value>
+                <fullName>4M (ATV)</fullName>
+                <default>false</default>
+                <label>4M (ATV)</label>
+            </value>
+            <value>
+                <fullName>BK (Bicycles)</fullName>
+                <default>false</default>
+                <label>BK (Bicycles)</label>
+            </value>
+            <value>
+                <fullName>DW (Dual Wheels)</fullName>
+                <default>false</default>
+                <label>DW (Dual Wheels)</label>
+            </value>
+            <value>
+                <fullName>GC (Golf Cart)</fullName>
+                <default>false</default>
+                <label>GC (Golf Cart)</label>
+            </value>
+            <value>
+                <fullName>PS (Passenger Car/Truck)</fullName>
+                <default>false</default>
+                <label>PS (Passenger Car/Truck)</label>
+            </value>
+            <value>
+                <fullName>R1 (RV &lt; 23 feet)</fullName>
+                <default>false</default>
+                <label>R1 (RV &lt; 23 feet)</label>
+            </value>
+            <value>
+                <fullName>R2 (RV 24-32 feet)</fullName>
+                <default>false</default>
+                <label>R2 (RV 24-32 feet)</label>
+            </value>
+            <value>
+                <fullName>R3 (RV &gt; 33 feet)</fullName>
+                <default>false</default>
+                <label>R3 (RV &gt; 33 feet)</label>
+            </value>
+            <value>
+                <fullName>SM (Snowmobile)</fullName>
+                <default>false</default>
+                <label>SM (Snowmobile)</label>
+            </value>
+            <value>
+                <fullName>TR (Trailer)</fullName>
+                <default>false</default>
+                <label>TR (Trailer)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

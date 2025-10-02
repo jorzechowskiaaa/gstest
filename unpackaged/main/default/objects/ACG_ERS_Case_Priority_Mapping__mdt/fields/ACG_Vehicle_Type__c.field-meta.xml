@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Vehicle_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Vehicle Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>2M (2-Wheeled Motorcycle)</fullName>
+                <default>false</default>
+                <label>2M (2-Wheeled Motorcycle)</label>
+            </value>
+            <value>
+                <fullName>3M (3 - Wheeled Motorcycle)</fullName>
+                <default>false</default>
+                <label>3M (3 - Wheeled Motorcycle)</label>
+            </value>
+            <value>
+                <fullName>4M (ATV)</fullName>
+                <default>false</default>
+                <label>4M (ATV)</label>
+            </value>
+            <value>
+                <fullName>BK (Bicycles)</fullName>
+                <default>false</default>
+                <label>BK (Bicycles)</label>
+            </value>
+            <value>
+                <fullName>DW (Dual Wheels)</fullName>
+                <default>false</default>
+                <label>DW (Dual Wheels)</label>
+            </value>
+            <value>
+                <fullName>GC (Golf Cart)</fullName>
+                <default>false</default>
+                <label>GC (Golf Cart)</label>
+            </value>
+            <value>
+                <fullName>PS (Passenger Car/Truck)</fullName>
+                <default>false</default>
+                <label>PS (Passenger Car/Truck)</label>
+            </value>
+            <value>
+                <fullName>R1 (RV &lt; 23 feet)</fullName>
+                <default>false</default>
+                <label>R1 (RV &lt; 23 feet)</label>
+            </value>
+            <value>
+                <fullName>R2 (RV 24-32 feet)</fullName>
+                <default>false</default>
+                <label>R2 (RV 24-32 feet)</label>
+            </value>
+            <value>
+                <fullName>R3 (RV &gt; 33 feet)</fullName>
+                <default>false</default>
+                <label>R3 (RV &gt; 33 feet)</label>
+            </value>
+            <value>
+                <fullName>SM (Snowmobile)</fullName>
+                <default>false</default>
+                <label>SM (Snowmobile)</label>
+            </value>
+            <value>
+                <fullName>TR (Trailer)</fullName>
+                <default>false</default>
+                <label>TR (Trailer)</label>
+            </value>
+            <value>
+                <fullName>Car</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Car</label>
+            </value>
+            <value>
+                <fullName>Medium/Heavy Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Medium/Heavy Truck</label>
+            </value>
+            <value>
+                <fullName>Motorcycle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Motorcycle</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RV</label>
+            </value>
+            <value>
+                <fullName>Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Truck</label>
+            </value>
+            <value>
+                <fullName>Van</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Van</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

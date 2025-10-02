@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Facility</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT( ISNEW() )
+&amp;&amp;
+ISCHANGED( Service_Territory__c )
+&amp;&amp;
+$Profile.Name  &lt;&gt; &#39;System Administrator&#39;</errorConditionFormula>
+    <errorMessage>Cannot change Facility / Service Territory. Please create a new Facility Adjustment instead.</errorMessage>
+</ValidationRule>

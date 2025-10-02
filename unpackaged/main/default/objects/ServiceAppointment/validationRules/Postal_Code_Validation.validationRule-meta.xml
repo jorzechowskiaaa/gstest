@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postal_Code_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( OR(Country = &quot;UNITED STATES&quot;, Country = &quot;USA&quot;, Country = &quot;US&quot;), NOT(ISBLANK(PostalCode)),NOT(ISNUMBER(  PostalCode  )) )</errorConditionFormula>
+    <errorDisplayField>PostalCode</errorDisplayField>
+    <errorMessage>Please Input only Numbers in Postalcode For USA Citizens</errorMessage>
+</ValidationRule>

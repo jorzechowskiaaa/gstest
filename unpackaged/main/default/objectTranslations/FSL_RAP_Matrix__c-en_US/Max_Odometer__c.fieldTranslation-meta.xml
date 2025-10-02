@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Maximum mileage covered by the program --></help>
+        <label><!-- Max Odometer --></label>
+        <name>Max_Odometer__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today_s_Work_Orders_Experience_Cloud</fullName>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Membership_Benefit_Level__c</columns>
+    <columns>Status</columns>
+    <columns>Case</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Program_Description__c</columns>
+    <columns>Call_Origin__c</columns>
+    <columns>Channel__c</columns>
+    <columns>Call_Origin_OrgName__c</columns>
+    <columns>Source__c</columns>
+    <columns>CDX_Phone_Number__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>Call_Type__c</columns>
+    <columns>Created_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Today&#39;s Work Orders (Experience Cloud)</label>
+</ListView>

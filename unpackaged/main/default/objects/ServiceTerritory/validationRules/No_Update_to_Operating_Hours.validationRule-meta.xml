@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Update_to_Operating_Hours</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OperatingHoursId),
+NOT(OR($Profile.Name = &quot;System Administrator&quot;,$Profile.Name = &quot;FSL Delegated Club Administrator&quot;,$Profile.Name=&quot;FSL Club Administrator&quot;))
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to change the operating hours for a service territory.</errorMessage>
+</ValidationRule>

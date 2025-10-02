@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PTA Violation Detail --></label>
+        <name>PTA_Violation_Detail__c</name>
+        <picklistValues>
+            <masterLabel>PTA+14</masterLabel>
+            <translation><!-- PTA+14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTA+29</masterLabel>
+            <translation><!-- PTA+29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTA+44</masterLabel>
+            <translation><!-- PTA+44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTA+59</masterLabel>
+            <translation><!-- PTA+59 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

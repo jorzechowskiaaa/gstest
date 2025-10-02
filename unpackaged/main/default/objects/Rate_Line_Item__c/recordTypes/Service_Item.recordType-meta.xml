@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Item</fullName>
+    <active>true</active>
+    <label>Service Item</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Calculation_Type__c</picklist>
+        <values>
+            <fullName>Banded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Charge_to_Account__c</picklist>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type_Picklist__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plus RV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier RV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_of_Day_Code__c</picklist>
+        <values>
+            <fullName>D 06%3A00-18%3A59</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1 19%3A00-23%3A59</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2 00%3A00 %E2%80%93 05%3A59</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unit_of_Measure__c</picklist>
+        <values>
+            <fullName>DL - Dollar Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EA - Each</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Gallon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KI - Kilo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KM - Kilometer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LB - Pound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LT - Litre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ML - Mile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN - Minutes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

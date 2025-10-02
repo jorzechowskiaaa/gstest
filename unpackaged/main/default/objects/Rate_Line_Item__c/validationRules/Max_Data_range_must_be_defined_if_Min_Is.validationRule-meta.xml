@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Data_range_must_be_defined_if_Min_Is</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNULL( Max_Data_Range__c ) &amp;&amp; !ISNULL( Min_Data_Range__c )</errorConditionFormula>
+    <errorMessage>Max Data Range must be defined if Min Data Range is filled out</errorMessage>
+</ValidationRule>

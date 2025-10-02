@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Max amount of time (in seconds) RSO will process (after In Progress status) --></help>
+        <label><!-- RSO Max Run Time --></label>
+        <name>RSO_Max_Run_Time__c</name>
+    </CustomFieldTranslation>

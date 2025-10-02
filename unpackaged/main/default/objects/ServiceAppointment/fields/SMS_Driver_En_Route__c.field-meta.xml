@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Driver_En_Route__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SMS sent when driver updates the Service Appointment Status to &quot;En Route&quot;</description>
+    <inlineHelpText>SMS sent when driver updates the Service Appointment Status to &quot;En Route&quot;</inlineHelpText>
+    <label>SMS - Driver En Route</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

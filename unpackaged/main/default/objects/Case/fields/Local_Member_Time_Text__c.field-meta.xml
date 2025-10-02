@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Member_Time_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Member_Location_TZ_Offset__c),&quot;&quot;,
+IF(
+  OR(
+    VALUE( LEFT( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 2 ) ) = 0,
+    VALUE( LEFT( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( LEFT( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 2 ) ) 
+   -
+   IF( 
+     VALUE( LEFT( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 2 ) ) &lt; 12, 
+     0, 
+     12 
+   ) 
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 4, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( LEFT( TEXT( TIMEVALUE(NOW() - (VALUE(MID(Member_Location_TZ_Offset__c,5,IF(LEN(Member_Location_TZ_Offset__c)=8,1,2)))/24)) ), 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+)</formula>
+    <label>Local Member Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

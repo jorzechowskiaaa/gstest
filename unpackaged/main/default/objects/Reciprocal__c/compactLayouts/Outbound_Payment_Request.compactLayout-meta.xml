@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outbound_Payment_Request</fullName>
+    <fields>Name</fields>
+    <fields>Service_Club_Code__c</fields>
+    <fields>Member_ClubCode__c</fields>
+    <fields>Service_Call_Date__c</fields>
+    <fields>Service_Call_ID__c</fields>
+    <fields>Total_Dollar_Amount__c</fields>
+    <label>Outbound Payment Request</label>
+</CompactLayout>

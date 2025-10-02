@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JL_Clear_Errors</fullName>
+    <columns>NAME</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Operation__c</columns>
+    <columns>Success_Message__c</columns>
+    <columns>Error_Caught__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>API_Name__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>2/27/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Operation__c</field>
+        <operation>equals</operation>
+        <value>Clear,Call Clear,Clear Queue</value>
+    </filters>
+    <label>JL - Clears Today</label>
+</ListView>

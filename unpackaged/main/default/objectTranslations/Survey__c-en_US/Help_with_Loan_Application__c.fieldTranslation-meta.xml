@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- I would like help with the loan application (Check = True) --></help>
+        <label><!-- Help with Loan Application --></label>
+        <name>Help_with_Loan_Application__c</name>
+    </CustomFieldTranslation>

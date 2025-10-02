@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TW-162</label>
+    <protected>false</protected>
+    <values>
+        <field>AdditionalCriteria__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Legacy_Default__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Legacy_Tcode__c</field>
+        <value xsi:type="xsd:string">6A</value>
+    </values>
+    <values>
+        <field>Pacesetter_Code__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:type="xsd:string">Light Service</value>
+    </values>
+    <values>
+        <field>TroubleCode__c</field>
+        <value xsi:type="xsd:string">L805</value>
+    </values>
+    <values>
+        <field>WorkType__c</field>
+        <value xsi:type="xsd:string">Locksmith</value>
+    </values>
+</CustomMetadata>

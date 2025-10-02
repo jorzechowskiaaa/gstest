@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Change__c</fullName>
+    <label>Type of Agent Change</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Address Change</fullName>
+                <default>false</default>
+                <label>Address Change</label>
+            </value>
+            <value>
+                <fullName>Assign PC Partner Book of Business to LS</fullName>
+                <default>false</default>
+                <label>Assign PC Partner Book of Business to LS</label>
+            </value>
+            <value>
+                <fullName>Transfer Term&#39;d Agent Leads/Opptys</fullName>
+                <default>false</default>
+                <label>Transfer Term&#39;d Agent Leads/Opptys</label>
+            </value>
+            <value>
+                <fullName>Phone Change</fullName>
+                <default>false</default>
+                <label>Phone Change</label>
+            </value>
+            <value>
+                <fullName>DOF Move</fullName>
+                <default>false</default>
+                <label>DOF Move</label>
+            </value>
+            <value>
+                <fullName>ADS Update</fullName>
+                <default>false</default>
+                <label>ADS Update</label>
+            </value>
+            <value>
+                <fullName>Role Change</fullName>
+                <default>false</default>
+                <label>Role Change</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

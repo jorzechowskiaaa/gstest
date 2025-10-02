@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Feedback</fullName>
+        <default>false</default>
+        <label>Customer Feedback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Agency</fullName>
+        <default>false</default>
+        <label>External Agency</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facility Mgmt Form</fullName>
+        <default>false</default>
+        <label>Facility Mgmt Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shop Equipment Form</fullName>
+        <default>false</default>
+        <label>Shop Equipment Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social - Online Review</fullName>
+        <default>false</default>
+        <label>Social - Online Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplier</fullName>
+        <default>false</default>
+        <label>Supplier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Survey Response</fullName>
+        <default>false</default>
+        <label>Survey Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Walk-In</fullName>
+        <default>false</default>
+        <label>Walk-In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Review</fullName>
+        <default>false</default>
+        <label>Membership Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global Action</fullName>
+        <default>false</default>
+        <label>Global Action</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mail</fullName>
+        <default>false</default>
+        <label>Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Issue Request</fullName>
+        <default>false</default>
+        <label>Issue Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Alert_Query</fullName>
+        <default>false</default>
+        <label>Alert/Query</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automation</fullName>
+        <default>false</default>
+        <label>Automation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FSL Intake Flow</fullName>
+        <default>false</default>
+        <label>FSL Intake Flow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Milestone Violation</fullName>
+        <default>false</default>
+        <label>Milestone Violation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FSL SMS Flow</fullName>
+        <default>false</default>
+        <label>FSL SMS Flow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor Issue Form</fullName>
+        <default>false</default>
+        <label>Vendor Issue Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobile App</fullName>
+        <default>false</default>
+        <label>Mobile App</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OnDemand</fullName>
+        <default>false</default>
+        <label>OnDemand</label>
+    </standardValue>
+</StandardValueSet>

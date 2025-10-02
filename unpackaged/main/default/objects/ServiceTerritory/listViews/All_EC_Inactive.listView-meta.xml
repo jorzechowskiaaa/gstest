@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_EC_Inactive</fullName>
+    <columns>Name</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>ParentTerritory</columns>
+    <columns>OperatingHours</columns>
+    <columns>IsActive</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Facility_Number__c</field>
+        <operation>startsWith</operation>
+        <value>27,45,51,55,68</value>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All EC Inactive</label>
+</ListView>

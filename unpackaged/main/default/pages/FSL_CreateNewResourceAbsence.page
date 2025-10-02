@@ -1,0 +1,94 @@
+<apex:page Id="idxPageId" lightningStylesheets="true" controller="FSL_CreateNewResourceAbsenseController" showHeader="false" sidebar="false">
+    <apex:form Id="idxForm">
+    <script>
+      
+      function closeLightBox(){
+          console.log('in close light box');
+          
+          //if( isErrorOcc === false || isErrorOcc === 'false') {
+              parent.postMessage('closeLightbox','*');
+          //}
+          
+          //window.close();
+      }
+      function validatePage() {
+       var strtDate = document.getElementById("idxPageId:idxForm:idxPbId:idxRASec:idxStartDate").value;
+       var endDate = document.getElementById("idxPageId:idxForm:idxPbId:idxRASec:idxEndDate").value;
+       console.log('HIIIII==='+strtDate);
+       console.log('HIIIII==='+endDate);
+       if(strtDate === '' || endDate === '') {
+           document.getElementById("idxMessageDiv").style.display="block";
+           document.getElementById("idxMessageDiv").style.color="red";
+           return false;
+       }
+       else if(strtDate === endDate) {
+           document.getElementById("idxMessageDiv").style.display="block";
+           document.getElementById("idxMessageDiv").style.color="red";
+           return false;
+       }
+       else if(strtDate > endDate){
+       document.getElementById("idxDateValidation").style.display="block";
+           document.getElementById("idxDateValidation").style.color="red";
+           return false;
+           
+       }
+       else {
+           savePage();
+       }
+      }
+      
+      function disableAddressFields() {
+          if(document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxUseCurrentLocation").checked) {
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxStreet").disabled = true;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxCity").disabled = true;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxState").disabled = true;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxPostal").disabled = true;
+          }else {
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxStreet").disabled = false;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxCity").disabled = false;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxState").disabled = false;
+              document.getElementById("idxPageId:idxForm:idxPbId:idxPbSec:idxPostal").disabled = false;
+          }
+      }
+    </script>
+    <apex:slds />
+    <div class="slds-scope">
+    <apex:messages id="messageID" />
+    
+        
+        <apex:actionFunction name="savePage" action="{!saveAbsence}" rerender="out" status="myStatus" oncomplete="closeLightBox();"/>
+             <apex:pageBlock Id="idxPbId" title="New Resource Absence">
+             
+             <!-- <div class="slds-grid slds-gutters"> -->
+                
+                <apex:pageblockSection id="idxRASec" title="Absence Information" columns="2">
+                        <apex:outputField value="{!resource.Name }"/>
+                        <apex:inputField value="{!resourceAbsence.Type }"/>
+                        <apex:inputField id="idxStartDate" value="{!resourceAbsence.start }"/>
+                        <apex:inputField id="idxEndDate" value="{!resourceAbsence.end }"/>
+                        
+                </apex:pageblockSection>
+                <div id="idxMessageDiv" style="display:none;font-size:12px; font-weight:bold; color:red;">
+                    <apex:outputText style="font-size:12px; font-weight:bold; color:red;">Start,End Dates Should not be same And Should not be Blank </apex:outputText>
+                </div>
+                <div id="idxDateValidation" style="display:none;font-size:12px; font-weight:bold; color:red;">
+                    <apex:outputText style="font-size:12px; font-weight:bold; color:red;">Start Date should not be greater than End Date </apex:outputText>
+                </div>
+                 <apex:pageblockSection id="idxPbSec" title="Address" columns="2">
+                     <apex:inputCheckbox id="idxUseCurrentLocation" label="Use Current Location" value="{!useCurrentLocatin}" onchange="disableAddressFields();" />
+                     <apex:inputField id="idxStreet" value="{!resourceAbsence.street }"/>
+                     <apex:inputField id="idxCity" value="{!resourceAbsence.City }"/>
+                     <apex:inputField id="idxState" value="{!resourceAbsence.state }"/>
+                     <apex:inputField id="idxPostal" value="{!resourceAbsence.postalCode }"/>
+                 </apex:pageblockSection>
+                
+                <apex:pageBlockButtons location="bottom" >
+                    
+                    <apex:commandButton rerender="messageID"  styleClass="slds-button slds-button_neutral" value="Save" onclick="return validatePage();" />
+                       
+                </apex:pageBlockButtons>
+            </apex:pageBlock>
+        
+    </div>
+    </apex:form>
+</apex:page>

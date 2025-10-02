@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Department ID --></label>
+        <name>Department_ID__c</name>
+        <picklistValues>
+            <masterLabel>007112</masterLabel>
+            <translation><!-- 007112 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>007113</masterLabel>
+            <translation><!-- 007113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>007141</masterLabel>
+            <translation><!-- 007141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>009230</masterLabel>
+            <translation><!-- 009230 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>009236</masterLabel>
+            <translation><!-- 009236 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>041002</masterLabel>
+            <translation><!-- 041002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>041003</masterLabel>
+            <translation><!-- 041003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>051B06</masterLabel>
+            <translation><!-- 051B06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>140000</masterLabel>
+            <translation><!-- 140000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>140001</masterLabel>
+            <translation><!-- 140001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200009</masterLabel>
+            <translation><!-- 200009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200010</masterLabel>
+            <translation><!-- 200010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200011</masterLabel>
+            <translation><!-- 200011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200016</masterLabel>
+            <translation><!-- 200016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200017</masterLabel>
+            <translation><!-- 200017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200018</masterLabel>
+            <translation><!-- 200018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210001</masterLabel>
+            <translation><!-- 210001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300B06</masterLabel>
+            <translation><!-- 300B06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>301B73</masterLabel>
+            <translation><!-- 301B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>305B73</masterLabel>
+            <translation><!-- 305B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>309B47</masterLabel>
+            <translation><!-- 309B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>309B73</masterLabel>
+            <translation><!-- 309B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>313B73</masterLabel>
+            <translation><!-- 313B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340B58</masterLabel>
+            <translation><!-- 340B58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344B73</masterLabel>
+            <translation><!-- 344B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>351B73</masterLabel>
+            <translation><!-- 351B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>352B47</masterLabel>
+            <translation><!-- 352B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>352B73</masterLabel>
+            <translation><!-- 352B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>354B58</masterLabel>
+            <translation><!-- 354B58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>361B06</masterLabel>
+            <translation><!-- 361B06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>362B06</masterLabel>
+            <translation><!-- 362B06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>370B58</masterLabel>
+            <translation><!-- 370B58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>371B47</masterLabel>
+            <translation><!-- 371B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>371B73</masterLabel>
+            <translation><!-- 371B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>383B29</masterLabel>
+            <translation><!-- 383B29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>383B58</masterLabel>
+            <translation><!-- 383B58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>385B47</masterLabel>
+            <translation><!-- 385B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>385B73</masterLabel>
+            <translation><!-- 385B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>386B47</masterLabel>
+            <translation><!-- 386B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>386B73</masterLabel>
+            <translation><!-- 386B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>391B47</masterLabel>
+            <translation><!-- 391B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>391B73</masterLabel>
+            <translation><!-- 391B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>392B58</masterLabel>
+            <translation><!-- 392B58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>393B47</masterLabel>
+            <translation><!-- 393B47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>393B73</masterLabel>
+            <translation><!-- 393B73 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>410004</masterLabel>
+            <translation><!-- 410004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>420999</masterLabel>
+            <translation><!-- 420999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>477925</masterLabel>
+            <translation><!-- 477925 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>488925</masterLabel>
+            <translation><!-- 488925 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700B06</masterLabel>
+            <translation><!-- 700B06 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

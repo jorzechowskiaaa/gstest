@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attribute__c</fullName>
+    <label>Attribute</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Entity__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product_Code__c</fullName>
+                <default>false</default>
+                <label>Service Item Code</label>
+            </value>
+            <value>
+                <fullName>Code__c</fullName>
+                <default>false</default>
+                <label>Trouble Code</label>
+            </value>
+            <value>
+                <fullName>Resolution_Code__c</fullName>
+                <default>false</default>
+                <label>Resolution Code</label>
+            </value>
+            <value>
+                <fullName>Vehicle_Type__c</fullName>
+                <default>false</default>
+                <label>Vehicle Type</label>
+            </value>
+            <value>
+                <fullName>Membership_Benefit_Level__c</fullName>
+                <default>false</default>
+                <label>Membership Level</label>
+            </value>
+            <value>
+                <fullName>Cleared_Timestamp__c</fullName>
+                <default>false</default>
+                <label>Cleared Time Stamp</label>
+            </value>
+            <value>
+                <fullName>Dispatch_Method__c</fullName>
+                <default>false</default>
+                <label>Dispatch Method</label>
+            </value>
+            <value>
+                <fullName>Long_Tow__c</fullName>
+                <default>false</default>
+                <label>Long Tow</label>
+            </value>
+            <value>
+                <fullName>Call_Source__c</fullName>
+                <default>false</default>
+                <label>Call Source</label>
+            </value>
+            <value>
+                <fullName>Facility_Number__c</fullName>
+                <default>false</default>
+                <label>Facility Nbr</label>
+            </value>
+            <value>
+                <fullName>Clearing_Code__c</fullName>
+                <default>false</default>
+                <label>Clearing Code</label>
+            </value>
+            <value>
+                <fullName>T_Code__c</fullName>
+                <default>false</default>
+                <label>T-Code</label>
+            </value>
+            <value>
+                <fullName>Call_Type__c</fullName>
+                <default>false</default>
+                <label>Call Type</label>
+            </value>
+            <value>
+                <fullName>Is_Fleet__c</fullName>
+                <default>false</default>
+                <label>Is Fleet</label>
+            </value>
+            <value>
+                <fullName>Unit__c</fullName>
+                <default>false</default>
+                <label>Quantity</label>
+            </value>
+            <value>
+                <fullName>Cost__c</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>On_Location_Duration__c</fullName>
+                <default>false</default>
+                <label>On Location Duration</label>
+            </value>
+            <value>
+                <fullName>Service_Vehicle__c</fullName>
+                <default>false</default>
+                <label>Truck Type</label>
+            </value>
+            <value>
+                <fullName>Comm_Ctr__c</fullName>
+                <default>false</default>
+                <label>Comm Ctr</label>
+            </value>
+            <value>
+                <fullName>In_Tow_Timestamp__c</fullName>
+                <default>false</default>
+                <label>In Tow Timestamp</label>
+            </value>
+            <value>
+                <fullName>On_Location_Timestamp__c</fullName>
+                <default>false</default>
+                <label>On Location Timestamp</label>
+            </value>
+            <value>
+                <fullName>Breakdown_Address__c</fullName>
+                <default>false</default>
+                <label>Breakdown Location</label>
+            </value>
+            <value>
+                <fullName>Landmark__c</fullName>
+                <default>false</default>
+                <label>Breakdown Landmark</label>
+            </value>
+            <value>
+                <fullName>Premier_Battery_Entitled__c</fullName>
+                <default>false</default>
+                <label>Premier Battery Eligible</label>
+            </value>
+            <value>
+                <fullName>AAA_Battery_Consumed__c</fullName>
+                <default>false</default>
+                <label>Battery Benefit Consumed</label>
+            </value>
+            <value>
+                <fullName>Call_Id__c</fullName>
+                <default>false</default>
+                <label>Call Id</label>
+            </value>
+            <value>
+                <fullName>Clear_Duration__c</fullName>
+                <default>false</default>
+                <label>Clear Duration</label>
+            </value>
+            <value>
+                <fullName>Dispatch_Duration__c</fullName>
+                <default>false</default>
+                <label>Dispatch Duration</label>
+            </value>
+            <value>
+                <fullName>Enroute_Duration__c</fullName>
+                <default>false</default>
+                <label>Enroute Duration</label>
+            </value>
+            <value>
+                <fullName>In_Tow_Duration__c</fullName>
+                <default>false</default>
+                <label>In Tow Duration</label>
+            </value>
+            <value>
+                <fullName>Schedule_Duration__c</fullName>
+                <default>false</default>
+                <label>Scheduled Duration</label>
+            </value>
+            <value>
+                <fullName>Spotted_Duration__c</fullName>
+                <default>false</default>
+                <label>Spotted Duration</label>
+            </value>
+            <value>
+                <fullName>Task_Completion_Duration__c</fullName>
+                <default>false</default>
+                <label>Task Completion Duration</label>
+            </value>
+            <value>
+                <fullName>Tow_Complete_Duration__c</fullName>
+                <default>false</default>
+                <label>Tow Complete Duration</label>
+            </value>
+            <value>
+                <fullName>Priority_Code__c</fullName>
+                <default>false</default>
+                <label>Priority Code</label>
+            </value>
+            <value>
+                <fullName>PnA_Review_Required__c</fullName>
+                <default>false</default>
+                <label>PnA Reviewed</label>
+            </value>
+            <value>
+                <fullName>Enroute_Timestamp__c</fullName>
+                <default>false</default>
+                <label>Enroute Timestamp</label>
+            </value>
+            <value>
+                <fullName>Payment_Required__c</fullName>
+                <default>false</default>
+                <label>Payment Required</label>
+            </value>
+            <value>
+                <fullName>Facility_Type__c</fullName>
+                <default>false</default>
+                <label>Facility Type</label>
+            </value>
+            <value>
+                <fullName>Type__c</fullName>
+                <default>false</default>
+                <label>Type</label>
+            </value>
+            <value>
+                <fullName>Tow_Address__c</fullName>
+                <default>false</default>
+                <label>Tow Destination</label>
+            </value>
+            <value>
+                <fullName>Tow_State__c</fullName>
+                <default>false</default>
+                <label>Tow Destination State</label>
+            </value>
+            <value>
+                <fullName>Service_Territory_Group__c</fullName>
+                <default>false</default>
+                <label>Service Territory Group</label>
+            </value>
+            <value>
+                <fullName>PostalCode</fullName>
+                <default>false</default>
+                <label>Postal Code</label>
+            </value>
+            <value>
+                <fullName>Tow_Postal_Code__c</fullName>
+                <default>false</default>
+                <label>Tow Postal Code</label>
+            </value>
+            <value>
+                <fullName>Work_Order_Record_Type__c</fullName>
+                <default>false</default>
+                <label>Work Order Record Type</label>
+            </value>
+            <value>
+                <fullName>State</fullName>
+                <default>false</default>
+                <label>State</label>
+            </value>
+            <value>
+                <fullName>City</fullName>
+                <default>false</default>
+                <label>City</label>
+            </value>
+            <value>
+                <fullName>Case_Region__c</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Case Region</label>
+            </value>
+            <value>
+                <fullName>RemainingWorkOrders</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RemainingWorkOrders</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Resolution_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <controllingFieldValue>Account</controllingFieldValue>
+            <valueName>Membership_Benefit_Level__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Cleared_Timestamp__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <controllingFieldValue>Case</controllingFieldValue>
+            <valueName>Call_Source__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <controllingFieldValue>ServiceTerritory</controllingFieldValue>
+            <valueName>Facility_Number__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Clearing_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>T_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Call_Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>On_Location_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Comm_Ctr__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>In_Tow_Timestamp__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>On_Location_Timestamp__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Breakdown_Address__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Landmark__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Call_Id__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Clear_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Dispatch_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Enroute_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>In_Tow_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Schedule_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Spotted_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Task_Completion_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Tow_Complete_Duration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Priority_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>PnA_Review_Required__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Enroute_Timestamp__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Payment_Required__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Tow_Address__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Tow_State__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Service_Territory_Group__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>PostalCode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Tow_Postal_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>Work_Order_Record_Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>State</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WorkOrder</controllingFieldValue>
+            <valueName>City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ServiceTerritory</controllingFieldValue>
+            <valueName>Dispatch_Method__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ServiceTerritory</controllingFieldValue>
+            <valueName>Is_Fleet__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ServiceTerritory</controllingFieldValue>
+            <controllingFieldValue>ServiceResource</controllingFieldValue>
+            <valueName>Facility_Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_Service_Line_Item__c</controllingFieldValue>
+            <valueName>Product_Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_Service_Line_Item__c</controllingFieldValue>
+            <valueName>Unit__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_Service_Line_Item__c</controllingFieldValue>
+            <valueName>Cost__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_Member_Vehicle__c</controllingFieldValue>
+            <valueName>Vehicle_Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_TroubleCode__c</controllingFieldValue>
+            <valueName>Code__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL_TroubleCode__c</controllingFieldValue>
+            <valueName>Type__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ServiceContract</controllingFieldValue>
+            <valueName>Premier_Battery_Entitled__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ServiceContract</controllingFieldValue>
+            <valueName>AAA_Battery_Consumed__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Location</controllingFieldValue>
+            <valueName>Service_Vehicle__c</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

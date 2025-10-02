@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Authorization Level --></label>
+        <name>Authorization_Level__c</name>
+        <picklistValues>
+            <masterLabel>COD (C)</masterLabel>
+            <translation><!-- COD (C) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Club (X)</masterLabel>
+            <translation><!-- Call Club (X) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classic/ Basic (B)</masterLabel>
+            <translation><!-- Classic/ Basic (B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus (P)</masterLabel>
+            <translation><!-- Plus (P) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus RV (R)</masterLabel>
+            <translation><!-- Plus RV (R) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier (E)</masterLabel>
+            <translation><!-- Premier (E) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier RV (V)</masterLabel>
+            <translation><!-- Premier RV (V) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

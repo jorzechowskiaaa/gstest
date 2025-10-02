@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KMI_Blue_Hub</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>KMI__c</columns>
+    <columns>Landline_Resource__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>CreatedDate</columns>
+    <columns>Age__c</columns>
+    <columns>PTA_score__c</columns>
+    <columns>WorkType</columns>
+    <columns>Facility_Number__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>notContain</operation>
+        <value>On Location,Tow Loaded,In Tow,Cleared,Canceled</value>
+    </filters>
+    <filters>
+        <field>Service_Resource__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>TODAY,YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Parent_Territory_ID__c</field>
+        <operation>equals</operation>
+        <value>0HhJx0000000b7d,0HhJx0000000b2n,0HhJx0000000eCo,0HhJx0000000b61</value>
+    </filters>
+    <label>Blue Hub KMI</label>
+    <sharedTo>
+        <group>Blue_HUB1</group>
+        <role>Call_Center</role>
+        <role>Club_Dispatcher</role>
+        <role>Dispatcher_Supervisor</role>
+        <roleAndSubordinatesInternal>Back_Office</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

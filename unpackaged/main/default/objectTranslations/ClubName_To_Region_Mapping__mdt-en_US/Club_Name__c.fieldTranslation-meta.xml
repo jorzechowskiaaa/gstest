@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Club Name --></label>
+        <name>Club_Name__c</name>
+        <picklistValues>
+            <masterLabel>AAA Carolinas - 111</masterLabel>
+            <translation><!-- AAA Carolinas - 111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Chicago - 020</masterLabel>
+            <translation><!-- AAA Chicago - 020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Colorado - 006</masterLabel>
+            <translation><!-- AAA Colorado - 006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Michigan - 047</masterLabel>
+            <translation><!-- AAA Michigan - 047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Minnesota/lowa - 049</masterLabel>
+            <translation><!-- AAA Minnesota/lowa - 049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Nebraska - 069</masterLabel>
+            <translation><!-- AAA Nebraska - 069 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA North Dakota - 113</masterLabel>
+            <translation><!-- AAA North Dakota - 113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA Wisconsin - 270</masterLabel>
+            <translation><!-- AAA Wisconsin - 270 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Club South - 014</masterLabel>
+            <translation><!-- Auto Club South - 014 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

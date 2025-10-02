@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region_Service_Territory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Region Service Territory</label>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>FSL Case Region Mappings</relationshipLabel>
+    <relationshipName>FSL_Case_Region_Mappings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

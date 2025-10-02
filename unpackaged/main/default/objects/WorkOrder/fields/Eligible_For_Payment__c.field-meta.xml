@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible_For_Payment__c</fullName>
+    <formula>ServiceTerritory.Eligible_for_Payment__c</formula>
+    <label>Eligible For Payment</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

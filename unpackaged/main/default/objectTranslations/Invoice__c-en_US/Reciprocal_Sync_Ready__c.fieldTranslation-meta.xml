@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When checked, will update an associated Reciprocal or create a new outgoing Reciprocal if none exists. --></help>
+        <label><!-- Reciprocal Sync Ready --></label>
+        <name>Reciprocal_Sync_Ready__c</name>
+    </CustomFieldTranslation>

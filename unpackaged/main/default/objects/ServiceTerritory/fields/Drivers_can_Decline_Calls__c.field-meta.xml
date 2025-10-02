@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drivers_can_Decline_Calls__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>“Drivers in this facility can decline calls”</description>
+    <label>Drivers can Decline Calls</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

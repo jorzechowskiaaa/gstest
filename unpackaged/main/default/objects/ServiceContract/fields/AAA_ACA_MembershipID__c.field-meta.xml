@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_MembershipID__c</fullName>
+    <description>This is the household level Membership ID in the 16-Digit membership ID where ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit
+
+In case of RAP its the ID on the membership.
+
+Example: If the 16-Digit membership ID= 4382121353733023, then the Membership ID will be 2694719. 
+This type of membership has no person account associated.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>This is the household level Membership ID in the 16-Digit membership ID where ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit
+
+In case of RAP its the ID on the membership.
+
+Example: If the 16-Digit membership ID= 4382121353733023, then the Membership ID will be 2694719. 
+This type of membership has no person account associated.</inlineHelpText>
+    <label>Membership ID</label>
+    <length>16</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

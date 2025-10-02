@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>noActiveSA</name>
+        <label>noActiveSA</label>
+        <locationX>314</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>activeSAFound</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>noActiveSAFound</name>
+        <label>noActiveSAFound</label>
+        <locationX>842</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>activeSAFound</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>noContactRecord</name>
+        <label>noContactRecord</label>
+        <locationX>578</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>activeSAFound</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>SA_Status</name>
+        <label>SA Status</label>
+        <locationX>50</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>SAStatus</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getServiceAppointment.Status</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ResourceName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getServiceAppointment.Owner:User.FirstName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>SAId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getServiceAppointment.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>AppointmentAssistantURL</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getServiceAppointment.Appointment_Assistant_URL__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NoAgentFound</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>activeSAFound</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varFacilityName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FacilityNameFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>VarServiceArrivalWindowInFuture</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CheckServiceArrivalWindowInFuture</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>VarServiceArrivalWindow</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>VarArrivalWindow</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>checkActiveSAFound</name>
+        <label>checkActiveSAFound</label>
+        <locationX>182</locationX>
+        <locationY>758</locationY>
+        <defaultConnector>
+            <targetReference>noActiveSA</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>foundActiveSA</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>getServiceAppointment.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SA_Status</targetReference>
+            </connector>
+            <label>foundActiveSA</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>checkContactRecordExist</name>
+        <label>checkContactRecordExist</label>
+        <locationX>380</locationX>
+        <locationY>518</locationY>
+        <defaultConnector>
+            <targetReference>noContactRecord</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>contactSARecordExist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>getContactRecord.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getContactRecord.Dispatch_Context__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>getServiceAppointment</targetReference>
+            </connector>
+            <label>contactSARecordExist</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>checkRecordTypeisNotNull</name>
+        <label>checkRecordTypeisNotNull</label>
+        <locationX>611</locationX>
+        <locationY>278</locationY>
+        <defaultConnector>
+            <targetReference>noActiveSAFound</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>recordTypeisNotNull</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>getSARecordTypeId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>getContactRecord</targetReference>
+            </connector>
+            <label>recordTypeisNotNull</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>If the scheduled start time exists, use that value, otherwise use PTA. The bot will run this as the FSL Administrator, who has the Pacific time zone, so first thing is to get the timestamp BACK to UTC (+ (8/24)). Then we subtract the time zone offset from the Work Order to get the ETA in member&#39;s local time.</description>
+        <name>ArrivalWindow</name>
+        <dataType>DateTime</dataType>
+        <expression>(BLANKVALUE({!getServiceAppointment.SchedStartTime}, {!getServiceAppointment.PTA__c}) + (8/24)) - (VALUE(MID({!getServiceAppointment.Work_Order__r.Timezone_Offset__c},5,2))/24)</expression>
+    </formulas>
+    <formulas>
+        <name>CheckServiceArrivalWindowInFuture</name>
+        <dataType>Boolean</dataType>
+        <expression>IF({!ArrivalWindow}&gt;{!VarCurrentTime}, true, false)</expression>
+    </formulas>
+    <formulas>
+        <name>FacilityNameFormula</name>
+        <dataType>String</dataType>
+        <expression>TRIM(right({!getServiceAppointment.ServiceTerritory.Name}, (LEN( {!getServiceAppointment.ServiceTerritory.Name}) - 9)))</expression>
+    </formulas>
+    <formulas>
+        <name>VarArrivalWindow</name>
+        <dataType>String</dataType>
+        <expression>TEXT( MONTH( DATEVALUE({!ArrivalWindow}) ) ) &amp; &quot;/&quot; &amp; TEXT( DAY( DATEVALUE({!ArrivalWindow}) ) ) &amp; &quot;/&quot; &amp; TEXT( YEAR(
+DATEVALUE({!ArrivalWindow}) ) ) &amp;&#39; &#39;&amp;
+IF ( DATEVALUE({!ArrivalWindow}) &gt;=
+DATE ( YEAR (DATEVALUE({!ArrivalWindow})),3,1)
++
+(
+14-
+CASE( MOD(DATE ( YEAR (DATEVALUE({!ArrivalWindow})),3,1) - DATE (1900,1,7),7) ,
+0,7,MOD(DATE ( YEAR (DATEVALUE({!ArrivalWindow})),3,1) - DATE (1900,1,7),7))
+)
+&amp;&amp;
+DATEVALUE({!ArrivalWindow}) &lt;
+DATE ( YEAR (DATEVALUE({!ArrivalWindow})),11,1)
++
+(
+7-
+CASE( MOD(DATE ( YEAR (DATEVALUE({!ArrivalWindow})),11,1) - DATE (1900,1,7),7) ,
+0,7,MOD(DATE ( YEAR (DATEVALUE({!ArrivalWindow})),11,1) - DATE (1900,1,7),7))
+),
+
+IF( OR( VALUE( MID( TEXT( {!ArrivalWindow} - (7/24) ), 12, 2 ) ) = 0, 
+VALUE( MID( TEXT( {!ArrivalWindow} - (7/24)), 12, 2 ) ) = 12 ), &quot;12&quot;, 
+TEXT( VALUE( MID( TEXT( {!ArrivalWindow} - (7/24) ), 12, 2 ) ) - 
+IF( VALUE( MID( TEXT( {!ArrivalWindow} - (7/24)), 12, 2 ) ) &lt; 12, 0, 12 ) ) ) &amp; &quot;:&quot; &amp; 
+MID( TEXT( {!ArrivalWindow} - (7/24)), 15, 2 )&amp;
+ &quot; &quot; &amp;
+ IF( VALUE( MID( TEXT( {!ArrivalWindow} - (7/24)), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; ), 
+ 
+ IF( OR( VALUE( MID( TEXT( {!ArrivalWindow} - (8/24) ), 12, 2 ) ) = 0, 
+VALUE( MID( TEXT( {!ArrivalWindow} - (8/24)), 12, 2 ) ) = 12 ), &quot;12&quot;, 
+TEXT( VALUE( MID( TEXT( {!ArrivalWindow} - (8/24) ), 12, 2 ) ) - 
+IF( VALUE( MID( TEXT( {!ArrivalWindow} - (8/24)), 12, 2 ) ) &lt; 12, 0, 12 ) ) ) &amp; &quot;:&quot; &amp; 
+MID( TEXT( {!ArrivalWindow} - (8/24)), 15, 2 )&amp;
+ &quot; &quot; &amp;
+ IF( VALUE( MID( TEXT( {!ArrivalWindow} - (8/24)), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; ))</expression>
+    </formulas>
+    <formulas>
+        <name>VarCurrentTime</name>
+        <dataType>DateTime</dataType>
+        <expression>(NOW()+ (8/24)) - (VALUE(MID({!getServiceAppointment.Work_Order__r.Timezone_Offset__c},5,2))/24)</expression>
+    </formulas>
+    <interviewLabel>AA Bot SA Lookup Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>AA Bot SA Lookup Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>getContactRecord</name>
+        <label>getContactRecord</label>
+        <locationX>380</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>checkContactRecordExist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contactID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>getSARecordTypeId</name>
+        <label>getSARecordTypeId</label>
+        <locationX>611</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>checkRecordTypeisNotNull</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>ServiceAppointment</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Breakdown</stringValue>
+            </value>
+        </filters>
+        <object>RecordType</object>
+        <outputAssignments>
+            <assignToReference>recordTypeId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>getServiceAppointment</name>
+        <label>getServiceAppointment</label>
+        <locationX>182</locationX>
+        <locationY>638</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>checkActiveSAFound</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND 3 AND 4</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>getContactRecord.Dispatch_Context__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordTypeId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Cleared</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Canceled</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ServiceAppointment</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>485</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>getSARecordTypeId</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>activeSAFound</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>AppointmentAssistantURL</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>contactID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>NoAgentFound</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>recordTypeId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ResourceName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>SAId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>SAStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>varFacilityName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>VarServiceArrivalWindow</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>VarServiceArrivalWindowInFuture</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

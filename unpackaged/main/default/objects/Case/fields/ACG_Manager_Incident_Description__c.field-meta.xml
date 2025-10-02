@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Manager_Incident_Description__c</fullName>
+    <defaultValue>&#39;Please use the manager incident report form.&#39;</defaultValue>
+    <inlineHelpText>To create a manager incident report, use the Manger Incident Report Form. Use the &quot;&quot;Post&quot;&quot; button on the right to provide any updates.</inlineHelpText>
+    <label>Manager Incident Description</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

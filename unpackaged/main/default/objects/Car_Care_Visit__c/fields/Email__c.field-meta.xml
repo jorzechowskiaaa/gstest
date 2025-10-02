@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email__c</fullName>
+    <description>Customer Email Address . This field is populated from 9/1/2020 and used to match back CC visits with online appointments</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer Email</inlineHelpText>
+    <label>Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Boolean Service Appointment Field for forcing appointments to remain scheduled during RSO --></help>
+        <label><!-- RSO Remain Scheduled SA Field API Name --></label>
+        <name>RSO_Remain_Scheduled_SA_Field_API_Name__c</name>
+    </CustomFieldTranslation>

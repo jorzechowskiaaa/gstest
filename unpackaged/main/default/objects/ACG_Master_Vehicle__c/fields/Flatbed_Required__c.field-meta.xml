@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flatbed_Required__c</fullName>
+    <formula>LOWER(TRIM(ACG_Vehicle_Drive_Type__c)) = LOWER(&#39;AWD&#39;) ||
+LOWER(TRIM(ACG_Vehicle_Drive_Type__c)) = LOWER(&#39;4 x 4&#39;)||
+LOWER(TRIM(ACG_Vehicle_Drive_Type__c ))= LOWER(&#39;4x4&#39;)||
+LOWER(TRIM(ACG_Vehicle_Drive_Type__c)) = LOWER(&#39;4WD&#39;)</formula>
+    <label>Flatbed Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

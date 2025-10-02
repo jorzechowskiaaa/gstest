@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editable__c</fullName>
+    <formula>ISBLANK( Cleared_Timestamp__c ) || ( !(ISPICKVAL(Status , &#39;Cleared&#39;) &amp;&amp; Locked_After_Clear__c ) &amp;&amp; Cleared_Timestamp__c &gt; DATETIMEVALUE(&quot;2021-08-10 10:30:00&quot;) )</formula>
+    <label>Editable</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_WorkOrders</fullName>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>AAA_Charge_Entitlement__c</columns>
+    <columns>BO_Editable_WO_Specific_Membership_Level__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CreatedDate</columns>
+    <columns>Status</columns>
+    <columns>Call_Type_Sub__c</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>Program_Description__c</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>Tow_Address__c</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Member_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>8/1/2025 12:00 AM</value>
+    </filters>
+    <label>All Work Orders</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

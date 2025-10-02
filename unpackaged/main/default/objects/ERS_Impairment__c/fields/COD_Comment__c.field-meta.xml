@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COD_Comment__c</fullName>
+    <description>Feed comment to be added to the case when ERS Advocate picks COD as Impairment Resolution action</description>
+    <inlineHelpText>Feed comment to be added to the case when ERS Advocate picks COD as Impairment Resolution action</inlineHelpText>
+    <label>COD Comment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

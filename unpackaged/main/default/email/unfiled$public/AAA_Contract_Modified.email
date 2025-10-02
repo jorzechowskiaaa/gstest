@@ -1,0 +1,6 @@
+Hi,
+<br><br>
+Contract <b>{!Contract__c.Name}</b> has been modified by {!Contract__c.LastModifiedBy}.  Please Approve or Reject the line items.<br><br>
+
+Link to Access the Contract:<a href="{!Contract__c.Link}">{!Contract__c.Name}</a><br><br>
+Thanks.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Unschedule_Violation</fullName>
+    <active>false</active>
+    <description>Prevent users without &quot;Allow to schedule before earliest start&quot; custom permission from unscheduling calls.</description>
+    <errorConditionFormula>$Permission.Allow_Unschedule = FALSE &amp;&amp;
+(ISPICKVAL(Status,&#39;Spotted&#39;) &amp;&amp; ISCHANGED(Status))</errorConditionFormula>
+    <errorMessage>Unscheduling appointments is not permitted. Please contact AAA dispatch if you need to decline a call.</errorMessage>
+</ValidationRule>

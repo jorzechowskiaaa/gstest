@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TroubleCode</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TroubleCodes</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>TroubleCode Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Trouble code can not be updated after Work order is Cleared. --></errorMessage>
+        <name>Restrict_Trouble_Code_Update_On_WO_Clear</name>
+    </validationRules>
+</CustomObjectTranslation>

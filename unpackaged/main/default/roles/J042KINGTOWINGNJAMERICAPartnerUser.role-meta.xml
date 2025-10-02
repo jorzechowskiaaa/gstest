@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>J042-KING TOWING NJ AMERICA Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>J042-KING TOWING NJ AMERICA Partner User</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>Delegated_Admin</parentRole>
+</Role>

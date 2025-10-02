@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Accident Assist</label>
+    <protected>false</protected>
+    <values>
+        <field>ACG_Case_Priority_Mapping_Status__c</field>
+        <value xsi:type="xsd:string">Active</value>
+    </values>
+    <values>
+        <field>ACG_Case_Priority__c</field>
+        <value xsi:type="xsd:string">Medium</value>
+    </values>
+    <values>
+        <field>ACG_Case_Record_Type__c</field>
+        <value xsi:type="xsd:string">ERS</value>
+    </values>
+    <values>
+        <field>ACG_Club__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>ACG_ERS_Event_Type__c</field>
+        <value xsi:type="xsd:string">Accident Assist</value>
+    </values>
+    <values>
+        <field>ACG_Membership_Level__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>ACG_Service_Type__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>ACG_Vehicle_Location_Type__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>ACG_Vehicle_Type__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>Same_Member_in_24_Hrs__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Tow_Request_Reason__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>VIP_Case__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

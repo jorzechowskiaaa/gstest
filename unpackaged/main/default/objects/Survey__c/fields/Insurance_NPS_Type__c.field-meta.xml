@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_NPS_Type__c</fullName>
+    <description>Identifier for various insurance NPS types</description>
+    <label>Insurance Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Portal</fullName>
+                <default>false</default>
+                <label>Portal</label>
+            </value>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Career Agent</fullName>
+                <default>false</default>
+                <label>Career Agent</label>
+            </value>
+            <value>
+                <fullName>External Agent</fullName>
+                <default>false</default>
+                <label>External Agent</label>
+            </value>
+            <value>
+                <fullName>Service Agent</fullName>
+                <default>false</default>
+                <label>Service Agent</label>
+            </value>
+            <value>
+                <fullName>Claims Agent</fullName>
+                <default>false</default>
+                <label>Claims Agent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

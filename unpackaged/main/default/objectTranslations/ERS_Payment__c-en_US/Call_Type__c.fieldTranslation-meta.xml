@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Call Type --></label>
+        <name>Call_Type__c</name>
+        <picklistValues>
+            <masterLabel>AAA Member - Technical Issue</masterLabel>
+            <translation><!-- AAA Member - Technical Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA PROMise</masterLabel>
+            <translation><!-- AAA PROMise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident Assist</masterLabel>
+            <translation><!-- Accident Assist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAA RAP</masterLabel>
+            <translation><!-- CAA RAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courtesy International</masterLabel>
+            <translation><!-- Courtesy International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealership</masterLabel>
+            <translation><!-- Dealership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essential Workers</masterLabel>
+            <translation><!-- Essential Workers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital Delivery</masterLabel>
+            <translation><!-- Hospital Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation><!-- Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Club</masterLabel>
+            <translation><!-- Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP</masterLabel>
+            <translation><!-- RAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP Manual</masterLabel>
+            <translation><!-- RAP Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow To Go</masterLabel>
+            <translation><!-- Tow To Go --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

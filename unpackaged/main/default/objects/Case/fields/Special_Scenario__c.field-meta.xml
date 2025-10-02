@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Scenario__c</fullName>
+    <label>Special Scenario</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAA/CAA Member</fullName>
+                <default>false</default>
+                <label>AAA/CAA Member</label>
+            </value>
+            <value>
+                <fullName>ACG Insurance</fullName>
+                <default>false</default>
+                <label>ACG Insurance</label>
+            </value>
+            <value>
+                <fullName>AAA PROMise</fullName>
+                <default>false</default>
+                <label>AAA PROMise</label>
+            </value>
+            <value>
+                <fullName>CAA RAP Programs</fullName>
+                <default>false</default>
+                <label>CAA RAP Programs</label>
+            </value>
+            <value>
+                <fullName>Essential Workers</fullName>
+                <default>false</default>
+                <label>Essential Workers</label>
+            </value>
+            <value>
+                <fullName>Hospital Delivery</fullName>
+                <default>false</default>
+                <label>Hospital Delivery</label>
+            </value>
+            <value>
+                <fullName>International Motor Clubs</fullName>
+                <default>false</default>
+                <label>International Motor Clubs</label>
+            </value>
+            <value>
+                <fullName>Tow To Go</fullName>
+                <default>false</default>
+                <label>Tow To Go</label>
+            </value>
+            <value>
+                <fullName>US RAP Programs</fullName>
+                <default>false</default>
+                <label>US RAP Programs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

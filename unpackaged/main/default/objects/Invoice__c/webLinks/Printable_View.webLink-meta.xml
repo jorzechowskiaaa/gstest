@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Printable_View</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Printable View</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>https://aaanortheast2.my.site.com/NEContractorCommunity/s/report/00OJx000005hLkfMAE?reportFilters=[{%22column%22:%22CUST_ID%22,%22operator%22:%22equals%22,%22value%22:%22{! Statement__c.Id}%22}]</url>
+</WebLink>

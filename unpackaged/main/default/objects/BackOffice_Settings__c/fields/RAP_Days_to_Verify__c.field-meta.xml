@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RAP_Days_to_Verify__c</fullName>
+    <description>Number of days to send a RAP call for verification after creation timestamp.</description>
+    <externalId>false</externalId>
+    <label>RAP Days to Verify</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

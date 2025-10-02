@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JD_SF_Work_orders_cleared_no_D3_key</fullName>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Call_Origin__c</columns>
+    <columns>ServiceContract</columns>
+    <columns>Case</columns>
+    <columns>Status</columns>
+    <columns>D3_Call_Key__c</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>Clearing_Code__c</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Member_Vehicle__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Call_Origin__c</field>
+        <operation>equals</operation>
+        <value>Salesforce</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>D3_Call_Key__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>JD - SF Work orders cleared no D3 key</label>
+    <sharedTo>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

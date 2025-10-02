@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Make__c</fullName>
+    <label>Vehicle Make</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACURA</fullName>
+                <default>false</default>
+                <label>ACURA</label>
+            </value>
+            <value>
+                <fullName>ADVANCE MIXER</fullName>
+                <default>false</default>
+                <label>ADVANCE MIXER</label>
+            </value>
+            <value>
+                <fullName>ALFA ROMEO</fullName>
+                <default>false</default>
+                <label>ALFA ROMEO</label>
+            </value>
+            <value>
+                <fullName>ALLSTATE</fullName>
+                <default>false</default>
+                <label>ALLSTATE</label>
+            </value>
+            <value>
+                <fullName>AMC</fullName>
+                <default>false</default>
+                <label>AMC</label>
+            </value>
+            <value>
+                <fullName>AMERICAN AUSTIN</fullName>
+                <default>false</default>
+                <label>AMERICAN AUSTIN</label>
+            </value>
+            <value>
+                <fullName>AMERICAN BANTAM</fullName>
+                <default>false</default>
+                <label>AMERICAN BANTAM</label>
+            </value>
+            <value>
+                <fullName>AMERICAN COACH</fullName>
+                <default>false</default>
+                <label>AMERICAN COACH</label>
+            </value>
+            <value>
+                <fullName>AMERICAN EAGLE</fullName>
+                <default>false</default>
+                <label>AMERICAN EAGLE</label>
+            </value>
+            <value>
+                <fullName>AMERICAN HERITAGE</fullName>
+                <default>false</default>
+                <label>AMERICAN HERITAGE</label>
+            </value>
+            <value>
+                <fullName>AMERICAN IRONHORSE</fullName>
+                <default>false</default>
+                <label>AMERICAN IRONHORSE</label>
+            </value>
+            <value>
+                <fullName>AMERICAN LAFRANCE</fullName>
+                <default>false</default>
+                <label>AMERICAN LAFRANCE</label>
+            </value>
+            <value>
+                <fullName>AMERICAN QUANTUM</fullName>
+                <default>false</default>
+                <label>AMERICAN QUANTUM</label>
+            </value>
+            <value>
+                <fullName>AMERICAN SUNDIRO</fullName>
+                <default>false</default>
+                <label>AMERICAN SUNDIRO</label>
+            </value>
+            <value>
+                <fullName>ANTHEM</fullName>
+                <default>false</default>
+                <label>ANTHEM</label>
+            </value>
+            <value>
+                <fullName>APEX</fullName>
+                <default>false</default>
+                <label>APEX</label>
+            </value>
+            <value>
+                <fullName>APOLLO</fullName>
+                <default>false</default>
+                <label>APOLLO</label>
+            </value>
+            <value>
+                <fullName>APRILIA</fullName>
+                <default>false</default>
+                <label>APRILIA</label>
+            </value>
+            <value>
+                <fullName>ARNOLT-MG</fullName>
+                <default>false</default>
+                <label>ARNOLT-MG</label>
+            </value>
+            <value>
+                <fullName>ARROWHEAD</fullName>
+                <default>false</default>
+                <label>ARROWHEAD</label>
+            </value>
+            <value>
+                <fullName>ASPEN</fullName>
+                <default>false</default>
+                <label>ASPEN</label>
+            </value>
+            <value>
+                <fullName>ASTON MARTIN</fullName>
+                <default>false</default>
+                <label>ASTON MARTIN</label>
+            </value>
+            <value>
+                <fullName>ATK</fullName>
+                <default>false</default>
+                <label>ATK</label>
+            </value>
+            <value>
+                <fullName>AUBURN</fullName>
+                <default>false</default>
+                <label>AUBURN</label>
+            </value>
+            <value>
+                <fullName>AUDI</fullName>
+                <default>false</default>
+                <label>AUDI</label>
+            </value>
+            <value>
+                <fullName>AUSTIN HEALEY</fullName>
+                <default>false</default>
+                <label>AUSTIN HEALEY</label>
+            </value>
+            <value>
+                <fullName>AUSTIN ROVER</fullName>
+                <default>false</default>
+                <label>AUSTIN ROVER</label>
+            </value>
+            <value>
+                <fullName>AUTOCAR</fullName>
+                <default>false</default>
+                <label>AUTOCAR</label>
+            </value>
+            <value>
+                <fullName>AUTOCAR LLC.</fullName>
+                <default>false</default>
+                <label>AUTOCAR LLC.</label>
+            </value>
+            <value>
+                <fullName>AVALANCHE</fullName>
+                <default>false</default>
+                <label>AVALANCHE</label>
+            </value>
+            <value>
+                <fullName>AWARD</fullName>
+                <default>false</default>
+                <label>AWARD</label>
+            </value>
+            <value>
+                <fullName>BACK COUNTRY</fullName>
+                <default>false</default>
+                <label>BACK COUNTRY</label>
+            </value>
+            <value>
+                <fullName>BAIC</fullName>
+                <default>false</default>
+                <label>BAIC</label>
+            </value>
+            <value>
+                <fullName>BAJA</fullName>
+                <default>false</default>
+                <label>BAJA</label>
+            </value>
+            <value>
+                <fullName>BANSHEE</fullName>
+                <default>false</default>
+                <label>BANSHEE</label>
+            </value>
+            <value>
+                <fullName>BAYRIDGE</fullName>
+                <default>false</default>
+                <label>BAYRIDGE</label>
+            </value>
+            <value>
+                <fullName>BENELLI</fullName>
+                <default>false</default>
+                <label>BENELLI</label>
+            </value>
+            <value>
+                <fullName>BENTLEY</fullName>
+                <default>false</default>
+                <label>BENTLEY</label>
+            </value>
+            <value>
+                <fullName>BERING</fullName>
+                <default>false</default>
+                <label>BERING</label>
+            </value>
+            <value>
+                <fullName>BERKSHIRE</fullName>
+                <default>false</default>
+                <label>BERKSHIRE</label>
+            </value>
+            <value>
+                <fullName>BERTONE</fullName>
+                <default>false</default>
+                <label>BERTONE</label>
+            </value>
+            <value>
+                <fullName>BETA</fullName>
+                <default>false</default>
+                <label>BETA</label>
+            </value>
+            <value>
+                <fullName>BIDDLE</fullName>
+                <default>false</default>
+                <label>BIDDLE</label>
+            </value>
+            <value>
+                <fullName>BIG BEAR CHOPPERS</fullName>
+                <default>false</default>
+                <label>BIG BEAR CHOPPERS</label>
+            </value>
+            <value>
+                <fullName>BIG DOG</fullName>
+                <default>false</default>
+                <label>BIG DOG</label>
+            </value>
+            <value>
+                <fullName>BIKERS DREAM</fullName>
+                <default>false</default>
+                <label>BIKERS DREAM</label>
+            </value>
+            <value>
+                <fullName>BIMOTA</fullName>
+                <default>false</default>
+                <label>BIMOTA</label>
+            </value>
+            <value>
+                <fullName>BLUE BIRD</fullName>
+                <default>false</default>
+                <label>BLUE BIRD</label>
+            </value>
+            <value>
+                <fullName>BMW</fullName>
+                <default>false</default>
+                <label>BMW</label>
+            </value>
+            <value>
+                <fullName>BOUNDER</fullName>
+                <default>false</default>
+                <label>BOUNDER</label>
+            </value>
+            <value>
+                <fullName>BRISTER</fullName>
+                <default>false</default>
+                <label>BRISTER</label>
+            </value>
+            <value>
+                <fullName>BRISTOL BAY</fullName>
+                <default>false</default>
+                <label>BRISTOL BAY</label>
+            </value>
+            <value>
+                <fullName>BRONCO</fullName>
+                <default>false</default>
+                <label>BRONCO</label>
+            </value>
+            <value>
+                <fullName>BUELL</fullName>
+                <default>false</default>
+                <label>BUELL</label>
+            </value>
+            <value>
+                <fullName>BUGATTI</fullName>
+                <default>false</default>
+                <label>BUGATTI</label>
+            </value>
+            <value>
+                <fullName>BUICK</fullName>
+                <default>false</default>
+                <label>BUICK</label>
+            </value>
+            <value>
+                <fullName>BURRO</fullName>
+                <default>false</default>
+                <label>BURRO</label>
+            </value>
+            <value>
+                <fullName>BUS &amp; COACH INTL (BCI)</fullName>
+                <default>false</default>
+                <label>BUS &amp; COACH INTL (BCI)</label>
+            </value>
+            <value>
+                <fullName>CADILLAC</fullName>
+                <default>false</default>
+                <label>CADILLAC</label>
+            </value>
+            <value>
+                <fullName>CAGIVA</fullName>
+                <default>false</default>
+                <label>CAGIVA</label>
+            </value>
+            <value>
+                <fullName>CAMBRIA</fullName>
+                <default>false</default>
+                <label>CAMBRIA</label>
+            </value>
+            <value>
+                <fullName>CAN-AM</fullName>
+                <default>false</default>
+                <label>CAN-AM</label>
+            </value>
+            <value>
+                <fullName>CANNONDALE</fullName>
+                <default>false</default>
+                <label>CANNONDALE</label>
+            </value>
+            <value>
+                <fullName>CANYON STAR</fullName>
+                <default>false</default>
+                <label>CANYON STAR</label>
+            </value>
+            <value>
+                <fullName>CAPACITY OF TEXAS</fullName>
+                <default>false</default>
+                <label>CAPACITY OF TEXAS</label>
+            </value>
+            <value>
+                <fullName>CARDINAL</fullName>
+                <default>false</default>
+                <label>CARDINAL</label>
+            </value>
+            <value>
+                <fullName>CARIBOU</fullName>
+                <default>false</default>
+                <label>CARIBOU</label>
+            </value>
+            <value>
+                <fullName>CASCADE</fullName>
+                <default>false</default>
+                <label>CASCADE</label>
+            </value>
+            <value>
+                <fullName>CASE</fullName>
+                <default>false</default>
+                <label>CASE</label>
+            </value>
+            <value>
+                <fullName>CATALINA</fullName>
+                <default>false</default>
+                <label>CATALINA</label>
+            </value>
+            <value>
+                <fullName>CATERPILLAR</fullName>
+                <default>false</default>
+                <label>CATERPILLAR</label>
+            </value>
+            <value>
+                <fullName>CCM</fullName>
+                <default>false</default>
+                <label>CCM</label>
+            </value>
+            <value>
+                <fullName>CEDAR CREEK</fullName>
+                <default>false</default>
+                <label>CEDAR CREEK</label>
+            </value>
+            <value>
+                <fullName>CHALET</fullName>
+                <default>false</default>
+                <label>CHALET</label>
+            </value>
+            <value>
+                <fullName>CHALLENGER</fullName>
+                <default>false</default>
+                <label>CHALLENGER</label>
+            </value>
+            <value>
+                <fullName>CHANCE COACH TRANSIT BUS</fullName>
+                <default>false</default>
+                <label>CHANCE COACH TRANSIT BUS</label>
+            </value>
+            <value>
+                <fullName>CHANDLER</fullName>
+                <default>false</default>
+                <label>CHANDLER</label>
+            </value>
+            <value>
+                <fullName>CHAPARRAL</fullName>
+                <default>false</default>
+                <label>CHAPARRAL</label>
+            </value>
+            <value>
+                <fullName>CHEETAH</fullName>
+                <default>false</default>
+                <label>CHEETAH</label>
+            </value>
+            <value>
+                <fullName>CHEROKEE</fullName>
+                <default>false</default>
+                <label>CHEROKEE</label>
+            </value>
+            <value>
+                <fullName>CHEVROLET</fullName>
+                <default>false</default>
+                <label>CHEVROLET</label>
+            </value>
+            <value>
+                <fullName>CHRYSLER</fullName>
+                <default>false</default>
+                <label>CHRYSLER</label>
+            </value>
+            <value>
+                <fullName>CITROEN</fullName>
+                <default>false</default>
+                <label>CITROEN</label>
+            </value>
+            <value>
+                <fullName>CLEVELAND</fullName>
+                <default>false</default>
+                <label>CLEVELAND</label>
+            </value>
+            <value>
+                <fullName>CLIPPER</fullName>
+                <default>false</default>
+                <label>CLIPPER</label>
+            </value>
+            <value>
+                <fullName>COACHMEN</fullName>
+                <default>false</default>
+                <label>COACHMEN</label>
+            </value>
+            <value>
+                <fullName>COBBLESTONE</fullName>
+                <default>false</default>
+                <label>COBBLESTONE</label>
+            </value>
+            <value>
+                <fullName>COBRA</fullName>
+                <default>false</default>
+                <label>COBRA</label>
+            </value>
+            <value>
+                <fullName>CODA</fullName>
+                <default>false</default>
+                <label>CODA</label>
+            </value>
+            <value>
+                <fullName>COLE</fullName>
+                <default>false</default>
+                <label>COLE</label>
+            </value>
+            <value>
+                <fullName>CONFEDERATE</fullName>
+                <default>false</default>
+                <label>CONFEDERATE</label>
+            </value>
+            <value>
+                <fullName>CONTINENTAL</fullName>
+                <default>false</default>
+                <label>CONTINENTAL</label>
+            </value>
+            <value>
+                <fullName>CORD</fullName>
+                <default>false</default>
+                <label>CORD</label>
+            </value>
+            <value>
+                <fullName>COUNTRY COACH</fullName>
+                <default>false</default>
+                <label>COUNTRY COACH</label>
+            </value>
+            <value>
+                <fullName>COUNTRY COACH MOTORHOME</fullName>
+                <default>false</default>
+                <label>COUNTRY COACH MOTORHOME</label>
+            </value>
+            <value>
+                <fullName>CRANE CARRIER</fullName>
+                <default>false</default>
+                <label>CRANE CARRIER</label>
+            </value>
+            <value>
+                <fullName>CREEK SIDE</fullName>
+                <default>false</default>
+                <label>CREEK SIDE</label>
+            </value>
+            <value>
+                <fullName>CROSSROADS</fullName>
+                <default>false</default>
+                <label>CROSSROADS</label>
+            </value>
+            <value>
+                <fullName>CROWN COACH</fullName>
+                <default>false</default>
+                <label>CROWN COACH</label>
+            </value>
+            <value>
+                <fullName>CYCLONE</fullName>
+                <default>false</default>
+                <label>CYCLONE</label>
+            </value>
+            <value>
+                <fullName>DAEWOO</fullName>
+                <default>false</default>
+                <label>DAEWOO</label>
+            </value>
+            <value>
+                <fullName>DAIHATSU</fullName>
+                <default>false</default>
+                <label>DAIHATSU</label>
+            </value>
+            <value>
+                <fullName>DATSUN</fullName>
+                <default>false</default>
+                <label>DATSUN</label>
+            </value>
+            <value>
+                <fullName>DAVIS</fullName>
+                <default>false</default>
+                <label>DAVIS</label>
+            </value>
+            <value>
+                <fullName>DELOREAN</fullName>
+                <default>false</default>
+                <label>DELOREAN</label>
+            </value>
+            <value>
+                <fullName>DENALI</fullName>
+                <default>false</default>
+                <label>DENALI</label>
+            </value>
+            <value>
+                <fullName>DERBI</fullName>
+                <default>false</default>
+                <label>DERBI</label>
+            </value>
+            <value>
+                <fullName>DE VAUX</fullName>
+                <default>false</default>
+                <label>DE VAUX</label>
+            </value>
+            <value>
+                <fullName>DIAMOND REO</fullName>
+                <default>false</default>
+                <label>DIAMOND REO</label>
+            </value>
+            <value>
+                <fullName>DIANA</fullName>
+                <default>false</default>
+                <label>DIANA</label>
+            </value>
+            <value>
+                <fullName>DINA TRANSIT BUS</fullName>
+                <default>false</default>
+                <label>DINA TRANSIT BUS</label>
+            </value>
+            <value>
+                <fullName>DODGE</fullName>
+                <default>false</default>
+                <label>DODGE</label>
+            </value>
+            <value>
+                <fullName>DORETTI</fullName>
+                <default>false</default>
+                <label>DORETTI</label>
+            </value>
+            <value>
+                <fullName>DUCATI</fullName>
+                <default>false</default>
+                <label>DUCATI</label>
+            </value>
+            <value>
+                <fullName>DUESENBERG</fullName>
+                <default>false</default>
+                <label>DUESENBERG</label>
+            </value>
+            <value>
+                <fullName>DUNE CHASER</fullName>
+                <default>false</default>
+                <label>DUNE CHASER</label>
+            </value>
+            <value>
+                <fullName>DUPLEX</fullName>
+                <default>false</default>
+                <label>DUPLEX</label>
+            </value>
+            <value>
+                <fullName>DU PONT</fullName>
+                <default>false</default>
+                <label>DU PONT</label>
+            </value>
+            <value>
+                <fullName>DURANGO</fullName>
+                <default>false</default>
+                <label>DURANGO</label>
+            </value>
+            <value>
+                <fullName>DURANT</fullName>
+                <default>false</default>
+                <label>DURANT</label>
+            </value>
+            <value>
+                <fullName>DURYEA</fullName>
+                <default>false</default>
+                <label>DURYEA</label>
+            </value>
+            <value>
+                <fullName>EAGLE</fullName>
+                <default>false</default>
+                <label>EAGLE</label>
+            </value>
+            <value>
+                <fullName>EAGLE TRANSIT BUSES</fullName>
+                <default>false</default>
+                <label>EAGLE TRANSIT BUSES</label>
+            </value>
+            <value>
+                <fullName>EARTH VISION</fullName>
+                <default>false</default>
+                <label>EARTH VISION</label>
+            </value>
+            <value>
+                <fullName>EDSEL</fullName>
+                <default>false</default>
+                <label>EDSEL</label>
+            </value>
+            <value>
+                <fullName>EL DORADO</fullName>
+                <default>false</default>
+                <label>EL DORADO</label>
+            </value>
+            <value>
+                <fullName>EMERGENCY ONE</fullName>
+                <default>false</default>
+                <label>EMERGENCY ONE</label>
+            </value>
+            <value>
+                <fullName>ERIK BUELL RACING</fullName>
+                <default>false</default>
+                <label>ERIK BUELL RACING</label>
+            </value>
+            <value>
+                <fullName>ESSEX</fullName>
+                <default>false</default>
+                <label>ESSEX</label>
+            </value>
+            <value>
+                <fullName>E-TON</fullName>
+                <default>false</default>
+                <label>E-TON</label>
+            </value>
+            <value>
+                <fullName>EVOBUS</fullName>
+                <default>false</default>
+                <label>EVOBUS</label>
+            </value>
+            <value>
+                <fullName>EXCELSIOR-HENDERSON</fullName>
+                <default>false</default>
+                <label>EXCELSIOR-HENDERSON</label>
+            </value>
+            <value>
+                <fullName>EXPEDITION</fullName>
+                <default>false</default>
+                <label>EXPEDITION</label>
+            </value>
+            <value>
+                <fullName>FARGO</fullName>
+                <default>false</default>
+                <label>FARGO</label>
+            </value>
+            <value>
+                <fullName>FAW</fullName>
+                <default>false</default>
+                <label>FAW</label>
+            </value>
+            <value>
+                <fullName>FEDERAL MOTORS</fullName>
+                <default>false</default>
+                <label>FEDERAL MOTORS</label>
+            </value>
+            <value>
+                <fullName>FERRARI</fullName>
+                <default>false</default>
+                <label>FERRARI</label>
+            </value>
+            <value>
+                <fullName>FIAT</fullName>
+                <default>false</default>
+                <label>FIAT</label>
+            </value>
+            <value>
+                <fullName>FISKER</fullName>
+                <default>false</default>
+                <label>FISKER</label>
+            </value>
+            <value>
+                <fullName>FLINT</fullName>
+                <default>false</default>
+                <label>FLINT</label>
+            </value>
+            <value>
+                <fullName>FLXIBLE TRANSIT BUS</fullName>
+                <default>false</default>
+                <label>FLXIBLE TRANSIT BUS</label>
+            </value>
+            <value>
+                <fullName>FORD</fullName>
+                <default>false</default>
+                <label>FORD</label>
+            </value>
+            <value>
+                <fullName>FOREST RIVER</fullName>
+                <default>false</default>
+                <label>FOREST RIVER</label>
+            </value>
+            <value>
+                <fullName>FOTON</fullName>
+                <default>false</default>
+                <label>FOTON</label>
+            </value>
+            <value>
+                <fullName>FOUR WINDS</fullName>
+                <default>false</default>
+                <label>FOUR WINDS</label>
+            </value>
+            <value>
+                <fullName>FWD</fullName>
+                <default>false</default>
+                <label>FWD</label>
+            </value>
+            <value>
+                <fullName>FWD CORPORATION</fullName>
+                <default>false</default>
+                <label>FWD CORPORATION</label>
+            </value>
+            <value>
+                <fullName>GARDNER</fullName>
+                <default>false</default>
+                <label>GARDNER</label>
+            </value>
+            <value>
+                <fullName>GENERAL MOTORS</fullName>
+                <default>false</default>
+                <label>GENERAL MOTORS</label>
+            </value>
+            <value>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+                <label>GENESIS</label>
+            </value>
+            <value>
+                <fullName>GENESIS TRANSIT BUSES</fullName>
+                <default>false</default>
+                <label>GENESIS TRANSIT BUSES</label>
+            </value>
+            <value>
+                <fullName>GEO</fullName>
+                <default>false</default>
+                <label>GEO</label>
+            </value>
+            <value>
+                <fullName>GIANT</fullName>
+                <default>false</default>
+                <label>GIANT</label>
+            </value>
+            <value>
+                <fullName>GIANT MOTORS</fullName>
+                <default>false</default>
+                <label>GIANT MOTORS</label>
+            </value>
+            <value>
+                <fullName>GILLIG</fullName>
+                <default>false</default>
+                <label>GILLIG</label>
+            </value>
+            <value>
+                <fullName>GMC</fullName>
+                <default>false</default>
+                <label>GMC</label>
+            </value>
+            <value>
+                <fullName>GO-PED</fullName>
+                <default>false</default>
+                <label>GO-PED</label>
+            </value>
+            <value>
+                <fullName>GORDON-KEEBLE</fullName>
+                <default>false</default>
+                <label>GORDON-KEEBLE</label>
+            </value>
+            <value>
+                <fullName>GRAHAM</fullName>
+                <default>false</default>
+                <label>GRAHAM</label>
+            </value>
+            <value>
+                <fullName>GRAHAM-PAIGE</fullName>
+                <default>false</default>
+                <label>GRAHAM-PAIGE</label>
+            </value>
+            <value>
+                <fullName>HARLEY DAVIDSON</fullName>
+                <default>false</default>
+                <label>HARLEY DAVIDSON</label>
+            </value>
+            <value>
+                <fullName>HARLEY-DAVIDSON</fullName>
+                <default>false</default>
+                <label>HARLEY-DAVIDSON</label>
+            </value>
+            <value>
+                <fullName>HAYNES</fullName>
+                <default>false</default>
+                <label>HAYNES</label>
+            </value>
+            <value>
+                <fullName>HCS</fullName>
+                <default>false</default>
+                <label>HCS</label>
+            </value>
+            <value>
+                <fullName>HEARTLAND</fullName>
+                <default>false</default>
+                <label>HEARTLAND</label>
+            </value>
+            <value>
+                <fullName>HENDRICKSON</fullName>
+                <default>false</default>
+                <label>HENDRICKSON</label>
+            </value>
+            <value>
+                <fullName>HENRY J</fullName>
+                <default>false</default>
+                <label>HENRY J</label>
+            </value>
+            <value>
+                <fullName>HERTZ</fullName>
+                <default>false</default>
+                <label>HERTZ</label>
+            </value>
+            <value>
+                <fullName>HISPANO-SUIZA</fullName>
+                <default>false</default>
+                <label>HISPANO-SUIZA</label>
+            </value>
+            <value>
+                <fullName>HOLIDAY RAMBLER</fullName>
+                <default>false</default>
+                <label>HOLIDAY RAMBLER</label>
+            </value>
+            <value>
+                <fullName>HONDA</fullName>
+                <default>false</default>
+                <label>HONDA</label>
+            </value>
+            <value>
+                <fullName>HUMMER</fullName>
+                <default>false</default>
+                <label>HUMMER</label>
+            </value>
+            <value>
+                <fullName>HUPMOBILE</fullName>
+                <default>false</default>
+                <label>HUPMOBILE</label>
+            </value>
+            <value>
+                <fullName>HUSABERG</fullName>
+                <default>false</default>
+                <label>HUSABERG</label>
+            </value>
+            <value>
+                <fullName>HUSQVARNA</fullName>
+                <default>false</default>
+                <label>HUSQVARNA</label>
+            </value>
+            <value>
+                <fullName>HYOSUNG</fullName>
+                <default>false</default>
+                <label>HYOSUNG</label>
+            </value>
+            <value>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+                <label>HYUNDAI</label>
+            </value>
+            <value>
+                <fullName>IC CORPORATION</fullName>
+                <default>false</default>
+                <label>IC CORPORATION</label>
+            </value>
+            <value>
+                <fullName>INDIAN</fullName>
+                <default>false</default>
+                <label>INDIAN</label>
+            </value>
+            <value>
+                <fullName>INDIANA PHOENIX</fullName>
+                <default>false</default>
+                <label>INDIANA PHOENIX</label>
+            </value>
+            <value>
+                <fullName>INFINITI</fullName>
+                <default>false</default>
+                <label>INFINITI</label>
+            </value>
+            <value>
+                <fullName>INFINITY</fullName>
+                <default>false</default>
+                <label>INFINITY</label>
+            </value>
+            <value>
+                <fullName>INTERNATIONAL</fullName>
+                <default>false</default>
+                <label>INTERNATIONAL</label>
+            </value>
+            <value>
+                <fullName>ISUZU</fullName>
+                <default>false</default>
+                <label>ISUZU</label>
+            </value>
+            <value>
+                <fullName>ITASCO</fullName>
+                <default>false</default>
+                <label>ITASCO</label>
+            </value>
+            <value>
+                <fullName>IVECO</fullName>
+                <default>false</default>
+                <label>IVECO</label>
+            </value>
+            <value>
+                <fullName>JAGUAR</fullName>
+                <default>false</default>
+                <label>JAGUAR</label>
+            </value>
+            <value>
+                <fullName>JEEP</fullName>
+                <default>false</default>
+                <label>JEEP</label>
+            </value>
+            <value>
+                <fullName>JENSEN</fullName>
+                <default>false</default>
+                <label>JENSEN</label>
+            </value>
+            <value>
+                <fullName>JEWETT</fullName>
+                <default>false</default>
+                <label>JEWETT</label>
+            </value>
+            <value>
+                <fullName>JORDAN</fullName>
+                <default>false</default>
+                <label>JORDAN</label>
+            </value>
+            <value>
+                <fullName>KALMAR</fullName>
+                <default>false</default>
+                <label>KALMAR</label>
+            </value>
+            <value>
+                <fullName>KAWASAKI</fullName>
+                <default>false</default>
+                <label>KAWASAKI</label>
+            </value>
+            <value>
+                <fullName>KEN-BAR</fullName>
+                <default>false</default>
+                <label>KEN-BAR</label>
+            </value>
+            <value>
+                <fullName>KIA</fullName>
+                <default>false</default>
+                <label>KIA</label>
+            </value>
+            <value>
+                <fullName>KIDD KART</fullName>
+                <default>false</default>
+                <label>KIDD KART</label>
+            </value>
+            <value>
+                <fullName>KISSEL</fullName>
+                <default>false</default>
+                <label>KISSEL</label>
+            </value>
+            <value>
+                <fullName>KOMFORT</fullName>
+                <default>false</default>
+                <label>KOMFORT</label>
+            </value>
+            <value>
+                <fullName>KOVATCH</fullName>
+                <default>false</default>
+                <label>KOVATCH</label>
+            </value>
+            <value>
+                <fullName>KTM</fullName>
+                <default>false</default>
+                <label>KTM</label>
+            </value>
+            <value>
+                <fullName>KYMCO</fullName>
+                <default>false</default>
+                <label>KYMCO</label>
+            </value>
+            <value>
+                <fullName>LADA</fullName>
+                <default>false</default>
+                <label>LADA</label>
+            </value>
+            <value>
+                <fullName>LAMBORGHINI</fullName>
+                <default>false</default>
+                <label>LAMBORGHINI</label>
+            </value>
+            <value>
+                <fullName>LAND ROVER</fullName>
+                <default>false</default>
+                <label>LAND ROVER</label>
+            </value>
+            <value>
+                <fullName>LASALLE</fullName>
+                <default>false</default>
+                <label>LASALLE</label>
+            </value>
+            <value>
+                <fullName>LES AUTOBUS MCI</fullName>
+                <default>false</default>
+                <label>LES AUTOBUS MCI</label>
+            </value>
+            <value>
+                <fullName>LEXINGTON</fullName>
+                <default>false</default>
+                <label>LEXINGTON</label>
+            </value>
+            <value>
+                <fullName>LEXUS</fullName>
+                <default>false</default>
+                <label>LEXUS</label>
+            </value>
+            <value>
+                <fullName>LINCOLN</fullName>
+                <default>false</default>
+                <label>LINCOLN</label>
+            </value>
+            <value>
+                <fullName>LOCOMOBILE</fullName>
+                <default>false</default>
+                <label>LOCOMOBILE</label>
+            </value>
+            <value>
+                <fullName>LODAL</fullName>
+                <default>false</default>
+                <label>LODAL</label>
+            </value>
+            <value>
+                <fullName>LOTUS</fullName>
+                <default>false</default>
+                <label>LOTUS</label>
+            </value>
+            <value>
+                <fullName>LOVELESS</fullName>
+                <default>false</default>
+                <label>LOVELESS</label>
+            </value>
+            <value>
+                <fullName>M.G.</fullName>
+                <default>false</default>
+                <label>M.G.</label>
+            </value>
+            <value>
+                <fullName>MANCO</fullName>
+                <default>false</default>
+                <label>MANCO</label>
+            </value>
+            <value>
+                <fullName>MARAUDER</fullName>
+                <default>false</default>
+                <label>MARAUDER</label>
+            </value>
+            <value>
+                <fullName>MARMON HARRINGTON</fullName>
+                <default>false</default>
+                <label>MARMON HARRINGTON</label>
+            </value>
+            <value>
+                <fullName>MARMON HERRINGTON</fullName>
+                <default>false</default>
+                <label>MARMON HERRINGTON</label>
+            </value>
+            <value>
+                <fullName>MARQUETTE</fullName>
+                <default>false</default>
+                <label>MARQUETTE</label>
+            </value>
+            <value>
+                <fullName>MASERATI</fullName>
+                <default>false</default>
+                <label>MASERATI</label>
+            </value>
+            <value>
+                <fullName>MASTRETTA</fullName>
+                <default>false</default>
+                <label>MASTRETTA</label>
+            </value>
+            <value>
+                <fullName>MAXIM</fullName>
+                <default>false</default>
+                <label>MAXIM</label>
+            </value>
+            <value>
+                <fullName>MAXWELL</fullName>
+                <default>false</default>
+                <label>MAXWELL</label>
+            </value>
+            <value>
+                <fullName>MAYBACH</fullName>
+                <default>false</default>
+                <label>MAYBACH</label>
+            </value>
+            <value>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+                <label>MAZDA</label>
+            </value>
+            <value>
+                <fullName>MCLAREN</fullName>
+                <default>false</default>
+                <label>MCLAREN</label>
+            </value>
+            <value>
+                <fullName>MERCEDES</fullName>
+                <default>false</default>
+                <label>MERCEDES</label>
+            </value>
+            <value>
+                <fullName>MERCEDES BENZ</fullName>
+                <default>false</default>
+                <label>MERCEDES BENZ</label>
+            </value>
+            <value>
+                <fullName>MERCEDES-BENZ</fullName>
+                <default>false</default>
+                <label>MERCEDES-BENZ</label>
+            </value>
+            <value>
+                <fullName>MERCURY</fullName>
+                <default>false</default>
+                <label>MERCURY</label>
+            </value>
+            <value>
+                <fullName>MERKUR</fullName>
+                <default>false</default>
+                <label>MERKUR</label>
+            </value>
+            <value>
+                <fullName>MG</fullName>
+                <default>false</default>
+                <label>MG</label>
+            </value>
+            <value>
+                <fullName>MINI</fullName>
+                <default>false</default>
+                <label>MINI</label>
+            </value>
+            <value>
+                <fullName>MITSUBISHI</fullName>
+                <default>false</default>
+                <label>MITSUBISHI</label>
+            </value>
+            <value>
+                <fullName>MOTO GUZZI</fullName>
+                <default>false</default>
+                <label>MOTO GUZZI</label>
+            </value>
+            <value>
+                <fullName>MOTOR COACH INDUSTRIES</fullName>
+                <default>false</default>
+                <label>MOTOR COACH INDUSTRIES</label>
+            </value>
+            <value>
+                <fullName>MOTORHOME</fullName>
+                <default>false</default>
+                <label>MOTORHOME</label>
+            </value>
+            <value>
+                <fullName>MV AGUSTA</fullName>
+                <default>false</default>
+                <label>MV AGUSTA</label>
+            </value>
+            <value>
+                <fullName>NEOPLAN</fullName>
+                <default>false</default>
+                <label>NEOPLAN</label>
+            </value>
+            <value>
+                <fullName>NEW FLYER</fullName>
+                <default>false</default>
+                <label>NEW FLYER</label>
+            </value>
+            <value>
+                <fullName>NISSAN</fullName>
+                <default>false</default>
+                <label>NISSAN</label>
+            </value>
+            <value>
+                <fullName>NORTH AMERICAN BUS INDUSTRIES (NABI)</fullName>
+                <default>false</default>
+                <label>NORTH AMERICAN BUS INDUSTRIES (NABI)</label>
+            </value>
+            <value>
+                <fullName>NORTHWOOD</fullName>
+                <default>false</default>
+                <label>NORTHWOOD</label>
+            </value>
+            <value>
+                <fullName>NOVA BUS CORPORATION</fullName>
+                <default>false</default>
+                <label>NOVA BUS CORPORATION</label>
+            </value>
+            <value>
+                <fullName>OLDSMOBILE</fullName>
+                <default>false</default>
+                <label>OLDSMOBILE</label>
+            </value>
+            <value>
+                <fullName>OMEGA</fullName>
+                <default>false</default>
+                <label>OMEGA</label>
+            </value>
+            <value>
+                <fullName>ONTARIO BUS</fullName>
+                <default>false</default>
+                <label>ONTARIO BUS</label>
+            </value>
+            <value>
+                <fullName>ORION BUS</fullName>
+                <default>false</default>
+                <label>ORION BUS</label>
+            </value>
+            <value>
+                <fullName>OSHKOSH MOTOR TRUCK CO.</fullName>
+                <default>false</default>
+                <label>OSHKOSH MOTOR TRUCK CO.</label>
+            </value>
+            <value>
+                <fullName>OTTAWA</fullName>
+                <default>false</default>
+                <label>OTTAWA</label>
+            </value>
+            <value>
+                <fullName>PAIGE</fullName>
+                <default>false</default>
+                <label>PAIGE</label>
+            </value>
+            <value>
+                <fullName>PANTHER</fullName>
+                <default>false</default>
+                <label>PANTHER</label>
+            </value>
+            <value>
+                <fullName>PEUGEOT</fullName>
+                <default>false</default>
+                <label>PEUGEOT</label>
+            </value>
+            <value>
+                <fullName>PIAGGIO</fullName>
+                <default>false</default>
+                <label>PIAGGIO</label>
+            </value>
+            <value>
+                <fullName>PIERCE-ARROW</fullName>
+                <default>false</default>
+                <label>PIERCE-ARROW</label>
+            </value>
+            <value>
+                <fullName>PIERCE MFG. INC.</fullName>
+                <default>false</default>
+                <label>PIERCE MFG. INC.</label>
+            </value>
+            <value>
+                <fullName>PLYMOUTH</fullName>
+                <default>false</default>
+                <label>PLYMOUTH</label>
+            </value>
+            <value>
+                <fullName>POLARIS</fullName>
+                <default>false</default>
+                <label>POLARIS</label>
+            </value>
+            <value>
+                <fullName>PONTIAC</fullName>
+                <default>false</default>
+                <label>PONTIAC</label>
+            </value>
+            <value>
+                <fullName>PORCHE</fullName>
+                <default>false</default>
+                <label>PORCHE</label>
+            </value>
+            <value>
+                <fullName>PORSCHE</fullName>
+                <default>false</default>
+                <label>PORSCHE</label>
+            </value>
+            <value>
+                <fullName>PREVOST</fullName>
+                <default>false</default>
+                <label>PREVOST</label>
+            </value>
+            <value>
+                <fullName>RAM</fullName>
+                <default>false</default>
+                <label>RAM</label>
+            </value>
+            <value>
+                <fullName>RANGE-ROVER</fullName>
+                <default>false</default>
+                <label>RANGE-ROVER</label>
+            </value>
+            <value>
+                <fullName>RELIANT</fullName>
+                <default>false</default>
+                <label>RELIANT</label>
+            </value>
+            <value>
+                <fullName>RENAULT</fullName>
+                <default>false</default>
+                <label>RENAULT</label>
+            </value>
+            <value>
+                <fullName>REO</fullName>
+                <default>false</default>
+                <label>REO</label>
+            </value>
+            <value>
+                <fullName>ROADMASTER RAIL</fullName>
+                <default>false</default>
+                <label>ROADMASTER RAIL</label>
+            </value>
+            <value>
+                <fullName>ROAMER</fullName>
+                <default>false</default>
+                <label>ROAMER</label>
+            </value>
+            <value>
+                <fullName>ROCKNE</fullName>
+                <default>false</default>
+                <label>ROCKNE</label>
+            </value>
+            <value>
+                <fullName>ROKON</fullName>
+                <default>false</default>
+                <label>ROKON</label>
+            </value>
+            <value>
+                <fullName>ROLLS ROYCE</fullName>
+                <default>false</default>
+                <label>ROLLS ROYCE</label>
+            </value>
+            <value>
+                <fullName>ROLLS-ROYCE</fullName>
+                <default>false</default>
+                <label>ROLLS-ROYCE</label>
+            </value>
+            <value>
+                <fullName>ROLLS-ROYCE/BENTLEY</fullName>
+                <default>false</default>
+                <label>ROLLS-ROYCE/BENTLEY</label>
+            </value>
+            <value>
+                <fullName>ROOSEVELT</fullName>
+                <default>false</default>
+                <label>ROOSEVELT</label>
+            </value>
+            <value>
+                <fullName>ROYAL ENFIELD</fullName>
+                <default>false</default>
+                <label>ROYAL ENFIELD</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <label>RV</label>
+            </value>
+            <value>
+                <fullName>SAAB</fullName>
+                <default>false</default>
+                <label>SAAB</label>
+            </value>
+            <value>
+                <fullName>SATURN</fullName>
+                <default>false</default>
+                <label>SATURN</label>
+            </value>
+            <value>
+                <fullName>SAVAGE</fullName>
+                <default>false</default>
+                <label>SAVAGE</label>
+            </value>
+            <value>
+                <fullName>SCION</fullName>
+                <default>false</default>
+                <label>SCION</label>
+            </value>
+            <value>
+                <fullName>SCRIPPS BOOTH</fullName>
+                <default>false</default>
+                <label>SCRIPPS BOOTH</label>
+            </value>
+            <value>
+                <fullName>SEAGRAVE FIRE APPARATUS</fullName>
+                <default>false</default>
+                <label>SEAGRAVE FIRE APPARATUS</label>
+            </value>
+            <value>
+                <fullName>SEAT</fullName>
+                <default>false</default>
+                <label>SEAT</label>
+            </value>
+            <value>
+                <fullName>SHELBY</fullName>
+                <default>false</default>
+                <label>SHELBY</label>
+            </value>
+            <value>
+                <fullName>SHERIDAN</fullName>
+                <default>false</default>
+                <label>SHERIDAN</label>
+            </value>
+            <value>
+                <fullName>SMART</fullName>
+                <default>false</default>
+                <label>SMART</label>
+            </value>
+            <value>
+                <fullName>SPARTAN MOTORS</fullName>
+                <default>false</default>
+                <label>SPARTAN MOTORS</label>
+            </value>
+            <value>
+                <fullName>SRT</fullName>
+                <default>false</default>
+                <label>SRT</label>
+            </value>
+            <value>
+                <fullName>SSANGYONG</fullName>
+                <default>false</default>
+                <label>SSANGYONG</label>
+            </value>
+            <value>
+                <fullName>STANGUELLINI</fullName>
+                <default>false</default>
+                <label>STANGUELLINI</label>
+            </value>
+            <value>
+                <fullName>STAR</fullName>
+                <default>false</default>
+                <label>STAR</label>
+            </value>
+            <value>
+                <fullName>STERLING</fullName>
+                <default>false</default>
+                <label>STERLING</label>
+            </value>
+            <value>
+                <fullName>STERLING TRUCK</fullName>
+                <default>false</default>
+                <label>STERLING TRUCK</label>
+            </value>
+            <value>
+                <fullName>STEWART &amp; STEVENSON</fullName>
+                <default>false</default>
+                <label>STEWART &amp; STEVENSON</label>
+            </value>
+            <value>
+                <fullName>STUDEBAKER</fullName>
+                <default>false</default>
+                <label>STUDEBAKER</label>
+            </value>
+            <value>
+                <fullName>SUBARU</fullName>
+                <default>false</default>
+                <label>SUBARU</label>
+            </value>
+            <value>
+                <fullName>SUTPHEN CORP.</fullName>
+                <default>false</default>
+                <label>SUTPHEN CORP.</label>
+            </value>
+            <value>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+                <label>SUZUKI</label>
+            </value>
+            <value>
+                <fullName>TEREX / TEREX ADVANCE</fullName>
+                <default>false</default>
+                <label>TEREX / TEREX ADVANCE</label>
+            </value>
+            <value>
+                <fullName>TESLA</fullName>
+                <default>false</default>
+                <label>TESLA</label>
+            </value>
+            <value>
+                <fullName>TGB</fullName>
+                <default>false</default>
+                <label>TGB</label>
+            </value>
+            <value>
+                <fullName>THINK</fullName>
+                <default>false</default>
+                <label>THINK</label>
+            </value>
+            <value>
+                <fullName>THOMAS</fullName>
+                <default>false</default>
+                <label>THOMAS</label>
+            </value>
+            <value>
+                <fullName>THOR</fullName>
+                <default>false</default>
+                <label>THOR</label>
+            </value>
+            <value>
+                <fullName>TITAN</fullName>
+                <default>false</default>
+                <label>TITAN</label>
+            </value>
+            <value>
+                <fullName>TOYOTA</fullName>
+                <default>false</default>
+                <label>TOYOTA</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTATION MFG CORP.</fullName>
+                <default>false</default>
+                <label>TRANSPORTATION MFG CORP.</label>
+            </value>
+            <value>
+                <fullName>TRIUMPH</fullName>
+                <default>false</default>
+                <label>TRIUMPH</label>
+            </value>
+            <value>
+                <fullName>TSI</fullName>
+                <default>false</default>
+                <label>TSI</label>
+            </value>
+            <value>
+                <fullName>TUCKER</fullName>
+                <default>false</default>
+                <label>TUCKER</label>
+            </value>
+            <value>
+                <fullName>ULTRA MOTORCYLE</fullName>
+                <default>false</default>
+                <label>ULTRA MOTORCYLE</label>
+            </value>
+            <value>
+                <fullName>UNIMOG</fullName>
+                <default>false</default>
+                <label>UNIMOG</label>
+            </value>
+            <value>
+                <fullName>URAL</fullName>
+                <default>false</default>
+                <label>URAL</label>
+            </value>
+            <value>
+                <fullName>VAM</fullName>
+                <default>false</default>
+                <label>VAM</label>
+            </value>
+            <value>
+                <fullName>VAN HOOL</fullName>
+                <default>false</default>
+                <label>VAN HOOL</label>
+            </value>
+            <value>
+                <fullName>VELIE</fullName>
+                <default>false</default>
+                <label>VELIE</label>
+            </value>
+            <value>
+                <fullName>VENTO</fullName>
+                <default>false</default>
+                <label>VENTO</label>
+            </value>
+            <value>
+                <fullName>VESPA</fullName>
+                <default>false</default>
+                <label>VESPA</label>
+            </value>
+            <value>
+                <fullName>VICTORY</fullName>
+                <default>false</default>
+                <label>VICTORY</label>
+            </value>
+            <value>
+                <fullName>VIKING</fullName>
+                <default>false</default>
+                <label>VIKING</label>
+            </value>
+            <value>
+                <fullName>VOLKSWAGEN</fullName>
+                <default>false</default>
+                <label>VOLKSWAGEN</label>
+            </value>
+            <value>
+                <fullName>VOLKSWAGON</fullName>
+                <default>false</default>
+                <label>VOLKSWAGON</label>
+            </value>
+            <value>
+                <fullName>VOLVO</fullName>
+                <default>false</default>
+                <label>VOLVO</label>
+            </value>
+            <value>
+                <fullName>VPG</fullName>
+                <default>false</default>
+                <label>VPG</label>
+            </value>
+            <value>
+                <fullName>WESTERN STAR</fullName>
+                <default>false</default>
+                <label>WESTERN STAR</label>
+            </value>
+            <value>
+                <fullName>WHIPPET</fullName>
+                <default>false</default>
+                <label>WHIPPET</label>
+            </value>
+            <value>
+                <fullName>WHITE</fullName>
+                <default>false</default>
+                <label>WHITE</label>
+            </value>
+            <value>
+                <fullName>WHITE/GMC</fullName>
+                <default>false</default>
+                <label>WHITE/GMC</label>
+            </value>
+            <value>
+                <fullName>WILD WEST</fullName>
+                <default>false</default>
+                <label>WILD WEST</label>
+            </value>
+            <value>
+                <fullName>WILLYS</fullName>
+                <default>false</default>
+                <label>WILLYS</label>
+            </value>
+            <value>
+                <fullName>WINDSOR</fullName>
+                <default>false</default>
+                <label>WINDSOR</label>
+            </value>
+            <value>
+                <fullName>WORKHORSE</fullName>
+                <default>false</default>
+                <label>WORKHORSE</label>
+            </value>
+            <value>
+                <fullName>WORKHORSE CUSTOM CHASSIS</fullName>
+                <default>false</default>
+                <label>WORKHORSE CUSTOM CHASSIS</label>
+            </value>
+            <value>
+                <fullName>YAMAHA</fullName>
+                <default>false</default>
+                <label>YAMAHA</label>
+            </value>
+            <value>
+                <fullName>YELLOW CAB</fullName>
+                <default>false</default>
+                <label>YELLOW CAB</label>
+            </value>
+            <value>
+                <fullName>YUGO</fullName>
+                <default>false</default>
+                <label>YUGO</label>
+            </value>
+            <value>
+                <fullName>ZELIGSON</fullName>
+                <default>false</default>
+                <label>ZELIGSON</label>
+            </value>
+            <value>
+                <fullName>ZERO</fullName>
+                <default>false</default>
+                <label>ZERO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

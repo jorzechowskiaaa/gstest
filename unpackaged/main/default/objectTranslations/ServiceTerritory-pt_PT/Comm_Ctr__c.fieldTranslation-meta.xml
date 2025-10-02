@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Comm Ctr --></label>
+        <name>Comm_Ctr__c</name>
+        <picklistValues>
+            <masterLabel>008</masterLabel>
+            <translation><!-- 008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>042</masterLabel>
+            <translation><!-- 042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>044</masterLabel>
+            <translation><!-- 044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>045</masterLabel>
+            <translation><!-- 045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>074</masterLabel>
+            <translation><!-- 074 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>075</masterLabel>
+            <translation><!-- 075 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>097</masterLabel>
+            <translation><!-- 097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>168</masterLabel>
+            <translation><!-- 168 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>169</masterLabel>
+            <translation><!-- 169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>192</masterLabel>
+            <translation><!-- 192 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>240</masterLabel>
+            <translation><!-- 240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>398</masterLabel>
+            <translation><!-- 398 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>441</masterLabel>
+            <translation><!-- 441 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>888</masterLabel>
+            <translation><!-- 888 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

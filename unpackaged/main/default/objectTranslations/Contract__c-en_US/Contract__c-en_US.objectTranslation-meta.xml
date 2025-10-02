@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contract AAA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contracts AAA</value>
+    </caseValues>
+    
+    
+    
+    
+    <layouts>
+        <layout>Contract AAA Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>Clone_Custom</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Service Item Rate --></label>
+        <name>Create_Service_Item_Rate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Rate Line Items --></label>
+        <name>Generate_Rate_Line_Items</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Custom Record Type for Contract --></description>
+        <label><!-- Contract --></label>
+        <name>Contract</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Contract Name can&apos;t be changed after creation --></errorMessage>
+        <name>Cant_change_Contract_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Name must be unique --></errorMessage>
+        <name>Contract_Name_must_be_Unique</name>
+    </validationRules>
+</CustomObjectTranslation>

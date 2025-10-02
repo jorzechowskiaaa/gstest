@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Dispatcher_Supervisor_Call_Escalation_Alert</fullName>
+        <description>Dispatcher Supervisor Call Escalation Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jdio@aaanortheast.com.prod</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Dispatcher_Supervisor_Call_Escalation_Template</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>FSL_update_Resource_lastknown_Latitude</fullName>
+        <field>Resource_Latitude__c</field>
+        <formula>Service_Resource__r.LastKnownLatitude</formula>
+        <name>FSL update Resource lastknown Latitude</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>FSL_update_Resource_lastknown_Longitude</fullName>
+        <field>Resource_Longitude__c</field>
+        <formula>Service_Resource__r.LastKnownLongitude</formula>
+        <name>FSL update Resource lastknown Longitude</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>FSL Update Assigned Resource Location</fullName>
+        <actions>
+            <name>FSL_update_Resource_lastknown_Latitude</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>FSL_update_Resource_lastknown_Longitude</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>ServiceAppointment.Status</field>
+            <operation>equals</operation>
+            <value>En Route</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

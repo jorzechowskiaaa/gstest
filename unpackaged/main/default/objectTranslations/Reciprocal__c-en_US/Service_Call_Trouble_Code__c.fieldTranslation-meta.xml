@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Call Trouble Code --></label>
+        <name>Service_Call_Trouble_Code__c</name>
+        <picklistValues>
+            <masterLabel>3B - Battery Replacement</masterLabel>
+            <translation><!-- 3B - Battery Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7A - Key delivery</masterLabel>
+            <translation><!-- 7A - Key delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7B - Locksmith service</masterLabel>
+            <translation><!-- 7B - Locksmith service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T0 - GOA/Canceled Call</masterLabel>
+            <translation><!-- T0 - GOA/Canceled Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 - Flat tire with a spare</masterLabel>
+            <translation><!-- T1 - Flat tire with a spare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T2 - Flat with no spare</masterLabel>
+            <translation><!-- T2 - Flat with no spare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T3 - Battery related service</masterLabel>
+            <translation><!-- T3 - Battery related service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T4 - Cannot start</masterLabel>
+            <translation><!-- T4 - Cannot start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T5 - Fuel delivery</masterLabel>
+            <translation><!-- T5 - Fuel delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T6 - Tow</masterLabel>
+            <translation><!-- T6 - Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T7 - Lockout</masterLabel>
+            <translation><!-- T7 - Lockout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T8 - Extrication (Winch out)</masterLabel>
+            <translation><!-- T8 - Extrication (Winch out) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T9 - Miscellaneous</masterLabel>
+            <translation><!-- T9 - Miscellaneous --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

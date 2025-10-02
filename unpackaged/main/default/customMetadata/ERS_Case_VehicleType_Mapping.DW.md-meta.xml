@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>DW</label>
+    <protected>false</protected>
+    <values>
+        <field>Vehicle_Type_Case__c</field>
+        <value xsi:type="xsd:string">DW (Dual Wheels)</value>
+    </values>
+    <values>
+        <field>Vehicle_Type_Master_Vehicle__c</field>
+        <value xsi:type="xsd:string">DW</value>
+    </values>
+</CustomMetadata>

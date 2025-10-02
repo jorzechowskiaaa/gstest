@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enable Calculate Mileage --></label>
+        <name>Enable_Calculate_Mileage__c</name>
+        <picklistValues>
+            <masterLabel>From Driver Location</masterLabel>
+            <translation><!-- From Driver Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From Service Territory</masterLabel>
+            <translation><!-- From Service Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Calculated Facility</masterLabel>
+            <translation><!-- Not Calculated Facility --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

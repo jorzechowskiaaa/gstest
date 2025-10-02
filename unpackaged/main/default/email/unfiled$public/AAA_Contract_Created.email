@@ -1,0 +1,7 @@
+Hi,
+<br><br>
+A new AAA contract <b>{!Contract__c.Name}</b> has been created by {!Contract__c.CreatedBy} . Please Approve or Reject the applicable contract line Items.<br><br>
+
+Link to Access the Contract: <a href="{!Contract__c.Link}">{!Contract__c.Name}</a> 
+<br><br>
+Thanks.

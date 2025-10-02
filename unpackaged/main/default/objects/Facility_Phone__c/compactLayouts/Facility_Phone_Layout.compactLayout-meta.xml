@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Phone_Layout</fullName>
+    <fields>Contact_Name__c</fields>
+    <fields>Service_Territory__c</fields>
+    <fields>Phone_Type__c</fields>
+    <fields>Phone_Number__c</fields>
+    <fields>Extension__c</fields>
+    <label>Facility Phone Layout</label>
+</CompactLayout>

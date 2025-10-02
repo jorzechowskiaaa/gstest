@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How satisfied are you with Go Magazine overall? --></help>
+        <label><!-- Go Magazine Satisfaction --></label>
+        <name>Go_Magazine_Satisfaction__c</name>
+        <picklistValues>
+            <masterLabel>Not at all satisfied</masterLabel>
+            <translation><!-- Not at all satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satisfied</masterLabel>
+            <translation><!-- Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very satisfied</masterLabel>
+            <translation><!-- Very satisfied --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

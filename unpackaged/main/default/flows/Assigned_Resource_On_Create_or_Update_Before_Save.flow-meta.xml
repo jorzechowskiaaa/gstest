@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>Determines if the value of ApptAssistantInfoUrl is populated.</description>
+        <name>ApptAssistantInfoUrl_Populated</name>
+        <label>ApptAssistantInfoUrl Populated?</label>
+        <locationX>182</locationX>
+        <locationY>587</locationY>
+        <defaultConnectorLabel>Url Not Populated</defaultConnectorLabel>
+        <rules>
+            <name>Url_Populated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ApptAssistantInfoUrl</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Save_Time_URL_set</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Url Populated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Determines if the value of LocationStatus is set to &quot;EnRoute&quot;</description>
+        <name>Is_LocationStatus_EnRoute</name>
+        <label>Is LocationStatus EnRoute?</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>ApptAssistantInfoUrl_Populated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not set to EnRoute</defaultConnectorLabel>
+        <rules>
+            <name>Set_to_EnRoute</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LocationStatus</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>EnRoute</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Save_Time_set_to_EnRoute</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Set to EnRoute</label>
+        </rules>
+    </decisions>
+    <description>This flow will run when Assigned Resource records are created or updated before save.</description>
+    <environments>Default</environments>
+    <interviewLabel>Assigned Resource On Create or Update Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Assigned Resource On Create or Update Before Save</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Saves the date/time the record was set to EnRoute.</description>
+        <name>Save_Time_set_to_EnRoute</name>
+        <label>Save Time set to EnRoute</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <connector>
+            <targetReference>ApptAssistantInfoUrl_Populated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>EnRoute_Time__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Saves the date/time the record ApptAssistantInfoUrl field was populated.</description>
+        <name>Save_Time_URL_set</name>
+        <label>Save Time URL set</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <inputAssignments>
+            <field>ApptAssistUrl_Set_Time__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_LocationStatus_EnRoute</targetReference>
+        </connector>
+        <object>AssignedResource</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

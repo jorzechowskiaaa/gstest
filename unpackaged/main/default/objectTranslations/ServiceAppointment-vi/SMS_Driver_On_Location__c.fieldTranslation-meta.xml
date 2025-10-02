@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- SMS sent when driver updates the Service Appointment Status to &quot;On Location&quot; --></help>
+        <label><!-- SMS - Driver On Location --></label>
+        <name>SMS_Driver_On_Location__c</name>
+    </CustomFieldTranslation>

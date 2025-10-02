@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assigns custom permission for BOS User, used for some logic around automations, etc.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Custom Permission: BOS User</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>BOS_User</name>
+    </customPermissions>
+</PermissionSet>

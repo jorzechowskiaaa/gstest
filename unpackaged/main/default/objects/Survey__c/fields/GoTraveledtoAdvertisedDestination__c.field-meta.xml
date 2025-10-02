@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GoTraveledtoAdvertisedDestination__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>In the last 12 months, have you traveled to a destination advertised or written about as a result of reading Go Magazine?</description>
+    <inlineHelpText>In the last 12 months, have you traveled to a destination advertised or written about as a result of reading Go Magazine?</inlineHelpText>
+    <label>Traveled to Advertised Destination</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

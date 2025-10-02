@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Type__c</fullName>
+    <label>Call Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident Assist</fullName>
+                <default>false</default>
+                <label>Accident Assist</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>RAP</fullName>
+                <default>false</default>
+                <label>RAP</label>
+            </value>
+            <value>
+                <fullName>Tow To Go</fullName>
+                <default>false</default>
+                <label>Tow To Go</label>
+            </value>
+            <value>
+                <fullName>Dealership</fullName>
+                <default>false</default>
+                <label>Dealership</label>
+            </value>
+            <value>
+                <fullName>Motor Club</fullName>
+                <default>false</default>
+                <label>Motor Club</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>AAA Member - Technical Issue</fullName>
+                <default>false</default>
+                <label>AAA Member - Technical Issue</label>
+            </value>
+            <value>
+                <fullName>AAA PROMise</fullName>
+                <default>false</default>
+                <label>AAA PROMise</label>
+            </value>
+            <value>
+                <fullName>CAA RAP</fullName>
+                <default>false</default>
+                <label>CAA RAP</label>
+            </value>
+            <value>
+                <fullName>Essential Workers</fullName>
+                <default>false</default>
+                <label>Essential Workers</label>
+            </value>
+            <value>
+                <fullName>Hospital Delivery</fullName>
+                <default>false</default>
+                <label>Hospital Delivery</label>
+            </value>
+            <value>
+                <fullName>RAP Manual</fullName>
+                <default>false</default>
+                <label>RAP Manual</label>
+            </value>
+            <value>
+                <fullName>Courtesy International</fullName>
+                <default>false</default>
+                <label>Courtesy International</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

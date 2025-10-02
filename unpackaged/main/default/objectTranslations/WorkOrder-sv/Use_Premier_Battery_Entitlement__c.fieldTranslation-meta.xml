@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Use Premier Battery Entitlement --></label>
+        <name>Use_Premier_Battery_Entitlement__c</name>
+    </CustomFieldTranslation>

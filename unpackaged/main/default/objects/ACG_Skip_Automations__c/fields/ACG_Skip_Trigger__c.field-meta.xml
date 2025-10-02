@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Skip_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this to skip all custom Triggers for specified User or Profile.</description>
+    <inlineHelpText>Check this to skip all custom Triggers for specified User or Profile.</inlineHelpText>
+    <label>Skip Trigger</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

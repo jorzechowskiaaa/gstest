@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_Measure__c</fullName>
+    <label>Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>DL - Dollar Amount</fullName>
+                <default>false</default>
+                <label>DL - Dollar Amount</label>
+            </value>
+            <value>
+                <fullName>EA - Each</fullName>
+                <default>false</default>
+                <label>EA - Each</label>
+            </value>
+            <value>
+                <fullName>GL - Gallon</fullName>
+                <default>false</default>
+                <label>GL - Gallon</label>
+            </value>
+            <value>
+                <fullName>KI - Kilo</fullName>
+                <default>false</default>
+                <label>KI - Kilo</label>
+            </value>
+            <value>
+                <fullName>KM - Kilometer</fullName>
+                <default>false</default>
+                <label>KM - Kilometer</label>
+            </value>
+            <value>
+                <fullName>LB - Pound</fullName>
+                <default>false</default>
+                <label>LB - Pound</label>
+            </value>
+            <value>
+                <fullName>LT - Litre</fullName>
+                <default>false</default>
+                <label>LT - Litre</label>
+            </value>
+            <value>
+                <fullName>ML - Mile</fullName>
+                <default>false</default>
+                <label>ML - Mile</label>
+            </value>
+            <value>
+                <fullName>MN - Minutes</fullName>
+                <default>false</default>
+                <label>MN - Minutes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

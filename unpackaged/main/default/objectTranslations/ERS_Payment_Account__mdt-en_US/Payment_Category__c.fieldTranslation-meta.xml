@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Payment Category --></label>
+        <name>Payment_Category__c</name>
+        <picklistValues>
+            <masterLabel>BACKGROU 909660   B</masterLabel>
+            <translation><!-- BACKGROU 909660   B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC</masterLabel>
+            <translation><!-- BASIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC    929100   B</masterLabel>
+            <translation><!-- BASIC    929100   B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTERY  928245   B</masterLabel>
+            <translation><!-- BATTERY  928245   B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTWITH 196037 B</masterLabel>
+            <translation><!-- BATTWITH 196037 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARRENT</masterLabel>
+            <translation><!-- CARRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CK/GUART 182002 O</masterLabel>
+            <translation><!-- CK/GUART 182002 O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUST APP 950101 B</masterLabel>
+            <translation><!-- CUST APP 950101 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3ME 929570 O</masterLabel>
+            <translation><!-- D3ME 929570 O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAMAGE 929140 B</masterLabel>
+            <translation><!-- DAMAGE 929140 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUEL SUB 929210 O</masterLabel>
+            <translation><!-- FUEL SUB 929210 O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOMELOCK</masterLabel>
+            <translation><!-- HOMELOCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTO</masterLabel>
+            <translation><!-- MOTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTWKLSING 196036 B</masterLabel>
+            <translation><!-- NTWKLSING 196036 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTWKLSING 334006 B</masterLabel>
+            <translation><!-- NTWKLSING 334006 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER 929125 O</masterLabel>
+            <translation><!-- OTHER 929125 O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVER DRA 337006 O</masterLabel>
+            <translation><!-- OVER DRA 337006 O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVERCHAR 929100 B</masterLabel>
+            <translation><!-- OVERCHAR 929100 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAPER CH 950600 B</masterLabel>
+            <translation><!-- PAPER CH 950600 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERF PAY 929180 B</masterLabel>
+            <translation><!-- PERF PAY 929180 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS</masterLabel>
+            <translation><!-- PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS PLUS0000 P</masterLabel>
+            <translation><!-- PLUS PLUS0000 P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER</masterLabel>
+            <translation><!-- PREMIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER PREM0000</masterLabel>
+            <translation><!-- PREMIER PREM0000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER PRV00000</masterLabel>
+            <translation><!-- PREMIER PRV00000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUERTO R 338003   O</masterLabel>
+            <translation><!-- PUERTO R 338003   O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP BA 929135 B</masterLabel>
+            <translation><!-- RECIP BA 929135 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PL 929560 P</masterLabel>
+            <translation><!-- RECIP PL 929560 P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PR  R</masterLabel>
+            <translation><!-- RECIP PR  R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PR RPREM000</masterLabel>
+            <translation><!-- RECIP PR RPREM000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP RV 929561 R</masterLabel>
+            <translation><!-- RECIP RV 929561 R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENT 886001 B</masterLabel>
+            <translation><!-- RENT 886001 B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV</masterLabel>
+            <translation><!-- RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV       929525   R</masterLabel>
+            <translation><!-- RV       929525   R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPECIALE 916150   B</masterLabel>
+            <translation><!-- SPECIALE 916150   B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAXES    929250   O</masterLabel>
+            <translation><!-- TAXES    929250   O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMAACG</masterLabel>
+            <translation><!-- TMAACG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMACONTR</masterLabel>
+            <translation><!-- TMACONTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMAFLEET</masterLabel>
+            <translation><!-- TMAFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSAAR</masterLabel>
+            <translation><!-- TMSAAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTA</masterLabel>
+            <translation><!-- TMSBATTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTC</masterLabel>
+            <translation><!-- TMSBATTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTF</masterLabel>
+            <translation><!-- TMSBATTF --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

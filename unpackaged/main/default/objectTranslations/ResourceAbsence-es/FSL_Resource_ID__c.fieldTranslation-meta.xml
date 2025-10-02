@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This will have the Resource Id for which the LKL absence is being created for. Other absences should not use this field. --></help>
+        <label><!-- Resource ID --></label>
+        <name>FSL_Resource_ID__c</name>
+    </CustomFieldTranslation>

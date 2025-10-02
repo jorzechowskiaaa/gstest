@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>Checks to see if we have a matching Feedback Record</description>
+        <name>Feedback_Record_Exist</name>
+        <label>Feedback Record Exist</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Feedback_is_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Feedback_Record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Records_1</targetReference>
+            </connector>
+            <label>Feedback is not null</label>
+        </rules>
+    </decisions>
+    <description>06/13/2024: (PROD) Added condition to query Feedback records that have an authorization code</description>
+    <environments>Default</environments>
+    <interviewLabel>Reciprocal Feedback Service Contract Lookup Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Reciprocal Feedback Service Contract Lookup Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get the feedback record with the matching Authorization code OR matching Source Club, Service Date, and Ticket Number</description>
+        <name>Get_Feedback_Record</name>
+        <label>Get Feedback Record</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Feedback_Record_Exist</targetReference>
+        </connector>
+        <filterLogic>(1 AND 5) OR (2 AND 3 AND 4)</filterLogic>
+        <filters>
+            <field>Authorization_Code__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CDX_Authorization_Code__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Source_Club__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Submitting_Club_Code__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Service_Date__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Service_Call_Date__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Ticket_Number__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Service_Call_ID__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Authorization_Code__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Feedback__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Records_1</name>
+        <label>Update Records 1</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>Feedback__c</field>
+            <value>
+                <elementReference>Get_Feedback_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Service_Contract__c</field>
+            <value>
+                <elementReference>Get_Feedback_Record.Service_Contract__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Feedback_Record</targetReference>
+        </connector>
+        <filterFormula>{!$Record.Feedback__c}=NULL &amp;&amp; {!$Record.Service_Contract__c}=NULL &amp;&amp; {!$Record.RecordType.DeveloperName}=&#39;Inbound_Payment_Requests&#39;</filterFormula>
+        <object>Reciprocal__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enable_KMI_SMS_Loop_Flag__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Org-Level switch for enabling KMI SMS notifications in a Loop using Scheduled Flows</description>
+    <label>Enable KMI SMS Loop Flag</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

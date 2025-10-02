@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AAA Alabama</fullName>
+        <default>false</default>
+        <label>AAA Alabama</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Arizona</fullName>
+        <default>false</default>
+        <label>AAA Arizona</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Club Enterprises</fullName>
+        <default>false</default>
+        <label>Auto Club Enterprises</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain West Group</fullName>
+        <default>false</default>
+        <label>Mountain West Group</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Colorado</fullName>
+        <default>false</default>
+        <label>AAA Colorado</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Auto Club South</fullName>
+        <default>false</default>
+        <label>AAA Auto Club South</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Hawaii</fullName>
+        <default>false</default>
+        <label>AAA Hawaii</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Chicago Motor Club</fullName>
+        <default>false</default>
+        <label>AAA Chicago Motor Club</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Hoosier Motor Club</fullName>
+        <default>false</default>
+        <label>AAA Hoosier Motor Club</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Northern New England</fullName>
+        <default>false</default>
+        <label>AAA Northern New England</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Pioneer Valley</fullName>
+        <default>false</default>
+        <label>AAA Pioneer Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Michigan</fullName>
+        <default>false</default>
+        <label>AAA Michigan</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Minnesota/Iowa</fullName>
+        <default>false</default>
+        <label>AAA Minnesota/Iowa</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Minneapolis</fullName>
+        <default>false</default>
+        <label>AAA Minneapolis</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Missouri</fullName>
+        <default>false</default>
+        <label>AAA Missouri</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA MountainWest</fullName>
+        <default>false</default>
+        <label>AAA MountainWest</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Nebraska</fullName>
+        <default>false</default>
+        <label>AAA Nebraska</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA South Jersey</fullName>
+        <default>false</default>
+        <label>AAA South Jersey</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Hudson Valley</fullName>
+        <default>false</default>
+        <label>AAA Hudson Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Western &amp; Central NY</fullName>
+        <default>false</default>
+        <label>AAA Western &amp; Central NY</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Northway</fullName>
+        <default>false</default>
+        <label>AAA Northway</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Carolinas</fullName>
+        <default>false</default>
+        <label>AAA Carolinas</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA North Dakota</fullName>
+        <default>false</default>
+        <label>AAA North Dakota</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Akron Auto Club</fullName>
+        <default>false</default>
+        <label>AAA Akron Auto Club</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Ohio Auto Club</fullName>
+        <default>false</default>
+        <label>AAA Ohio Auto Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Findlay Automobile Club</fullName>
+        <default>false</default>
+        <label>Findlay Automobile Club</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Shelby County</fullName>
+        <default>false</default>
+        <label>AAA Shelby County</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Oregon/Idaho</fullName>
+        <default>false</default>
+        <label>AAA Oregon/Idaho</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Northampton County</fullName>
+        <default>false</default>
+        <label>AAA Northampton County</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Central Penn</fullName>
+        <default>false</default>
+        <label>AAA Central Penn</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Club Alliance</fullName>
+        <default>false</default>
+        <label>AAA Club Alliance</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA East Central</fullName>
+        <default>false</default>
+        <label>AAA East Central</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Reading-Berks</fullName>
+        <default>false</default>
+        <label>AAA Reading-Berks</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA North Penn</fullName>
+        <default>false</default>
+        <label>AAA North Penn</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Southern Pennsylvania</fullName>
+        <default>false</default>
+        <label>AAA Southern Pennsylvania</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Northeast</fullName>
+        <default>false</default>
+        <label>AAA Northeast</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Texas</fullName>
+        <default>false</default>
+        <label>AAA Texas</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Tidewater</fullName>
+        <default>false</default>
+        <label>AAA Tidewater</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Washington</fullName>
+        <default>false</default>
+        <label>AAA Washington</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Wisconsin</fullName>
+        <default>false</default>
+        <label>AAA Wisconsin</label>
+    </customValue>
+    <customValue>
+        <fullName>Alberta Motor Association</fullName>
+        <default>false</default>
+        <label>Alberta Motor Association</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA British Columbia</fullName>
+        <default>false</default>
+        <label>CAA British Columbia</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Manitoba</fullName>
+        <default>false</default>
+        <label>CAA Manitoba</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Atlantic</fullName>
+        <default>false</default>
+        <label>CAA Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Club Group</fullName>
+        <default>false</default>
+        <label>CAA Club Group</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Quebec</fullName>
+        <default>false</default>
+        <label>CAA Quebec</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Saskatchewan</fullName>
+        <default>false</default>
+        <label>CAA Saskatchewan</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA Niagara</fullName>
+        <default>false</default>
+        <label>CAA Niagara</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA North &amp; East Ontario</fullName>
+        <default>false</default>
+        <label>CAA North &amp; East Ontario</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA New Mexico</fullName>
+        <default>false</default>
+        <label>AAA New Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Club Group</fullName>
+        <default>false</default>
+        <label>Auto Club Group</label>
+    </customValue>
+    <description>List of Club Names</description>
+    <masterLabel>Club Name</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

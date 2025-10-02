@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KH_SF_Work_orders_cleared_no_D3_key</fullName>
+    <columns>D3_Call_Key__c</columns>
+    <columns>Id</columns>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Cleared_Timestamp__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>T_Code__c</columns>
+    <columns>Case</columns>
+    <columns>Clearing_Code__c</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Membership_Benefit_Level__c</columns>
+    <columns>Member_Number__c</columns>
+    <columns>Member_Vehicle__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>3/21/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>D3_Call_Key__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Call_Source__c</field>
+        <operation>equals</operation>
+        <value>Salesforce</value>
+    </filters>
+    <label>SF Work orders cleared no D3 key</label>
+    <sharedTo>
+        <allInternalUsers />
+        <group>Back_Office_Group</group>
+    </sharedTo>
+</ListView>

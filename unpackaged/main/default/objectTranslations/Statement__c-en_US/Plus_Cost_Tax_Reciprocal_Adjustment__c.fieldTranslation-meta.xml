@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plus Cost Tax (Reciprocal Adjustment) --></label>
+        <name>Plus_Cost_Tax_Reciprocal_Adjustment__c</name>
+    </CustomFieldTranslation>

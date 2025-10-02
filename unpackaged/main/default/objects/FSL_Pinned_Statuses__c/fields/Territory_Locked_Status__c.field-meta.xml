@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Locked_Status__c</fullName>
+    <description>If the appointment is in one of the provided statuses (comma delimited), the territory will NOT be updated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the appointment is in one of the provided statuses (comma delimited), the territory will NOT be updated</inlineHelpText>
+    <label>Territory Locked Status</label>
+    <length>128</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

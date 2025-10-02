@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_AssociateID__c</fullName>
+    <description>In the 16-Digit membership ID, ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit
+Example: If the 16-Digit membership ID= 4382121353733023, then Associate ID will be 02. An associate ID with a value of 00 represents Membership Type as &#39;Primary&#39; while other values represent the Membership Type as an &#39;Associate&#39; Membership</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In the 16-Digit membership ID, ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit
+Example: If the 16-Digit membership ID= 4382121353733023, then Associate ID will be 02. An associate ID with a value of 00 represents Membership Type as &#39;Primary&#39; while other values represent the Membership Type as an &#39;Associate&#39; Membership</inlineHelpText>
+    <label>Associate ID</label>
+    <length>2</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

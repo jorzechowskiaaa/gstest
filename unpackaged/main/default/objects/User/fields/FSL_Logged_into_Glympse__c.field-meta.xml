@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Logged_into_Glympse__c</fullName>
+    <formula>IF(
+         NOT(ISNULL(FSL_Glympse_Last_Login__c)), 
+         IF( MOD( (NOW() - FSL_Glympse_Last_Login__c) * 24, 24 ) &gt; $Setup.FSL_Optimization_Settings__c.Glympse_Login_Threshold__c , FALSE, TRUE
+            ),
+         FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Logged into Glympse</label>
+    <type>Checkbox</type>
+</CustomField>

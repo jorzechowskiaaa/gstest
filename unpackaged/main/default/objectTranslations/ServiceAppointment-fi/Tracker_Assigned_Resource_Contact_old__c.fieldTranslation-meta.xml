@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tracker Assigned Resource Contact --></label>
+        <name>Tracker_Assigned_Resource_Contact_old__c</name>
+        <relationshipLabel><!-- Service Appointments (Those Assigned to Resource) --></relationshipLabel>
+    </CustomFieldTranslation>

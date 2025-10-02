@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Call_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = false) &amp;&amp; (Policy_Code__c = &#39;CS&#39;))) , &quot;CASH&quot;,
+IF(((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = false) &amp;&amp; (Policy_Code__c = &#39;SC&#39;))) , &quot;CASH&quot;,
+IF(((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = false) &amp;&amp; (Policy_Code__c = &#39;AR&#39;))) , &quot;AAA RATE&quot;,
+IF(((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = true) &amp;&amp; (Policy_Code__c = &#39;AR&#39;))) , &quot;AAA RATE&quot;,
+IF((CONTAINS( Call_Type__c , &quot;RAP&quot;) &amp;&amp; ( Payment_Required__c = true )) , &quot;CASH&quot; ,
+IF((CONTAINS( Call_Type__c , &quot;RAP&quot;) &amp;&amp; ( Payment_Required__c = false )) , &quot;RAP&quot; ,
+IF((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = true )) , &quot;CASH&quot; ,
+IF((CONTAINS( Call_Type__c , &quot;MEMBER&quot;) &amp;&amp; ( Payment_Required__c = false )) , &quot;MEMBER&quot; ,
+IF(CONTAINS( Call_Type__c , &quot;MOTOR CLUB&quot;) , &quot;COMMERCIAL&quot;,
+IF(CONTAINS( Call_Type__c , &quot;DEALERSHIP&quot;) , &quot;COMMERCIAL&quot;,
+IF(CONTAINS( Call_Type__c , &quot;PRIVATE&quot;) , &quot;COMMERCIAL&quot;,
+IF(CONTAINS( Call_Type__c , &quot;ROTATION CALL&quot;) , &quot;COMMERCIAL&quot;,
+IF(CONTAINS( Call_Type__c , &quot;SHOP CALL AUCTION/TRANSPORT&quot;) , &quot;COMMERCIAL&quot;,
+IF((ISBLANK (Call_Type__c) &amp;&amp; ( Payment_Required__c = true )) , &quot;CASH&quot; , &quot;&quot;))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tech Call Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

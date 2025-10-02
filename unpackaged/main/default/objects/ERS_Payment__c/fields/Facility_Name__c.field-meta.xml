@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.Name = &quot;Facility Adjustment&quot;,HYPERLINK(&quot;/&quot;&amp;  Facility_Adjustment_Payment_ID__r.ACG_Adjustment_ID__r.Account__r.Id,  Facility_Adjustment_Payment_ID__r.ACG_Adjustment_ID__r.Account__r.Name),IF(RecordType.Name = &quot;Reimbursement Payment&quot;,HYPERLINK(&quot;/&quot;&amp;  Facility__r.Id,Facility__r.Name),&#39;&#39;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Facility Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

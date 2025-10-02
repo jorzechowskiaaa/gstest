@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Reimbursement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Denotes if the event was a reimbursement event paid initially by the member.</inlineHelpText>
+    <label>Reimbursement</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

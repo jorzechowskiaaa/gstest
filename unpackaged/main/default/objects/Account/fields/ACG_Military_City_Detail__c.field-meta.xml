@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Military_City_Detail__c</fullName>
+    <label>Military City Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ACG_Address_Type_Detail__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AA-Armed Forces Americas</fullName>
+                <default>false</default>
+                <label>AA-Armed Forces Americas</label>
+            </value>
+            <value>
+                <fullName>AE-Armed Forces Other</fullName>
+                <default>false</default>
+                <label>AE-Armed Forces Other</label>
+            </value>
+            <value>
+                <fullName>AP-Armed Forces Pacific</fullName>
+                <default>false</default>
+                <label>AP-Armed Forces Pacific</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>U.S.</controllingFieldValue>
+            <controllingFieldValue>Foreign</controllingFieldValue>
+            <controllingFieldValue>Military</controllingFieldValue>
+            <valueName>AA-Armed Forces Americas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Military</controllingFieldValue>
+            <valueName>AE-Armed Forces Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Military</controllingFieldValue>
+            <valueName>AP-Armed Forces Pacific</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

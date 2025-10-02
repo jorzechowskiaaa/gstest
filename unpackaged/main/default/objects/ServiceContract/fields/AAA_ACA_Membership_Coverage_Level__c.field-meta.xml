@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_Membership_Coverage_Level__c</fullName>
+    <description>Maps the coverage level as per incoming request from D3</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Maps the coverage level as per incoming request from D3</inlineHelpText>
+    <label>Membership Coverage Level</label>
+    <length>32</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

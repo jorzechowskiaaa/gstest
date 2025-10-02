@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_Membership_Type__c</fullName>
+    <description>Represent the Membership Type i.e. Member for household Membership. Primary and Associate membership is decided by the 14-15 Digits in the 16 Digit Membership ID being 00 or Non 00 values. RAP comes as the value in the incoming request for RAP requests.</description>
+    <inlineHelpText>Represent the Membership Type i.e. Member for household Membership. Primary and Associate membership is decided by the 14-15 Digits in the 16 Digit Membership ID being 00 or Non 00 values. RAP comes as the value in the incoming request for RAP requests.</inlineHelpText>
+    <label>Membership Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Associate</fullName>
+                <default>false</default>
+                <label>Associate</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>RAP</fullName>
+                <default>false</default>
+                <label>RAP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

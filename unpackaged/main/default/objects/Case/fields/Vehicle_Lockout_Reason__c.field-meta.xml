@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Lockout_Reason__c</fullName>
+    <description>This field is to be used with Vehicle Lockout and Locksmith ERS ARR Service Types</description>
+    <label>Vehicle Lockout Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Locked in the vehicle</fullName>
+                <default>false</default>
+                <label>Locked in the vehicle</label>
+            </value>
+            <value>
+                <fullName>Keys Locked in Trunk/Trunk Release</fullName>
+                <default>false</default>
+                <label>Keys Locked in Trunk/Trunk Release</label>
+            </value>
+            <value>
+                <fullName>Frozen Doors</fullName>
+                <default>false</default>
+                <label>Frozen Doors</label>
+            </value>
+            <value>
+                <fullName>Frozen Locks</fullName>
+                <default>false</default>
+                <label>Frozen Locks</label>
+            </value>
+            <value>
+                <fullName>I don&#39;t know</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>I don&#39;t know</label>
+            </value>
+            <value>
+                <fullName>Keys Locked in Trunk - No Release</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Keys Locked in Trunk - No Release</label>
+            </value>
+            <value>
+                <fullName>My key is broken or lost</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>My key is broken or lost</label>
+            </value>
+            <value>
+                <fullName>My key won&#39;t turn in the ignition</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>My key won&#39;t turn in the ignition</label>
+            </value>
+            <value>
+                <fullName>My key won&#39;t unlock the door</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>My key won&#39;t unlock the door</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

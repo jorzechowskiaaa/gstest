@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Opt_In</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED(ACG_SMS_Opt_In__c) &amp;&amp; (NOT ISPICKVAL(Status, &#39;In Progress&#39;))</errorConditionFormula>
+    <errorMessage>SMS Opt In can only be changed on cases before submittal</errorMessage>
+</ValidationRule>

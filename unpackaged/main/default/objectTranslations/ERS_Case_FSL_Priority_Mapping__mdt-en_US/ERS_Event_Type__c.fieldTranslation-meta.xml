@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ERS Event Type --></label>
+        <name>ERS_Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accident Assist</masterLabel>
+            <translation><!-- Accident Assist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealership</masterLabel>
+            <translation><!-- Dealership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation><!-- Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Club</masterLabel>
+            <translation><!-- Motor Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP</masterLabel>
+            <translation><!-- RAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow To Go</masterLabel>
+            <translation><!-- Tow To Go --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

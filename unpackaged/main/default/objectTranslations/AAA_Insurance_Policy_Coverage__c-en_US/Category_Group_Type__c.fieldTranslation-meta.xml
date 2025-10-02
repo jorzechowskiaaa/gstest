@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category Group Type --></label>
+        <name>Category_Group_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bodily Injury</masterLabel>
+            <translation><!-- Bodily Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collision</masterLabel>
+            <translation><!-- Collision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprehensive</masterLabel>
+            <translation><!-- Comprehensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Payments</masterLabel>
+            <translation><!-- Medical Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Damage</masterLabel>
+            <translation><!-- Property Damage --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

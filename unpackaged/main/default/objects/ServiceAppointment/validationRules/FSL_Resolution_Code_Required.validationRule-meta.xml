@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Resolution_Code_Required</fullName>
+    <active>true</active>
+    <description>Requires Resolution Code to be selected before a call can be cleared.</description>
+    <errorConditionFormula>AND(ISCHANGED(Status ), TEXT(Status) == &#39;Cleared&#39;, ISBLANK(TEXT(Resolution_Code__c)))</errorConditionFormula>
+    <errorMessage>A Resolution Code is required to Clear the Call</errorMessage>
+</ValidationRule>

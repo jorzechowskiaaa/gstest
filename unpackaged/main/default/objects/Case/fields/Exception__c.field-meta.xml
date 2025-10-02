@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exception__c</fullName>
+    <label>Exception</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Member Info</fullName>
+                <default>false</default>
+                <label>No Member Info</label>
+            </value>
+            <value>
+                <fullName>No Member Contact Number</fullName>
+                <default>false</default>
+                <label>No Member Contact Number</label>
+            </value>
+            <value>
+                <fullName>No Service Type</fullName>
+                <default>false</default>
+                <label>No Service Type</label>
+            </value>
+            <value>
+                <fullName>Not Spotted</fullName>
+                <default>false</default>
+                <label>Not Spotted</label>
+            </value>
+            <value>
+                <fullName>No Vehicle</fullName>
+                <default>false</default>
+                <label>No Vehicle</label>
+            </value>
+            <value>
+                <fullName>No Tow To Decision</fullName>
+                <default>false</default>
+                <label>No Tow To Decision</label>
+            </value>
+            <value>
+                <fullName>Other Technical Issue</fullName>
+                <default>false</default>
+                <label>Other Technical Issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

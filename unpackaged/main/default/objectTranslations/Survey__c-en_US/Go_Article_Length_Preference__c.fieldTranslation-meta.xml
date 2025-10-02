@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do you prefer long articles or short articles? --></help>
+        <label><!-- Article Length Preference --></label>
+        <name>Go_Article_Length_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Long</masterLabel>
+            <translation><!-- Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short</masterLabel>
+            <translation><!-- Short --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Garage_Type__c</fullName>
+    <description>AAR = Approved Auto Repair; 
+ADR = Approved Dealer Repair; 
+AAB = Approved Auto Body; 
+AAG = Approved Auto Glass; 
+COR = Club Owned Repair; 
+DTC = Discount Tire Company; 
+MPR = Member Preferred Repair;</description>
+    <inlineHelpText>AAR = Approved Auto Repair; 
+ADR = Approved Dealer Repair; 
+AAB = Approved Auto Body; 
+AAG = Approved Auto Glass; 
+COR = Club Owned Repair; 
+DTC = Discount Tire Company; 
+MPR = Member Preferred Repair;</inlineHelpText>
+    <label>Approved Garage Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAR</fullName>
+                <default>false</default>
+                <label>AAR</label>
+            </value>
+            <value>
+                <fullName>ADR</fullName>
+                <default>false</default>
+                <label>ADR</label>
+            </value>
+            <value>
+                <fullName>AAB</fullName>
+                <default>false</default>
+                <label>AAB</label>
+            </value>
+            <value>
+                <fullName>AAG</fullName>
+                <default>false</default>
+                <label>AAG</label>
+            </value>
+            <value>
+                <fullName>COR</fullName>
+                <default>false</default>
+                <label>COR</label>
+            </value>
+            <value>
+                <fullName>DTC</fullName>
+                <default>false</default>
+                <label>DTC</label>
+            </value>
+            <value>
+                <fullName>MPR</fullName>
+                <default>false</default>
+                <label>MPR</label>
+            </value>
+            <value>
+                <fullName>ERS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ERS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

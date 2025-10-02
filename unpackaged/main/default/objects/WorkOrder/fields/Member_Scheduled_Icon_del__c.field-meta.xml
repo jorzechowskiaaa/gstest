@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Scheduled_Icon_del__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!ISBLANK(Non_Emergency_Appointment_Time__c) , IMAGE(LEFT($Api.Partner_Server_URL_260, FIND( &#39;/services&#39;, $Api.Partner_Server_URL_260)) &amp; &quot;resource/FSLGanttAppointmentLarge&quot;, &quot;Appointment&quot;, 35,35), null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Member Scheduled</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

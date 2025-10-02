@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Id --></label>
+        <name>Product_Id__c</name>
+        <picklistValues>
+            <masterLabel>BA</masterLabel>
+            <translation><!-- BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OM</masterLabel>
+            <translation><!-- OM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TW</masterLabel>
+            <translation><!-- TW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y1</masterLabel>
+            <translation><!-- Y1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y2</masterLabel>
+            <translation><!-- Y2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y3</masterLabel>
+            <translation><!-- Y3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y4</masterLabel>
+            <translation><!-- Y4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y5</masterLabel>
+            <translation><!-- Y5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation><!-- ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZM</masterLabel>
+            <translation><!-- ZM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZS</masterLabel>
+            <translation><!-- ZS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZT</masterLabel>
+            <translation><!-- ZT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

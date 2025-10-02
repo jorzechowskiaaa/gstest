@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PCC DISP CODE --></label>
+        <name>PCC_DISP_CODE__c</name>
+        <picklistValues>
+            <masterLabel>L101</masterLabel>
+            <translation><!-- L101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L102</masterLabel>
+            <translation><!-- L102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L104</masterLabel>
+            <translation><!-- L104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L301</masterLabel>
+            <translation><!-- L301 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L303</masterLabel>
+            <translation><!-- L303 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L304</masterLabel>
+            <translation><!-- L304 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L402</masterLabel>
+            <translation><!-- L402 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L403</masterLabel>
+            <translation><!-- L403 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L509</masterLabel>
+            <translation><!-- L509 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L701</masterLabel>
+            <translation><!-- L701 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L702</masterLabel>
+            <translation><!-- L702 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L704</masterLabel>
+            <translation><!-- L704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L790</masterLabel>
+            <translation><!-- L790 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L801</masterLabel>
+            <translation><!-- L801 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L802</masterLabel>
+            <translation><!-- L802 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L803</masterLabel>
+            <translation><!-- L803 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L806</masterLabel>
+            <translation><!-- L806 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L807</masterLabel>
+            <translation><!-- L807 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L890</masterLabel>
+            <translation><!-- L890 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T280</masterLabel>
+            <translation><!-- T280 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T381</masterLabel>
+            <translation><!-- T381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T382</masterLabel>
+            <translation><!-- T382 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T580</masterLabel>
+            <translation><!-- T580 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T581</masterLabel>
+            <translation><!-- T581 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T582</masterLabel>
+            <translation><!-- T582 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T680</masterLabel>
+            <translation><!-- T680 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T906</masterLabel>
+            <translation><!-- T906 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T921</masterLabel>
+            <translation><!-- T921 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T931</masterLabel>
+            <translation><!-- T931 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T932</masterLabel>
+            <translation><!-- T932 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T990</masterLabel>
+            <translation><!-- T990 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

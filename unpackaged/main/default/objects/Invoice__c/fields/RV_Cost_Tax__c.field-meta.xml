@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_Cost_Tax__c</fullName>
+    <label>RV Cost Tax</label>
+    <summarizedField>Invoice_Line_Item__c.Tax__c</summarizedField>
+    <summaryFilterItems>
+        <field>Invoice_Line_Item__c.Charge_to_Account__c</field>
+        <operation>equals</operation>
+        <value>R</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Invoice_Line_Item__c.Invoice__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

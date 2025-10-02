@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- District Code --></label>
+        <name>ACG_District_Codes__c</name>
+        <picklistValues>
+            <masterLabel>110 Sharepoint</masterLabel>
+            <translation><!-- 110 Sharepoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>111 Electronic Claim</masterLabel>
+            <translation><!-- 111 Electronic Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>112 Mail</masterLabel>
+            <translation><!-- 112 Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>222 Out Of Region</masterLabel>
+            <translation><!-- 222 Out Of Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333 Mass Pike Territory</masterLabel>
+            <translation><!-- 333 Mass Pike Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>444 Member Relations</masterLabel>
+            <translation><!-- 444 Member Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>555 CT</masterLabel>
+            <translation><!-- 555 CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>601 New Jersey</masterLabel>
+            <translation><!-- 601 New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>602 New Hampshire</masterLabel>
+            <translation><!-- 602 New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>603 New York</masterLabel>
+            <translation><!-- 603 New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>777 Rhode Island</masterLabel>
+            <translation><!-- 777 Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>888 Mass</masterLabel>
+            <translation><!-- 888 Mass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>999 Denial</masterLabel>
+            <translation><!-- 999 Denial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

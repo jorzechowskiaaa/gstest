@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Fuel_Type__c</fullName>
+    <label>Vehicle Fuel Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gas</fullName>
+                <default>false</default>
+                <label>Gasoline</label>
+            </value>
+            <value>
+                <fullName>Diesel</fullName>
+                <default>false</default>
+                <label>Diesel</label>
+            </value>
+            <value>
+                <fullName>Electric</fullName>
+                <default>false</default>
+                <label>Electric</label>
+            </value>
+            <value>
+                <fullName>FLEX</fullName>
+                <default>false</default>
+                <label>FLEX</label>
+            </value>
+            <value>
+                <fullName>FULL HYBRID EV-FLEX (FHEV)</fullName>
+                <default>false</default>
+                <label>FULL HYBRID EV-FLEX (FHEV)</label>
+            </value>
+            <value>
+                <fullName>FULL HYBRID EV-GAS (FHEV)</fullName>
+                <default>false</default>
+                <label>FULL HYBRID EV-GAS (FHEV)</label>
+            </value>
+            <value>
+                <fullName>BATTERY EV (EV/BEV)</fullName>
+                <default>false</default>
+                <label>BATTERY EV (EV/BEV)</label>
+            </value>
+            <value>
+                <fullName>FUEL CELL EV (FCEV)</fullName>
+                <default>false</default>
+                <label>FUEL CELL EV (FCEV)</label>
+            </value>
+            <value>
+                <fullName>PLUG-IN HYBRID EV-GAS (PHEV)</fullName>
+                <default>false</default>
+                <label>PLUG-IN HYBRID EV-GAS (PHEV)</label>
+            </value>
+            <value>
+                <fullName>MILD HYBRID EV-GAS (MHEV)</fullName>
+                <default>false</default>
+                <label>MILD HYBRID EV-GAS (MHEV)</label>
+            </value>
+            <value>
+                <fullName>BI-FUEL</fullName>
+                <default>false</default>
+                <label>BI-FUEL</label>
+            </value>
+            <value>
+                <fullName>BIODIESEL</fullName>
+                <default>false</default>
+                <label>BIODIESEL</label>
+            </value>
+            <value>
+                <fullName>ELECTRIC/GAS</fullName>
+                <default>false</default>
+                <label>ELECTRIC/GAS</label>
+            </value>
+            <value>
+                <fullName>U/K</fullName>
+                <default>false</default>
+                <label>U/K</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>BATTERY W/RANGE EXT (BEV REX)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BATTERY W/RANGE EXT (BEV REX)</label>
+            </value>
+            <value>
+                <fullName>CNG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CNG</label>
+            </value>
+            <value>
+                <fullName>ELECTRIC/DIESEL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ELECTRIC/DIESEL</label>
+            </value>
+            <value>
+                <fullName>LPG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LPG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

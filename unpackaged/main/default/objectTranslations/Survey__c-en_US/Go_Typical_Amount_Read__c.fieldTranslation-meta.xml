@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How thoroughly do you read a typical issue of Go Magazine? --></help>
+        <label><!-- Typical Amount Read --></label>
+        <name>Go_Typical_Amount_Read__c</name>
+        <picklistValues>
+            <masterLabel>Do not read</masterLabel>
+            <translation><!-- Do not read --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read all or almost all</masterLabel>
+            <translation><!-- Read all or almost all --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read ½</masterLabel>
+            <translation><!-- Read ½ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skim only</masterLabel>
+            <translation><!-- Skim only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

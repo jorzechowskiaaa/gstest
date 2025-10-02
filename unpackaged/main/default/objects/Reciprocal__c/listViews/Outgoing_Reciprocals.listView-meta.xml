@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outgoing_Reciprocals</fullName>
+    <columns>Status__c</columns>
+    <columns>NAME</columns>
+    <columns>CDX_Authorization_Code__c</columns>
+    <columns>Submitting_Club_Code__c</columns>
+    <columns>Member_ClubCode__c</columns>
+    <columns>Service_Call_Date__c</columns>
+    <columns>Service_Call_ID__c</columns>
+    <columns>Member__c</columns>
+    <columns>Member_ID__c</columns>
+    <columns>Amended_Charges_Indicator__c</columns>
+    <columns>Service_Call_Trouble_Code__c</columns>
+    <columns>Dispute_Code__c</columns>
+    <columns>Total_Dollar_Amount__c</columns>
+    <columns>Cost_Buffer__c</columns>
+    <columns>Service_Contract__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Reciprocal__c.Outbound_Payment_Requests</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>Total_Dollar_Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>New Outgoing Reciprocals</label>
+</ListView>

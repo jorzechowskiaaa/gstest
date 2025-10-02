@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitlement_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Designates a user has decided the entitlement value manually. If checked, automation will no longer update the entitlement checkbox (e.g., when resolution code updated).</description>
+    <inlineHelpText>Designates a user has decided the entitlement value manually. If checked, automation will no longer update the entitlement checkbox (e.g., when resolution code updated).</inlineHelpText>
+    <label>Entitlement Override</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

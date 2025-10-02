@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accident Assist</fullName>
+        <default>false</default>
+        <label>Accident Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </customValue>
+    <customValue>
+        <fullName>RAP</fullName>
+        <default>false</default>
+        <label>RAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Tow To Go</fullName>
+        <default>false</default>
+        <label>Tow To Go</label>
+    </customValue>
+    <customValue>
+        <fullName>Dealership</fullName>
+        <default>false</default>
+        <label>Dealership</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor Club</fullName>
+        <default>false</default>
+        <label>Motor Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Private</fullName>
+        <default>false</default>
+        <label>Private</label>
+    </customValue>
+    <customValue>
+        <fullName>CALL_MOVE</fullName>
+        <default>false</default>
+        <label>Call Move</label>
+    </customValue>
+    <customValue>
+        <fullName>DRR</fullName>
+        <default>false</default>
+        <label>DRR</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA Member - Technical Issue</fullName>
+        <default>false</default>
+        <label>AAA Member - Technical Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>AAA PROMise</fullName>
+        <default>false</default>
+        <label>AAA PROMise</label>
+    </customValue>
+    <customValue>
+        <fullName>CAA RAP</fullName>
+        <default>false</default>
+        <label>CAA RAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Courtesy International</fullName>
+        <default>false</default>
+        <label>Courtesy International</label>
+    </customValue>
+    <customValue>
+        <fullName>Essential Workers</fullName>
+        <default>false</default>
+        <label>Essential Workers</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Delivery</fullName>
+        <default>false</default>
+        <label>Hospital Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>RAP Manual</fullName>
+        <default>false</default>
+        <label>RAP Manual</label>
+    </customValue>
+    <customValue>
+        <fullName>SAIVR</fullName>
+        <default>false</default>
+        <label>SAIVR</label>
+    </customValue>
+    <description>To be assigned as Picklist values for Case.ACG_ERS_Event_Type and WorkOrder.Call_Type__c</description>
+    <masterLabel>Case_ERS Event Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

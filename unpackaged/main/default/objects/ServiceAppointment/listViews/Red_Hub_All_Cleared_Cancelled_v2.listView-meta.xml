@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Red_Hub_All_Cleared_Cancelled_v2</fullName>
+    <booleanFilter>1 AND 2 AND 4 AND (3 OR 5 OR 6)</booleanFilter>
+    <columns>Unattended_Tow__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Status</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Facility_Number__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Destination__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>FSL__InJeopardyReason__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>Service_Resource__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared,Canceled</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>1191-LL-MASTRIA TOWING,1178-F.E. BRAYTON JR AUTO SALES &amp; SVC,1173-LL-TECH SERVICE CENTER INC,1143-LL-BILL&#39;S TOWING &amp; AUTO REPAIR,1112-EAST COAST TOWING &amp; RECOVERY INC.,1128-LEONARD&#39;S AUTO REPAIR &amp; PERFORMANCE</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Account</field>
+        <operation>contains</operation>
+        <value>1196-ACHIN&#39;S GARAGE,1179-RHODE ISLAND RECOVERY AND TRANSPORT,1138-MIDTOWN AUTO LLC,1137-DAVE&#39;S TOWING,1132-KNOX&#39;S GARAGE,1134-LARRY&#39;S TOWING</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>66-AAA SNE RI LIGHT SERVICE,33-AAA SNE RI FLEET FULL SERVICE,L42-LL-ATLANTIC LOCKSMITHS LLC,DQ28-A AAA SERVICE PROVIDER,AR100-NICK&#39;S AUTO BODY &amp; RADIATOR WORKS,9907-EAST SIDE SERVICE CENTER INC,9923-KING&#39;S SERVICE CENTER</value>
+    </filters>
+    <label>Red Hub - All Cleared/Cancelled v2</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

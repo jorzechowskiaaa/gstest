@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Potential Issue Reason --></label>
+        <name>Potential_Issue_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Cannot Complete</masterLabel>
+            <translation><!-- Cannot Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleared Violation</masterLabel>
+            <translation><!-- Cleared Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor Driver Needs Help</masterLabel>
+            <translation><!-- Contractor Driver Needs Help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Violation</masterLabel>
+            <translation><!-- Dispatch Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver Decline</masterLabel>
+            <translation><!-- Driver Decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver Needs Help</masterLabel>
+            <translation><!-- Driver Needs Help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETA Violation</masterLabel>
+            <translation><!-- ETA Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Route Violation</masterLabel>
+            <translation><!-- En Route Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Declined</masterLabel>
+            <translation><!-- Facility Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet Driver Needs Help</masterLabel>
+            <translation><!-- Fleet Driver Needs Help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Tow Violation</masterLabel>
+            <translation><!-- In Tow Violation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landline Facility</masterLabel>
+            <translation><!-- Landline Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late/Delay</masterLabel>
+            <translation><!-- Late/Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Message Received</masterLabel>
+            <translation><!-- Message Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Tech Facility Not Notified</masterLabel>
+            <translation><!-- Non-Tech Facility Not Notified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Geo-Coded</masterLabel>
+            <translation><!-- Not Geo-Coded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Scheduled</masterLabel>
+            <translation><!-- Not Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority - Late/Delay</masterLabel>
+            <translation><!-- Priority - Late/Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Loaded Violation</masterLabel>
+            <translation><!-- Tow Loaded Violation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

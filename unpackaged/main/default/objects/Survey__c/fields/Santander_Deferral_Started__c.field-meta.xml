@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Santander_Deferral_Started__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Santander has started my loan deferral (Check = True)</description>
+    <inlineHelpText>Santander has started my loan deferral (Check = True)</inlineHelpText>
+    <label>Santander Deferral Started</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

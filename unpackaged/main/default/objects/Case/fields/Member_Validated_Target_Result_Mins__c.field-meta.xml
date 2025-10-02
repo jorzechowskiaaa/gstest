@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Validated_Target_Result_Mins__c</fullName>
+    <description>Result of the Member Validated Milestone compared to its target of 2 mins. Only will have a value if the ERS Case was created without a Member associated.</description>
+    <externalId>false</externalId>
+    <formula>2 - ((Member_Validated_Time__c - SlaStartDate)*24*60)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Result of the Member Validated Milestone compared to its target of 2 mins. Only will have a value if the ERS Case was created without a Member associated.</inlineHelpText>
+    <label>Member Validated Target Result (Mins)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

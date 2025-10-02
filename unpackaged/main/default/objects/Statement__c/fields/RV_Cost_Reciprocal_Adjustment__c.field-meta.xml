@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_Cost_Reciprocal_Adjustment__c</fullName>
+    <label>RV Cost (Reciprocal Adjustment)</label>
+    <summarizedField>Invoice__c.RV_Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Invoice__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Reciprocal Adjustments</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Invoice__c.Statement__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

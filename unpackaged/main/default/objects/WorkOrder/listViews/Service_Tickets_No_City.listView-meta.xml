@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Tickets_No_City</fullName>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>BO_Editable_WO_Specific_Membership_Level__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>CITY</columns>
+    <columns>RecordType</columns>
+    <columns>Clearing_Code__c</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>Call_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/1/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>Call_Type__c</field>
+        <operation>equals</operation>
+        <value>SVC</value>
+    </filters>
+    <filters>
+        <field>CITY</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Service Tickets No City</label>
+</ListView>

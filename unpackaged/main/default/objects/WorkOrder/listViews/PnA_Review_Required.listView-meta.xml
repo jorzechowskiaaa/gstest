@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PnA_Review_Required</fullName>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>RecordType</columns>
+    <columns>CreatedBy</columns>
+    <columns>CreatedDate</columns>
+    <columns>Member_Number2__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>Case</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Call_Type__c</field>
+        <operation>equals</operation>
+        <value>RAP</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>RAP_Status__c</field>
+        <operation>equals</operation>
+        <value>PnA Review Required</value>
+    </filters>
+    <label>RAP PnA Review Required</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- By how many units  has battery consignment been reduced? --></help>
+        <label><!-- Consignment Reduction Count --></label>
+        <name>Consignment_Reduction_Count__c</name>
+    </CustomFieldTranslation>

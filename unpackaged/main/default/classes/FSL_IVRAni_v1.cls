@@ -1,0 +1,133 @@
+/**
+ * @File Name          : FSL_IVRAni_v1.cls
+ * @Description        : Lookup by Ani phone which is DIFFERENT from MemberValidationLookup.
+ * @Author             :
+ * @Group              :
+ * @Last Modified By   : Rajesh Kemisetti
+ * @Last Modified On   : 5/1/2020, 2:26:46 PM
+ * @Modification Log   :
+ * Ver       Date           Author                 Modification
+ * 1.0    04/09/2019        Masood Mahmood         Initial Version
+**/
+
+@RestResource(UrlMapping = '/calls/searchByANI/*')
+global with sharing class FSL_IVRAni_v1 {
+
+    @HttpPost
+    global static List<FSL_ClearJsonWorkOrder> getContact() {
+        String webServiceEndpoint = 'searchByANI';
+        FSL_IVRAni_v1.AniRequestWrapper requestWrapper = new FSL_IVRAni_v1.AniRequestWrapper();
+        FSL_ClearJsonWorkOrder.ResponseWrapper respWrap = new FSL_ClearJsonWorkOrder.ResponseWrapper();
+        RestRequest request = RestContext.request;
+        RestResponse response = RestContext.response;
+        List<Contact> contacts;
+        String phoneParam; // search key
+        String transactionID;
+        FSL_ClearJsonWorkOrder clearJSONwrapper = new FSL_ClearJsonWorkOrder();
+        String bulkCallIds = '';
+        Map<Id, WorkOrder> workOrderMap;
+         List<FSL_ClearJsonWorkOrder> clearJSONwrapperList = new List<FSL_ClearJsonWorkOrder>();
+        Boolean callLog = false;
+
+        try {
+            requestWrapper = (FSL_IVRAni_v1.AniRequestWrapper)
+                    JSON.deserialize(request.requestBody.toString(), FSL_IVRAni_v1.AniRequestWrapper.class);
+            phoneParam = requestWrapper.ANI.replaceAll('[^0-9]', '');//just keep the numbers
+            transactionID = requestWrapper.transactionID;
+            contacts = [SELECT Id, External_ID__c FROM Contact WHERE Searchable_Phone_Number__c = :phoneParam];
+            if (contacts.size() > 1) {
+                clearJSONwrapper.statusDescription = FSL_ApexConstants.ANI_FAILED_RESPONSE_TOO_MANY_MEMBERS + phoneParam;
+                clearJSONwrapper.statusCode = 400;
+                clearJSONwrapper.ANI = phoneParam;
+                respWrap.statusDescription = clearJSONwrapper.statusDescription;
+                respWrap.statusCode = clearJSONwrapper.statusCode;
+                FSL_ApplicationLogCreator.IVRLookupLogger(phoneParam, JSON.serializePretty(respWrap), false, bulkCallIds, webServiceEndpoint, '',  respWrap.statusDescription);
+                callLog = true;
+            } else if (contacts.size() < 1) {
+                clearJSONwrapper.statusDescription = FSL_ApexConstants.ANI_FAILED_RESPONSE_NO_MEMBER_FOUND + phoneParam;
+                clearJSONwrapper.statusCode = 404;
+                clearJSONwrapper.ANI = phoneParam;
+                respWrap.statusDescription = clearJSONwrapper.statusDescription;
+                respWrap.statusCode = clearJSONwrapper.statusCode;                
+                FSL_ApplicationLogCreator.IVRLookupLogger(phoneParam, JSON.serializePretty(respWrap), false, bulkCallIds, webServiceEndpoint, '', respWrap.statusDescription);
+                callLog = true;
+            } else { //Only one member found - Happy path. Continue getting the WO & details if the unique member is found
+                workOrderMap = new Map<Id, WorkOrder>([ SELECT Id, Call_Date__c, Call_Id__c, External_Id__c FROM WorkOrder
+                                                    WHERE ContactId IN:contacts AND Status NOT IN ('Cleared', 'Canceled')]);
+                if (!workOrderMap.isEmpty()) {
+                    clearJSONwrapperList = FSL_ToD3Clear.clearedWorkOrders(workOrderMap.keySet(), false, 'IVRLookup');
+                    clearJSONwrapper.statusCode = 200;
+                    clearJSONwrapper.ANI = phoneParam;
+                    //nullifyRequestAttributes(clearJSONwrapper);
+                    respWrap.statusCode = clearJSONwrapper.statusCode;                    
+                    for (WorkOrder workOrder : workOrderMap.values()) {
+                        bulkCallIds += workOrder.Call_Id__c + ', ';
+                    }              
+                }else{
+                    clearJSONwrapper.statusCode = 204;
+                    clearJSONwrapper.statusDescription =  'No active workorders found';
+                    clearJSONwrapper.ANI = phoneParam;
+                    respWrap.statusCode = clearJSONwrapper.statusCode;
+                    respWrap.statusDescription = clearJSONwrapper.statusDescription;
+                    
+                }
+            }
+            clearJSONwrapperList.add(clearJSONwrapper);
+            if(callLog==false){
+            	FSL_ApplicationLogCreator.IVRLookupLogger(phoneParam, JSON.serializePretty(respWrap), false, bulkCallIds, webServiceEndpoint, FSL_ApexConstants.ANI_SUCCESS_RESPONSE + phoneParam, '');
+            }
+        }catch (Exception e) {
+            clearJSONwrapper.statusDescription = e.getMessage();
+            clearJSONwrapper.statusCode = 500;
+            clearJSONwrapper.ANI = phoneParam;   
+            respWrap.statusDescription = clearJSONwrapper.statusDescription + ' '+e.getStackTraceString() ;
+            respWrap.statusCode = clearJSONwrapper.statusCode; 
+               clearJSONwrapperList.add(clearJSONwrapper);
+            FSL_ApplicationLogCreator.IVRLookupLogger(phoneParam, JSON.serializePretty(respWrap), true, bulkCallIds, webServiceEndpoint, '', 'Exception: ' + respWrap.statusDescription);
+        }finally{
+            //build header for response
+            headerBuilder(clearJSONwrapper, transactionID);
+        }
+        return clearJSONwrapperList;
+    }
+
+    /*public static void nullifyRequestAttributes(FSL_ClearJsonWorkOrder jsonWorkOrder){
+        jsonWorkOrder.version = null;
+        jsonWorkOrder.targetSystem = null;
+        jsonWorkOrder.sourceSystem = null;
+        jsonWorkOrder.subType = null;
+        jsonWorkOrder.status = null;
+        jsonWorkOrder.sourceSystem = null;
+        jsonWorkOrder.requestEventType = null;
+        jsonWorkOrder.id = null;
+        jsonWorkOrder.createDate = null;
+    }*/
+    
+    public static FSL_ClearJsonWorkOrder headerBuilder(FSL_ClearJsonWorkOrder jsonWorkOrder, String transactionID){
+        FSL_ClearJsonWorkOrder.HeaderWrapper headerWrap = new FSL_ClearJsonWorkOrder.HeaderWrapper();
+        headerWrap.id = transactionID;
+        headerWrap.type = 'IVR';
+        headerWrap.subType = 'ANI';
+        headerWrap.status = 'UNUSED';
+        headerWrap.version = '';
+        jsonWorkOrder.header = headerWrap;
+        return jsonWorkOrder;
+    }
+
+    global class AniRequestWrapper {
+        public String transactionID {get;set;}
+        public String ANI {get;set;}
+    }
+
+    /*global class AniResponseWrapper {
+        public String statusDescription {get;set;}
+        public Integer statusCode {get;set;}
+        public String subTypeCode {get;set;}
+        public String status {get;set;}
+        public String version {get;set;}
+        public String createDate {get;set;}
+        public FSL_ClearJsonWorkOrder.SourceSystem sourceSystem {get;set;}
+        public FSL_ClearJsonWorkOrder.SourceSystem targetSystem {get;set;}
+        public List<FSL_ClearJsonWorkOrder.Calls> calls {get;set;}
+    }*/
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Travel9</label>
+    <protected>false</protected>
+    <values>
+        <field>Bookmark__c</field>
+        <value xsi:type="xsd:string">Travel Dashboards/BI Dictionary</value>
+    </values>
+    <values>
+        <field>Email__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>URL__c</field>
+        <value xsi:type="xsd:string">https://aaacarolinas-my.sharepoint.com/personal/amhopkins_aaacarolinas_com/_layouts/15/guestaccess.aspx?guestaccesstoken=zb9UiURbU7sPRO3p73Z7FdGPJ4VdlqFWvCuCgxQS7uw%3d&amp;docid=2_0bfb25ea48b344b4ea0fb9c601014b1d0&amp;rev=1</value>
+    </values>
+</CustomMetadata>

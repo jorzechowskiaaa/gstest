@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Trouble_Code_Update_On_WO_Clear</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISPICKVAL( Work_Order__r.Status , &#39;Cleared&#39;),NOT($Profile.Name=&quot;System Administrator&quot;))</errorConditionFormula>
+    <errorMessage>Trouble code can not be updated after Work order is Cleared.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Schedule_Calls</fullName>
+    <columns>NAME</columns>
+    <columns>API_Name__c</columns>
+    <columns>Request_Body__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Call_Version__c</columns>
+    <columns>Error_Caught__c</columns>
+    <columns>Success_Message__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>API_Name__c</field>
+        <operation>equals</operation>
+        <value>Schedule API Call</value>
+    </filters>
+    <label>Auto Schedule Calls</label>
+</ListView>

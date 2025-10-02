@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_RAP</fullName>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>RAP_Case_Number__c</columns>
+    <columns>Call_Origin_OrgCode__c</columns>
+    <columns>Call_Origin_OrgName__c</columns>
+    <columns>Status</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>T_Code__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>En_Route_Timestamp__c</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>notContain</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>11/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>WO_Call_Type__c</field>
+        <operation>equals</operation>
+        <value>RAP</value>
+    </filters>
+    <label>ALL RAP</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Club_Dispatcher</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

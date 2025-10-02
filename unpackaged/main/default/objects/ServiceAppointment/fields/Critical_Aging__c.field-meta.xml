@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Critical_Aging__c</fullName>
+    <description>Time that SA and WO will change priority to critical</description>
+    <formula>CreatedDate + (VALUE($Label.AAA_Aged_WO_SA_Priority_Esc_Timing)/1440)</formula>
+    <label>Critical Aging</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

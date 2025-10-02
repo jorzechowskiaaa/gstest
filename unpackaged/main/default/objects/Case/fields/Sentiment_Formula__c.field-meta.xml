@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sentiment_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( ACG_Sentiment__c , &quot;Positive&quot;) ,(IMAGE(&quot;/resource/Sentiment_Positive&quot;,&quot;Positive&quot;,30,-1) &amp; &quot;  Positive&quot;),				IF( ISPICKVAL( ACG_Sentiment__c , &quot;Neutral&quot;) ,(IMAGE(&quot;/resource/Sentiment_Neutral&quot;,&quot;Neutral&quot;,30,-1) &amp; &quot;  Neutral&quot;),				IF( ISPICKVAL( ACG_Sentiment__c , &quot;Negative&quot;) ,(IMAGE(&quot;/resource/Sentiment_Negative&quot;,&quot;Negative&quot;,30,-1) &amp; &quot;  Negative&quot;),				IF(ISBLANK(TEXT(ACG_Sentiment__c )),&quot;&quot;,&quot;&quot;)				)				)		)</formula>
+    <label>Sentiment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

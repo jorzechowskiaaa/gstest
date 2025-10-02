@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Priority_Code__c</fullName>
+    <inlineHelpText>To capture Priority Code in FSL ERS Work Order Intake flow</inlineHelpText>
+    <label>Priority Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>P1-Baby Locked in Car</fullName>
+                <default>false</default>
+                <label>P1-Baby Locked in Car</label>
+            </value>
+            <value>
+                <fullName>P2-Member Safety/Medical Concern</fullName>
+                <default>false</default>
+                <label>P2-Member Safety/Medical Concern</label>
+            </value>
+            <value>
+                <fullName>P3-Other Priority</fullName>
+                <default>false</default>
+                <label>P3-Other Priority</label>
+            </value>
+            <value>
+                <fullName>P4-Public Agency/Police on Scene</fullName>
+                <default>false</default>
+                <label>P4-Public Agency/Police on Scene</label>
+            </value>
+            <value>
+                <fullName>P5-Blocking Traffic</fullName>
+                <default>false</default>
+                <label>P5-Blocking Traffic</label>
+            </value>
+            <value>
+                <fullName>P6-Accident</fullName>
+                <default>false</default>
+                <label>P6-Accident</label>
+            </value>
+            <value>
+                <fullName>P7-Freeway/Highway Call</fullName>
+                <default>false</default>
+                <label>P7-Freeway/Highway Call</label>
+            </value>
+            <value>
+                <fullName>P8-Lockout, Car Running</fullName>
+                <default>false</default>
+                <label>P8-Lockout, Car Running</label>
+            </value>
+            <value>
+                <fullName>R1-Pet Locked in Car</fullName>
+                <default>false</default>
+                <label>R1-Pet Locked in Car</label>
+            </value>
+            <value>
+                <fullName>R2-AAA Error/Re-Dispatched Call</fullName>
+                <default>false</default>
+                <label>R2-AAA Error/Re-Dispatched Call</label>
+            </value>
+            <value>
+                <fullName>RP-RAP Call</fullName>
+                <default>false</default>
+                <label>RP-RAP Call</label>
+            </value>
+            <value>
+                <fullName>RS-VIP Member</fullName>
+                <default>false</default>
+                <label>RS-VIP Member</label>
+            </value>
+            <value>
+                <fullName>NA-No Priority Code</fullName>
+                <default>false</default>
+                <label>NA-No Priority Code</label>
+            </value>
+            <value>
+                <fullName>AP-Aged Call</fullName>
+                <default>false</default>
+                <label>AP-Aged Call</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>P1-Baby/ Animal Locked in Car</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P1-Baby/ Animal Locked in Car</label>
+            </value>
+            <value>
+                <fullName>P1-Person/ Animal/ Medication locked in veh</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P1-Person/ Animal/ Medication locked in veh</label>
+            </value>
+            <value>
+                <fullName>P2-Expressway/Interstate /Dangerous location</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P2-Expressway/Interstate /Dangerous location</label>
+            </value>
+            <value>
+                <fullName>P2-Member Safety/ Medical Concern</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P2-Member Safety/ Medical Concern</label>
+            </value>
+            <value>
+                <fullName>P3-Extreme Weather/ No Shelter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P3-Extreme Weather/ No Shelter</label>
+            </value>
+            <value>
+                <fullName>P3-Police, Agency or Accident Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P3-Police, Agency or Accident Call</label>
+            </value>
+            <value>
+                <fullName>P4-Expressway/Interstate/Safely to the side</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P4-Expressway/Interstate/Safely to the side</label>
+            </value>
+            <value>
+                <fullName>P4-Public Agency/ Police on Scene</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P4-Public Agency/ Police on Scene</label>
+            </value>
+            <value>
+                <fullName>P6-Weather Emergency</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P6-Weather Emergency</label>
+            </value>
+            <value>
+                <fullName>P7-Freeway/ Highway Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P7-Freeway/ Highway Call</label>
+            </value>
+            <value>
+                <fullName>R1-AAA Employee/ VIP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>R1-AAA Employee/ VIP</label>
+            </value>
+            <value>
+                <fullName>R2-AAA Error/ Re-Disaptched Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>R2-AAA Error/ Re-Disaptched Call</label>
+            </value>
+            <value>
+                <fullName>RS-Response Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RS-Response Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ціль послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Цілі послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ціль послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Цілі послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Цілі послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Цілей послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Цілі послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Цілям послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Ціллю послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Цілями послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Цілі послуги</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Цілях послуги</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>ASAP Layout</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Objectives Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Relevancy Group --></label>
+            <section>Relevancy Group</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Gaps</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Overtime</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Minimize Travel Layout</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preferred Resource</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Priority Layout</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Поле пріоритету ресурсу</label>
+            <section>Resource Priority Field</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Same Site Layout</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Level</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Skill Preference</layout>
+        <sections>
+            <label>Налаштовані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Поля</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ім’я цілі обслуговування</nameFieldLabel>
+</CustomObjectTranslation>

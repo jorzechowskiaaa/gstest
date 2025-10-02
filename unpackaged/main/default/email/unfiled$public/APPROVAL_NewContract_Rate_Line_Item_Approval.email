@@ -1,0 +1,13 @@
+*** NEW CONTRACT - RATE LINE ITEM APPROVAL NOTIFICATION ***
+<br><br>
+The following approval request has been submitted for BO approval by {!User.Link}<br>
+Please review the following Rate Line Item: {!Rate_Line_Item__c.Name}<br>
+Product: {!Rate_Line_Item__c.Product__c}<br>
+Product Code: {!Rate_Line_Item__c.Product_Code__c}<br>
+Service Type: {!Rate_Line_Item__c.Service_Type_Picklist__c}<br>
+Prior Fixed Amount: {!Rate_Line_Item__c.Fixed_Amount_Prior_Value__c}<br>
+Submitted Fixed Amount:{!Rate_Line_Item__c.Fixed_Amount__c}<br><br>
+
+Click on the link to access the Rate Line Item : {!Rate_Line_Item__c.Link}<br><br>
+
+Thanks.

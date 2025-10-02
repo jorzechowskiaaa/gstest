@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Insurance Distribution --></label>
+        <name>Insurance_Distribution__c</name>
+        <picklistValues>
+            <masterLabel>AAOP</masterLabel>
+            <translation><!-- AAOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Agents</masterLabel>
+            <translation><!-- Career Agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Agent</masterLabel>
+            <translation><!-- Claims Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIA</masterLabel>
+            <translation><!-- EIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation><!-- IE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Agent</masterLabel>
+            <translation><!-- Service Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Partners</masterLabel>
+            <translation><!-- Strategic Partners --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

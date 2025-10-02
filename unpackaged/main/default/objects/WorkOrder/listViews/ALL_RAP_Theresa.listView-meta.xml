@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_RAP_Theresa</fullName>
+    <columns>Call_Id__c</columns>
+    <columns>RAP_Case_Number__c</columns>
+    <columns>Contact</columns>
+    <columns>Name</columns>
+    <columns>Call_Origin_OrgCode__c</columns>
+    <columns>Call_Origin_OrgName__c</columns>
+    <columns>WorkType</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Status</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>WO_Member_Phone_Number__c</columns>
+    <columns>Call_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Call_Type__c</field>
+        <operation>equals</operation>
+        <value>RAP</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>7/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <label>ALL RAP - Theresa</label>
+    <sharedTo>
+        <role>Back_Office</role>
+    </sharedTo>
+</ListView>

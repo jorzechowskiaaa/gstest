@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cloned/Duplicate Parent --></label>
+        <name>Cloned_Duplicate_Parent__c</name>
+    </CustomFieldTranslation>

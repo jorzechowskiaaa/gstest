@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Hierarchical Custom Setting used to skip/bypass Trigger, Process Builder, Validations etc. for a specific User or Profile.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Skip Automations</label>
+    <visibility>Public</visibility>
+</CustomObject>

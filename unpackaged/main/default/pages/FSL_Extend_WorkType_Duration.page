@@ -1,0 +1,43 @@
+<apex:page Id="idxPageId" lightningStylesheets="true" controller="FSL_UpdateSAController" showHeader="false" sidebar="false">
+    <apex:form Id="idxForm">
+        <script>
+            function closeLightBox(){
+                console.log('in close light box');
+                
+                //if( isErrorOcc === false || isErrorOcc === 'false') {
+                    parent.postMessage('closeLightbox','*');
+                //}
+                
+                //window.close();
+            }
+            function validatePage() {
+                var durationMin = document.getElementById("idxPageId:idxForm:idxPbId:idxDurationMin:idxDelta").value;
+                console.log('HIIIII==='+durationMin);
+                //console.log('HIIIII==='+endDate);
+                if(durationMin <= 0) {
+                    document.getElementById("idxMessageDiv").style.display="block";
+                    document.getElementById("idxMessageDiv").style.color="red";
+                    return false;
+                }else {
+                    savePage();
+                }
+            }
+        </script>
+        <apex:slds />
+        <div class="slds-scope">
+        <apex:messages id="messageID" />
+        <apex:actionFunction name="savePage" action="{!updateServiceAppointment}" rerender="out" status="myStatus" oncomplete="closeLightBox();"/>
+        <apex:pageBlock Id="idxPbId" title="Update Work Duration">
+            <apex:pageblockSection id="idxDurationMin" title="Update Duration" columns="2">
+                        <apex:inputField id="idxDelta" value="{!saUpdate.Schedule_Delta__c}"/>
+            </apex:pageblockSection>
+            <div id="idxMessageDiv" style="display:none;font-size:12px; font-weight:bold; color:red;">
+                <apex:outputText style="font-size:12px; font-weight:bold; color:red;">The duration should greater than Zero</apex:outputText>
+            </div>
+            <apex:pageBlockButtons location="bottom" >
+                <apex:commandButton rerender="messageID"  styleClass="slds-button slds-button_neutral" value="Save" onclick="return validatePage();" />                   
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        </div>
+    </apex:form>
+</apex:page>

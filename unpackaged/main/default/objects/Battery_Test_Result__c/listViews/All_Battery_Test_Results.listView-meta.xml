@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Battery_Test_Results</fullName>
+    <columns>NAME</columns>
+    <columns>Work_Order__c</columns>
+    <columns>CALLID__c</columns>
+    <columns>DECISION__c</columns>
+    <columns>TESTDATETIME__c</columns>
+    <columns>TESTPERFORMED__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>All Battery Test Results</label>
+</ListView>

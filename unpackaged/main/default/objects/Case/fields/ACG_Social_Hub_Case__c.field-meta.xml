@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Social_Hub_Case__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identifies cases created by Social Hub to trigger processes specific to Social cases.</description>
+    <label>Social Hub Case</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

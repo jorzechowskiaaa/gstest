@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClonedParent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Cloned/Duplicate Parent</label>
+    <referenceTo>ServiceAppointment</referenceTo>
+    <relationshipLabel>Service Appointments (Cloned/Duplicate Parent)</relationshipLabel>
+    <relationshipName>ClonedParent</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

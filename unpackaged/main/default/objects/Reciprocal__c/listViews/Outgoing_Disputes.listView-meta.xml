@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outgoing_Disputes</fullName>
+    <columns>RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>Submitting_Club_Code__c</columns>
+    <columns>Service_Call_Date__c</columns>
+    <columns>Service_Call_ID__c</columns>
+    <columns>Service_Facility_ID__c</columns>
+    <columns>Service_Call_Trouble_Code__c</columns>
+    <columns>Membership_Type__c</columns>
+    <columns>Membership_Expiration_Date__c</columns>
+    <columns>Member_Last_Name__c</columns>
+    <columns>Member_First_Name__c</columns>
+    <columns>Dispute_Code__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Total_Dollar_Amount__c</columns>
+    <columns>Cost_Buffer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Reciprocal__c.Outbound_Payment_Requests</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Amended_Charges_Indicator__c</field>
+        <operation>equals</operation>
+        <value>a</value>
+    </filters>
+    <label>Outgoing Disputes</label>
+</ListView>

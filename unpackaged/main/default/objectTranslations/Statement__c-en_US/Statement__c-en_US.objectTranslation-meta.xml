@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Statement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Statement EC</layout>
+        <sections>
+            <label><!-- Club Station Contractor --></label>
+            <section>Club Station Contractor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ERS and Reciprocal Adjustment Cost --></label>
+            <section>ERS and Reciprocal Adjustment Cost</section>
+        </sections>
+        <sections>
+            <label><!-- ERS and Reciprocal Cost --></label>
+            <section>ERS and Reciprocal Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Facility Adjustments --></label>
+            <section>Facility Adjustments</section>
+        </sections>
+        <sections>
+            <label><!-- Total Cost --></label>
+            <section>Total Cost</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Statement Layout</layout>
+        <sections>
+            <label><!-- Club Station Contractor --></label>
+            <section>Club Station Contractor</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ERS Adjustment Cost --></label>
+            <section>ERS Adjustment Cost</section>
+        </sections>
+        <sections>
+            <label><!-- ERS Cost --></label>
+            <section>ERS Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Facility Adjustments --></label>
+            <section>Facility Adjustments</section>
+        </sections>
+        <sections>
+            <label><!-- Reciprocal Adjustment Cost --></label>
+            <section>Reciprocal Adjustment Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Reciprocal Cost --></label>
+            <section>Reciprocal Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Total Cost --></label>
+            <section>Total Cost</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot change a statement once it has been reconciled --></errorMessage>
+        <name>Cannot_Change_a_Reconciled_Stm_Status</name>
+    </validationRules>
+</CustomObjectTranslation>

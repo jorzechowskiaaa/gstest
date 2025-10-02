@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Audit Action</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Audit Actions</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Add Action Layout</layout>
+        <sections>
+            <label><!-- Action --></label>
+            <section>Action</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Identifying Elements --></label>
+            <section>Identifying Elements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Delete Action Layout</layout>
+        <sections>
+            <label><!-- Action --></label>
+            <section>Action</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Identifying Elements --></label>
+            <section>Identifying Elements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Edit Action Layout</layout>
+        <sections>
+            <label><!-- Action --></label>
+            <section>Action</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Identifying Elements --></label>
+            <section>Identifying Elements</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Add Action --></label>
+        <name>Add_Action</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Delete Action --></label>
+        <name>Delete_Action</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Edit Action --></label>
+        <name>Edit_Action</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

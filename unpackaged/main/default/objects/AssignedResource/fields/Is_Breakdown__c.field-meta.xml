@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Breakdown__c</fullName>
+    <formula>ServiceAppointment.isBreakdown__c</formula>
+    <label>Is Breakdown</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

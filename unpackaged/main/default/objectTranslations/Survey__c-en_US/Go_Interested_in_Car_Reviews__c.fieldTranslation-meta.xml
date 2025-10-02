@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- On a scale of 1-10, with 1 being most likely, how interested are you in reading about car reviews in future issues? --></help>
+        <label><!-- Interested in Car Reviews --></label>
+        <name>Go_Interested_in_Car_Reviews__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Code__c</fullName>
+    <label>Problem Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>P0 - Multiple reasons</fullName>
+                <default>false</default>
+                <label>P0 - Multiple reasons</label>
+            </value>
+            <value>
+                <fullName>P1 - Total charges are either less than $5 or greater than $500</fullName>
+                <default>false</default>
+                <label>P1 - Total charges are either less than $5 or greater than $500</label>
+            </value>
+            <value>
+                <fullName>P2 - Classic Member with Plus/RV/Premier charges</fullName>
+                <default>false</default>
+                <label>P2 - Classic Member with Plus/RV/Premier charges</label>
+            </value>
+            <value>
+                <fullName>P4 - Multiple records for same member/same day</fullName>
+                <default>false</default>
+                <label>P4 - Multiple records for same member/same day</label>
+            </value>
+            <value>
+                <fullName>P5 - Overentitlements</fullName>
+                <default>false</default>
+                <label>P5 - Overentitlements</label>
+            </value>
+            <value>
+                <fullName>P6- Member Name doesnt match Number</fullName>
+                <default>false</default>
+                <label>P6 - Member Name does not match Membership Number</label>
+            </value>
+            <value>
+                <fullName>P8 - Invalid Membership Number</fullName>
+                <default>false</default>
+                <label>P8 - Invalid Membership Number</label>
+            </value>
+            <value>
+                <fullName>P9 - Past Expiration Date</fullName>
+                <default>false</default>
+                <label>P9 - Past Expiration Date</label>
+            </value>
+            <value>
+                <fullName>PC - Authorization code missing from reciprocal record.</fullName>
+                <default>false</default>
+                <label>PC - Authorization code missing from reciprocal record.</label>
+            </value>
+            <value>
+                <fullName>PD - Authorization code missing from local call record.</fullName>
+                <default>false</default>
+                <label>PD - Authorization code missing from local call record.</label>
+            </value>
+            <value>
+                <fullName>PE - Servicing club does not match authorization record.</fullName>
+                <default>false</default>
+                <label>PE - Servicing club does not match authorization record.</label>
+            </value>
+            <value>
+                <fullName>PF - Member ID does not match authorization record.</fullName>
+                <default>false</default>
+                <label>PF - Member ID does not match authorization record.</label>
+            </value>
+            <value>
+                <fullName>PG - Member club does not match authorization record.</fullName>
+                <default>false</default>
+                <label>PG - Member club does not match authorization record.</label>
+            </value>
+            <value>
+                <fullName>PH - Feedback record does not exist.</fullName>
+                <default>false</default>
+                <label>PH - Feedback record does not exist.</label>
+            </value>
+            <value>
+                <fullName>P6 - Name does not match member ID</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P6 - Name does not match member ID</label>
+            </value>
+            <value>
+                <fullName>P8 - Invalid Member ID</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P8 - Invalid Member ID</label>
+            </value>
+            <value>
+                <fullName>P9 - Service Date is after expiration date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P9 - Service Date is after expiration date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

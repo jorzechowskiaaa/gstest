@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal notification to Contract Apporoval Queue when an approval is submitted.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>APPROVAL: NewContract Rate Line Item Approval - Deleted Process</name>
+    <style>none</style>
+    <subject>Internal notification to Contract Approval Queue when an approval is submitted.</subject>
+    <textOnly>*** NEW CONTRACT - RATE LINE ITEM IS DELETED NOTIFICATION ***
+
+The following approval request has been submitted for BO approval by {!User.Name}
+Please review the Contract and Rate Line Items.
+
+Click on the link to access the Contract : {!Contract__c.Name}
+Thanks.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

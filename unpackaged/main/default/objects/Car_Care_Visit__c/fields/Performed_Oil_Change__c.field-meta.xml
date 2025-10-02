@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Performed_Oil_Change__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Designates if this repair order had a completed oil change (check = True)</description>
+    <inlineHelpText>Designates if this repair order had a completed oil change (check = True)</inlineHelpText>
+    <label>Performed Oil Change</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+        <filterItems>
+            <field>Product2.ProductCode</field>
+            <operation>notEqual</operation>
+            <value>CE</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.ProductCode</field>
+            <operation>notEqual</operation>
+            <value>CT</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Name</field>
+            <operation>notEqual</operation>
+            <value>CT - Calculated Tow</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Service Line Items (Product)</relationshipLabel>
+    <relationshipName>Service_Line_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

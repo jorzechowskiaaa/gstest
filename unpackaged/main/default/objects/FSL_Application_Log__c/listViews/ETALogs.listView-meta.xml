@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETALogs</fullName>
+    <columns>NAME</columns>
+    <columns>Operation__c</columns>
+    <columns>Optimization_Request__c</columns>
+    <columns>Type__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>API_Name__c</columns>
+    <columns>Service_Appointment__c</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Operation__c</field>
+        <operation>equals</operation>
+        <value>ETALog</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>ETALogs</label>
+    <language>en_US</language>
+</ListView>

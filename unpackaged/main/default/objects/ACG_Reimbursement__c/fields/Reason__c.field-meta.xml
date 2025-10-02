@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2T</fullName>
+                <default>false</default>
+                <label>2nd Tow</label>
+            </value>
+            <value>
+                <fullName>AC</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>AM</fullName>
+                <default>false</default>
+                <label>Additional Monies Approved</label>
+            </value>
+            <value>
+                <fullName>AP</fullName>
+                <default>false</default>
+                <label>AP Re-issue</label>
+            </value>
+            <value>
+                <fullName>BD</fullName>
+                <default>false</default>
+                <label>Breakdown</label>
+            </value>
+            <value>
+                <fullName>ET</fullName>
+                <default>false</default>
+                <label>Extrication</label>
+            </value>
+            <value>
+                <fullName>LK</fullName>
+                <default>false</default>
+                <label>Locksmith</label>
+            </value>
+            <value>
+                <fullName>LO</fullName>
+                <default>false</default>
+                <label>Lockout</label>
+            </value>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>Medical Emergency</label>
+            </value>
+            <value>
+                <fullName>MR</fullName>
+                <default>false</default>
+                <label>Member Relations</label>
+            </value>
+            <value>
+                <fullName>OT</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>Police Call/illegal</label>
+            </value>
+            <value>
+                <fullName>RE</fullName>
+                <default>false</default>
+                <label>Re-issue</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <label>Stolen &amp; Recovered</label>
+            </value>
+            <value>
+                <fullName>Employee Approved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Employee Approved</label>
+            </value>
+            <value>
+                <fullName>Escheat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escheat</label>
+            </value>
+            <value>
+                <fullName>LKSMTH UNAVAIL MBR DECLINE TOW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LKSMTH UNAVAIL MBR DECLINE TOW</label>
+            </value>
+            <value>
+                <fullName>LKSMTH UNAVAIL MBR OPT TOW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LKSMTH UNAVAIL MBR OPT TOW</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Legal Defense</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal Defense</label>
+            </value>
+            <value>
+                <fullName>Member Choice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Member Choice</label>
+            </value>
+            <value>
+                <fullName>No Valid Card</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Valid Card</label>
+            </value>
+            <value>
+                <fullName>No service available</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No service available</label>
+            </value>
+            <value>
+                <fullName>On Your Way Transportation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Your Way Transportation</label>
+            </value>
+            <value>
+                <fullName>Phone Problem</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Phone Problem</label>
+            </value>
+            <value>
+                <fullName>RV Reimbursement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RV Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Service Available</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service Available</label>
+            </value>
+            <value>
+                <fullName>Temporary Plus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Temporary Plus</label>
+            </value>
+            <value>
+                <fullName>Travel Accident</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Travel Accident</label>
+            </value>
+            <value>
+                <fullName>Turnpike Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Turnpike Call</label>
+            </value>
+            <value>
+                <fullName>Weather Problem</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Weather Problem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_Shifts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Run LKL routines for Service Resources on Shift Schedules when the &#39;Run LKL&#39; flag is turned on.</description>
+    <inlineHelpText>Run LKL routines for Service Resources on Shift Schedules when the &#39;Run LKL&#39; flag is turned on.
+True: When Run_LKL__c is enabled, it will run through the LKL routines for Shift Schedules.
+False: The LKL routines will skip Shift Schedules.</inlineHelpText>
+    <label>Run Shifts</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>SMS_On_Location</name>
+        <label>SMS - On Location</label>
+        <locationX>176</locationX>
+        <locationY>755</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Driver_On_Location</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>Driver_On_Location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;Driver_Name&quot;,
+    &quot;textValue&quot;: &quot;{!v_driverName}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_messaging_user_id_and_message_values</name>
+        <label>Assign messaging user id and message values</label>
+        <locationX>176</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>v_messagingUserIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Create_Messaging_User_Subflow.messagingUserOutput</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>v_driverName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Assigned_Resource.Driver_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>SMS_On_Location</targetReference>
+        </connector>
+    </assignments>
+    <description>2025-06-16: updated for enhanced SMS channels</description>
+    <environments>Default</environments>
+    <interviewLabel>SMS - Driver on Location {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SMS - Driver On Location</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Assigned_Resource</name>
+        <label>Get Assigned Resource</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Messaging_User_Subflow</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ServiceAppointmentId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>AssignedResource</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Driver_Name__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_WO</name>
+        <label>Get WO</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Assigned_Resource</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_SA_Checkbox_SMS_Driver_On_Location</name>
+        <label>Update SA Checkbox &quot;SMS - Driver On Location&quot;</label>
+        <locationX>176</locationX>
+        <locationY>863</locationY>
+        <inputAssignments>
+            <field>SMS_Driver_On_Location__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_WO</targetReference>
+        </connector>
+        <filterFormula>{!$Setup.Appointment_Assistant_Settings__c.AA_Org_Level_Messaging_Switch__c} = true &amp;&amp;
+{!$Record.ServiceTerritory.Enabled_For_Appointment_Assistant__c} = true &amp;&amp;
+{!$Record.Contact.Sms_Optin__c} = true &amp;&amp;
+{!$Record.RecordType.DeveloperName} = &quot;Breakdown&quot; &amp;&amp;
+ISNULL( {!$Record.ContactId} ) = false &amp;&amp;
+ISNULL( {!$Record.Contact.MobilePhone} ) = false &amp;&amp;
+ISCHANGED ( {!$Record.Status} ) = true &amp;&amp;
+ISPICKVAL ( {!$Record.Status}, &quot;On Location&quot;) &amp;&amp;
+{!$Record.SMS_Driver_On_Location__c} = false</filterFormula>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Create_Messaging_User_Subflow</name>
+        <label>Create Messaging User Subflow</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Assign_messaging_user_id_and_message_values</targetReference>
+        </connector>
+        <flowName>Create_Messaging_User_Subflow</flowName>
+        <inputAssignments>
+            <name>workOrderRecord</name>
+            <value>
+                <elementReference>Get_WO</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>v_driverName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_messagingUserIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

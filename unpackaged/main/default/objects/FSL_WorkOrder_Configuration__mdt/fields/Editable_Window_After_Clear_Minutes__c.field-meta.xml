@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editable_Window_After_Clear_Minutes__c</fullName>
+    <defaultValue>1440</defaultValue>
+    <description>Time window in Minutes during which the WorkOrder remains editable after being Cleared. During this time, diapatchers and drivers can edit this WO. When this window elapses, the call details are dispatched to ACE</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Editable Window After Clear (Minutes)</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

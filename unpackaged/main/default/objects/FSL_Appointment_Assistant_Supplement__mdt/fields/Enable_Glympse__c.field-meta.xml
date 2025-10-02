@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enable_Glympse__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Used in Platform Event Handler to send Glympse link to National/RAP partners</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Enable Glympse</label>
+    <type>Checkbox</type>
+</CustomField>

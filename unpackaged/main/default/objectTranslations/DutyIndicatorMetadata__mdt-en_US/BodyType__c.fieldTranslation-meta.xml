@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- BodyType --></label>
+        <name>BodyType__c</name>
+        <picklistValues>
+            <masterLabel>Cab &amp; Chassis</masterLabel>
+            <translation><!-- Cab &amp; Chassis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cutaway Van</masterLabel>
+            <translation><!-- Cutaway Van --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stripped Chassis</masterLabel>
+            <translation><!-- Stripped Chassis --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

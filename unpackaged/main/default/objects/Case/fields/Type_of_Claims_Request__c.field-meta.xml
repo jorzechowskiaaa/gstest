@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Claims_Request__c</fullName>
+    <label>Type of Claims Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New PVU ID</fullName>
+                <default>false</default>
+                <label>New PVU ID</label>
+            </value>
+            <value>
+                <fullName>New Lit Log ID</fullName>
+                <default>false</default>
+                <label>New Lit Log ID</label>
+            </value>
+            <value>
+                <fullName>New VOC ID</fullName>
+                <default>false</default>
+                <label>New VOC ID</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

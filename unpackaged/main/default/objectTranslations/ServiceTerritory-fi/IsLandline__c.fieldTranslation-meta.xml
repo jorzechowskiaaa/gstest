@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is this station a landline station?
+Check = Yes.
+Blank = No. --></help>
+        <label><!-- Landline? --></label>
+        <name>IsLandline__c</name>
+    </CustomFieldTranslation>

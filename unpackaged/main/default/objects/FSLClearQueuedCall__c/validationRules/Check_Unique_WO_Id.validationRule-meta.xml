@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Unique_WO_Id</fullName>
+    <active>true</active>
+    <description>Checks to see that a Work Order Id is provided and that it is unique</description>
+    <errorConditionFormula>OR(ISBLANK(Work_Order__c), AND(ISNEW(), Name =  VLOOKUP( $ObjectType.FSLClearQueuedCall__c.Fields.Name,  $ObjectType.FSLClearQueuedCall__c.Fields.Name, Name)))</errorConditionFormula>
+    <errorMessage>Cannot save the record -either the Work Order reference is missing or the Work Order is already in the clear queue</errorMessage>
+</ValidationRule>

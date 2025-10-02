@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unit of Measure --></label>
+        <name>Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>DL - Dollar Amount</masterLabel>
+            <translation><!-- DL - Dollar Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EA - Each</masterLabel>
+            <translation><!-- EA - Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL - Gallon</masterLabel>
+            <translation><!-- GL - Gallon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KI - Kilo</masterLabel>
+            <translation><!-- KI - Kilo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KM - Kilometer</masterLabel>
+            <translation><!-- KM - Kilometer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB - Pound</masterLabel>
+            <translation><!-- LB - Pound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT - Litre</masterLabel>
+            <translation><!-- LT - Litre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ML - Mile</masterLabel>
+            <translation><!-- ML - Mile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN - Minutes</masterLabel>
+            <translation><!-- MN - Minutes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

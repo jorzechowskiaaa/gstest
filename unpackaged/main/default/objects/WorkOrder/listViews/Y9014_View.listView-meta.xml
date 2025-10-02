@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Y9014_View</fullName>
+    <columns>Membership_Benefit_Level__c</columns>
+    <columns>Ticket_Number__c</columns>
+    <columns>BO_Editable_WO_Specific_Membership_Level__c</columns>
+    <columns>Member_Account__c</columns>
+    <columns>Clearing_Code__c</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>Tow_Address__c</columns>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Resolution_Code__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>ServiceContract</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Cleared</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Call_Type__c</field>
+        <operation>equals</operation>
+        <value>SVC</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>startsWith</operation>
+        <value>N080</value>
+    </filters>
+    <label>Y9014 View</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

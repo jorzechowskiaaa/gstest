@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal notification to Contract Apporoval Queue when an approval is submitted.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>APPROVAL: NewContract Rate Line Item Approval</name>
+    <style>none</style>
+    <subject>Internal notification to Contract Approval Queue when an approval is submitted.</subject>
+    <textOnly>*** NEW CONTRACT - RATE LINE ITEM APPROVAL NOTIFICATION ***
+
+The following approval request has been submitted for BO approval by {!User.Link}
+Please review the following Rate Line Item: {!Rate_Line_Item__c.Name}
+Product: {!Rate_Line_Item__c.Product__c}
+Product Code: {!Rate_Line_Item__c.Product_Code__c}
+Service Type: {!Rate_Line_Item__c.Service_Type_Picklist__c}
+Prior Fixed Amount: {!Rate_Line_Item__c.Fixed_Amount_Prior_Value__c}
+Submitted Fixed Amount:{!Rate_Line_Item__c.Fixed_Amount__c}
+
+Click on the link to access the Rate Line Item : {!Rate_Line_Item__c.Link}
+
+Thanks.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

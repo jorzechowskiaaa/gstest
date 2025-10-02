@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Insurance Type --></label>
+        <name>Insurance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Liability</masterLabel>
+            <translation><!-- Liability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers Comp</masterLabel>
+            <translation><!-- Workers Comp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

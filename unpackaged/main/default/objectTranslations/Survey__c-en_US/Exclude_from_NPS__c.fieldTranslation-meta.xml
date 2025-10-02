@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When checked, this survey will be excluded from Insurance Agent&apos;s personal NPS Score. Can only be checked through an approval process. --></help>
+        <label><!-- Exclude from NPS --></label>
+        <name>Exclude_from_NPS__c</name>
+    </CustomFieldTranslation>

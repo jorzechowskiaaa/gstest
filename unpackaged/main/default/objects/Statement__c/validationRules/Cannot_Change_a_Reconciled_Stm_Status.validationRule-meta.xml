@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_a_Reconciled_Stm_Status</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(PRIORVALUE(Status__c), &quot;Reconciled&quot;)
+&amp;&amp; ISCHANGED(Status__c)
+&amp;&amp; (
+  (
+    Processed__c = true
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;
+  )
+  || (
+    $Setup.BackOffice_Settings__c.Club_Code__c  = &#39;240&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO AD - BOS Support&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO AS - Facility Maintenance&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO CS - Full Access&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO FR - Facility Maintenance and Call Adjustment&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO MR - Research&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO MP - Full Access&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO PM - Full Access&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO AP - Payment Processor&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO SI - SIU Special&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO MR - Member Relations&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;
+  )
+  || (
+    $Setup.BackOffice_Settings__c.Club_Code__c  = &#39;212&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO AD - BOS Support&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;BO MP - Full Access&#39;
+    &amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;
+  )
+)</errorConditionFormula>
+    <errorMessage>Cannot change a statement once it has been reconciled</errorMessage>
+</ValidationRule>

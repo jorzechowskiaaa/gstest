@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Data_Range_must_be_greater_than_Min</fullName>
+    <active>true</active>
+    <errorConditionFormula>Max_Data_Range__c &lt;=  Min_Data_Range__c</errorConditionFormula>
+    <errorDisplayField>Max_Data_Range__c</errorDisplayField>
+    <errorMessage>Max Data Range must be greater than Min Data Range</errorMessage>
+</ValidationRule>

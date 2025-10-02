@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Channel__c</fullName>
+    <defaultValue>&quot;Email&quot;</defaultValue>
+    <description>Channel through which Survey was sent.</description>
+    <label>Survey Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Channel</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Get_SLI_Prices_AUTO</name>
+        <label>Get SLI Prices AUTO</label>
+        <locationX>407</locationX>
+        <locationY>755</locationY>
+        <actionName>AAAFlowInvocable</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>callClearCodeLogic</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowAPIName</name>
+            <value>
+                <stringValue>Get_SLI_Prices_On_REST_AutoLaunched_insert/update</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sli</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>wo</name>
+            <value>
+                <elementReference>Get_Work_Order</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>AAAFlowInvocable</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Is_BOS_user</name>
+        <label>Is BOS user?</label>
+        <locationX>473</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>yes_BOS_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.BOS_User</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Work_Order</targetReference>
+            </connector>
+            <label>yes BOS User</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Data_Migration_User</name>
+        <label>Is Data Migration User?</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Is_BOS_user</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.Skip_Automation_Logic</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>checks for recursion</description>
+        <name>Work_order_pricing_in_progress</name>
+        <label>Work order pricing in progress?</label>
+        <locationX>275</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Get_SLI_Prices_AUTO</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>yes_skip_pricing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WO_Pricing_In_Progress__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>yes, skip pricing</label>
+        </rules>
+    </decisions>
+    <description>10/04/2024: add WO pricing in progress recursion check, update entry criteria
+08/01/2024: revert to SF Prof Svcs version, remove Ready for Invoicing condition, check for BOS user via custom permission
+07/09/2024: v2 PR893288-5184</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>isNewRecord</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Service Line Item After Trigger Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Service Line Item After Trigger Flow - UPDATE (New)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Work_Order</name>
+        <label>Get Work Order</label>
+        <locationX>275</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Work_order_pricing_in_progress</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Data_Migration_User</targetReference>
+        </connector>
+        <filterLogic>1 AND (2 OR (3 AND 4)) AND 5 AND 6</filterLogic>
+        <filters>
+            <field>Work_Order_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Cleared</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Work_Order_Call_Type__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>RAP</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Work_Order_Call_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>RAP</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Work_Order_RAP_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>RAP Cleared</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Work_Order_Clear_Code__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>XX</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>WO_Pricing_in_Progress__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>FSL_Service_Line_Item__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>500</triggerOrder>
+</Flow>

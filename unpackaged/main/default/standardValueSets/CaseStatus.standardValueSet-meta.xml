@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Customer</fullName>
+        <default>false</default>
+        <label>Waiting for Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Merged</fullName>
+        <default>false</default>
+        <label>Merged</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Response Received</fullName>
+        <default>false</default>
+        <label>Response Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Spotted</fullName>
+        <default>false</default>
+        <label>Spotted</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Work Order In Progress</fullName>
+        <default>false</default>
+        <label>Work Order In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Work Order Completed</fullName>
+        <default>false</default>
+        <label>Closed - Work Order Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Work Order Canceled</fullName>
+        <default>false</default>
+        <label>Closed - Work Order Canceled</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Work Order Not Completed</fullName>
+        <default>false</default>
+        <label>Closed - Work Order Not Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Customer Canceled</fullName>
+        <default>false</default>
+        <label>Closed - Customer Canceled</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Customer Not Eligible for Service</fullName>
+        <default>false</default>
+        <label>Closed - Customer Not Eligible for Service</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Existing Work Order</fullName>
+        <default>false</default>
+        <label>Closed - Existing Work Order</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - National Territory</fullName>
+        <default>false</default>
+        <label>Closed - National Territory</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Provider Working</fullName>
+        <default>false</default>
+        <label>Provider Working</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Dispatched</fullName>
+        <default>false</default>
+        <label>Dispatched</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reassign to MRL</fullName>
+        <default>false</default>
+        <label>Reassign to MRL</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Retained</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>Membership Retained</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Cancelled</fullName>
+        <color>#CC0000</color>
+        <default>false</default>
+        <label>Membership Cancelled</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial Review - MSC</fullName>
+        <default>false</default>
+        <label>Initial Review - MSC</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Potential Cancel Review</fullName>
+        <default>false</default>
+        <label>Potential Cancel Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Cancellation in BOSS</fullName>
+        <default>false</default>
+        <label>Pending Cancellation in BOSS</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reopen for MRL to contact</fullName>
+        <default>false</default>
+        <label>Reopen for MRL to contact</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Researching</fullName>
+        <default>false</default>
+        <label>Researching</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <default>false</default>
+        <label>Working</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Parts Ordered/Vendor Engaged</fullName>
+        <default>false</default>
+        <label>Parts Ordered/Vendor Engaged</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent To Customer</fullName>
+        <default>false</default>
+        <label>Email Sent To Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Responded</fullName>
+        <default>false</default>
+        <label>Customer Responded</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Reopened</fullName>
+        <default>false</default>
+        <label>Case Reopened</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Spam</fullName>
+        <default>false</default>
+        <label>Spam</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Assigned to Help Desk</fullName>
+        <default>false</default>
+        <label>Closed - Assigned to Help Desk</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Request Created</fullName>
+        <default>false</default>
+        <label>Closed - Request Created</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Unresolved</fullName>
+        <default>false</default>
+        <label>Closed - Unresolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+        <label>Closed - Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - No Action Taken</fullName>
+        <default>false</default>
+        <label>Closed - No Action Taken</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting for Customer Response</fullName>
+        <default>false</default>
+        <label>Waiting for Customer Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Approved</fullName>
+        <default>false</default>
+        <label>Closed - Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Partially Approved</fullName>
+        <default>false</default>
+        <label>Closed - Partially Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Denied</fullName>
+        <default>false</default>
+        <label>Closed - Denied</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Partially Approved</fullName>
+        <default>false</default>
+        <label>Partially Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Denied</fullName>
+        <default>false</default>
+        <label>Denied</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment Processing</fullName>
+        <default>false</default>
+        <label>Payment Processing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

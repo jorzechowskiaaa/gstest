@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mileage_Received_Timestamp__c</fullName>
+    <description>Timestamp at the instance when a Mileage is received. For a call associated with two SAs, the Mileage Received flag indcates if this time applies to the first call or the second</description>
+    <label>Mileage Received Timestamp</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Orders_Missing_State</fullName>
+    <columns>Name</columns>
+    <columns>Call_Id__c</columns>
+    <columns>RAP_Case_Number__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CreatedDate</columns>
+    <columns>D3_Call_Key__c</columns>
+    <columns>Status</columns>
+    <columns>Ticket_Number__c</columns>
+    <columns>Member_Number__c</columns>
+    <columns>Call_Type_Sub__c</columns>
+    <columns>Call_Origin__c</columns>
+    <columns>Channel__c</columns>
+    <columns>Clearing_Code__c</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>STATE_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>9/22/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>STATE_CODE</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Work Orders Missing State</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Back_Office</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

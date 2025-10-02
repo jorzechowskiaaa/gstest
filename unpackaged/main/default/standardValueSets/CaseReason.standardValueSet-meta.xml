@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Airline schedule changes</fullName>
+        <default>false</default>
+        <label>Airline schedule changes</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer service AAA</fullName>
+        <default>false</default>
+        <label>Customer service AAA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer service supplier</fullName>
+        <default>false</default>
+        <label>Customer service supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Debit Memo</fullName>
+        <default>false</default>
+        <label>Debit Memo</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Failure to follow-up AAA</fullName>
+        <default>false</default>
+        <label>Failure to follow-up AAA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Failure to follow-up supplier</fullName>
+        <default>false</default>
+        <label>Failure to follow-up supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Issue with accommodations</fullName>
+        <default>false</default>
+        <label>Issue with accommodations</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Misquote by AAA</fullName>
+        <default>false</default>
+        <label>Misquote by AAA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Misquote by supplier</fullName>
+        <default>false</default>
+        <label>Misquote by supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Need further information</fullName>
+        <default>false</default>
+        <label>Need further information</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Received good service ISA Agent</fullName>
+        <default>false</default>
+        <label>Received good service ISA Agent</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Received good service TSS Agent</fullName>
+        <default>false</default>
+        <label>Received good service TSS Agent</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Trip Insurance policy/claim issue</fullName>
+        <default>false</default>
+        <label>Trip Insurance policy/claim issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Weather related issue</fullName>
+        <default>false</default>
+        <label>Weather related issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong date booked AAA</fullName>
+        <default>false</default>
+        <label>Wrong date booked AAA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong date booked supplier</fullName>
+        <default>false</default>
+        <label>Wrong date booked supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong product/trip booked AAA</fullName>
+        <default>false</default>
+        <label>Wrong product/trip booked AAA</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong product/trip booked supplier</fullName>
+        <default>false</default>
+        <label>Wrong product/trip booked supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <label>Installation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Repair</fullName>
+        <default>false</default>
+        <label>Repair</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Routine Maintenance</fullName>
+        <default>false</default>
+        <label>Routine Maintenance</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Different cars towed under the same Membership</fullName>
+        <default>false</default>
+        <label>Different cars towed under the same Membership</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>3 + different vehicles with same tow destination</fullName>
+        <default>false</default>
+        <label>3 + different vehicles with same tow destination</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>3 + different vehicles, same breakdown location</fullName>
+        <default>false</default>
+        <label>3 + different vehicles, same breakdown location</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Same phone number on more than one Membership</fullName>
+        <default>false</default>
+        <label>Same phone number on more than one Membership</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership with 3 + different last names between Associates and Primary</fullName>
+        <default>false</default>
+        <label>Membership with 3 + different last names between Associates and Primary</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>2 + tows 40 + miles where breakdown is Membership residence</fullName>
+        <default>false</default>
+        <label>2 + tows 40 + miles where breakdown is Membership residence</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tow with concerning breakdown location verbiage</fullName>
+        <default>false</default>
+        <label>Tow with concerning breakdown location verbiage</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>3 + tows 40 + miles with no passengers</fullName>
+        <default>false</default>
+        <label>3 + tows 40 + miles with no passengers</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>3 + calls that should be fixed</fullName>
+        <default>false</default>
+        <label>3 + calls that should be fixed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Multiple Residence to residence tows</fullName>
+        <default>false</default>
+        <label>Multiple Residence to residence tows</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>2 or more tire change calls for same Membership level and same vehicle in 72 hours</fullName>
+        <default>false</default>
+        <label>2 or more tire change calls for same Membership level and same vehicle in 72 hours</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>D3 Status Code Alert</fullName>
+        <default>false</default>
+        <label>D3 Status Code Alert</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Multi Vehicle Same Member</fullName>
+        <default>false</default>
+        <label>Multi Vehicle Same Member</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Out of State-Need to Transfer</fullName>
+        <default>false</default>
+        <label>Out of State-Need to Transfer</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Top 100 Cost</fullName>
+        <default>false</default>
+        <label>Top 100 Cost</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Renewal_EEMU</fullName>
+        <default>false</default>
+        <label>Non-Renewal : EEMU</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>AAA National complaint</fullName>
+        <default>false</default>
+        <label>AAA National complaint</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Attorney General</fullName>
+        <default>false</default>
+        <label>Attorney General</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Better Business Bureau</fullName>
+        <default>false</default>
+        <label>Better Business Bureau</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>System</fullName>
+        <default>false</default>
+        <label>System</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>User</fullName>
+        <default>false</default>
+        <label>User</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor Outage</fullName>
+        <default>false</default>
+        <label>Vendor Outage</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Network Outage</fullName>
+        <default>false</default>
+        <label>Network Outage</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancellation : DEMU</fullName>
+        <default>false</default>
+        <label>Cancellation : DEMU</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>National Survey</fullName>
+        <default>false</default>
+        <label>National Survey</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Agent Error</fullName>
+        <default>false</default>
+        <label>Agent Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Admin Service Resource</layout>
+        <sections>
+            <label><!-- Resource Views --></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label><!-- VFS --></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Service Resource Layout</layout>
+        <sections>
+            <label>Kaynak Görünümleri</label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label>VFS</label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Supervisor FSL Service Resource Layout</layout>
+        <sections>
+            <label><!-- Resource Skills --></label>
+            <section>Resource Skills</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Capacities --></label>
+        <name>Create_Capacities</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete Capacities --></label>
+        <name>Delete_Capacities</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Terminate User --></label>
+        <name>Terminate_User</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit the Name field. --></errorMessage>
+        <name>Name_Not_Editable_by_External_Users</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your permissions do not allow you to create Service Resources. Please contact your administrator. --></errorMessage>
+        <name>Restrict_Creation</name>
+    </validationRules>
+</CustomObjectTranslation>

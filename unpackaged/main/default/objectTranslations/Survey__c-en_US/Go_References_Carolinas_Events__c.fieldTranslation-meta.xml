@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do you refer to the Carolina events listed in each issue? --></help>
+        <label><!-- References Carolinas Events --></label>
+        <name>Go_References_Carolinas_Events__c</name>
+    </CustomFieldTranslation>

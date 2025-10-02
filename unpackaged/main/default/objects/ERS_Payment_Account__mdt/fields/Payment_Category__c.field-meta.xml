@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Category__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Payment Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BASIC</fullName>
+                <default>true</default>
+                <label>BASIC</label>
+            </value>
+            <value>
+                <fullName>PLUS</fullName>
+                <default>false</default>
+                <label>PLUS</label>
+            </value>
+            <value>
+                <fullName>CARRENT</fullName>
+                <default>false</default>
+                <label>CARRENT</label>
+            </value>
+            <value>
+                <fullName>HOMELOCK</fullName>
+                <default>false</default>
+                <label>HOMELOCK</label>
+            </value>
+            <value>
+                <fullName>MOTO</fullName>
+                <default>false</default>
+                <label>MOTO</label>
+            </value>
+            <value>
+                <fullName>PREMIER</fullName>
+                <default>false</default>
+                <label>PREMIER</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <label>RV</label>
+            </value>
+            <value>
+                <fullName>TMAACG</fullName>
+                <default>false</default>
+                <label>TMAACG</label>
+            </value>
+            <value>
+                <fullName>TMACONTR</fullName>
+                <default>false</default>
+                <label>TMACONTR</label>
+            </value>
+            <value>
+                <fullName>TMAFLEET</fullName>
+                <default>false</default>
+                <label>TMAFLEET</label>
+            </value>
+            <value>
+                <fullName>TMSAAR</fullName>
+                <default>false</default>
+                <label>TMSAAR</label>
+            </value>
+            <value>
+                <fullName>TMSBATTA</fullName>
+                <default>false</default>
+                <label>TMSBATTA</label>
+            </value>
+            <value>
+                <fullName>TMSBATTC</fullName>
+                <default>false</default>
+                <label>TMSBATTC</label>
+            </value>
+            <value>
+                <fullName>TMSBATTF</fullName>
+                <default>false</default>
+                <label>TMSBATTF</label>
+            </value>
+            <value>
+                <fullName>BACKGROU 909660   B</fullName>
+                <default>false</default>
+                <label>BACKGROU 909660   B</label>
+            </value>
+            <value>
+                <fullName>BASIC    929100   B</fullName>
+                <default>false</default>
+                <label>BASIC    929100   B</label>
+            </value>
+            <value>
+                <fullName>BATTERY  928245   B</fullName>
+                <default>false</default>
+                <label>BATTERY  928245   B</label>
+            </value>
+            <value>
+                <fullName>BATTWITH 196037 B</fullName>
+                <default>false</default>
+                <label>BATTWITH 196037 B</label>
+            </value>
+            <value>
+                <fullName>CK/GUART 182002 O</fullName>
+                <default>false</default>
+                <label>CK/GUART 182002 O</label>
+            </value>
+            <value>
+                <fullName>CUST APP 950101 B</fullName>
+                <default>false</default>
+                <label>CUST APP 950101 B</label>
+            </value>
+            <value>
+                <fullName>D3ME 929570 O</fullName>
+                <default>false</default>
+                <label>D3ME 929570 O</label>
+            </value>
+            <value>
+                <fullName>DAMAGE 929140 B</fullName>
+                <default>false</default>
+                <label>DAMAGE 929140 B</label>
+            </value>
+            <value>
+                <fullName>FUEL SUB 929210 O</fullName>
+                <default>false</default>
+                <label>FUEL SUB 929210 O</label>
+            </value>
+            <value>
+                <fullName>NTWKLSING 334006 B</fullName>
+                <default>false</default>
+                <label>NTWKLSING 334006 B</label>
+            </value>
+            <value>
+                <fullName>NTWKLSING 196036 B</fullName>
+                <default>false</default>
+                <label>NTWKLSING 196036 B</label>
+            </value>
+            <value>
+                <fullName>OTHER 929125 O</fullName>
+                <default>false</default>
+                <label>OTHER 929125 O</label>
+            </value>
+            <value>
+                <fullName>OVER DRA 337006 O</fullName>
+                <default>false</default>
+                <label>OVER DRA 337006 O</label>
+            </value>
+            <value>
+                <fullName>OVERCHAR 929100 B</fullName>
+                <default>false</default>
+                <label>OVERCHAR 929100 B</label>
+            </value>
+            <value>
+                <fullName>PAPER CH 950600 B</fullName>
+                <default>false</default>
+                <label>PAPER CH 950600 B</label>
+            </value>
+            <value>
+                <fullName>PERF PAY 929180 B</fullName>
+                <default>false</default>
+                <label>PERF PAY 929180 B</label>
+            </value>
+            <value>
+                <fullName>PLUS PLUS0000 P</fullName>
+                <default>false</default>
+                <label>PLUS PLUS0000 P</label>
+            </value>
+            <value>
+                <fullName>PREMIER PREM0000</fullName>
+                <default>false</default>
+                <label>PREMIER PREM0000</label>
+            </value>
+            <value>
+                <fullName>PREMIER PRV00000</fullName>
+                <default>false</default>
+                <label>PREMIER PRV00000</label>
+            </value>
+            <value>
+                <fullName>PUERTO R 338003   O</fullName>
+                <default>false</default>
+                <label>PUERTO R 338003   O</label>
+            </value>
+            <value>
+                <fullName>RECIP BA 929135 B</fullName>
+                <default>false</default>
+                <label>RECIP BA 929135 B</label>
+            </value>
+            <value>
+                <fullName>RECIP PL 929560 P</fullName>
+                <default>false</default>
+                <label>RECIP PL 929560 P</label>
+            </value>
+            <value>
+                <fullName>RECIP PR RPREM000</fullName>
+                <default>false</default>
+                <label>RECIP PR RPREM000</label>
+            </value>
+            <value>
+                <fullName>RECIP PR R</fullName>
+                <default>false</default>
+                <label>RECIP PR  R</label>
+            </value>
+            <value>
+                <fullName>RECIP RV 929561 R</fullName>
+                <default>false</default>
+                <label>RECIP RV 929561 R</label>
+            </value>
+            <value>
+                <fullName>RENT 886001 B</fullName>
+                <default>false</default>
+                <label>RENT 886001 B</label>
+            </value>
+            <value>
+                <fullName>TAXES    929250   O</fullName>
+                <default>false</default>
+                <label>TAXES    929250   O</label>
+            </value>
+            <value>
+                <fullName>SPECIALE 916150   B</fullName>
+                <default>false</default>
+                <label>SPECIALE 916150   B</label>
+            </value>
+            <value>
+                <fullName>RV       929525   R</fullName>
+                <default>false</default>
+                <label>RV       929525   R</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

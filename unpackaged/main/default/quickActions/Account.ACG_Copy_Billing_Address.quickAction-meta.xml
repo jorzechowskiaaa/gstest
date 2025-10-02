@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>ShippingCity</field>
+        <formula>Account.BillingCity</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ShippingCountry</field>
+        <formula>Account.BillingCountry</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ShippingPostalCode</field>
+        <formula>Account.BillingPostalCode</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ShippingState</field>
+        <formula>Account.BillingState</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ShippingStreet</field>
+        <formula>Account.BillingStreet</formula>
+    </fieldOverrides>
+    <label>Copy Billing Address to Shipping Address</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>You have just copied to the billing address to shipping address</successMessage>
+    <type>Update</type>
+</QuickAction>

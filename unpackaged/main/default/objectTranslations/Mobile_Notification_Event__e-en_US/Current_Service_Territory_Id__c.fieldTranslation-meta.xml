@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Current Service Territory Id --></label>
+        <name>Current_Service_Territory_Id__c</name>
+    </CustomFieldTranslation>

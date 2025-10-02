@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Vehicle_Location_Type__c</fullName>
+    <label>Vehicle Location Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alley</fullName>
+                <default>false</default>
+                <label>Alley</label>
+            </value>
+            <value>
+                <fullName>Beach</fullName>
+                <default>false</default>
+                <label>Beach</label>
+            </value>
+            <value>
+                <fullName>Ditch</fullName>
+                <default>false</default>
+                <label>Ditch</label>
+            </value>
+            <value>
+                <fullName>Driveway</fullName>
+                <default>false</default>
+                <label>Driveway</label>
+            </value>
+            <value>
+                <fullName>Front Parking Lot</fullName>
+                <default>false</default>
+                <label>Front Parking Lot</label>
+            </value>
+            <value>
+                <fullName>Highway</fullName>
+                <default>false</default>
+                <label>Highway</label>
+            </value>
+            <value>
+                <fullName>Low Clearance Garage</fullName>
+                <default>false</default>
+                <label>Low Clearance Garage</label>
+            </value>
+            <value>
+                <fullName>Median</fullName>
+                <default>false</default>
+                <label>Median</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Parking Lot</fullName>
+                <default>false</default>
+                <label>Parking Lot</label>
+            </value>
+            <value>
+                <fullName>Parking Structure</fullName>
+                <default>false</default>
+                <label>Parking Structure</label>
+            </value>
+            <value>
+                <fullName>Rear Driveway</fullName>
+                <default>false</default>
+                <label>Rear Driveway</label>
+            </value>
+            <value>
+                <fullName>Rear Parking Lot</fullName>
+                <default>false</default>
+                <label>Rear Parking Lot</label>
+            </value>
+            <value>
+                <fullName>Residential Garage</fullName>
+                <default>false</default>
+                <label>Residential Garage</label>
+            </value>
+            <value>
+                <fullName>Road Shoulder</fullName>
+                <default>false</default>
+                <label>Road Shoulder</label>
+            </value>
+            <value>
+                <fullName>Street</fullName>
+                <default>false</default>
+                <label>Street</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

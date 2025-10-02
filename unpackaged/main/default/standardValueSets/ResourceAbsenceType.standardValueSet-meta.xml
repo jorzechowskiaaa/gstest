@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Vacation</fullName>
+        <default>true</default>
+        <label>Vacation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Idle</fullName>
+        <default>false</default>
+        <label>Idle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Break/Meal Break</fullName>
+        <default>false</default>
+        <label>Break/Meal Break</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shop Call</fullName>
+        <default>false</default>
+        <label>Shop Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Truck Down</fullName>
+        <default>false</default>
+        <label>Truck Down</label>
+    </standardValue>
+</StandardValueSet>

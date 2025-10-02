@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Calls_Green_New_Haven</fullName>
+    <booleanFilter>1 AND 2 AND 4 AND (5 OR 3 OR 6 OR 7)</booleanFilter>
+    <columns>D3_Call_ID__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Work_Order_Priority__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CreatedDate</columns>
+    <columns>PTA__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Status</columns>
+    <columns>On_Location_Timestamp__c</columns>
+    <columns>T_Code__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>FSL_Street_City__c</columns>
+    <columns>Tow_Mileage__c</columns>
+    <columns>FSL_Member_Vehicle_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>Declined,Spotted,Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Tow Complete</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>6/6/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>C123-GUILFORD TEXACO INCSwitch,C128-OLLIE&#39;S GARAGE &amp; AUTO BODY INC,C141-LL-J &amp; M TOWING LLC,C143-WHEELERS AUTO SERVICE INC,C155-SUPERIOR AUTO REPAIR &amp; TOWING LLC,C156-RJ SHORE AUTOMOTIVE,C158-LL-UNITED TIRE INC</value>
+    </filters>
+    <filters>
+        <field>isBreakdown__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>C190-ANTHONY&#39;S HIGH TECH,C192-LOMBARD MOTORS,C194-MIKES AUTOMOTIVE SERVICE LLC,C410-LL-ALPLEX AUTOBODY AND TOWING,C419-DURABLE TOWING,C425-AVENUE AUTO SALES INC,C784-NELCON TOWING AND RECOVERY</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>C807-CLASSIC COACH WORKS INC,C816-ENVY SERVICE CENTER LLC,C825-CANDLEWOOD VALLEY MOTORS LLC,C835-LAKEVILLE TOWING,C9002-LL-HILARIOS SERVICE CENTER,C9003-LL-STRATFORD COLLISION OF BRIDGE,C9007-LL-LAUREL CITY TOWING &amp; RECOV</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+        <value>C906-TORRINGTON FOUR WHEEL &amp; OFF ROAD,C970-ARNOLD&#39;S GARAGE,Y1901-C&amp;C AUTOMOTIVE REPAIR SVCES INC.</value>
+    </filters>
+    <label>Green New Haven/Litchfield/N.Fairfieldv3</label>
+    <sharedTo>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

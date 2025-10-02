@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hour in which the call was received, adjusted to local timezone of the breakdown address --></help>
+        <label><!-- Local Time of Call --></label>
+        <name>Local_Time_of_Call__c</name>
+    </CustomFieldTranslation>

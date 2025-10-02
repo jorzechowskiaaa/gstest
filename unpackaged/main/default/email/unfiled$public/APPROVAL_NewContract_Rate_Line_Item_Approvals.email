@@ -1,0 +1,8 @@
+*** NEW CONTRACT - RATE LINE ITEM APPROVAL NOTIFICATION ***
+<br><br>
+The following approval request has been submitted for BO approval by {!User.Name}<br>
+Please review the Contract and Rate Line Items.<br><br>
+
+Click on the link to access the Contract : <a href="{!Contract__c.Link}">{!Contract__c.Name}</a><br>
+
+Thanks.

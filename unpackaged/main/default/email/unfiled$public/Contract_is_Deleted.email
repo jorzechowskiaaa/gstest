@@ -1,0 +1,7 @@
+Hi<br>
+
+A Contract:{!Contract__c.Name} has been deleted by {!User.Name}<br>
+Name: {!Contract__c.Name}<br>
+Description: {!Contract__c.Description__c}<br><br>
+
+Thank you.

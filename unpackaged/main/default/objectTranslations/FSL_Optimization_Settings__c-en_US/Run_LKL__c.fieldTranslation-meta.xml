@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- On/Off field for running LKL job to create resource absence records.
+True: LKL Job will be running and creating LKL records
+False: LKL Job wont run --></help>
+        <label><!-- Run LKL --></label>
+        <name>Run_LKL__c</name>
+    </CustomFieldTranslation>

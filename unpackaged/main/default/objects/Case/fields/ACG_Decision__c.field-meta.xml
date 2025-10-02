@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Decision__c</fullName>
+    <label>Decision</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Warning Letter</fullName>
+                <default>false</default>
+                <label>Warning Letter</label>
+            </value>
+            <value>
+                <fullName>Recommend Cancel</fullName>
+                <default>false</default>
+                <label>Recommend Cancel</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Non Renew</fullName>
+                <default>false</default>
+                <label>Non Renew</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

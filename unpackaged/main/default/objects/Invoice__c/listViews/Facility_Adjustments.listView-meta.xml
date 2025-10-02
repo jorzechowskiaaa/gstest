@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Adjustments</fullName>
+    <columns>NAME</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Type__c</columns>
+    <columns>Total_Cost__c</columns>
+    <columns>Status__c</columns>
+    <columns>Facility_Adjustment__c</columns>
+    <columns>Facility_Adjustment_Category__c</columns>
+    <columns>Facility_Adjustment_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Facility Adjustments</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Invoice__c.Facility_Adjustment</value>
+    </filters>
+    <filters>
+        <field>Statement_Date__c</field>
+        <operation>equals</operation>
+        <value>4/16/2024</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Ready for Processing,Ready for Payment,Paid,Deferred</value>
+    </filters>
+    <label>Facility Adjustments</label>
+</ListView>

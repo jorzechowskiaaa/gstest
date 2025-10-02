@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Driver Needs Help Reason --></label>
+        <name>Driver_Needs_Help_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Emergency (ER Situation Only)</masterLabel>
+            <translation><!-- Emergency (ER Situation Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Needs a Tow</masterLabel>
+            <translation><!-- Member Needs a Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Please Call Me</masterLabel>
+            <translation><!-- Please Call Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will Not Meet PTA</masterLabel>
+            <translation><!-- Will Not Meet PTA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

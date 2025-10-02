@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>FSL_Work_Order__c</columns>
+    <columns>FSL_Reason__c</columns>
+    <columns>FSL_Type__c</columns>
+    <columns>FSL_Service_Territory__c</columns>
+    <columns>FSL_Service_Resource__c</columns>
+    <columns>FSL_User__c</columns>
+    <columns>FSL_Resolution_Time__c</columns>
+    <columns>FSL_Case__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

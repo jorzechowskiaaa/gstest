@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SPP_Partially_Approved_Adjustments</fullName>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>Call_Date__c</columns>
+    <columns>Call_Id__c</columns>
+    <columns>D3_Tow_Mileage__c</columns>
+    <columns>RecordType</columns>
+    <columns>Member_Number__c</columns>
+    <columns>Phone_Number__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>No_of_Partially_Approved_Adjustment_SLI__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Partially Approved Adjustments</label>
+    <sharedTo>
+        <allPartnerUsers />
+    </sharedTo>
+</ListView>

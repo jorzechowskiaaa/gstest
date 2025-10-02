@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Designates if this repair order had a declined filter (check = True) --></help>
+        <label><!-- Declined Filter --></label>
+        <name>Declined_Filter__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Club_Name__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Club Name</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAA North Dakota - 113</fullName>
+                <default>true</default>
+                <label>AAA North Dakota - 113</label>
+            </value>
+            <value>
+                <fullName>AAA Chicago - 020</fullName>
+                <default>false</default>
+                <label>AAA Chicago - 020</label>
+            </value>
+            <value>
+                <fullName>AAA Michigan - 047</fullName>
+                <default>false</default>
+                <label>AAA Michigan - 047</label>
+            </value>
+            <value>
+                <fullName>AAA Minnesota/lowa - 049</fullName>
+                <default>false</default>
+                <label>AAA Minnesota/lowa - 049</label>
+            </value>
+            <value>
+                <fullName>AAA Nebraska - 069</fullName>
+                <default>false</default>
+                <label>AAA Nebraska - 069</label>
+            </value>
+            <value>
+                <fullName>AAA Wisconsin - 270</fullName>
+                <default>false</default>
+                <label>AAA Wisconsin - 270</label>
+            </value>
+            <value>
+                <fullName>Auto Club South - 014</fullName>
+                <default>false</default>
+                <label>Auto Club South - 014</label>
+            </value>
+            <value>
+                <fullName>AAA Carolinas - 111</fullName>
+                <default>false</default>
+                <label>AAA Carolinas - 111</label>
+            </value>
+            <value>
+                <fullName>AAA Colorado - 006</fullName>
+                <default>false</default>
+                <label>AAA Colorado - 006</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

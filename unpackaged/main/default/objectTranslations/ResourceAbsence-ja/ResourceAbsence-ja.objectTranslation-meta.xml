@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <validationRules>
+        <errorMessage><!-- Resource Absence can be created only for future date, and up to 14 Days in the future --></errorMessage>
+        <name>Check_Resource_Absence_Date_and_Time</name>
+    </validationRules>
+</CustomObjectTranslation>

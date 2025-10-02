@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Home_Lockout_Issue__c</fullName>
+    <label>Home Lockout Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Broken Key</fullName>
+                <default>false</default>
+                <label>Broken Key</label>
+            </value>
+            <value>
+                <fullName>Broken Lock</fullName>
+                <default>false</default>
+                <label>Broken Lock</label>
+            </value>
+            <value>
+                <fullName>Needs Key Extrication</fullName>
+                <default>false</default>
+                <label>Needs Key Extrication</label>
+            </value>
+            <value>
+                <fullName>Key Will not Turn</fullName>
+                <default>false</default>
+                <label>Key Will not Turn</label>
+            </value>
+            <value>
+                <fullName>Lost/Stolen Key</fullName>
+                <default>false</default>
+                <label>Lost/Stolen Key</label>
+            </value>
+            <value>
+                <fullName>Keys in House</fullName>
+                <default>false</default>
+                <label>Keys in House</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

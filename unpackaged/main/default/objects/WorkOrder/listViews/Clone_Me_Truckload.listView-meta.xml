@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clone_Me_Truckload</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Call_Id__c</columns>
+    <columns>Status</columns>
+    <columns>Age__c</columns>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>WorkType</columns>
+    <columns>Breakdown_Address__c</columns>
+    <columns>Tow_Address__c</columns>
+    <columns>Vehicle_Profile__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>290410</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Spotted,In Progress,Cleared</value>
+    </filters>
+    <label>Clone Me - Truckload</label>
+    <sharedTo>
+        <group>NNE_Dispatch</group>
+    </sharedTo>
+</ListView>

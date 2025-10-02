@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Arrival_Window_End_Time_Update_Timestamp__c</fullName>
+    <description>timestamp flag win Arrival Window End Time update by 2nd Policy logic</description>
+    <label>Arrival Window End Time Update Timestamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

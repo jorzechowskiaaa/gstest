@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Entitlement --></label>
+        <name>Entitlement__c</name>
+        <picklistValues>
+            <masterLabel>AR Auto Renewal Call Benefit</masterLabel>
+            <translation><!-- AR Auto Renewal Call Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Entitlements Charge</masterLabel>
+            <translation><!-- EC Entitlements Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Exception Denied</masterLabel>
+            <translation><!-- ED Exception Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Dispatcher Exception Safety Tow</masterLabel>
+            <translation><!-- ES Dispatcher Exception Safety Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EX Exception Granted</masterLabel>
+            <translation><!-- EX Exception Granted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HL Premier Home Lockout Benefit</masterLabel>
+            <translation><!-- HL Premier Home Lockout Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISF Immediate Service Fee</masterLabel>
+            <translation><!-- ISF Immediate Service Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB Member Billing Call</masterLabel>
+            <translation><!-- MB Member Billing Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MC Basic Motorcycle Coverage</masterLabel>
+            <translation><!-- MC Basic Motorcycle Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PB Premier Battery Benefit</masterLabel>
+            <translation><!-- PB Premier Battery Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIL ISF Pilot Use Only</masterLabel>
+            <translation><!-- PIL ISF Pilot Use Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIX Premier Long Tow Benefit</masterLabel>
+            <translation><!-- PIX Premier Long Tow Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RL RV Upto 500 Limit</masterLabel>
+            <translation><!-- RL RV Upto 500 Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF Service Fee (Pilot Group Only)</masterLabel>
+            <translation><!-- SF Service Fee (Pilot Group Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XCD (Pilot Use Only) CDR Home Tow N</masterLabel>
+            <translation><!-- XCD (Pilot Use Only) CDR Home Tow N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XCT (Pilot Use Only) CDR Home Tow</masterLabel>
+            <translation><!-- XCT (Pilot Use Only) CDR Home Tow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

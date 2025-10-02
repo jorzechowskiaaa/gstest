@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Battery Jumpstart</fullName>
+        <default>false</default>
+        <label>Battery Jumpstart</label>
+    </customValue>
+    <customValue>
+        <fullName>Battery Test</fullName>
+        <default>false</default>
+        <label>Battery Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Bicycle Tow</fullName>
+        <default>false</default>
+        <label>Bicycle Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>EV Charge</fullName>
+        <default>false</default>
+        <label>EV Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>Flatbed Tow</fullName>
+        <default>false</default>
+        <label>Flatbed Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat Tire</fullName>
+        <default>false</default>
+        <label>Flat Tire</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuel Delivery</fullName>
+        <default>false</default>
+        <label>Fuel Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Light Service Assessment</fullName>
+        <default>false</default>
+        <label>Light Service Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Lockout</fullName>
+        <default>false</default>
+        <label>Lockout</label>
+    </customValue>
+    <customValue>
+        <fullName>Locksmith</fullName>
+        <default>false</default>
+        <label>Locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Tow</fullName>
+        <default>false</default>
+        <label>Long Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Low Clearance Tow</fullName>
+        <default>false</default>
+        <label>Low Clearance Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle Tow</fullName>
+        <default>false</default>
+        <label>Motorcycle Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-RV Extrication</fullName>
+        <default>false</default>
+        <label>Non-RV Extrication</label>
+    </customValue>
+    <customValue>
+        <fullName>Passenger Car Tow</fullName>
+        <default>false</default>
+        <label>Passenger Car Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Requested Tow</fullName>
+        <default>false</default>
+        <label>Requested Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>RV Extrication</fullName>
+        <default>false</default>
+        <label>RV Extrication</label>
+    </customValue>
+    <customValue>
+        <fullName>RV Tow</fullName>
+        <default>false</default>
+        <label>RV Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Tire Change</fullName>
+        <default>false</default>
+        <label>Tire Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Tow</fullName>
+        <default>false</default>
+        <label>Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - First Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - First Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - Second Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - Second Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - Continuation Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - Continuation Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - RV First Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - RV First Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - RV Second Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - RV Second Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - RV Continuation Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - RV Continuation Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - MC First Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - MC First Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - MC Second Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - MC Second Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>Accident Assist - MC Continuation Tow</fullName>
+        <default>false</default>
+        <label>Accident Assist - MC Continuation Tow</label>
+    </customValue>
+    <masterLabel>Work Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

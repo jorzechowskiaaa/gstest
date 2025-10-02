@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affiliate_Club_Service_Territory__c</fullName>
+    <description>This is to be used to indicate which affiliate club service territory was given the Work Order.  Currently just for Northway and Hudson Valley calls</description>
+    <inlineHelpText>Use this only for AAA Northway and AAA Hudson Valley work orders</inlineHelpText>
+    <label>Affiliate Club Service Territory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>H100-HUDSON VALLEY HOLDING FACILITY ALBANY NY</fullName>
+                <default>false</default>
+                <label>H100-HUDSON VALLEY HOLDING FACILITY ALBANY NY</label>
+            </value>
+            <value>
+                <fullName>H101-HUDSON VALLEY DAYTIME ALERT ALBANY NY</fullName>
+                <default>false</default>
+                <label>H101-HUDSON VALLEY DAYTIME ALERT ALBANY NY</label>
+            </value>
+            <value>
+                <fullName>H150-EAGLE TOWING</fullName>
+                <default>false</default>
+                <label>H150-EAGLE TOWING</label>
+            </value>
+            <value>
+                <fullName>H150-EAGLE TOWING (518)254-0000 COBLESKILL NY</fullName>
+                <default>false</default>
+                <label>H150-EAGLE TOWING (518)254-0000 COBLESKILL NY</label>
+            </value>
+            <value>
+                <fullName>H161-MIKE SLAUSON&#39;S TOWING</fullName>
+                <default>false</default>
+                <label>H161-MIKE SLAUSON&#39;S TOWING</label>
+            </value>
+            <value>
+                <fullName>H161-MIKE SLAUSON&#39;S TOWING (518)283-7682 CASTELTON ON</fullName>
+                <default>false</default>
+                <label>H161-MIKE SLAUSON&#39;S TOWING (518)283-7682 CASTELTON ON</label>
+            </value>
+            <value>
+                <fullName>H183-INTERSTATE TOWING (518)372-7555 SCHENECTADY NY</fullName>
+                <default>false</default>
+                <label>H183-INTERSTATE TOWING (518)372-7555 SCHENECTADY NY</label>
+            </value>
+            <value>
+                <fullName>H193-ALPHA ROADSERVICE (518)901-9091xNavi MECHANICVILLE NY</fullName>
+                <default>false</default>
+                <label>H193-ALPHA ROADSERVICE (518)901-9091xNavi MECHANICVILLE NY</label>
+            </value>
+            <value>
+                <fullName>H204-TREV&#39;S AUTOMOTIVE (518)379-6328 CLIFTON PARK NY</fullName>
+                <default>false</default>
+                <label>H204-TREV&#39;S AUTOMOTIVE (518)379-6328 CLIFTON PARK NY</label>
+            </value>
+            <value>
+                <fullName>H305-GARY&#39;S GARAGE (518)869-0873 ALBANY NY</fullName>
+                <default>false</default>
+                <label>H305-GARY&#39;S GARAGE (518)869-0873 ALBANY NY</label>
+            </value>
+            <value>
+                <fullName>SNY17-HUCKLES TOWING (607)565-2771 WAVERLY NY</fullName>
+                <default>false</default>
+                <label>SNY17-HUCKLES TOWING (607)565-2771 WAVERLY NY</label>
+            </value>
+            <value>
+                <fullName>SNY20-GARY&#39;S AUTO BODY (607)734-5397 ELMIRA NY</fullName>
+                <default>false</default>
+                <label>SNY20-GARY&#39;S AUTO BODY (607)734-5397 ELMIRA NY</label>
+            </value>
+            <value>
+                <fullName>SNY3-S&amp;S SERVICE (607)467-2929 DEPOSIT NY</fullName>
+                <default>false</default>
+                <label>SNY3-S&amp;S SERVICE (607)467-2929 DEPOSIT NY</label>
+            </value>
+            <value>
+                <fullName>SNY4-FRANK&#39;S GARAGE (607)467-2119 DEPOSIT NY</fullName>
+                <default>false</default>
+                <label>SNY4-FRANK&#39;S GARAGE (607)467-2119 DEPOSIT NY</label>
+            </value>
+            <value>
+                <fullName>SNY52-JOE&#39;S GARAGE (607)723-3520 BINGHAMTON NY</fullName>
+                <default>false</default>
+                <label>SNY52-JOE&#39;S GARAGE (607)723-3520 BINGHAMTON NY</label>
+            </value>
+            <value>
+                <fullName>SNY54-BECK&#39;S TIOGA TOWING (607)625-5653 APALACHIN NY</fullName>
+                <default>false</default>
+                <label>SNY54-BECK&#39;S TIOGA TOWING (607)625-5653 APALACHIN NY</label>
+            </value>
+            <value>
+                <fullName>SNY55-TRIPLE CITY TOWING (607)341-8610 VESTAL NY</fullName>
+                <default>false</default>
+                <label>SNY55-TRIPLE CITY TOWING (607)341-8610 VESTAL NY</label>
+            </value>
+            <value>
+                <fullName>SNY63-JACK&#39;S AUTO BODY (607)849-3472 RICHFORD NY</fullName>
+                <default>false</default>
+                <label>SNY63-JACK&#39;S AUTO BODY (607)849-3472 RICHFORD NY</label>
+            </value>
+            <value>
+                <fullName>SNY69-PARMENTER TIRE, AUTO &amp; TRUCK SERVICES</fullName>
+                <default>false</default>
+                <label>SNY69-PARMENTER TIRE, AUTO &amp; TRUCK SERVICES</label>
+            </value>
+            <value>
+                <fullName>SNY6-STUDER&#39;S BODY SHOP (607)775-4629x24HR KIRKWOOD NY</fullName>
+                <default>false</default>
+                <label>SNY6-STUDER&#39;S BODY SHOP (607)775-4629x24HR KIRKWOOD NY</label>
+            </value>
+            <value>
+                <fullName>SNY75-RON&#39;S BODY AND PAINT (607)662-4543 MARATHON</fullName>
+                <default>false</default>
+                <label>SNY75-RON&#39;S BODY AND PAINT (607)662-4543 MARATHON</label>
+            </value>
+            <value>
+                <fullName>SNY82-VAL-U AUTO &amp; TOWING (607)687-0056 OWEGO</fullName>
+                <default>false</default>
+                <label>SNY82-VAL-U AUTO &amp; TOWING (607)687-0056 OWEGO</label>
+            </value>
+            <value>
+                <fullName>SNY87-SCOTT&#39;S COLLISION (607)655-3368 WINDSOR NY</fullName>
+                <default>false</default>
+                <label>SNY87-SCOTT&#39;S COLLISION (607)655-3368 WINDSOR NY</label>
+            </value>
+            <value>
+                <fullName>SNY90-VAL-U TOWING - BINGHAMTON (607)687-0056xSHOP BINGHAMTON</fullName>
+                <default>false</default>
+                <label>SNY90-VAL-U TOWING - BINGHAMTON (607)687-0056xSHOP BINGHAMTON</label>
+            </value>
+            <value>
+                <fullName>SNY93-PRO TECH SECURITY (607)723-2077 BINGHAMTON NY</fullName>
+                <default>false</default>
+                <label>SNY93-PRO TECH SECURITY (607)723-2077 BINGHAMTON NY</label>
+            </value>
+            <value>
+                <fullName>SNY9-AIRBORNE TOWING AND ROAD SERVICE (607)748-4090</fullName>
+                <default>false</default>
+                <label>SNY9-AIRBORNE TOWING AND ROAD SERVICE (607)748-4090</label>
+            </value>
+            <value>
+                <fullName>W115-SCHENECTADY LS FLEET</fullName>
+                <default>false</default>
+                <label>W115-SCHENECTADY LS FLEET</label>
+            </value>
+            <value>
+                <fullName>W118-KINETIC TOWING (518)428-8923</fullName>
+                <default>false</default>
+                <label>W118-KINETIC TOWING (518)428-8923</label>
+            </value>
+            <value>
+                <fullName>W123-SCHENECTADY TOW FLEET</fullName>
+                <default>false</default>
+                <label>W123-SCHENECTADY TOW FLEET</label>
+            </value>
+            <value>
+                <fullName>W128-TOWAWAY - SARATOGA (518)683-8119</fullName>
+                <default>false</default>
+                <label>W128-TOWAWAY - SARATOGA (518)683-8119</label>
+            </value>
+            <value>
+                <fullName>W136-CLIFTON PARK TOW FLEET</fullName>
+                <default>false</default>
+                <label>W136-CLIFTON PARK TOW FLEET</label>
+            </value>
+            <value>
+                <fullName>W138-CENTER FOR SECURITY (518)383-5329 CLIFTON PARK</fullName>
+                <default>false</default>
+                <label>W138-CENTER FOR SECURITY (518)383-5329 CLIFTON PARK</label>
+            </value>
+            <value>
+                <fullName>W195-BODIES BY JAY (518)792-5328xto5p SOUTH GLENS</fullName>
+                <default>false</default>
+                <label>W195-BODIES BY JAY (518)792-5328xto5p SOUTH GLENS</label>
+            </value>
+            <value>
+                <fullName>W204-INTERSTATE NORTHEAST INC (518)372-7555 SCHENECTADY NY</fullName>
+                <default>false</default>
+                <label>W204-INTERSTATE NORTHEAST INC (518)372-7555 SCHENECTADY NY</label>
+            </value>
+            <value>
+                <fullName>W207-EAGLE TOWING (518)254-0000 MIDDLEBURGH NY</fullName>
+                <default>false</default>
+                <label>W207-EAGLE TOWING (518)254-0000 MIDDLEBURGH NY</label>
+            </value>
+            <value>
+                <fullName>W217-HART&#39;S TOWING SERVICE (518)661-6159 MAYFIELD NY</fullName>
+                <default>false</default>
+                <label>W217-HART&#39;S TOWING SERVICE (518)661-6159 MAYFIELD NY</label>
+            </value>
+            <value>
+                <fullName>W245-C EZ LOCKSMITH (518)212-2211 AMSTERDAM NY</fullName>
+                <default>false</default>
+                <label>W245-C EZ LOCKSMITH (518)212-2211 AMSTERDAM NY</label>
+            </value>
+            <value>
+                <fullName>W250-APOLLO NORTHEAST (518)762-3023 JOHNSTOWN NY</fullName>
+                <default>false</default>
+                <label>W250-APOLLO NORTHEAST (518)762-3023 JOHNSTOWN NY</label>
+            </value>
+            <value>
+                <fullName>W255-M.W. ROOSEVELT &amp; SON (518)673-3214xDAY CANAJOHARIE</fullName>
+                <default>false</default>
+                <label>W255-M.W. ROOSEVELT &amp; SON (518)673-3214xDAY CANAJOHARIE</label>
+            </value>
+            <value>
+                <fullName>W262-C &amp; C AUTO WORKS (518)762-1033</fullName>
+                <default>false</default>
+                <label>W262-C &amp; C AUTO WORKS (518)762-1033</label>
+            </value>
+            <value>
+                <fullName>W263-ALPHA ROADSIDE (518)506-4132 MECHANICVILLE NY</fullName>
+                <default>false</default>
+                <label>W263-ALPHA ROADSIDE (518)506-4132 MECHANICVILLE NY</label>
+            </value>
+            <value>
+                <fullName>W269-TREV&#39;S AUTOMOTIVE (518)379-6328 CLIFTON PARK NY</fullName>
+                <default>false</default>
+                <label>W269-TREV&#39;S AUTOMOTIVE (518)379-6328 CLIFTON PARK NY</label>
+            </value>
+            <value>
+                <fullName>W274-KINGSTON ROAD SERVICE (518)416-5094 CLIFTON PARK</fullName>
+                <default>false</default>
+                <label>W274-KINGSTON ROAD SERVICE (518)416-5094 CLIFTON PARK</label>
+            </value>
+            <value>
+                <fullName>W277-BIG ANT&#39;S TOWING AND RECOVERY</fullName>
+                <default>false</default>
+                <label>W277-BIG ANT&#39;S TOWING AND RECOVERY</label>
+            </value>
+            <value>
+                <fullName>W278-KC TOWING (518)842-6666 AMSTERDAM NY</fullName>
+                <default>false</default>
+                <label>W278-KC TOWING (518)842-6666 AMSTERDAM NY</label>
+            </value>
+            <value>
+                <fullName>W280-O&#39;CONNOR TOWING (518)548-8473 LAKE PLEASANT NY</fullName>
+                <default>false</default>
+                <label>W280-O&#39;CONNOR TOWING (518)548-8473 LAKE PLEASANT NY</label>
+            </value>
+            <value>
+                <fullName>W289-ANDY&#39;S SERVICE (518)762-4118 JOHNSTOWN NY</fullName>
+                <default>false</default>
+                <label>W289-ANDY&#39;S SERVICE (518)762-4118 JOHNSTOWN NY</label>
+            </value>
+            <value>
+                <fullName>W292-Shufelt&#39;s</fullName>
+                <default>false</default>
+                <label>W292-Shufelt&#39;s</label>
+            </value>
+            <value>
+                <fullName>W296-BELLINGER ENTERPRISES (518)774-0724xNIGH JOHNSTOWN NY</fullName>
+                <default>false</default>
+                <label>W296-BELLINGER ENTERPRISES (518)774-0724xNIGH JOHNSTOWN NY</label>
+            </value>
+            <value>
+                <fullName>W304-INTERSTATE NORTHEAST INC - SARATOGA (518)372-7555</fullName>
+                <default>false</default>
+                <label>W304-INTERSTATE NORTHEAST INC - SARATOGA (518)372-7555</label>
+            </value>
+            <value>
+                <fullName>W316-WARNER&#39;S AUTO BODY (518)642-1342 GRANVILLE NY</fullName>
+                <default>false</default>
+                <label>W316-WARNER&#39;S AUTO BODY (518)642-1342 GRANVILLE NY</label>
+            </value>
+            <value>
+                <fullName>W326-F&amp;D AUTO SALES (518)695-3187 GREENWICH NY</fullName>
+                <default>false</default>
+                <label>W326-F&amp;D AUTO SALES (518)695-3187 GREENWICH NY</label>
+            </value>
+            <value>
+                <fullName>W331-JOHN&#39;S AUTOMOTIVE (518)677-3929 CAMBRIDGE NY</fullName>
+                <default>false</default>
+                <label>W331-JOHN&#39;S AUTOMOTIVE (518)677-3929 CAMBRIDGE NY</label>
+            </value>
+            <value>
+                <fullName>W334-BAIN&#39;S SERVICE CENTER (518)854-3000 SALEM NY</fullName>
+                <default>false</default>
+                <label>W334-BAIN&#39;S SERVICE CENTER (518)854-3000 SALEM NY</label>
+            </value>
+            <value>
+                <fullName>W338-DUDLEY&#39;S TRUCK &amp; EQUIPMENT (518)361-4176 WHITEHALL</fullName>
+                <default>false</default>
+                <label>W338-DUDLEY&#39;S TRUCK &amp; EQUIPMENT (518)361-4176 WHITEHALL</label>
+            </value>
+            <value>
+                <fullName>W346-SMITH STREET AUTO (518)499-9988xMF9- WHITEHALL NY</fullName>
+                <default>false</default>
+                <label>W346-SMITH STREET AUTO (518)499-9988xMF9- WHITEHALL NY</label>
+            </value>
+            <value>
+                <fullName>W355-R B MOTORS (518)585-7774xSHOP TICONDEROGA NY</fullName>
+                <default>false</default>
+                <label>W355-R B MOTORS (518)585-7774xSHOP TICONDEROGA NY</label>
+            </value>
+            <value>
+                <fullName>W360-JR AUTOMOTIVE (518)796-5361xERIC HADLEY NY</fullName>
+                <default>false</default>
+                <label>W360-JR AUTOMOTIVE (518)796-5361xERIC HADLEY NY</label>
+            </value>
+            <value>
+                <fullName>W368-TUBB&#39;S GARAGE (518)654-9545x8A-5 CORINTH NY</fullName>
+                <default>false</default>
+                <label>W368-TUBB&#39;S GARAGE (518)654-9545x8A-5 CORINTH NY</label>
+            </value>
+            <value>
+                <fullName>W385-NORTH COUNTRY TOWING (518)532-9892 SCHROON LAKE</fullName>
+                <default>false</default>
+                <label>W385-NORTH COUNTRY TOWING (518)532-9892 SCHROON LAKE</label>
+            </value>
+            <value>
+                <fullName>W386-POTTERSVILLE GARAGE (518)494-3631 POTTERSVILLE NY</fullName>
+                <default>false</default>
+                <label>W386-POTTERSVILLE GARAGE (518)494-3631 POTTERSVILLE NY</label>
+            </value>
+            <value>
+                <fullName>W388-K &amp; K REPAIRS (518)251-2582 OLMSTEADVILLE</fullName>
+                <default>false</default>
+                <label>W388-K &amp; K REPAIRS (518)251-2582 OLMSTEADVILLE</label>
+            </value>
+            <value>
+                <fullName>W389-GRAVES TRUCKING (518)532-9538xDAY SCHROON LAKE NY</fullName>
+                <default>false</default>
+                <label>W389-GRAVES TRUCKING (518)532-9538xDAY SCHROON LAKE NY</label>
+            </value>
+            <value>
+                <fullName>W404-INTERSTATE NORTHEAST - FULLMONT (518)372-7555 PATTERSONVILLE</fullName>
+                <default>false</default>
+                <label>W404-INTERSTATE NORTHEAST - FULLMONT (518)372-7555 PATTERSONVILLE</label>
+            </value>
+            <value>
+                <fullName>W410-MOHR&#39;S SERVICE CENTER (518)584-9797 SARATOGA SPRING</fullName>
+                <default>false</default>
+                <label>W410-MOHR&#39;S SERVICE CENTER (518)584-9797 SARATOGA SPRING</label>
+            </value>
+            <value>
+                <fullName>W422-VIELE&#39;S AUTOMOTIVE (518)623-5588 WARRENSBURG NY</fullName>
+                <default>false</default>
+                <label>W422-VIELE&#39;S AUTOMOTIVE (518)623-5588 WARRENSBURG NY</label>
+            </value>
+            <value>
+                <fullName>W426-DAN&#39;S TOWING (518)495-7837 GANSEVOORT NY</fullName>
+                <default>false</default>
+                <label>W426-DAN&#39;S TOWING (518)495-7837 GANSEVOORT NY</label>
+            </value>
+            <value>
+                <fullName>W505-T. HOFFMAN (518)523-2888 LAKE PLACID NY</fullName>
+                <default>false</default>
+                <label>W505-T. HOFFMAN (518)523-2888 LAKE PLACID NY</label>
+            </value>
+            <value>
+                <fullName>W507-CENTRAL GARAGE (518)523-1957 LAKE PLACID NY</fullName>
+                <default>false</default>
+                <label>W507-CENTRAL GARAGE (518)523-1957 LAKE PLACID NY</label>
+            </value>
+            <value>
+                <fullName>W516-MADDEN&#39;S TOWING (518)891-1100 SANANAC LAKE NY</fullName>
+                <default>false</default>
+                <label>W516-MADDEN&#39;S TOWING (518)891-1100 SANANAC LAKE NY</label>
+            </value>
+            <value>
+                <fullName>W523-T. HOFFMAN (518)523-2888 LAKE PLACID NY</fullName>
+                <default>false</default>
+                <label>W523-T. HOFFMAN (518)523-2888 LAKE PLACID NY</label>
+            </value>
+            <value>
+                <fullName>W525-MORIN&#39;S COLLISION (315)369-3396 THENDARA NY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>W525-MORIN&#39;S COLLISION (315)369-3396 THENDARA NY</label>
+            </value>
+            <value>
+                <fullName>W529-B&amp;R AUTO REPAIR (518)426-0762xMike FORT EDWARD</fullName>
+                <default>false</default>
+                <label>W529-B&amp;R AUTO REPAIR (518)426-0762xMike FORT EDWARD</label>
+            </value>
+            <value>
+                <fullName>W543-COUNTERS GARAGE 518-524-0556 Tupper Lake, NY</fullName>
+                <default>false</default>
+                <label>W543-COUNTERS GARAGE 518-524-0556 Tupper Lake, NY</label>
+            </value>
+            <value>
+                <fullName>W546-LUKE&#39;S (518)359-9282 TUPPER LAKE NY</fullName>
+                <default>false</default>
+                <label>W546-LUKE&#39;S (518)359-9282 TUPPER LAKE NY</label>
+            </value>
+            <value>
+                <fullName>W547-GALLAGHER&#39;S AUTO (518)561-1089 PLATTSBURGH NY</fullName>
+                <default>false</default>
+                <label>W547-GALLAGHER&#39;S AUTO (518)561-1089 PLATTSBURGH NY</label>
+            </value>
+            <value>
+                <fullName>W559-TOWAWAY (518)244-8924 QUEENSBURY NY</fullName>
+                <default>false</default>
+                <label>W559-TOWAWAY (518)244-8924 QUEENSBURY NY</label>
+            </value>
+            <value>
+                <fullName>W565-R&amp;L TOWING (518)891-2941 VERMONTVILLE NY</fullName>
+                <default>false</default>
+                <label>W565-R&amp;L TOWING (518)891-2941 VERMONTVILLE NY</label>
+            </value>
+            <value>
+                <fullName>W569-LEROY&#39;S (518)570-5358 PORT HENRY NY</fullName>
+                <default>false</default>
+                <label>W569-LEROY&#39;S (518)570-5358 PORT HENRY NY</label>
+            </value>
+            <value>
+                <fullName>W572-FRANK&#39;S AUTO BODY (518)361-4427 FORT ANN</fullName>
+                <default>false</default>
+                <label>W572-FRANK&#39;S AUTO BODY (518)361-4427 FORT ANN</label>
+            </value>
+            <value>
+                <fullName>W573-SMITH&#39;S GARAGE (518)483-0776 MALONE NY</fullName>
+                <default>false</default>
+                <label>W573-SMITH&#39;S GARAGE (518)483-0776 MALONE NY</label>
+            </value>
+            <value>
+                <fullName>W576-MCGEE&#39;S TOWING &amp; RECOVERY (518)962-4783 WESTPORT</fullName>
+                <default>false</default>
+                <label>W576-MCGEE&#39;S TOWING &amp; RECOVERY (518)962-4783 WESTPORT</label>
+            </value>
+            <value>
+                <fullName>W577-MAC&#39;S SAFE &amp; LOCK (518)563-4084 PLATTSBURGH</fullName>
+                <default>false</default>
+                <label>W577-MAC&#39;S SAFE &amp; LOCK (518)563-4084 PLATTSBURGH</label>
+            </value>
+            <value>
+                <fullName>W579-TEDFORD&#39;S GARAGE (518)293-8585 SARANAC NY</fullName>
+                <default>false</default>
+                <label>W579-TEDFORD&#39;S GARAGE (518)293-8585 SARANAC NY</label>
+            </value>
+            <value>
+                <fullName>W580-METAL MAN (518)293-1156 SARANAC NY</fullName>
+                <default>false</default>
+                <label>W580-METAL MAN (518)293-1156 SARANAC NY</label>
+            </value>
+            <value>
+                <fullName>W585-LAUZON&#39;S AUTO TECH &amp; TOWING (518)483-1909</fullName>
+                <default>false</default>
+                <label>W585-LAUZON&#39;S AUTO TECH &amp; TOWING (518)483-1909</label>
+            </value>
+            <value>
+                <fullName>W600-INTEGRITY TOWING (518)563-4571 PLATTSBURGH NY</fullName>
+                <default>false</default>
+                <label>W600-INTEGRITY TOWING (518)563-4571 PLATTSBURGH NY</label>
+            </value>
+            <value>
+                <fullName>W945-AAA NORTHWAY-CLUB SCHENECTADY NY</fullName>
+                <default>false</default>
+                <label>W945-AAA NORTHWAY-CLUB SCHENECTADY NY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

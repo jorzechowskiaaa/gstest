@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracker_Resource__c</fullName>
+    <formula>not(isblank(ServiceAppointment.Service_Resource__r.Tracker_Contact_old__c))</formula>
+    <label>Tracker Resource</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Call Adjustments</masterLabel>
+            <translation><!-- Call Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERS Calls</masterLabel>
+            <translation><!-- ERS Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Adjustments</masterLabel>
+            <translation><!-- Facility Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reciprocal Adjustments</masterLabel>
+            <translation><!-- Reciprocal Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reciprocals</masterLabel>
+            <translation><!-- Reciprocals --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

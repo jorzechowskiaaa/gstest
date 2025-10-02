@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rate Line Item is Deleted</name>
+    <style>none</style>
+    <subject>A Rate Line Item is Deleted</subject>
+    <textOnly>Hi
+A Rate Line Item is marked as deleted
+Name: {!Rate_Line_Item__c.Name}
+Approval Status: {!Rate_Line_Item__c.Approval_Status__c}
+Calculation Type: {!Rate_Line_Item__c.Calculation_Type__c}
+Charge to Account: {!Rate_Line_Item__c.Charge_to_Account__c}
+Contract: {!Rate_Line_Item__c.Contract__c}
+End Date: {!Rate_Line_Item__c.End_Date__c}
+Fixed Amount:{!Rate_Line_Item__c.Fixed_Amount_Adjusted_Value__c}
+Max Date Range: {!Rate_Line_Item__c.Max_Data_Range__c}
+Min Date Range: {!Rate_Line_Item__c.Min_Data_Range__c}
+Product: {!Rate_Line_Item__c.Product__c}
+Product Code: {!Rate_Line_Item__c.Product_Code__c}
+Service Type: {!Rate_Line_Item__c.Service_Type_Picklist__c}
+Start Date: {!Rate_Line_Item__c.Start_Date__c}
+Time of Day Code: {!Rate_Line_Item__c.Time_of_Day_Code__c}
+Unit of Measure: {!Rate_Line_Item__c.Unit_of_Measure__c}
+Time of Day: {!Rate_Line_Item__c.Uses_Time_of_Day__c}
+Deleted by: {!Rate_Line_Item__c.LastModifiedBy}
+
+
+Thank you</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

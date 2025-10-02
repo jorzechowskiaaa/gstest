@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Lockout - A - M - N</label>
+    <protected>false</protected>
+    <values>
+        <field>Case_Priority__c</field>
+        <value xsi:type="xsd:string">Medium</value>
+    </values>
+    <values>
+        <field>ERS_Event_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Priority_Description__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Schedule_over_Lower_Priority_Appointment__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Scheduling_Policy__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Work_Order_Priority__c</field>
+        <value xsi:type="xsd:string">Normal</value>
+    </values>
+    <values>
+        <field>Work_Type__c</field>
+        <value xsi:type="xsd:string">Lockout AAA Appointment</value>
+    </values>
+</CustomMetadata>

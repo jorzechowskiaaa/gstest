@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Facility Type --></label>
+        <name>Facility_Type__c</name>
+        <picklistValues>
+            <masterLabel>AAR Body Shop</masterLabel>
+            <translation><!-- AAR Body Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAR Glass</masterLabel>
+            <translation><!-- AAR Glass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAR Repair Shop</masterLabel>
+            <translation><!-- AAR Repair Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery with Full Svc</masterLabel>
+            <translation><!-- Battery with Full Svc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Battery with Light Svc</masterLabel>
+            <translation><!-- Battery with Light Svc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Car Dealership</masterLabel>
+            <translation><!-- Car Dealership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club Owned Repair</masterLabel>
+            <translation><!-- Club Owned Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet</masterLabel>
+            <translation><!-- Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Svc No Battery</masterLabel>
+            <translation><!-- Full Svc No Battery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Repair</masterLabel>
+            <translation><!-- Independent Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Svc No Battery</masterLabel>
+            <translation><!-- Light Svc No Battery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Only</masterLabel>
+            <translation><!-- RV Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roadside Only</masterLabel>
+            <translation><!-- Roadside Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty Shop</masterLabel>
+            <translation><!-- Specialty Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Facility</masterLabel>
+            <translation><!-- Test Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Only</masterLabel>
+            <translation><!-- Tow Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turnpike</masterLabel>
+            <translation><!-- Turnpike --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

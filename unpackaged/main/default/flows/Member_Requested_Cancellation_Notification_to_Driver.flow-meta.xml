@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>The action to send the notification to the selected users</description>
+        <name>Send_Notification_to_SA_Resource</name>
+        <label>Send Notification to SA Resource</label>
+        <locationX>308</locationX>
+        <locationY>671</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>MemberCancelledNotificationId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>Cancellation_Notification_Body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <elementReference>Cancel_Notifiction_Title</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>NotificationTarget</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+    </actionCalls>
+    <apiVersion>51.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>The service resources to whom this notification has to be sent</description>
+        <name>Target_Service_Resources</name>
+        <label>Target_Service_Resources</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>NotificationTarget</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Service_Resource__r.RelatedRecord.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_If_Notification_Target_is_Active</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>The name of the custom notification to send in this flow</description>
+        <name>Member_Cancel_Notification_Name</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Notification to Driver about Member Cancelling the Service</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>Checks if the notification resource is active still</description>
+        <name>Check_If_Notification_Target_is_Active</name>
+        <label>Check If Notification Target is Active</label>
+        <locationX>176</locationX>
+        <locationY>551</locationY>
+        <defaultConnector>
+            <targetReference>Send_Notification_to_SA_Resource</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Active Service Resource</defaultConnectorLabel>
+        <rules>
+            <name>InActive_Service_Resource</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Service_Resource__r.RelatedRecord.IsActive</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>InActive Service Resource</label>
+        </rules>
+    </decisions>
+    <description>Notification sent to the driver who is En Route, when the service is canceled by the user through IVR</description>
+    <formulas>
+        <description>The title for the notification</description>
+        <name>Cancel_Notifiction_Title</name>
+        <dataType>String</dataType>
+        <expression>&quot;#&quot; + {!$Record.AppointmentNumber} + &quot; Cancelled&quot;</expression>
+    </formulas>
+    <formulas>
+        <description>The body of the Service Cancellation Notification</description>
+        <name>Cancellation_Notification_Body</name>
+        <dataType>String</dataType>
+        <expression>&quot;The Service Appointment&quot; + {!$Record.AppointmentNumber} + &quot; has been cancelled by  &quot; + &quot;the member.&quot;</expression>
+    </formulas>
+    <interviewLabel>Member Requested Cancellation Notification to Driver {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Member Requested Cancellation Notification to Driver</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Gets the Id of the Custom Notification to send to  driver</description>
+        <name>Get_Notification_to_Send</name>
+        <label>Get ID of Cancel Notification to Send to Driver</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Target_Service_Resources</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CustomNotifTypeName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Member_Cancel_Notification_Name</elementReference>
+            </value>
+        </filters>
+        <object>CustomNotificationType</object>
+        <outputAssignments>
+            <assignToReference>MemberCancelledNotificationId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Notification_to_Send</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Canceled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Service_Resource__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>A variable to store the Id of the Custom Notification to be sent to the driver upon a Member initiated Cancel</description>
+        <name>MemberCancelledNotificationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The target of the notification</description>
+        <name>NotificationTarget</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

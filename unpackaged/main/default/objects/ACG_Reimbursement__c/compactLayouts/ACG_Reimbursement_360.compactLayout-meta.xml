@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Reimbursement_360</fullName>
+    <fields>Name</fields>
+    <fields>ACG_Member_Name__c</fields>
+    <fields>ACG_Status__c</fields>
+    <fields>ACG_Service_Date__c</fields>
+    <fields>ACG_Amount_Requested__c</fields>
+    <fields>Amount_Approved_Allocation__c</fields>
+    <label>ACG Reimbursement 360</label>
+</CompactLayout>

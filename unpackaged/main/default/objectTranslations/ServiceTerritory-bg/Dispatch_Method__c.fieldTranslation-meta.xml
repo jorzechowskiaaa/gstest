@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dispatch Method --></label>
+        <name>Dispatch_Method__c</name>
+        <picklistValues>
+            <masterLabel>AVD Dispatch</masterLabel>
+            <translation><!-- AVD Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Technology</masterLabel>
+            <translation><!-- Full Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Technology - AA</masterLabel>
+            <translation><!-- Full Technology - AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybrid</masterLabel>
+            <translation><!-- Hybrid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landline</masterLabel>
+            <translation><!-- Landline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TowBook</masterLabel>
+            <translation><!-- TowBook --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

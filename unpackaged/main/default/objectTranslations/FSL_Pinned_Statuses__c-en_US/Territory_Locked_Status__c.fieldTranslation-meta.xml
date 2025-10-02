@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the appointment is in one of the provided statuses (comma delimited), the territory will NOT be updated --></help>
+        <label><!-- Territory Locked Status --></label>
+        <name>Territory_Locked_Status__c</name>
+    </CustomFieldTranslation>

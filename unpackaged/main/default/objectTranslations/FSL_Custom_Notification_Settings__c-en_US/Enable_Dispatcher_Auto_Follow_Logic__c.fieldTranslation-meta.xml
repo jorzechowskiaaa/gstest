@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Switch controls application of dispatcher auto follow logic --></help>
+        <label><!-- Enable_Dispatcher_Auto_Follow_Logic --></label>
+        <name>Enable_Dispatcher_Auto_Follow_Logic__c</name>
+    </CustomFieldTranslation>

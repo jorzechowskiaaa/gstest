@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Users must populate this field upon reactivation from &apos;Deferred&apos; status. This date will then create Invoices starting on an unreconciled Statement with the same start date as this field. --></help>
+        <label><!-- Reactivation Date --></label>
+        <name>Reactivation_Date__c</name>
+    </CustomFieldTranslation>

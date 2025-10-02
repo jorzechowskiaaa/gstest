@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tow_Mileage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Work_Order__r.Is_Tow_WorkType__c = true,
+
+DISTANCE(
+
+GEOLOCATION(
+IF (Latitude = 0,
+D3_Address_Geocode__Latitude__s,Latitude ),
+
+IF (Longitude = 0,
+D3_Address_Geocode__Longitude__s, Longitude)),
+
+GEOLOCATION(
+IF(FSL__Related_Service__r.Latitude = 0,
+FSL__Related_Service__r.D3_Address_Geocode__Latitude__s,FSL__Related_Service__r.Latitude ),
+
+IF(FSL__Related_Service__r.Longitude = 0,
+FSL__Related_Service__r.D3_Address_Geocode__Longitude__s, FSL__Related_Service__r.Longitude ))
+
+,&#39;mi&#39; ),
+
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tow Mileage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

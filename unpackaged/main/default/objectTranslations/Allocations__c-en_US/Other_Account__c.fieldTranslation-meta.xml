@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Other Accounts --></label>
+        <name>Other_Account__c</name>
+        <picklistValues>
+            <masterLabel>BASIC LKSMTH</masterLabel>
+            <translation><!-- BASIC LKSMTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC MBR_CH</masterLabel>
+            <translation><!-- BASIC MBR_CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC OM</masterLabel>
+            <translation><!-- BASIC OM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC TW</masterLabel>
+            <translation><!-- BASIC TW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATT MATCH</masterLabel>
+            <translation><!-- BATT MATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATT WAR AGM</masterLabel>
+            <translation><!-- BATT WAR AGM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATT WARR</masterLabel>
+            <translation><!-- BATT WARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCHEATED</masterLabel>
+            <translation><!-- ESCHEATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOOD WILL</masterLabel>
+            <translation><!-- GOOD WILL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW AGM</masterLabel>
+            <translation><!-- GW AGM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW APPEAL</masterLabel>
+            <translation><!-- GW APPEAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW CCDISP</masterLabel>
+            <translation><!-- GW CCDISP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW MMTM</masterLabel>
+            <translation><!-- GW MMTM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW PB</masterLabel>
+            <translation><!-- GW PB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW PC</masterLabel>
+            <translation><!-- GW PC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW REIM</masterLabel>
+            <translation><!-- GW REIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW RETAIL</masterLabel>
+            <translation><!-- GW RETAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GW TP</masterLabel>
+            <translation><!-- GW TP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEGL REIM</masterLabel>
+            <translation><!-- LEGL REIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS LKSMTH</masterLabel>
+            <translation><!-- PLUS LKSMTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS TW</masterLabel>
+            <translation><!-- PLUS TW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR 200 ML TW</masterLabel>
+            <translation><!-- PR 200 ML TW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR BAT AGM</masterLabel>
+            <translation><!-- PR BAT AGM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR BATT REM</masterLabel>
+            <translation><!-- PR BATT REM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR HOM LKOT</masterLabel>
+            <translation><!-- PR HOM LKOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR LKSMTH</masterLabel>
+            <translation><!-- PR LKSMTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR ONTHE WAY</masterLabel>
+            <translation><!-- PR ONTHE WAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR TOLLS</masterLabel>
+            <translation><!-- PR TOLLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECOV COST</masterLabel>
+            <translation><!-- RECOV COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAV ACC</masterLabel>
+            <translation><!-- TRAV ACC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINCHOUT</masterLabel>
+            <translation><!-- WINCHOUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZOTHER</masterLabel>
+            <translation><!-- ZOTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZPLUS REIM</masterLabel>
+            <translation><!-- ZPLUS REIM --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

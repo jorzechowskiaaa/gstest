@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Subject__c</fullName>
+    <externalId>false</externalId>
+    <formula>If((Work_Order_Priority__c == &#39;Critical&#39;), &#39;Emergency &#39; +  Subject , Subject)</formula>
+    <label>Subject</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

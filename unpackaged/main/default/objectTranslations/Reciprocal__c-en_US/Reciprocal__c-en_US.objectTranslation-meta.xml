@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reciprocal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reciprocals</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Outgoing Reciprocal Layout</layout>
+        <sections>
+            <label><!-- Club Information --></label>
+            <section>Club Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Inforamtion --></label>
+            <section>Cost Inforamtion</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Indicators --></label>
+            <section>Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- Member Information --></label>
+            <section>Member Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Call Information --></label>
+            <section>Service Call Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reciprocal Layout</layout>
+        <sections>
+            <label><!-- Club Information --></label>
+            <section>Club Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Inforamtion --></label>
+            <section>Cost Inforamtion</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Indicators --></label>
+            <section>Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- Member Information --></label>
+            <section>Member Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Call Information --></label>
+            <section>Service Call Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Approval --></label>
+        <name>Approval</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default record type for ERS Auth --></description>
+        <label><!-- ERS_Auth --></label>
+        <name>ERS_Auth</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Feedback --></label>
+        <name>Feedback</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inbound Payment Requests --></label>
+        <name>Inbound_Payment_Requests</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Outbound Payment Requests --></label>
+        <name>Outbound_Payment_Requests</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter the dispute code --></errorMessage>
+        <name>Enter_Dispute_Code</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Export_Outgoing_Reciprocals --></label>
+        <name>Export_Outgoing_Reciprocals</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Payment_Details --></label>
+        <name>Generate_Payment_Details</name>
+    </webLinks>
+</CustomObjectTranslation>

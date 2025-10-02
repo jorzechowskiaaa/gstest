@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FA_Payment</fullName>
+    <fields>Name</fields>
+    <fields>FA_Facility_ID__c</fields>
+    <fields>Status__c</fields>
+    <fields>Adjustment_Category__c</fields>
+    <fields>FA_Adjustment_Type__c</fields>
+    <fields>FA_Payment_Amount__c</fields>
+    <label>FA Payment</label>
+</CompactLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Membership_Cancellation_Reason__c</fullName>
+    <label>Membership Cancellation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abuser Downgrade</fullName>
+                <default>false</default>
+                <label>Abuser Downgrade</label>
+            </value>
+            <value>
+                <fullName>Automatic Billing Issue</fullName>
+                <default>false</default>
+                <label>Automatic Billing Issue</label>
+            </value>
+            <value>
+                <fullName>Bad Check</fullName>
+                <default>false</default>
+                <label>Bad Check</label>
+            </value>
+            <value>
+                <fullName>Bought New Car</fullName>
+                <default>false</default>
+                <label>Bought New Car</label>
+            </value>
+            <value>
+                <fullName>Can&#39;t Afford</fullName>
+                <default>false</default>
+                <label>Can&#39;t Afford</label>
+            </value>
+            <value>
+                <fullName>Cancel per CC Co.</fullName>
+                <default>false</default>
+                <label>Cancel per CC Co.</label>
+            </value>
+            <value>
+                <fullName>Cancel per Management</fullName>
+                <default>false</default>
+                <label>Cancel per Management</label>
+            </value>
+            <value>
+                <fullName>Cancel per National</fullName>
+                <default>false</default>
+                <label>Cancel per National</label>
+            </value>
+            <value>
+                <fullName>Deceased</fullName>
+                <default>false</default>
+                <label>Deceased</label>
+            </value>
+            <value>
+                <fullName>Disagree with Policy</fullName>
+                <default>false</default>
+                <label>Disagree with Policy</label>
+            </value>
+            <value>
+                <fullName>Divorced/Separated Per Primary</fullName>
+                <default>false</default>
+                <label>Divorced/Separated Per Primary</label>
+            </value>
+            <value>
+                <fullName>Don&#39;t Use/Don&#39;t Need</fullName>
+                <default>false</default>
+                <label>Don&#39;t Use/Don&#39;t Need</label>
+            </value>
+            <value>
+                <fullName>Donor Request</fullName>
+                <default>false</default>
+                <label>Donor Request</label>
+            </value>
+            <value>
+                <fullName>Dues Increase</fullName>
+                <default>false</default>
+                <label>Dues Increase</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Email Request - No Reason Given</fullName>
+                <default>false</default>
+                <label>Email Request - No Reason Given</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>ERS 00T Cancel</fullName>
+                <default>false</default>
+                <label>ERS 00T Cancel</label>
+            </value>
+            <value>
+                <fullName>ERS Service Problem</fullName>
+                <default>false</default>
+                <label>ERS Service Problem</label>
+            </value>
+            <value>
+                <fullName>Fleet Request</fullName>
+                <default>false</default>
+                <label>Fleet Request</label>
+            </value>
+            <value>
+                <fullName>Full Year Money Back Guarantee</fullName>
+                <default>false</default>
+                <label>Full Year Money Back Guarantee</label>
+            </value>
+            <value>
+                <fullName>Issue Management Request - No Reason Given</fullName>
+                <default>false</default>
+                <label>Issue Management Request - No Reason Given</label>
+            </value>
+            <value>
+                <fullName>Joined Non-AAA Club</fullName>
+                <default>false</default>
+                <label>Joined Non-AAA Club</label>
+            </value>
+            <value>
+                <fullName>Marketing Verbiage</fullName>
+                <default>false</default>
+                <label>Marketing Verbiage</label>
+            </value>
+            <value>
+                <fullName>Moved Out of Territory</fullName>
+                <default>false</default>
+                <label>Moved Out of Territory</label>
+            </value>
+            <value>
+                <fullName>MRL Request</fullName>
+                <default>false</default>
+                <label>MRL Request</label>
+            </value>
+            <value>
+                <fullName>No Longer Driving</fullName>
+                <default>false</default>
+                <label>No Longer Driving</label>
+            </value>
+            <value>
+                <fullName>Non-Renewable Product</fullName>
+                <default>false</default>
+                <label>Non-Renewable Product</label>
+            </value>
+            <value>
+                <fullName>Not Reinstated</fullName>
+                <default>false</default>
+                <label>Not Reinstated</label>
+            </value>
+            <value>
+                <fullName>Not Worth the Money</fullName>
+                <default>false</default>
+                <label>Not Worth the Money</label>
+            </value>
+            <value>
+                <fullName>Phone Request - No Reason Given</fullName>
+                <default>false</default>
+                <label>Phone Request - No Reason Given</label>
+            </value>
+            <value>
+                <fullName>Requested in Writing</fullName>
+                <default>false</default>
+                <label>Requested in Writing</label>
+            </value>
+            <value>
+                <fullName>Road Service Abuser</fullName>
+                <default>false</default>
+                <label>Road Service Abuser</label>
+            </value>
+            <value>
+                <fullName>Roll as Gift - Unqualified Associate</fullName>
+                <default>false</default>
+                <label>Roll as Gift - Unqualified Associate</label>
+            </value>
+            <value>
+                <fullName>Roll Off to New Membership</fullName>
+                <default>false</default>
+                <label>Roll Off to New Membership</label>
+            </value>
+            <value>
+                <fullName>Unpaid - System Cancellation</fullName>
+                <default>false</default>
+                <label>Unpaid - System Cancellation</label>
+            </value>
+            <value>
+                <fullName>Unqualified Associate</fullName>
+                <default>false</default>
+                <label>Unqualified Associate</label>
+            </value>
+            <value>
+                <fullName>Unqualified Highway Patrol</fullName>
+                <default>false</default>
+                <label>Unqualified Highway Patrol</label>
+            </value>
+            <value>
+                <fullName>Major Current Event</fullName>
+                <default>false</default>
+                <label>Major Current Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

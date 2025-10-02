@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do you visit our web site for online content after reading an article? --></help>
+        <label><!-- Visits After Reading --></label>
+        <name>Go_Visits_After_Reading__c</name>
+    </CustomFieldTranslation>

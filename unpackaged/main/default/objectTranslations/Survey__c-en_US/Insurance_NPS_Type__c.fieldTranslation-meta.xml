@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Insurance Channel --></label>
+        <name>Insurance_NPS_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation><!-- Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Agent</masterLabel>
+            <translation><!-- Career Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims Agent</masterLabel>
+            <translation><!-- Claims Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Agent</masterLabel>
+            <translation><!-- External Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal</masterLabel>
+            <translation><!-- Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Agent</masterLabel>
+            <translation><!-- Service Agent --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancellation Reason Type --></label>
+        <name>Cancellation_Reason_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coverage Placed Elsewhere</masterLabel>
+            <translation><!-- Coverage Placed Elsewhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Payment</masterLabel>
+            <translation><!-- Non-Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting Reasons</masterLabel>
+            <translation><!-- Underwriting Reasons --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

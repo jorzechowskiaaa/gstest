@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Layout</fullName>
+    <fields>WorkOrderNumber</fields>
+    <fields>Call_Id__c</fields>
+    <fields>Status</fields>
+    <fields>T_Code__c</fields>
+    <fields>WorkTypeId</fields>
+    <fields>Priority_Code__c</fields>
+    <fields>Call_Type_Sub__c</fields>
+    <fields>Member_Scheduled_Icon_del__c</fields>
+    <label>FSL Layout</label>
+</CompactLayout>

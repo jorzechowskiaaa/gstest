@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rate Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rate Line Items</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Rate Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Item</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data Ranges --></label>
+            <section>Data Ranges</section>
+        </sections>
+        <sections>
+            <label><!-- Dates &amp; Times --></label>
+            <section>Dates &amp; Times</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Type --></label>
+            <section>Membership Type</section>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <section>Payment</section>
+        </sections>
+        <sections>
+            <label><!-- Price --></label>
+            <section>Price</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Approve --></label>
+        <name>Approve</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete --></label>
+        <name>Delete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reject --></label>
+        <name>Reject</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Service Item --></label>
+        <name>Service_Item</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot approve or reject the change you submitted --></errorMessage>
+        <name>Cannot_Approve_the_change_error</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Date, End Dates, and Data Ranges can&apos;t overlap other Rate Line Items for same Product, Service Type, and Time of Day code --></errorMessage>
+        <name>Date_or_Data_Range_overlap</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Start Date is defined, End Date cannot be null --></errorMessage>
+        <name>End_Date_must_defined_if_Start_Date_is</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max Data Range must be greater than Min Data Range --></errorMessage>
+        <name>Max_Data_Range_must_be_greater_than_Min</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max Data Range must be defined if Min Data Range is filled out --></errorMessage>
+        <name>Max_Data_range_must_be_defined_if_Min_Is</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Data Range must be filled out if Max Data Range is. --></errorMessage>
+        <name>Min_Data_Range_must_be_filled_out_if_Max</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide comments when rejecting the contract --></errorMessage>
+        <name>Rejects_Comments_are_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End Date cannot be before Start Date --></errorMessage>
+        <name>Start_Date_must_be_before_End_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- View --></label>
+        <name>View</name>
+    </webLinks>
+</CustomObjectTranslation>

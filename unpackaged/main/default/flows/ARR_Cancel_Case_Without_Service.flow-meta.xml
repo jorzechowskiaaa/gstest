@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Post_Cancel_to_Feed</name>
+        <label>Post Cancel to Feed</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <connector>
+            <targetReference>Update_Case</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>chatterText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <choices>
+        <name>opt1MwcBack</name>
+        <choiceText>Member will call back when ready for service</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Member will call back when ready for service</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>opt2NotCovered</name>
+        <choiceText>Service requested is not covered - policy exception denied</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Service requested is not covered - policy exception denied</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>opt3NoServiceNeeded</name>
+        <choiceText>No service needed (General Inquiry)</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>No service needed (General Inquiry)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>opt4CommercialService</name>
+        <choiceText>Referral request to commercial service</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Referral request to commercial service</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>opt5Other</name>
+        <choiceText>Other</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Other</stringValue>
+        </value>
+    </choices>
+    <description>A short screen flow that allows a receiver to cancel a case before work order creation, collects a reason/comment, and updates the case to Canceled. Invoked via an action on the case object.</description>
+    <environments>Default</environments>
+    <interviewLabel>ARR - Cancel Case Without Service {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ARR - Cancel Case Without Service</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_Case</name>
+        <label>Update Case</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Case_Cancel_Comments__c</field>
+            <value>
+                <elementReference>cancelComments</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Case_Cancel_Reason__c</field>
+            <value>
+                <elementReference>chooseCancelReason</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Canceled</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <screens>
+        <name>Cancel_Case</name>
+        <label>Cancel Case</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Post_Cancel_to_Feed</targetReference>
+        </connector>
+        <fields>
+            <name>warningText</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(199, 0, 0);&quot;&gt;WARNING!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;You are about to cancel this case. No work order will be created and service will not be sent to the member. If this is what you intended to do, please choose a cancellation reason below.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>chooseCancelReason</name>
+            <choiceReferences>opt1MwcBack</choiceReferences>
+            <choiceReferences>opt2NotCovered</choiceReferences>
+            <choiceReferences>opt3NoServiceNeeded</choiceReferences>
+            <choiceReferences>opt4CommercialService</choiceReferences>
+            <choiceReferences>opt5Other</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Choose a Cancellation Reason</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>cancelComments</name>
+            <fieldText>Please enter details for the cancellation.</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>true</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+            <validationRule>
+                <errorMessage>&lt;p&gt;That is not a valid reason. Please provide more detail.&lt;/p&gt;</errorMessage>
+                <formulaExpression>LEN({!cancelComments}) &gt; 2</formulaExpression>
+            </validationRule>
+            <visibilityRule>
+                <conditionLogic>or</conditionLogic>
+                <conditions>
+                    <leftValueReference>chooseCancelReason</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>opt5Other</elementReference>
+                    </rightValue>
+                </conditions>
+                <conditions>
+                    <leftValueReference>chooseCancelReason</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>opt2NotCovered</elementReference>
+                    </rightValue>
+                </conditions>
+                <conditions>
+                    <leftValueReference>chooseCancelReason</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>opt4CommercialService</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Cancel_Case</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>chatterText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Case cancelled without Work Order creation.
+Cancel Reason: {!chooseCancelReason}
+Comments: {!cancelComments}</text>
+    </textTemplates>
+    <variables>
+        <name>recordId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+</Flow>

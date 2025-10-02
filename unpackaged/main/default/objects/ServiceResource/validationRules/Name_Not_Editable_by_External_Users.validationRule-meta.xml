@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Not_Editable_by_External_Users</fullName>
+    <active>true</active>
+    <description>Prevent external users (ISP dispatcher, etc.) from editing name</description>
+    <errorConditionFormula>AND( ISCHANGED( Name ) ,
+NOT (ISBLANK ( $User.ContactId )))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You do not have permission to edit the Name field.</errorMessage>
+</ValidationRule>

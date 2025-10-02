@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Designates the type of oil change performed on the vehicle --></help>
+        <label><!-- Oil Change Type --></label>
+        <name>Oil_Change_Type__c</name>
+    </CustomFieldTranslation>

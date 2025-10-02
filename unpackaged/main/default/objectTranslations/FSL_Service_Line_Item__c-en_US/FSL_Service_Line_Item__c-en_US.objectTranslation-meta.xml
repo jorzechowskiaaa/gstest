@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Line Items</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Service Line Item - No Cost</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Service Line Item --></label>
+        <name>FSL_Update_Service_Line_Item</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Service Items are limited to $150 maximum. Please submit a payment request through your normal adjustment process for amounts greater than $150. --></errorMessage>
+        <name>Max_Service_Item_Cost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Line Items with a Product Code of &apos;DL&apos; can only be created if the Audit flag is checked on the Work Order. --></errorMessage>
+        <name>Prevent_DL_Line_Items</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product Code of BA can only have a quantity of 1 --></errorMessage>
+        <name>Product_Code_BA_Quantity_One</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A service line items cannot be created without a Product --></errorMessage>
+        <name>Product_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Service line item can not be updated if Work order is Cleared --></errorMessage>
+        <name>Restrict_SLI_Update_After_WO_Clear</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repeat_Interval_Minutes__c</fullName>
+    <defaultValue>1</defaultValue>
+    <description>The interval in minutes to repeat this task.  Minimum is 1 (and the default) and maximum is 9999 (almost 1 week)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Repeat this task once per number of minutes equal to this value</inlineHelpText>
+    <label>Repeat Interval (Minutes)</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

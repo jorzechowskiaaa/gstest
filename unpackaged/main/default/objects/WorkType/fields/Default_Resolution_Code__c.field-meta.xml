@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Resolution_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Default Resolution Code</label>
+    <referenceTo>FSL_Resolution_Code__c</referenceTo>
+    <relationshipLabel>Work Types</relationshipLabel>
+    <relationshipName>Work_Types</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

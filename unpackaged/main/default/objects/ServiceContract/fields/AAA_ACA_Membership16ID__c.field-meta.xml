@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_ACA_Membership16ID__c</fullName>
+    <description>In the 16-Digit membership ID, ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit</description>
+    <externalId>true</externalId>
+    <inlineHelpText>In the 16-Digit membership ID, ISO is the first 3, Club Code is the next 3 digits, Member ID (Household Membership ID) is the next 7 digits, Assoc Member Id is the next 2 digits and Check Digit is the last digit</inlineHelpText>
+    <label>Membership ID (16 Digit)</label>
+    <length>16</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

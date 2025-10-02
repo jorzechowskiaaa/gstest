@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ownership_Reporting__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.UserRole.DeveloperName,&quot;Member_Care_Team&quot;,&quot;Member Care&quot;,&quot;Member_Relations_Team&quot;,&quot;Member Relations&quot;,&quot;MRL_QA_Auto_Club_Group_Manager&quot;, &quot;ACG Member Care&quot;,&quot;MRL_QA_Auto_Club_Group&quot;, &quot;ACG Member Care&quot;,&quot;Other&quot;)</formula>
+    <label>Ownership Reporting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

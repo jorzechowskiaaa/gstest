@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rejected: A Rate Line Item is Rejected</name>
+    <style>none</style>
+    <subject>A Rate Line Item is Rejected</subject>
+    <textOnly>Hi,
+
+The following Rate Line Item has been Rejected  by {!Rate_Line_Item__c.LastModifiedBy}
+Please review the following Rate Line Item: {!Rate_Line_Item__c.Name}
+Contract: {!Rate_Line_Item__c.Contract__c}
+Product: {!Rate_Line_Item__c.Product__c}
+Product Code: {!Rate_Line_Item__c.Product_Code__c}
+Service Type: {!Rate_Line_Item__c.Service_Type_Picklist__c}
+Rejected Reason: {!Rate_Line_Item__c.Comments__c}
+Click on the link to access the Rate Line Item : {!Rate_Line_Item__c.Name}
+
+Thanks.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

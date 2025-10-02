@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Cases_Kevan_Purge</fullName>
+    <columns>Dispatcher_Status__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>FSL_Work_Order__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Facility_State__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FSL_In_Jeopardy_Reason__c</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>Violation_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.ERS_Case</value>
+    </filters>
+    <filters>
+        <field>Dispatcher_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>All Open Cases - Kevan</label>
+    <sharedTo>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

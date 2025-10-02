@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AAA.com</fullName>
+        <default>false</default>
+        <label>AAA.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booked Onboard</fullName>
+        <default>false</default>
+        <label>Booked Onboard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BYB</fullName>
+        <default>false</default>
+        <label>BYB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facebook Insurance</fullName>
+        <default>false</default>
+        <label>Facebook Insurance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fleet Web Form</fullName>
+        <default>false</default>
+        <label>Fleet Web Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Go Magazine</fullName>
+        <default>false</default>
+        <label>Go Magazine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Call</fullName>
+        <default>false</default>
+        <label>Inbound Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Email</fullName>
+        <default>false</default>
+        <label>Inbound Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internet Live Chat</fullName>
+        <default>false</default>
+        <label>Internet Live Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Local Soul</fullName>
+        <default>false</default>
+        <label>Local Soul</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Outreach Call</fullName>
+        <default>false</default>
+        <label>Member Outreach Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Transfer</fullName>
+        <default>false</default>
+        <label>Member Transfer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MSC Referral - Callback</fullName>
+        <default>false</default>
+        <label>MSC Referral - Callback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MSC Referral - Transfer</fullName>
+        <default>false</default>
+        <label>MSC Referral - Transfer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online</fullName>
+        <default>false</default>
+        <label>Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Transfer</fullName>
+        <default>false</default>
+        <label>Opportunity Transfer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound Call</fullName>
+        <default>false</default>
+        <label>Outbound Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound Email</fullName>
+        <default>false</default>
+        <label>Outbound Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>qnb-portal</fullName>
+        <default>false</default>
+        <label>qnb-portal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RR Outbound Call</fullName>
+        <default>false</default>
+        <label>RR Outbound Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RR Outbound E-mail</fullName>
+        <default>false</default>
+        <label>RR Outbound E-mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sweepstakes</fullName>
+        <default>false</default>
+        <label>Sweepstakes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TOOT</fullName>
+        <default>false</default>
+        <label>TOOT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unbounced Lead</fullName>
+        <default>false</default>
+        <label>Unbounced Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting in Lobby</fullName>
+        <default>false</default>
+        <label>Waiting in Lobby</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Walk-In</fullName>
+        <default>false</default>
+        <label>Walk-In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Appointment - In Person</fullName>
+        <default>false</default>
+        <label>Web Appointment - In Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Appointment - Online</fullName>
+        <default>false</default>
+        <label>Web Appointment - Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Appointment - Phone</fullName>
+        <default>false</default>
+        <label>Web Appointment - Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Appointment - Video</fullName>
+        <default>false</default>
+        <label>Web Appointment - Video</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Appointment</fullName>
+        <default>false</default>
+        <label>Website Appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web to Lead - AAA.com</fullName>
+        <default>false</default>
+        <label>Web to Lead - AAA.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web to Lead - Disney Quote</fullName>
+        <default>false</default>
+        <label>Web to Lead - Disney Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web to Lead - General Quote</fullName>
+        <default>false</default>
+        <label>Web to Lead - General Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web to Lead - MVP</fullName>
+        <default>false</default>
+        <label>Web to Lead - MVP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Word of mouth</fullName>
+        <default>false</default>
+        <label>Word of mouth</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Notification_0</name>
+        <label>Send Notification</label>
+        <locationX>314</locationX>
+        <locationY>1487</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>NotificationId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>NotificationBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Lead Driver Notification</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>LeadDriverList</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Notification_0_0</name>
+        <label>Send Notification</label>
+        <locationX>50</locationX>
+        <locationY>1487</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>NotificationId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>ApptCallNotificationBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Lead Driver Notification</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>LeadDriverList</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Lead_Drivers_List_Assignment</name>
+        <label>Lead Drivers List Assignment</label>
+        <locationX>468</locationX>
+        <locationY>815</locationY>
+        <assignmentItems>
+            <assignToReference>LeadDriverList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Service_Member_List.ServiceResource.RelatedRecordId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Service_Member_List</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_for_Appointment_Call</name>
+        <label>Check for Appointment Call</label>
+        <locationX>182</locationX>
+        <locationY>1367</locationY>
+        <defaultConnector>
+            <targetReference>Send_Notification_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Non-appointment Call</defaultConnectorLabel>
+        <rules>
+            <name>Appointment_Call</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Member_Scheduled__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Notification_0_0</targetReference>
+            </connector>
+            <label>Appointment Call</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_If_Resources_Present_for_that_Service_Territory</name>
+        <label>Check If Resources Present for that Service Territory</label>
+        <locationX>611</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Resources_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_Resource_List</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_Member_List</targetReference>
+            </connector>
+            <label>Resources Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Lead_Driver</name>
+        <label>Check Lead Driver</label>
+        <locationX>600</locationX>
+        <locationY>695</locationY>
+        <defaultConnector>
+            <targetReference>Service_Member_List</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Lead_Driver</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Service_Member_List.ServiceResource.RelatedRecord.Lead_Driver__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Service_Member_List.ServiceResource.RelatedRecord.IsActive</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Lead_Drivers_List_Assignment</targetReference>
+            </connector>
+            <label>Is Lead Driver</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Lead_Drivers_or_Not</name>
+        <label>Has Lead Drivers or Not</label>
+        <locationX>380</locationX>
+        <locationY>1127</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Has_Lead_Driver</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LeadDriverList</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Notification_Id_0_0</targetReference>
+            </connector>
+            <label>Has Lead Driver</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>ApptCallNotificationBody</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.AppointmentNumber}+&quot; Appt Call has been Scheduled to &quot;+ {!$Record.Service_Resource__r.Name} +&quot; at &quot; +  IF( 
+OR( 
+ VALUE( MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 12, 2 ) ) = 0, 
+ VALUE( MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 12, 2 ) ) = 12 
+), 
+  &quot;12&quot;, 
+ TEXT( VALUE( MID( TEXT( {!$Record.SchedStartTime}-(8/24)), 12, 2 ) ) 
+ - 
+IF( 
+VALUE( MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 12, 2 ) ) &lt; 12, 
+  0, 
+  12 
+  ) 
+ ) 
+) 
+&amp; &quot;:&quot; &amp; 
+MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 15, 2 ) 
+&amp; &quot;:&quot; &amp; 
+MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 18, 2 ) 
+&amp; &quot; &quot; &amp; 
+IF( 
+ VALUE( MID( TEXT( {!$Record.SchedStartTime} -(8/24)), 12, 2 ) ) &lt; 12, 
+ &quot;AM&quot;, 
+ &quot;PM&quot; 
+)+&quot; on &quot;+Text(DateValue( {!$Record.SchedStartTime} ))</expression>
+    </formulas>
+    <formulas>
+        <name>NotificationBody</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.AppointmentNumber}+&quot; has been Scheduled to &quot;+{!$Record.Service_Resource__r.Name}</expression>
+    </formulas>
+    <interviewLabel>FSL Lead Driver Notification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FSL Lead Driver Notification</label>
+    <loops>
+        <name>Service_Member_List</name>
+        <label>Service Member List</label>
+        <locationX>380</locationX>
+        <locationY>575</locationY>
+        <collectionReference>Get_Lead_Resource_List</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_Lead_Driver</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Has_Lead_Drivers_or_Not</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Lead_Resource_List</name>
+        <label>Get Lead Resource List</label>
+        <locationX>611</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_If_Resources_Present_for_that_Service_Territory</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ServiceTerritoryId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ServiceTerritoryId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>TerritoryType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>P</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ServiceResourceId</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <elementReference>$Record.Service_Resource__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>ServiceTerritoryMember</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Notification_Id_0_0</name>
+        <label>Get Notification Id</label>
+        <locationX>182</locationX>
+        <locationY>1247</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_for_Appointment_Call</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CustomNotifTypeName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>ClearCall Custom Notification</stringValue>
+            </value>
+        </filters>
+        <object>CustomNotificationType</object>
+        <outputAssignments>
+            <assignToReference>NotificationId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <start>
+        <locationX>485</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Lead_Resource_List</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Scheduled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Subject</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Breakdown</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Service_Resource__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Service_Resource__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>LeadDriverList</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>NotificationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>TerritoryId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

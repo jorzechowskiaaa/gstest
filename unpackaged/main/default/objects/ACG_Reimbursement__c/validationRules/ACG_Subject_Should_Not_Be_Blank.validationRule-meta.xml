@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Subject_Should_Not_Be_Blank</fullName>
+    <active>true</active>
+    <description>Subject should have a value when Status is moved to &quot;Management Escalated&quot;</description>
+    <errorConditionFormula>AND(
+NOT($Setup.ACG_Skip_Automations__c.ACG_Skip_Validation_Rules__c),
+ISPICKVAL(ACG_Status__c, &quot;Management Escalated&quot;),
+ISBLANK(ACG_Subject__c),
+NOT(ISNEW())
+)</errorConditionFormula>
+    <errorDisplayField>ACG_Subject__c</errorDisplayField>
+    <errorMessage>Escalation summary is required for case escalation</errorMessage>
+</ValidationRule>

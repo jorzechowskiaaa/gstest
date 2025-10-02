@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reconciled_Statements</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Payment_Date__c</columns>
+    <columns>Total_Basic_Cost__c</columns>
+    <columns>Total_Plus_Cost__c</columns>
+    <columns>Total_Premier_Cost__c</columns>
+    <columns>Total_RV_Cost__c</columns>
+    <columns>Total_Other_Cost__c</columns>
+    <columns>Total_Cost__c</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Statement_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Unreconciled</value>
+    </filters>
+    <label>Reconciled Statements</label>
+    <sharedTo>
+        <allPartnerUsers />
+    </sharedTo>
+</ListView>

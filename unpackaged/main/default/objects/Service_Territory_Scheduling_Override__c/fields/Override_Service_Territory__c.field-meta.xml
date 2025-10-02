@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Override_Service_Territory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The actual facility that will do the work</description>
+    <label>Override Service Territory</label>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Service Territory Scheduling Overrides (Override Service Territory)</relationshipLabel>
+    <relationshipName>Service_Territory_Overrides</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSR_Reporting_Group__c</fullName>
+    <label>CSR Reporting Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alabama Rural</fullName>
+                <default>false</default>
+                <label>Alabama Rural</label>
+            </value>
+            <value>
+                <fullName>Albuquerque</fullName>
+                <default>false</default>
+                <label>Albuquerque</label>
+            </value>
+            <value>
+                <fullName>Arkansas</fullName>
+                <default>false</default>
+                <label>Arkansas</label>
+            </value>
+            <value>
+                <fullName>Auburn</fullName>
+                <default>false</default>
+                <label>Auburn</label>
+            </value>
+            <value>
+                <fullName>Baton Rouge</fullName>
+                <default>false</default>
+                <label>Baton Rouge</label>
+            </value>
+            <value>
+                <fullName>Birmingham</fullName>
+                <default>false</default>
+                <label>Birmingham</label>
+            </value>
+            <value>
+                <fullName>Burbank</fullName>
+                <default>false</default>
+                <label>Burbank</label>
+            </value>
+            <value>
+                <fullName>Central Alabama</fullName>
+                <default>false</default>
+                <label>Central Alabama</label>
+            </value>
+            <value>
+                <fullName>Chino</fullName>
+                <default>false</default>
+                <label>Chino</label>
+            </value>
+            <value>
+                <fullName>Columbia</fullName>
+                <default>false</default>
+                <label>Columbia</label>
+            </value>
+            <value>
+                <fullName>Costa Mesa</fullName>
+                <default>false</default>
+                <label>Costa Mesa</label>
+            </value>
+            <value>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+                <label>Dallas</label>
+            </value>
+            <value>
+                <fullName>Eastern Shore</fullName>
+                <default>false</default>
+                <label>Eastern Shore</label>
+            </value>
+            <value>
+                <fullName>East St. Louis</fullName>
+                <default>false</default>
+                <label>East St. Louis</label>
+            </value>
+            <value>
+                <fullName>Evansville</fullName>
+                <default>false</default>
+                <label>Evansville</label>
+            </value>
+            <value>
+                <fullName>Gulf Shores</fullName>
+                <default>false</default>
+                <label>Gulf Shores</label>
+            </value>
+            <value>
+                <fullName>Hawaii (Big Island)</fullName>
+                <default>false</default>
+                <label>Hawaii (Big Island)</label>
+            </value>
+            <value>
+                <fullName>Houston</fullName>
+                <default>false</default>
+                <label>Houston</label>
+            </value>
+            <value>
+                <fullName>Huntsville</fullName>
+                <default>false</default>
+                <label>Huntsville</label>
+            </value>
+            <value>
+                <fullName>Illinois</fullName>
+                <default>false</default>
+                <label>Illinois</label>
+            </value>
+            <value>
+                <fullName>Indiana</fullName>
+                <default>false</default>
+                <label>Indiana</label>
+            </value>
+            <value>
+                <fullName>Isle of White and Suffolk</fullName>
+                <default>false</default>
+                <label>Isle of White and Suffolk</label>
+            </value>
+            <value>
+                <fullName>Jackson</fullName>
+                <default>false</default>
+                <label>Jackson</label>
+            </value>
+            <value>
+                <fullName>Kansas</fullName>
+                <default>false</default>
+                <label>Kansas</label>
+            </value>
+            <value>
+                <fullName>Kansas City, KS</fullName>
+                <default>false</default>
+                <label>Kansas City, KS</label>
+            </value>
+            <value>
+                <fullName>Kansas City, MO</fullName>
+                <default>false</default>
+                <label>Kansas City, MO</label>
+            </value>
+            <value>
+                <fullName>Kauai</fullName>
+                <default>false</default>
+                <label>Kauai</label>
+            </value>
+            <value>
+                <fullName>Kentucky</fullName>
+                <default>false</default>
+                <label>Kentucky</label>
+            </value>
+            <value>
+                <fullName>Landline NNE</fullName>
+                <default>false</default>
+                <label>Landline NNE</label>
+            </value>
+            <value>
+                <fullName>Las Cruces</fullName>
+                <default>false</default>
+                <label>Las Cruces</label>
+            </value>
+            <value>
+                <fullName>Long Beach</fullName>
+                <default>false</default>
+                <label>Long Beach</label>
+            </value>
+            <value>
+                <fullName>Los Angeles</fullName>
+                <default>false</default>
+                <label>Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Louisiana</fullName>
+                <default>false</default>
+                <label>Louisiana</label>
+            </value>
+            <value>
+                <fullName>Maine Central</fullName>
+                <default>false</default>
+                <label>Maine Central</label>
+            </value>
+            <value>
+                <fullName>Maine Coastal</fullName>
+                <default>false</default>
+                <label>Maine Coastal</label>
+            </value>
+            <value>
+                <fullName>Maine Metro</fullName>
+                <default>false</default>
+                <label>Maine Metro</label>
+            </value>
+            <value>
+                <fullName>Maine Rural</fullName>
+                <default>false</default>
+                <label>Maine Rural</label>
+            </value>
+            <value>
+                <fullName>Maui</fullName>
+                <default>false</default>
+                <label>Maui</label>
+            </value>
+            <value>
+                <fullName>Middle Peninsula</fullName>
+                <default>false</default>
+                <label>Middle Peninsula</label>
+            </value>
+            <value>
+                <fullName>Mississippi</fullName>
+                <default>false</default>
+                <label>Mississippi</label>
+            </value>
+            <value>
+                <fullName>Mississippi Gulf Coast</fullName>
+                <default>false</default>
+                <label>Mississippi Gulf Coast</label>
+            </value>
+            <value>
+                <fullName>Missouri</fullName>
+                <default>false</default>
+                <label>Missouri</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Montgomery</fullName>
+                <default>false</default>
+                <label>Montgomery</label>
+            </value>
+            <value>
+                <fullName>New Hampshire Metro</fullName>
+                <default>false</default>
+                <label>New Hampshire Metro</label>
+            </value>
+            <value>
+                <fullName>New Hampshire Southeast</fullName>
+                <default>false</default>
+                <label>New Hampshire Southeast</label>
+            </value>
+            <value>
+                <fullName>New Hampshire West</fullName>
+                <default>false</default>
+                <label>New Hampshire West</label>
+            </value>
+            <value>
+                <fullName>New Mexico Rural</fullName>
+                <default>false</default>
+                <label>New Mexico Rural</label>
+            </value>
+            <value>
+                <fullName>New Orleans</fullName>
+                <default>false</default>
+                <label>New Orleans</label>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <label>New York</label>
+            </value>
+            <value>
+                <fullName>North Alabama</fullName>
+                <default>false</default>
+                <label>North Alabama</label>
+            </value>
+            <value>
+                <fullName>Northern Neck.</fullName>
+                <default>false</default>
+                <label>Northern Neck.</label>
+            </value>
+            <value>
+                <fullName>North Shore New Orleans</fullName>
+                <default>false</default>
+                <label>North Shore New Orleans</label>
+            </value>
+            <value>
+                <fullName>Oahu</fullName>
+                <default>false</default>
+                <label>Oahu</label>
+            </value>
+            <value>
+                <fullName>Ohio</fullName>
+                <default>false</default>
+                <label>Ohio</label>
+            </value>
+            <value>
+                <fullName>Peninsula</fullName>
+                <default>false</default>
+                <label>Peninsula</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania</fullName>
+                <default>false</default>
+                <label>Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Pittsburgh</fullName>
+                <default>false</default>
+                <label>Pittsburgh</label>
+            </value>
+            <value>
+                <fullName>San Antonio Metro</fullName>
+                <default>false</default>
+                <label>San Antonio Metro</label>
+            </value>
+            <value>
+                <fullName>San Diego</fullName>
+                <default>false</default>
+                <label>San Diego</label>
+            </value>
+            <value>
+                <fullName>Santa Fe</fullName>
+                <default>false</default>
+                <label>Santa Fe</label>
+            </value>
+            <value>
+                <fullName>Shreveport</fullName>
+                <default>false</default>
+                <label>Shreveport</label>
+            </value>
+            <value>
+                <fullName>South Alabama</fullName>
+                <default>false</default>
+                <label>South Alabama</label>
+            </value>
+            <value>
+                <fullName>Southside</fullName>
+                <default>false</default>
+                <label>Southside</label>
+            </value>
+            <value>
+                <fullName>St. Charles</fullName>
+                <default>false</default>
+                <label>St. Charles</label>
+            </value>
+            <value>
+                <fullName>St. Louis, MO</fullName>
+                <default>false</default>
+                <label>St. Louis, MO</label>
+            </value>
+            <value>
+                <fullName>Texas Rural Market North</fullName>
+                <default>false</default>
+                <label>Texas Rural Market North</label>
+            </value>
+            <value>
+                <fullName>Texas Rural Market South</fullName>
+                <default>false</default>
+                <label>Texas Rural Market South</label>
+            </value>
+            <value>
+                <fullName>Tidewater North</fullName>
+                <default>false</default>
+                <label>Tidewater North</label>
+            </value>
+            <value>
+                <fullName>Tidewater South</fullName>
+                <default>false</default>
+                <label>Tidewater South</label>
+            </value>
+            <value>
+                <fullName>Tuscaloosa</fullName>
+                <default>false</default>
+                <label>Tuscaloosa</label>
+            </value>
+            <value>
+                <fullName>Vermont</fullName>
+                <default>false</default>
+                <label>Vermont</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>West Virginia</fullName>
+                <default>false</default>
+                <label>West Virginia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

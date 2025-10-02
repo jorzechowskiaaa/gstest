@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>For the query of approved garage to RADAR case triage application. Need to make sure that the combination of Service Type, Tow Service Reason, and Vehicle Type are unique.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Approved Garage Type Mapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

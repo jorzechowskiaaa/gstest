@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LA_SLA</fullName>
+    <columns>NAME</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Scheduling_Policy__c</columns>
+    <columns>First_Retry_Policy__c</columns>
+    <columns>Retry_Policy__c</columns>
+    <columns>LS_SLA__c</columns>
+    <columns>Tow_SLA__c</columns>
+    <columns>Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Service_Territory__c</field>
+        <operation>startsWith</operation>
+        <value>28</value>
+    </filters>
+    <label>LA SLA</label>
+</ListView>

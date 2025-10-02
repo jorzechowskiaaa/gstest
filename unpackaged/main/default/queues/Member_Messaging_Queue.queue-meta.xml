@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Member Messaging Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>AllInternalUsers</publicGroup>
+        </publicGroups>
+        <users>
+            <user>bscott2@aaanortheast.com</user>
+            <user>cscott@aaanortheast.com</user>
+            <user>cmiklos@aaanortheast.com</user>
+            <user>djohnson1@aaanortheast.com</user>
+            <user>djimmie@aaanortheast.com</user>
+            <user>dgunnison@aaanortheast.com</user>
+            <user>daraujo@aaanortheast.com</user>
+            <user>dkennedy@aaanortheast.com</user>
+            <user>jcardenas@aaanortheast.com</user>
+            <user>kcduffy@aaanortheast.com</user>
+            <user>mhackett@aaanortheast.com</user>
+            <user>medwards@aaanortheast.com</user>
+            <user>mmoore2@aaanortheast.com</user>
+            <user>rdancy@aaanortheast.com</user>
+            <user>smullgrave@aaanortheast.com</user>
+            <user>smasek@aaanortheast.com</user>
+            <user>ttreloar@aaanortheast.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Messaging_Routing_Configuration</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

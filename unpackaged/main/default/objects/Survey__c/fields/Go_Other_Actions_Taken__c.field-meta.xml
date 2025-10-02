@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Go_Other_Actions_Taken__c</fullName>
+    <description>Please let us know what other actions you have taken as a result of reading Go Magazine.</description>
+    <inlineHelpText>Please let us know what other actions you have taken as a result of reading Go Magazine.</inlineHelpText>
+    <label>Other Actions Taken</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

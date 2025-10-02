@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AAA Contract Created</name>
+    <style>none</style>
+    <subject>A New AAA Contract is Created</subject>
+    <textOnly>Hi,
+
+A new AAA contract {!Contract__c.Name} has been created by {!Contract__c.CreatedBy} . Please Approve or Reject the applicable contract line Items.
+
+Link to Access the Contract: {!Contract__c.Name}
+
+Thanks.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

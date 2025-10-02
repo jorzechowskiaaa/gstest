@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Code_P1</name>
+        <label>Assign Code P1</label>
+        <locationX>1282</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P1-Baby Locked in Car</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P2</name>
+        <label>Assign Code P2</label>
+        <locationX>1546</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P2-Member Safety/Medical Concern</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P3</name>
+        <label>Assign Code P3</label>
+        <locationX>1810</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P3-Other Priority</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P4</name>
+        <label>Assign Code P4</label>
+        <locationX>2074</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P4-Public Agency/Police on Scene</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P5</name>
+        <label>Assign Code P5</label>
+        <locationX>2338</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P5-Blocking Traffic</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P6</name>
+        <label>Assign Code P6</label>
+        <locationX>2602</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P6-Accident</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P7</name>
+        <label>Assign Code P7</label>
+        <locationX>2866</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P7-Freeway/Highway Call</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Code_P8</name>
+        <label>Assign Code P8</label>
+        <locationX>3130</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority_Code</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>P8-Lockout, Car Running</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_priority_level</name>
+        <label>Assign priority level</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_FSL_Priority_Code_Mapping.WorkOrder_Priority__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Copy_1_of_Is_Priority_Code_P1_P2_P4_P7</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_priority_to_Critical</name>
+        <label>Assign priority to Critical</label>
+        <locationX>2074</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Critical</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Priority_Code_P1_P2_P4_P7</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_priority_to_High</name>
+        <label>Assign priority to High</label>
+        <locationX>2338</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>var_Priority</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>High</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Priority_Code_P1_P2_P4_P7</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Copy_1_of_Is_Priority_Code_P1_P2_P4_P7</name>
+        <label>Copy 1 of Is Priority Code P1/P2/P4/P7</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Is_P1</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P1</targetReference>
+            </connector>
+            <label>Copy 1 of Is P1</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P2</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P2</targetReference>
+            </connector>
+            <label>Copy 1 of Is P2</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P3</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P3</targetReference>
+            </connector>
+            <label>Copy 1 of Is P3</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P4</targetReference>
+            </connector>
+            <label>Copy 1 of Is P4</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P5</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P5</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P5</targetReference>
+            </connector>
+            <label>Copy 1 of Is P5</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P6</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P6</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P6</targetReference>
+            </connector>
+            <label>Copy 1 of Is P6</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P7</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P7</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P7</targetReference>
+            </connector>
+            <label>Copy 1 of Is P7</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_P8</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>P8</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Assign_Code_P8</targetReference>
+            </connector>
+            <label>Copy 1 of Is P8</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Priority_Code_P1_P2_P4_P7</name>
+        <label>Is Priority Code P1/P2/P4/P7</label>
+        <locationX>2338</locationX>
+        <locationY>839</locationY>
+        <defaultConnector>
+            <targetReference>Update_Priority_and_Priority_Code</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_P1</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Baby Locked in Car</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P1</targetReference>
+            </connector>
+            <label>Is P1</label>
+        </rules>
+        <rules>
+            <name>Is_P2</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Member Safety/Medical Concern</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P2</targetReference>
+            </connector>
+            <label>Is P2</label>
+        </rules>
+        <rules>
+            <name>Is_P3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Other Priority</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P3</targetReference>
+            </connector>
+            <label>Is P3</label>
+        </rules>
+        <rules>
+            <name>Is_P4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Public Agency/Police on Scene</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P4</targetReference>
+            </connector>
+            <label>Is P4</label>
+        </rules>
+        <rules>
+            <name>Is_P5</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Blocking Traffic</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P5</targetReference>
+            </connector>
+            <label>Is P5</label>
+        </rules>
+        <rules>
+            <name>Is_P6</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Accident</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P6</targetReference>
+            </connector>
+            <label>Is P6</label>
+        </rules>
+        <rules>
+            <name>Is_P7</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Freeway/Highway Call</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P7</targetReference>
+            </connector>
+            <label>Is P7</label>
+        </rules>
+        <rules>
+            <name>Is_P8</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Lockout, Car Running</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Code_P8</targetReference>
+            </connector>
+            <label>Is P8</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Priority_Critical_Or_High</name>
+        <label>Is Priority Critical Or High</label>
+        <locationX>2338</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Is_Priority_Code_P1_P2_P4_P7</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Medium</defaultConnectorLabel>
+        <rules>
+            <name>Is_Critical</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Baby Locked in Car</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Freeway/Highway Call</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_priority_to_Critical</targetReference>
+            </connector>
+            <label>Is Critical</label>
+        </rules>
+        <rules>
+            <name>Is_High</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Public Agency/Police on Scene</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Blocking Traffic</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Accident</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Lockout, Car Running</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Member Safety/Medical Concern</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Critical_Call_Reason__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Other Priority</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_priority_to_High</targetReference>
+            </connector>
+            <label>Is High</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Priority_Code_Mapping_Returned</name>
+        <label>Priority Code Mapping Returned</label>
+        <locationX>1194</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Is_Priority_Critical_Or_High</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome (fallback logic)</defaultConnectorLabel>
+        <rules>
+            <name>yes_record_returned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.Name</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_FSL_Priority_Code_Mapping.WorkOrder_Priority__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_priority_level</targetReference>
+            </connector>
+            <label>yes record returned</label>
+        </rules>
+    </decisions>
+    <description>This flow updates the priority on case based on the values selected in RADAR
+2025-01-20: Updated for INC0089659 &quot;Member Safety/Medical Concern&quot; (to High) &quot;Other Priority&quot; (to Critical)
+2025-04-07: Update &quot;Other Priority&quot; (to High)
+2025-08-08: Update to get values from custom metadata for SSFI-1265-  JWO</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Case Priority {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Case Priority</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_FSL_Priority_Code_Mapping</name>
+        <label>Get FSL Priority Code Mapping</label>
+        <locationX>1194</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Priority_Code_Mapping_Returned</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Priority_Description__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Critical_Call_Reason__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>FSL_PriorityCode_Mapping__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Priority_and_Priority_Code</name>
+        <label>Update Priority and Priority Code</label>
+        <locationX>1194</locationX>
+        <locationY>1223</locationY>
+        <inputAssignments>
+            <field>ACG_Priority_Code__c</field>
+            <value>
+                <elementReference>var_Priority_Code</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <elementReference>var_Priority</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1068</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_FSL_Priority_Code_Mapping</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Critical_Call_Reason__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>var_Priority</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Medium</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>var_Priority_Code</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

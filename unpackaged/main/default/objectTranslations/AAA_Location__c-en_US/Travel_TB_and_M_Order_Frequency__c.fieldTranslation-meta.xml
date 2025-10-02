@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Travel TB and M Order Frequency --></label>
+        <name>Travel_TB_and_M_Order_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>MONTHLY</masterLabel>
+            <translation><!-- MONTHLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEMI-MTHLY</masterLabel>
+            <translation><!-- SEMI-MTHLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRIWKLY</masterLabel>
+            <translation><!-- TRIWKLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WKLY</masterLabel>
+            <translation><!-- WKLY --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Assignment_Before_Status_Change</fullName>
+    <active>true</active>
+    <description>This rule prevents the change of status from Spotted to any other status except Cancelled without an Assigned Resource</description>
+    <errorConditionFormula>ISBLANK(Service_Resource__c) &amp;&amp; 
+(ISPICKVAL(Status, &quot;Dispatched&quot;) || ISPICKVAL(Status, &quot;En Route&quot;) || ISPICKVAL(Status, &quot;On Location&quot;) || ISPICKVAL(Status, &quot;In Tow&quot;) || ISPICKVAL(Status, &quot;Tow Complete&quot;))
+&amp;&amp; NOT(isBlank(EntitlementId))</errorConditionFormula>
+    <errorMessage>The selected status requires the child service appointments to be assigned to a resource.</errorMessage>
+</ValidationRule>

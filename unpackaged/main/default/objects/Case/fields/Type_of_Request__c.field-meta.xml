@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Request__c</fullName>
+    <label>Type of Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Add New User</fullName>
+                <default>false</default>
+                <label>Add New User</label>
+            </value>
+            <value>
+                <fullName>Agent Change Request</fullName>
+                <default>false</default>
+                <label>Agent Change Request</label>
+            </value>
+            <value>
+                <fullName>Communications</fullName>
+                <default>false</default>
+                <label>Communications</label>
+            </value>
+            <value>
+                <fullName>Consumer Quote</fullName>
+                <default>false</default>
+                <label>Consumer Quote</label>
+            </value>
+            <value>
+                <fullName>Continuing Education</fullName>
+                <default>false</default>
+                <label>Continuing Education</label>
+            </value>
+            <value>
+                <fullName>Corporate Education/Training Support</fullName>
+                <default>false</default>
+                <label>Corporate Education/Training Support</label>
+            </value>
+            <value>
+                <fullName>Data Issue</fullName>
+                <default>false</default>
+                <label>Data Issue</label>
+            </value>
+            <value>
+                <fullName>Help/Enhancements Request</fullName>
+                <default>false</default>
+                <label>Help/Enhancements Request</label>
+            </value>
+            <value>
+                <fullName>Internal Release Management</fullName>
+                <default>false</default>
+                <label>Internal Release Management</label>
+            </value>
+            <value>
+                <fullName>Internal Team Meeting/Collaboration</fullName>
+                <default>false</default>
+                <label>Internal Team Meeting/Collaboration</label>
+            </value>
+            <value>
+                <fullName>Internet Marketing Tags</fullName>
+                <default>false</default>
+                <label>Internet Marketing Tags</label>
+            </value>
+            <value>
+                <fullName>IPM Release</fullName>
+                <default>false</default>
+                <label>IPM Release</label>
+            </value>
+            <value>
+                <fullName>Load New Leads in SFDC</fullName>
+                <default>false</default>
+                <label>Load New Leads in SFDC</label>
+            </value>
+            <value>
+                <fullName>Member HH Penetration</fullName>
+                <default>false</default>
+                <label>Member HH Penetration</label>
+            </value>
+            <value>
+                <fullName>New Lead Requests</fullName>
+                <default>false</default>
+                <label>New Lead Requests</label>
+            </value>
+            <value>
+                <fullName>Operational Project Work</fullName>
+                <default>false</default>
+                <label>Operational Project Work</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>QuoteScout</fullName>
+                <default>false</default>
+                <label>QuoteScout</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>SalesMaster</fullName>
+                <default>false</default>
+                <label>SalesMaster</label>
+            </value>
+            <value>
+                <fullName>SFDC Release Management</fullName>
+                <default>false</default>
+                <label>SFDC Release Management</label>
+            </value>
+            <value>
+                <fullName>SFDC to POC</fullName>
+                <default>false</default>
+                <label>SFDC to POC</label>
+            </value>
+            <value>
+                <fullName>SF Premier Support Issue</fullName>
+                <default>false</default>
+                <label>SF Premier Support Issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

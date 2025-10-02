@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Resolution_Type__c</fullName>
+    <label>Resolution Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apology Letter</fullName>
+                <default>false</default>
+                <label>Apology Letter</label>
+            </value>
+            <value>
+                <fullName>Coupon Book</fullName>
+                <default>false</default>
+                <label>Coupon Book</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>Denied</label>
+            </value>
+            <value>
+                <fullName>DRC Voucher</fullName>
+                <default>false</default>
+                <label>DRC Voucher</label>
+            </value>
+            <value>
+                <fullName>Entered into AICWEB</fullName>
+                <default>false</default>
+                <label>Entered into AICWEB</label>
+            </value>
+            <value>
+                <fullName>Entitlement Rollback</fullName>
+                <default>false</default>
+                <label>Entitlement Rollback</label>
+            </value>
+            <value>
+                <fullName>Referred to Vendor/Service Provider</fullName>
+                <default>false</default>
+                <label>Referred to Vendor/Service Provider</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Responded to Member</fullName>
+                <default>false</default>
+                <label>Responded to Member</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Reassigned</fullName>
+                <default>false</default>
+                <label>Reassigned</label>
+            </value>
+            <value>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+                <label>Not Approved</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unable to contact</fullName>
+                <default>false</default>
+                <label>Unable to contact</label>
+            </value>
+            <value>
+                <fullName>Left a message</fullName>
+                <default>false</default>
+                <label>Left a message</label>
+            </value>
+            <value>
+                <fullName>Followup required</fullName>
+                <default>false</default>
+                <label>Followup required</label>
+            </value>
+            <value>
+                <fullName>Followup resolved</fullName>
+                <default>false</default>
+                <label>Followup resolved</label>
+            </value>
+            <value>
+                <fullName>Contacted member</fullName>
+                <default>false</default>
+                <label>Contacted member</label>
+            </value>
+            <value>
+                <fullName>Complimentary</fullName>
+                <default>false</default>
+                <label>Complimentary</label>
+            </value>
+            <value>
+                <fullName>Discount</fullName>
+                <default>false</default>
+                <label>Discount</label>
+            </value>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+                <label>Downgrade</label>
+            </value>
+            <value>
+                <fullName>Extension</fullName>
+                <default>false</default>
+                <label>Extension</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

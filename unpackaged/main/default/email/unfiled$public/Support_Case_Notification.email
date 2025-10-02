@@ -1,0 +1,5 @@
+There is a new FSL Support Case that needs your attention. Please review the case and take appropriate action.
+
+	Submitted by: {!Case.FSL_User__c}
+	Subject: {!Case.Subject}
+	Description: {!Case.Description}

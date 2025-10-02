@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dispute Code --></label>
+        <name>Dispute_Code__c</name>
+        <picklistValues>
+            <masterLabel>D0 - Multiple reasons</masterLabel>
+            <translation><!-- D0 - Multiple reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1 - This is not a PLRV Member</masterLabel>
+            <translation><!-- D1 - This is not a PLRV Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2 - This is not a Plus Member</masterLabel>
+            <translation><!-- D2 - This is not a Plus Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3 - This is not a Premier Member</masterLabel>
+            <translation><!-- D3 - This is not a Premier Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D4 - Call was previously submitted</masterLabel>
+            <translation><!-- D4 - Call was previously submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D6 - Name does not match membership number</masterLabel>
+            <translation><!-- D6 - Name does not match membership number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D7 - Not our member</masterLabel>
+            <translation><!-- D7 - Not our member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D8 - Invalid membership number</masterLabel>
+            <translation><!-- D8 - Invalid membership number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D9 - Service date is &gt; expiration</masterLabel>
+            <translation><!-- D9 - Service date is &gt; expiration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC - Charges not validated per information</masterLabel>
+            <translation><!-- DC - Charges not validated per information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR - Resubmitted ticket</masterLabel>
+            <translation><!-- DR - Resubmitted ticket --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>NE 15</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">In Development - Do Not Use                                                                              
+
+Case Dispatcher Status is not Working 
+
+SA Original Receiver Id = RAP_SRVR 
+SA Status is Cleared 
+SA Resolution Code = R001, R002, R003, R006, R007, R199, X001, X002
+
+SA Jeopardy Reason = Driver Cancelled or NSR RAP Call
+Case Violation Type = Driver Cancelled or NSR RAP Call
+Case owner = RAP Queue</value>
+    </values>
+    <values>
+        <field>isExecute__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

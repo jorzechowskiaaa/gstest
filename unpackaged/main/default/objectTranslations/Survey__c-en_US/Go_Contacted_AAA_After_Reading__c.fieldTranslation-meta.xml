@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- In the last 12 months, have you contacted AAA regarding services as a result of reading Go Magazine? --></help>
+        <label><!-- Contacted AAA After Reading --></label>
+        <name>Go_Contacted_AAA_After_Reading__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Tow_Codes__c</fullName>
+    <description>Created for FSL ERS Work Order Intake</description>
+    <label>Tow Codes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>0:GOA</fullName>
+                <default>false</default>
+                <label>0:GOA</label>
+            </value>
+            <value>
+                <fullName>1:Flat Tire w/Space</fullName>
+                <default>false</default>
+                <label>1:Flat Tire w/Space</label>
+            </value>
+            <value>
+                <fullName>1R:Flat Tire, RV</fullName>
+                <default>false</default>
+                <label>1R:Flat Tire, RV</label>
+            </value>
+            <value>
+                <fullName>2:Flat Tire w/o Spare</fullName>
+                <default>false</default>
+                <label>2:Flat Tire w/o Spare</label>
+            </value>
+            <value>
+                <fullName>2R:RV No Spare</fullName>
+                <default>false</default>
+                <label>2R:RV No Spare</label>
+            </value>
+            <value>
+                <fullName>3:Battery Boost</fullName>
+                <default>false</default>
+                <label>3:Battery Boost</label>
+            </value>
+            <value>
+                <fullName>3B:Battery Service</fullName>
+                <default>false</default>
+                <label>3B:Battery Service</label>
+            </value>
+            <value>
+                <fullName>3R:RV Battery Service</fullName>
+                <default>false</default>
+                <label>3R:RV Battery Service</label>
+            </value>
+            <value>
+                <fullName>4:Cant start/Pass Tow</fullName>
+                <default>false</default>
+                <label>4:Cant start/Pass Tow</label>
+            </value>
+            <value>
+                <fullName>5:Fuel Delivery</fullName>
+                <default>false</default>
+                <label>5:Fuel Delivery</label>
+            </value>
+            <value>
+                <fullName>6:Tow</fullName>
+                <default>false</default>
+                <label>6:Tow</label>
+            </value>
+            <value>
+                <fullName>6F:Tow w/Flatbed</fullName>
+                <default>false</default>
+                <label>6F:Tow w/Flatbed</label>
+            </value>
+            <value>
+                <fullName>6P:Premier Tow 200</fullName>
+                <default>false</default>
+                <label>6P:Premier Tow 200</label>
+            </value>
+            <value>
+                <fullName>6R:RV Service</fullName>
+                <default>false</default>
+                <label>6R:RV Service</label>
+            </value>
+            <value>
+                <fullName>7:Basic Lockout</fullName>
+                <default>false</default>
+                <label>7:Basic Lockout</label>
+            </value>
+            <value>
+                <fullName>7A:Make a key</fullName>
+                <default>false</default>
+                <label>7A:Make a key</label>
+            </value>
+            <value>
+                <fullName>7B:Locksmith Srvs</fullName>
+                <default>false</default>
+                <label>7B:Locksmith Srvs</label>
+            </value>
+            <value>
+                <fullName>7H:Home Locksmith Svcs</fullName>
+                <default>false</default>
+                <label>7H:Home Locksmith Svcs</label>
+            </value>
+            <value>
+                <fullName>8:Extric/Winch</fullName>
+                <default>false</default>
+                <label>8:Extric/Winch</label>
+            </value>
+            <value>
+                <fullName>9:Misc/Police</fullName>
+                <default>false</default>
+                <label>9:Misc/Police</label>
+            </value>
+            <value>
+                <fullName>R:Premier Rental Car</fullName>
+                <default>false</default>
+                <label>R:Premier Rental Car</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

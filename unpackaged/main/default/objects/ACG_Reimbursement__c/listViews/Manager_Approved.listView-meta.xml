@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Approved</fullName>
+    <columns>NAME</columns>
+    <columns>ACG_Member_Name__c</columns>
+    <columns>ACG_Date_Received__c</columns>
+    <columns>ACG_Status__c</columns>
+    <columns>ACG_Amount_Requested__c</columns>
+    <columns>AAA_Call__c</columns>
+    <columns>ACG_Reason__c</columns>
+    <columns>ACG_Decision__c</columns>
+    <columns>ACG_Pay_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACG_Status__c</field>
+        <operation>equals</operation>
+        <value>Decision Approved</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>3/21/2025 12:00 AM</value>
+    </filters>
+    <label>Manager Approved</label>
+</ListView>

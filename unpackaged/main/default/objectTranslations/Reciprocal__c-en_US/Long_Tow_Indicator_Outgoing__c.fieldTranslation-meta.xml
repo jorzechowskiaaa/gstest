@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is for the Outgoing reciprocal file to have the Y/N format for the Long Tow Indicator --></help>
+        <label><!-- Long Tow Indicator Outgoing --></label>
+        <name>Long_Tow_Indicator_Outgoing__c</name>
+    </CustomFieldTranslation>

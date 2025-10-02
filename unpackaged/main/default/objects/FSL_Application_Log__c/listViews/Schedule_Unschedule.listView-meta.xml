@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Unschedule</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Request_Body__c</columns>
+    <columns>Response_Body__c</columns>
+    <columns>Success_Message__c</columns>
+    <columns>Call_Version__c</columns>
+    <columns>DateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Operation__c</field>
+        <operation>equals</operation>
+        <value>Scheduling,Unscheduling</value>
+    </filters>
+    <label>Schedule/Unschedule</label>
+</ListView>

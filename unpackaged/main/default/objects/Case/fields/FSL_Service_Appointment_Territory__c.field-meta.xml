@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Service_Appointment_Territory__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Service Appointment Territory</label>
+    <referenceTo>ServiceTerritory</referenceTo>
+    <relationshipLabel>Cases (Service Appointment Territory)</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

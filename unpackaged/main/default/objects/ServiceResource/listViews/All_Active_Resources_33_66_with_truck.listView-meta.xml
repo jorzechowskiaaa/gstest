@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Active_Resources_33_66_with_truck</fullName>
+    <columns>Name</columns>
+    <columns>RelatedRecord</columns>
+    <columns>ResourceType</columns>
+    <columns>IsActive</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>FSL__Priority__c</columns>
+    <columns>Driver_Id__c</columns>
+    <columns>External_Id__c</columns>
+    <columns>Primary_Facility_Id__c</columns>
+    <columns>Primary_Service_Territory__c</columns>
+    <columns>Id</columns>
+    <columns>Vehicle__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Service_Territory__c</field>
+        <operation>startsWith</operation>
+        <value>240-</value>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Active Resources 33/66 with truck</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Delegated_Admin</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

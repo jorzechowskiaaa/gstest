@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_BO_Amount_Is_Zero</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    NOT($Setup.ACG_Skip_Automations__c.ACG_Skip_Validation_Rules__c),
+        OR(
+								ISCHANGED(ACG_Status__c),
+								ISCHANGED(ACG_Decision__c),
+								ISCHANGED(Amount_Approved__c)
+          ),
+				OR(
+								ISPICKVAL(ACG_Status__c, &quot;Decision Submitted&quot;), 
+								ISPICKVAL(ACG_Status__c, &quot;Decision Approved&quot;), 
+								ISPICKVAL(ACG_Status__c, &quot;Payment Processing&quot;)
+    ),
+    OR(
+       ISPICKVAL(ACG_Decision__c, &quot;Approved&quot;), 
+       ISPICKVAL(ACG_Decision__c, &quot;Partially Approved&quot;)
+    ),
+				OR(
+								Amount_Approved__c &lt;= 0,
+								ISNULL(Amount_Approved__c)
+				)
+)</errorConditionFormula>
+    <errorMessage>Amount approved is zero. Please, specify an amount before updating reimbursement status.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Process_Criteria__c</fullName>
+    <description>Indicates which insurance process or change created the survey. This is determined in the Survey - Insurance NPS process builder.</description>
+    <label>Survey Process Criteria</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Policy Renewal</fullName>
+                <default>false</default>
+                <label>Policy Renewal</label>
+            </value>
+            <value>
+                <fullName>Service Policy Change</fullName>
+                <default>false</default>
+                <label>Service Policy Change</label>
+            </value>
+            <value>
+                <fullName>Policy Cancellation</fullName>
+                <default>false</default>
+                <label>Policy Cancellation</label>
+            </value>
+            <value>
+                <fullName>Claim FNOL</fullName>
+                <default>false</default>
+                <label>Claim FNOL</label>
+            </value>
+            <value>
+                <fullName>Claim Final Payment</fullName>
+                <default>false</default>
+                <label>Claim Final Payment</label>
+            </value>
+            <value>
+                <fullName>New Business</fullName>
+                <default>false</default>
+                <label>New Business</label>
+            </value>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

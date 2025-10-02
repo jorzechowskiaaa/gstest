@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Type__c</fullName>
+    <label>Facility Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAR Body Shop</fullName>
+                <default>false</default>
+                <label>AAR Body Shop</label>
+            </value>
+            <value>
+                <fullName>AAR Glass</fullName>
+                <default>false</default>
+                <label>AAR Glass</label>
+            </value>
+            <value>
+                <fullName>Battery with Full Svc</fullName>
+                <default>false</default>
+                <label>Battery with Full Svc</label>
+            </value>
+            <value>
+                <fullName>Battery with Light Svc</fullName>
+                <default>false</default>
+                <label>Battery with Light Svc</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Club Owned Repair</fullName>
+                <default>false</default>
+                <label>Club Owned Repair</label>
+            </value>
+            <value>
+                <fullName>Car Dealership</fullName>
+                <default>false</default>
+                <label>Car Dealership</label>
+            </value>
+            <value>
+                <fullName>Fleet</fullName>
+                <default>false</default>
+                <label>Fleet</label>
+            </value>
+            <value>
+                <fullName>Full Svc No Battery</fullName>
+                <default>false</default>
+                <label>Full Svc No Battery</label>
+            </value>
+            <value>
+                <fullName>Independent Repair</fullName>
+                <default>false</default>
+                <label>Independent Repair</label>
+            </value>
+            <value>
+                <fullName>Locksmith</fullName>
+                <default>false</default>
+                <label>Locksmith</label>
+            </value>
+            <value>
+                <fullName>Light Svc No Battery</fullName>
+                <default>false</default>
+                <label>Light Svc No Battery</label>
+            </value>
+            <value>
+                <fullName>AAR Repair Shop</fullName>
+                <default>false</default>
+                <label>AAR Repair Shop</label>
+            </value>
+            <value>
+                <fullName>RV Only</fullName>
+                <default>false</default>
+                <label>RV Only</label>
+            </value>
+            <value>
+                <fullName>Roadside Only</fullName>
+                <default>false</default>
+                <label>Roadside Only</label>
+            </value>
+            <value>
+                <fullName>Specialty Shop</fullName>
+                <default>false</default>
+                <label>Specialty Shop</label>
+            </value>
+            <value>
+                <fullName>Turnpike</fullName>
+                <default>false</default>
+                <label>Turnpike</label>
+            </value>
+            <value>
+                <fullName>Tow Only</fullName>
+                <default>false</default>
+                <label>Tow Only</label>
+            </value>
+            <value>
+                <fullName>Test Facility</fullName>
+                <default>false</default>
+                <label>Test Facility</label>
+            </value>
+            <value>
+                <fullName>Bringg Dummy Facility</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bringg Dummy Facility</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

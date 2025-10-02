@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Problem_Code__c</columns>
+    <columns>NAME</columns>
+    <columns>Service_Contract__c</columns>
+    <columns>Status__c</columns>
+    <columns>Member_ID__c</columns>
+    <columns>Service_Call_Date__c</columns>
+    <columns>Member_Last_Name__c</columns>
+    <columns>Cost_Buffer__c</columns>
+    <columns>Service_Call_ID__c</columns>
+    <columns>Dispute_Code__c</columns>
+    <columns>Service_Club_Code__c</columns>
+    <columns>Submitting_Club_Code__c</columns>
+    <columns>Membership_Type__c</columns>
+    <columns>Membership_Expiration_Date__c</columns>
+    <columns>Total_Dollar_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Reciprocal__c.Inbound_Payment_Requests</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>8/20/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>Amended_Charges_Indicator__c</field>
+        <operation>equals</operation>
+        <value>A</value>
+    </filters>
+    <filters>
+        <field>Submitting_Club_Code__c</field>
+        <operation>equals</operation>
+        <value>258</value>
+    </filters>
+    <label>New Incoming Reciprocals</label>
+</ListView>

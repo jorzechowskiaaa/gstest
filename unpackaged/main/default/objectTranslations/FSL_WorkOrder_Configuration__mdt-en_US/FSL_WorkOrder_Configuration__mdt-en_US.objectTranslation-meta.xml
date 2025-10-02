@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FSL WorkOrder Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FSL WorkOrder Configurations</value>
+    </caseValues>
+    
+    
+    
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Value must be greater than or equal to zero and less than or equal to 1440 ( 1 whole day) --></errorMessage>
+        <name>Range</name>
+    </validationRules>
+</CustomObjectTranslation>

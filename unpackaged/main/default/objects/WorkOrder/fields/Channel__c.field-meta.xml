@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ARR</fullName>
+                <default>false</default>
+                <label>ARR</label>
+            </value>
+            <value>
+                <fullName>DRR</fullName>
+                <default>false</default>
+                <label>DRR</label>
+            </value>
+            <value>
+                <fullName>ACG DRR</fullName>
+                <default>false</default>
+                <label>ACG DRR</label>
+            </value>
+            <value>
+                <fullName>IVR</fullName>
+                <default>false</default>
+                <label>IVR</label>
+            </value>
+            <value>
+                <fullName>CTI DRR</fullName>
+                <default>false</default>
+                <label>CTI DRR</label>
+            </value>
+            <value>
+                <fullName>CHATBOT</fullName>
+                <default>false</default>
+                <label>CHATBOT</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 ACEAPP</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 ACEAPP</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 SEO</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 SEO</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 IVR</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 IVR</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 800SMS</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 800SMS</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 ANDROIDMOBILE</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 ANDROIDMOBILE</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 IOSMOBILE</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 IOSMOBILE</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 BQ</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 BQ</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 ACEAPP-IOS</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 ACEAPP-IOS</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 ACEAPP-ANDROIDMOBILE</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 ACEAPP-ANDROIDMOBILE</label>
+            </value>
+            <value>
+                <fullName>DRRCARPLAY IOS</fullName>
+                <default>false</default>
+                <label>DRRCARPLAY IOS</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 AGENT</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 AGENT</label>
+            </value>
+            <value>
+                <fullName>RSO Chatbot</fullName>
+                <default>false</default>
+                <label>RSO Chatbot</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 BLUESKYDRR</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 BLUESKYDRR</label>
+            </value>
+            <value>
+                <fullName>DRRWeb 2.0 IVR SELF SERVICE</fullName>
+                <default>false</default>
+                <label>DRRWeb 2.0 IVR SELF SERVICE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

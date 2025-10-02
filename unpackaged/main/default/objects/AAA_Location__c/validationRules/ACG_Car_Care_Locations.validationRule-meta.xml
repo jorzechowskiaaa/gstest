@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Car_Care_Locations</fullName>
+    <active>true</active>
+    <description>Requires entry of appropriate fields for Car Care locations.</description>
+    <errorConditionFormula>Car_Care__c=TRUE
+&amp;&amp;
+(
+ISBLANK(Car_Care_Location_Number__c)
+||
+ISBLANK(Car_Care_Manager__c)
+||
+ISBLANK(Car_Care_Region__c)
+||
+ISBLANK(Car_Care_Region_Manager__c)
+)</errorConditionFormula>
+    <errorMessage>Please include the Location Number, Manager, Region, and Regional Manager for all Car Care locations.</errorMessage>
+</ValidationRule>

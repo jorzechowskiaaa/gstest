@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Same_Member_in_24_Hrs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If a case was created for the same Member/Customer (Account) in Last 24 Hrs</inlineHelpText>
+    <label>Same Member in 24 Hrs</label>
+    <type>Checkbox</type>
+</CustomField>

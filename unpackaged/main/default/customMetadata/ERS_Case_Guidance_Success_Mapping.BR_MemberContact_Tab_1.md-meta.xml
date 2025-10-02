@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>BR-MemberContact Tab 1</label>
+    <protected>false</protected>
+    <values>
+        <field>BSP_Available__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Case_Guidance_Success_Status__c</field>
+        <value xsi:type="xsd:string">Active</value>
+    </values>
+    <values>
+        <field>Flat_Tire_Status__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Guidance_Success__c</field>
+        <value xsi:type="xsd:string">In cases where the membership does not load automatically, advocates must use the Advanced Member Search in order to locate the membership properly. Do not use the Account Name field on the Triage screen. Use any of the following combinations of member information: 1) Member Number 2) Last Name, First Name, Zip Code and AAA Club. 3) Phone Number and AAA Club. | If unable to locate the appropriate membership account, utilize your clubs Membership Processing System (CRM) for assistance.</value>
+    </values>
+    <values>
+        <field>Membership_Level__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Name_of_Triage_Tab__c</field>
+        <value xsi:type="xsd:string">Member/Contact</value>
+    </values>
+    <values>
+        <field>Service_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Fuel_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Vehicle_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Booked_Trip_Elsewhere__c</fullName>
+    <description>How/where did the customer book, if they booked somewhere else?</description>
+    <inlineHelpText>How/where did the customer book, if they booked somewhere else?</inlineHelpText>
+    <label>Booked Trip Elsewhere</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other On-Line</fullName>
+                <default>false</default>
+                <label>Other On-Line</label>
+            </value>
+            <value>
+                <fullName>Direct Supplier</fullName>
+                <default>false</default>
+                <label>Direct Supplier</label>
+            </value>
+            <value>
+                <fullName>Storefront Agency</fullName>
+                <default>false</default>
+                <label>Storefront Agency</label>
+            </value>
+            <value>
+                <fullName>Another AAA Location</fullName>
+                <default>false</default>
+                <label>Another AAA Location</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

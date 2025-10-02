@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispute_Code__c</fullName>
+    <label>Dispute Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>D0</fullName>
+                <default>false</default>
+                <label>D0 - Multiple reasons</label>
+            </value>
+            <value>
+                <fullName>D1</fullName>
+                <default>false</default>
+                <label>D1 - This is not a PLRV Member</label>
+            </value>
+            <value>
+                <fullName>D2</fullName>
+                <default>false</default>
+                <label>D2 - This is not a Plus Member</label>
+            </value>
+            <value>
+                <fullName>D3</fullName>
+                <default>false</default>
+                <label>D3 - This is not a Premier Member</label>
+            </value>
+            <value>
+                <fullName>D4</fullName>
+                <default>false</default>
+                <label>D4 - Call was previously submitted</label>
+            </value>
+            <value>
+                <fullName>D6</fullName>
+                <default>false</default>
+                <label>D6 - Name does not match membership number</label>
+            </value>
+            <value>
+                <fullName>D7</fullName>
+                <default>false</default>
+                <label>D7 - Not our member</label>
+            </value>
+            <value>
+                <fullName>D8</fullName>
+                <default>false</default>
+                <label>D8 - Invalid membership number</label>
+            </value>
+            <value>
+                <fullName>D9</fullName>
+                <default>false</default>
+                <label>D9 - Service date is &gt; expiration</label>
+            </value>
+            <value>
+                <fullName>DC</fullName>
+                <default>false</default>
+                <label>DC - Charges not validated per information</label>
+            </value>
+            <value>
+                <fullName>DR</fullName>
+                <default>false</default>
+                <label>DR - Resubmitted ticket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

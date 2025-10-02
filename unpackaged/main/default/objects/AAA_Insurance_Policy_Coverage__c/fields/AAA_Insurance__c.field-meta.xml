@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAA_Insurance__c</fullName>
+    <label>AAA Insurance</label>
+    <referenceTo>AAA_Insurance__c</referenceTo>
+    <relationshipLabel>AAA Insurance Policy Coverages</relationshipLabel>
+    <relationshipName>AAA_Insurance_Policy_Coverages</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

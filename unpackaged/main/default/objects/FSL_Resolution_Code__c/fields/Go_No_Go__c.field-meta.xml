@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Go_No_Go__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(BEGINS(Code__c, &quot;G&quot;), &quot;Go&quot;, IF(BEGINS(Code__c, &quot;N&quot;), &quot;No Go&quot;, IF(BEGINS(Code__c, &quot;R&quot;), &quot;NSR&quot;, &quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Go / No Go</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Override</fullName>
+    <active>true</active>
+    <description>Override Service Territory during call receive</description>
+    <label>Territory Override</label>
+    <picklistValues>
+        <picklist>Days_Applied__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_Types__c</picklist>
+        <values>
+            <fullName>Accident Assist - Continuation Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - First Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - MC Continuation Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - MC First Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - MC Second Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - RV Continuation Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - RV First Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - RV Second Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident Assist - Second Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Jumpstart</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bicycle Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EV Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat Tire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flatbed Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fuel Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light Service Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lockout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locksmith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Clearance Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorcycle Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-RV Extrication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Car Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RV Extrication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RV Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested Tow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tire Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

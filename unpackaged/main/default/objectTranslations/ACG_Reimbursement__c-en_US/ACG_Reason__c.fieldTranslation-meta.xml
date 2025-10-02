@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decision Reason --></label>
+        <name>ACG_Reason__c</name>
+        <picklistValues>
+            <masterLabel>00 - No Receipt</masterLabel>
+            <translation><!-- 00 - No Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01 - Too Old</masterLabel>
+            <translation><!-- 01 - Too Old --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 - Unpaid Receipt</masterLabel>
+            <translation><!-- 02 - Unpaid Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 - Not Legiable Receipt</masterLabel>
+            <translation><!-- 03 - Not Legiable Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 - Credit Card Receipt</masterLabel>
+            <translation><!-- 04 - Credit Card Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 - Non Plus on Date of Service</masterLabel>
+            <translation><!-- 05 - Non Plus on Date of Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 - Locksmith Overages</masterLabel>
+            <translation><!-- 06 - Locksmith Overages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 - Basic Member</masterLabel>
+            <translation><!-- 07 - Basic Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08 - Non-Member on paid recpt</masterLabel>
+            <translation><!-- 08 - Non-Member on paid recpt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09 - Over Entitlements</masterLabel>
+            <translation><!-- 09 - Over Entitlements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Illegal Actions</masterLabel>
+            <translation><!-- 10 - Illegal Actions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Ineligible Expenses</masterLabel>
+            <translation><!-- 11 - Ineligible Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Ineligible Vehicle or Equipment</masterLabel>
+            <translation><!-- 12 - Ineligible Vehicle or Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Inaccessible Location</masterLabel>
+            <translation><!-- 13 - Inaccessible Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 - Expired (Under 90 days past due)</masterLabel>
+            <translation><!-- 15 - Expired (Under 90 days past due) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 - Cancelled (Over 90 days past due)</masterLabel>
+            <translation><!-- 16 - Cancelled (Over 90 days past due) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 - No MC/RV Coverage</masterLabel>
+            <translation><!-- 17 - No MC/RV Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 - SDS Refunded</masterLabel>
+            <translation><!-- 18 - SDS Refunded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19-EVERYDAY MEMBER</masterLabel>
+            <translation><!-- 19-EVERYDAY MEMBER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 - Did Not Call AAA</masterLabel>
+            <translation><!-- 20 - Did Not Call AAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BA - BASIC - SERVICE FAILURE</masterLabel>
+            <translation><!-- BA - BASIC - SERVICE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE - Basic - Exception Years</masterLabel>
+            <translation><!-- BE - Basic - Exception Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BL - Basic - Locksmith</masterLabel>
+            <translation><!-- BL - Basic - Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP - Basic - Police Requested</masterLabel>
+            <translation><!-- BP - Basic - Police Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BT - Basic - Turnpike/Thruway</masterLabel>
+            <translation><!-- BT - Basic - Turnpike/Thruway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE - Prem - Exception Years</masterLabel>
+            <translation><!-- EE - Prem - Exception Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL - Prem - Locksmith</masterLabel>
+            <translation><!-- EL - Prem - Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EP - Prem - Police Requested</masterLabel>
+            <translation><!-- EP - Prem - Police Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES - PREM - SERVICE FAILURE</masterLabel>
+            <translation><!-- ES - PREM - SERVICE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ET - Prem - Turnpike/Thruway</masterLabel>
+            <translation><!-- ET - Prem - Turnpike/Thruway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCIC Basic</masterLabel>
+            <translation><!-- MCIC Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCIC Plus</masterLabel>
+            <translation><!-- MCIC Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCIC Premier</masterLabel>
+            <translation><!-- MCIC Premier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR - Member Relations Reimbursement</masterLabel>
+            <translation><!-- MR - Member Relations Reimbursement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OT - One-Time Exception</masterLabel>
+            <translation><!-- OT - One-Time Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE - Plus - Exception Years</masterLabel>
+            <translation><!-- PE - Plus - Exception Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL - Plus - Locksmith</masterLabel>
+            <translation><!-- PL - Plus - Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP - Plus - Police Requested</masterLabel>
+            <translation><!-- PP - Plus - Police Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PS - PLUS - SERVICE FAILURE</masterLabel>
+            <translation><!-- PS - PLUS - SERVICE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT - Plus - Turnpike/Thruway</masterLabel>
+            <translation><!-- PT - Plus - Turnpike/Thruway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE - RV - Exception Years</masterLabel>
+            <translation><!-- RE - RV - Exception Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RL - RV - Locksmith</masterLabel>
+            <translation><!-- RL - RV - Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RP - RV - Police Requested</masterLabel>
+            <translation><!-- RP - RV - Police Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RT - RV - Turnpike/Thruway</masterLabel>
+            <translation><!-- RT - RV - Turnpike/Thruway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV - RV - SERVICE FAILURE</masterLabel>
+            <translation><!-- RV - RV - SERVICE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-Sample</masterLabel>
+            <translation><!-- S-Sample --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VB - Battery Voucher</masterLabel>
+            <translation><!-- VB - Battery Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WE - Weather Exception</masterLabel>
+            <translation><!-- WE - Weather Exception --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

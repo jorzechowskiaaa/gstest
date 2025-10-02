@@ -1,0 +1,74 @@
+/************************************************************************************
+Apex Class Name     : INTPlacesautocompleteAPICntrlTest
+Created Date        : 3rd Aug 2021
+Function            : Test Class for ACG_INTPlacesautocompleteAPIController. 
+Author              : Deloitte Consulting 
+*************************************************************************************/
+@isTest
+public class INTPlacesautocompleteAPICntrlTest{
+
+    //loads the test data
+   @testSetup static void testDataSetup() {
+        List<Integration_Settings__c> lstSetting = new List<Integration_Settings__c>();
+        Integration_Settings__c ObjSetting = new Integration_Settings__c();
+        ObjSetting.name = 'Place_AutoComplete_API';
+        ObjSetting.Method__c='GET';
+        ObjSetting.Enpoint_URL__c='https://maps.googleapis.com/maps/api/place/autocomplete/json?components=country:us|country:in&input=';
+        ObjSetting.Request_Timeout__c=120000;
+        lstSetting.add(ObjSetting);
+        Integration_Settings__c ObjSetting1 = new Integration_Settings__c();
+        ObjSetting1.name = 'Place_Details_API';
+        ObjSetting1.Method__c='GET';
+        ObjSetting1.Enpoint_URL__c='https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,geometry&place_id=';
+        ObjSetting1.Request_Timeout__c=120000;
+       lstSetting.add(ObjSetting1);
+	Integration_Settings__c ObjSetting2 = new Integration_Settings__c();
+        ObjSetting2.name = 'Distance_Matrix_API';
+        ObjSetting2.Method__c='GET';
+        ObjSetting2.Enpoint_URL__c='https://maps.googleapis.com/maps/api/distancematrix/json?';
+        ObjSetting2.Request_Timeout__c=120000;
+	lstSetting.add(ObjSetting2);
+       Integration_Settings__c ObjSetting3 = new Integration_Settings__c();
+        ObjSetting3.name = 'Reverse_geocode_API';
+        ObjSetting3.Method__c='GET';
+        ObjSetting3.Enpoint_URL__c='https://maps.googleapis.com/maps/api/geocode/json?fields=formatted_address,address_component,geometry&address=';
+        ObjSetting3.Request_Timeout__c=120000;
+        lstSetting.add(ObjSetting3);
+        Insert lstSetting;
+   }
+    
+   @isTest
+   static void placeautocompleteAPI(){
+        Test.setMock(HttpCalloutMock.class, new ACG_PlacesautocompleteMockHttpResponse());
+        Test.startTest();
+        string Response = ACG_INTPlacesautocompleteAPIController.getAddressAutoComplete('texas');
+        List<ACG_INTPlacesautocompleteAPIController.LookupSearchResult> lstAddress =
+                                                     new List<ACG_INTPlacesautocompleteAPIController.LookupSearchResult>();
+        lstAddress = (List<ACG_INTPlacesautocompleteAPIController.LookupSearchResult>)JSON.deserialize(Response, List<ACG_INTPlacesautocompleteAPIController.LookupSearchResult>.class);
+        system.assertNotEquals(lstAddress[0].placeId,null);
+        ACG_INTPlacesautocompleteAPIController.getPlaceDetails(lstAddress[0].placeId);
+        ACG_INTPlacesautocompleteAPIController.getVisualforceOrigin();
+	ACG_INTPlacesautocompleteAPIController.getDistanceMatrixDetails('40.2109404','-75.2782317','40.22','-75.34','imperial');
+        ACG_INTPlacesautocompleteAPIController placesAPICntlr = new ACG_INTPlacesautocompleteAPIController();
+        placesAPICntlr.lexOrigin = URL.getOrgDomainUrl().toExternalForm().split('.my.')[0]+'.lightning.force.com';
+        Test.stopTest();
+    }
+    
+    @isTest
+   static void placeautocompleteAPItest1(){
+       Test.startTest();
+       string res='{\"results\":[{\"address_components\":[{\"long_name\":\"102\",\"short_name\":\"102\",\"types\":[\"street_number\"]},{\"long_name\":\"SouthTryonStreet\",\"short_name\":\"STryonSt\",\"types\":[\"route\"]},{\"long_name\":\"Charlottecentercity\",\"short_name\":\"Charlottecentercity\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"28202\",\"short_name\":\"28202\",\"types\":[\"postal_code\"]}],\"formatted_address\":\"102STryonSt,Charlotte,NC28202,USA\",\"geometry\":{\"location\":{\"lat\":35.22722,\"lng\":-80.84331999999999},\"location_type\":\"ROOFTOP\",\"viewport\":{\"northeast\":{\"lat\":35.2285689802915,\"lng\":-80.8419710197085},\"southwest\":{\"lat\":35.2258710197085,\"lng\":-80.8446689802915}}},\"place_id\":\"ChIJVV2CgC-gVogR4h3jBxNy1E0\",\"types\":[\"street_address\"]},{\"address_components\":[{\"long_name\":\"TryonSt\",\"short_name\":\"TryonSt\",\"types\":[\"establishment\",\"light_rail_station\",\"point_of_interest\",\"transit_station\"]},{\"long_name\":\"Charlottecentercity\",\"short_name\":\"Charlottecentercity\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"28284\",\"short_name\":\"28284\",\"types\":[\"postal_code\"]}],\"formatted_address\":\"TryonSt,Charlotte,NC28284,USA\",\"geometry\":{\"location\":{\"lat\":35.227231,\"lng\":-80.843216},\"location_type\":\"GEOMETRIC_CENTER\",\"viewport\":{\"northeast\":{\"lat\":35.22857998029149,\"lng\":-80.8418670197085},\"southwest\":{\"lat\":35.2258820197085,\"lng\":-80.84456498029151}}},\"place_id\":\"ChIJGUpGfiWgVogRA9lmDeuzIjQ\",\"types\":[\"establishment\",\"light_rail_station\",\"point_of_interest\",\"transit_station\"]},{\"address_components\":[{\"long_name\":\"100-128\",\"short_name\":\"100-128\",\"types\":[\"street_number\"]},{\"long_name\":\"SouthTryonStreet\",\"short_name\":\"STryonSt\",\"types\":[\"route\"]},{\"long_name\":\"Charlottecentercity\",\"short_name\":\"Charlottecentercity\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"28280\",\"short_name\":\"28280\",\"types\":[\"postal_code\"]}],\"formatted_address\":\"100-128STryonSt,Charlotte,NC28280,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.2271967,\"lng\":-80.8430844},\"southwest\":{\"lat\":35.2267411,\"lng\":-80.84373189999999}},\"location\":{\"lat\":35.2269689,\"lng\":-80.8434082},\"location_type\":\"GEOMETRIC_CENTER\",\"viewport\":{\"northeast\":{\"lat\":35.2283178802915,\"lng\":-80.84205916970849},\"southwest\":{\"lat\":35.2256199197085,\"lng\":-80.8447571302915}}},\"place_id\":\"ChIJPxOTfy-gVogRirh8nvo1SIU\",\"types\":[\"route\"]},{\"address_components\":[{\"long_name\":\"28280\",\"short_name\":\"28280\",\"types\":[\"postal_code\"]},{\"long_name\":\"Charlottecentercity\",\"short_name\":\"Charlottecentercity\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"Charlotte,NC28280,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.2272001,\"lng\":-80.841973},\"southwest\":{\"lat\":35.2254688,\"lng\":-80.84420709999999}},\"location\":{\"lat\":35.2264962,\"lng\":-80.8431416},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":35.2276834302915,\"lng\":-80.84174106970848},\"southwest\":{\"lat\":35.2249854697085,\"lng\":-80.8444390302915}}},\"place_id\":\"ChIJ78MA6SigVogRiOnRWY_yaWU\",\"types\":[\"postal_code\"]},{\"address_components\":[{\"long_name\":\"SecondWard\",\"short_name\":\"SecondWard\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"SecondWard,Charlotte,NC,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.2272166,\"lng\":-80.83336829999999},\"southwest\":{\"lat\":35.2151914,\"lng\":-80.85036269999999}},\"location\":{\"lat\":35.2201046,\"lng\":-80.84193069999999},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":35.2272166,\"lng\":-80.83336829999999},\"southwest\":{\"lat\":35.2151914,\"lng\":-80.85036269999999}}},\"place_id\":\"ChIJQSeEtyegVogR3thwRxDH0DI\",\"types\":[\"neighborhood\",\"political\"]},{\"address_components\":[{\"long_name\":\"Charlottecentercity\",\"short_name\":\"Charlottecentercity\",\"types\":[\"neighborhood\",\"political\"]},{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"Charlottecentercity,Charlotte,NC,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.2421143,\"lng\":-80.82833629999999},\"southwest\":{\"lat\":35.2151914,\"lng\":-80.862422}},\"location\":{\"lat\":35.2272302,\"lng\":-80.8460822},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":35.2421143,\"lng\":-80.82833629999999},\"southwest\":{\"lat\":35.2151914,\"lng\":-80.862422}}},\"place_id\":\"ChIJa5D8fSWgVogR1d1ywXWrigs\",\"types\":[\"neighborhood\",\"political\"]},{\"address_components\":[{\"long_name\":\"Charlotte\",\"short_name\":\"Charlotte\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"Charlotte,NC,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.39313300000001,\"lng\":-80.67010399999999},\"southwest\":{\"lat\":35.0131739,\"lng\":-81.0095539}},\"location\":{\"lat\":35.2270869,\"lng\":-80.8431267},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":35.39313300000001,\"lng\":-80.67010399999999},\"southwest\":{\"lat\":35.0131739,\"lng\":-81.0095539}}},\"place_id\":\"ChIJgRo4_MQfVIgRZNFDv-ZQRog\",\"types\":[\"locality\",\"political\"]},{\"address_components\":[{\"long_name\":\"MecklenburgCounty\",\"short_name\":\"MecklenburgCounty\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"MecklenburgCounty,NC,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":35.5148021,\"lng\":-80.550297},\"southwest\":{\"lat\":35.001728,\"lng\":-81.0580289}},\"location\":{\"lat\":35.2632655,\"lng\":-80.8543847},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":35.5148021,\"lng\":-80.550297},\"southwest\":{\"lat\":35.001728,\"lng\":-81.0580289}}},\"place_id\":\"ChIJ5eGZZcmrVogR7cvbvC3B9hk\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"address_components\":[{\"long_name\":\"NorthCarolina\",\"short_name\":\"NC\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"NorthCarolina,USA\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":36.5881568,\"lng\":-75.400119},\"southwest\":{\"lat\":33.7528778,\"lng\":-84.32186899999999}},\"location\":{\"lat\":35.7595731,\"lng\":-79.01929969999999},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":36.5881568,\"lng\":-75.400119},\"southwest\":{\"lat\":33.7528778,\"lng\":-84.32186899999999}}},\"place_id\":\"ChIJgRo4_MQfVIgRGa4i6fUwP60\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"address_components\":[{\"long_name\":\"UnitedStates\",\"short_name\":\"US\",\"types\":[\"country\",\"political\"]}],\"formatted_address\":\"UnitedStates\",\"geometry\":{\"bounds\":{\"northeast\":{\"lat\":71.5388001,\"lng\":-66.885417},\"southwest\":{\"lat\":18.7763,\"lng\":170.5957}},\"location\":{\"lat\":37.09024,\"lng\":-95.712891},\"location_type\":\"APPROXIMATE\",\"viewport\":{\"northeast\":{\"lat\":71.5388001,\"lng\":-66.885417},\"southwest\":{\"lat\":18.7763,\"lng\":170.5957}}},\"place_id\":\"ChIJCzYy5IS16lQRQrfeQ5K5Oxw\",\"types\":[\"country\",\"political\"]}],\"status\":\"OK\"}';
+        Test.setMock(HttpCalloutMock.class, new HttpRestCalloutMock(res,200));
+       ACG_INTPlacesautocompleteAPIController.getPlaceDetailsFromGeolocation('40.2109404,-75.2782317');
+       Test.stopTest();
+   }
+     @isTest
+   static void placeautocompleteAPINegative(){
+       Test.startTest();
+       string Req='{[\"783SumneytownPike,Lansdale,PA19446,USA\"],\"origin_addresses\":[\"WegmansFoodMarkets500MontgomeryvilleMall,NorthWales,PA19454,USA\"],\"rows\":[{\"elements\":[{\"distance\":{\"text\":\"2.1km\",\"value\":2138},\"duration\":{\"text\":\"3mins\",\"value\":175},\"status\":\"OK\"}]}],\"status\":\"ERROR\"}';
+       Test.setMock(HttpCalloutMock.class, new HttpRestCalloutMock(Req, 400));
+        ACG_INTPlacesautocompleteAPIController.getDistanceMatrixDetails('40.2109404','-75.2782317','40.22','-75.34','imperial');
+       Test.stopTest();
+   }
+    
+ }

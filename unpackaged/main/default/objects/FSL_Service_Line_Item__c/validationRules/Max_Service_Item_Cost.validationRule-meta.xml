@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Service_Item_Cost</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( Cost__c &gt; 150, BEGINS( $Profile.Name , &quot;FSL Contractor&quot; ))</errorConditionFormula>
+    <errorMessage>Service Items are limited to $150 maximum. Please submit a payment request through your normal adjustment process for amounts greater than $150.</errorMessage>
+</ValidationRule>

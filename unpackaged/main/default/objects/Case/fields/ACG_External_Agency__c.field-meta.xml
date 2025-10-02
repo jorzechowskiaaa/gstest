@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_External_Agency__c</fullName>
+    <label>External Agency</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origin</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAA National</fullName>
+                <default>false</default>
+                <label>AAA National</label>
+            </value>
+            <value>
+                <fullName>AAA National (MRL)</fullName>
+                <default>false</default>
+                <label>AAA National (MRL)</label>
+            </value>
+            <value>
+                <fullName>Better Business Bureau (BBB)</fullName>
+                <default>false</default>
+                <label>Better Business Bureau (BBB)</label>
+            </value>
+            <value>
+                <fullName>Department of Justice</fullName>
+                <default>false</default>
+                <label>Department of Justice</label>
+            </value>
+            <value>
+                <fullName>NC Attorney General&#39;s Office</fullName>
+                <default>false</default>
+                <label>NC Attorney General&#39;s Office</label>
+            </value>
+            <value>
+                <fullName>SC Attorney General&#39;s Office</fullName>
+                <default>false</default>
+                <label>SC Attorney General&#39;s Office</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>AAA National</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>AAA National (MRL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>Better Business Bureau (BBB)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>Department of Justice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>NC Attorney General&#39;s Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>SC Attorney General&#39;s Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External Agency</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

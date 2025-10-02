@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UP_Contractor_Profiles</fullName>
+    <active>true</active>
+    <description>Validates contractor is not selected for Admin or Club Dispatcher profiles</description>
+    <errorConditionFormula>AND(
+ $RecordType.Name = &quot;User Provisioning Request&quot;,
+ FSL_Contractor__c = TRUE,
+ OR(
+  ISPICKVAL(FSL_Profile__c , &quot;Club Dispatcher&quot;),
+  ISPICKVAL(FSL_Profile__c , &quot;Admin&quot;)
+ )
+)</errorConditionFormula>
+    <errorDisplayField>FSL_Profile__c</errorDisplayField>
+    <errorMessage>FSL Admins &amp; Club Dispatchers cannot be contractors</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Facility_Adjustment_Compact_layout</fullName>
+    <fields>Account__c</fields>
+    <fields>ACG_Adjustment_Type__c</fields>
+    <fields>ACG_Adjustment_Category__c</fields>
+    <fields>ACG_Total_Adjustment_Amount__c</fields>
+    <fields>ACG_Status__c</fields>
+    <label>Facility Adjustment Compact layout</label>
+</CompactLayout>

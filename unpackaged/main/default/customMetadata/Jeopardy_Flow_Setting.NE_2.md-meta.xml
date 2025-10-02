@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>NE 2</label>
+    <protected>false</protected>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Not Geo-Coded                                                                              
+
+Case Dispatcher Status is not Working 
+
+SA record type is Breakdown 
+WO Priority is Medium 
+SA Service Territory is blank
+SA Internal SLR Geolocation is blank
+
+SA Jeopardy Reason = Not Geo-Coded
+Case Violation Type = Not Geo-Coded
+Case owner = Unspotted Queue</value>
+    </values>
+    <values>
+        <field>isExecute__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

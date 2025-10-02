@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Facility ID --></label>
+        <name>Facility_ID__c</name>
+        <picklistValues>
+            <masterLabel>0197</masterLabel>
+            <translation><!-- 0197 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0598</masterLabel>
+            <translation><!-- 0598 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0949</masterLabel>
+            <translation><!-- 0949 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0950</masterLabel>
+            <translation><!-- 0950 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1397</masterLabel>
+            <translation><!-- 1397 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4097</masterLabel>
+            <translation><!-- 4097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5188</masterLabel>
+            <translation><!-- 5188 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5189</masterLabel>
+            <translation><!-- 5189 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5193</masterLabel>
+            <translation><!-- 5193 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7187</masterLabel>
+            <translation><!-- 7187 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7196</masterLabel>
+            <translation><!-- 7196 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8596</masterLabel>
+            <translation><!-- 8596 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8597</masterLabel>
+            <translation><!-- 8597 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9095</masterLabel>
+            <translation><!-- 9095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9097</masterLabel>
+            <translation><!-- 9097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9193</masterLabel>
+            <translation><!-- 9193 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9195</masterLabel>
+            <translation><!-- 9195 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9196</masterLabel>
+            <translation><!-- 9196 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9198</masterLabel>
+            <translation><!-- 9198 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C6</masterLabel>
+            <translation><!-- C6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR</masterLabel>
+            <translation><!-- CR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI700</masterLabel>
+            <translation><!-- MI700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI709</masterLabel>
+            <translation><!-- MI709 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIR</masterLabel>
+            <translation><!-- MIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR</masterLabel>
+            <translation><!-- MR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N2559</masterLabel>
+            <translation><!-- N2559 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N6000</masterLabel>
+            <translation><!-- N6000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND8</masterLabel>
+            <translation><!-- ND8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NR</masterLabel>
+            <translation><!-- NR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RG</masterLabel>
+            <translation><!-- RG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RT</masterLabel>
+            <translation><!-- RT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WR</masterLabel>
+            <translation><!-- WR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

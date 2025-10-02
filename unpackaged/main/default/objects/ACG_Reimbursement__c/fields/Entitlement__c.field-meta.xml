@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitlement__c</fullName>
+    <label>Entitlement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AR</fullName>
+                <default>false</default>
+                <label>AR Auto Renewal Call Benefit</label>
+            </value>
+            <value>
+                <fullName>EC</fullName>
+                <default>false</default>
+                <label>EC Entitlements Charge</label>
+            </value>
+            <value>
+                <fullName>ED</fullName>
+                <default>false</default>
+                <label>ED Exception Denied</label>
+            </value>
+            <value>
+                <fullName>ES</fullName>
+                <default>false</default>
+                <label>ES Dispatcher Exception Safety Tow</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <label>EX Exception Granted</label>
+            </value>
+            <value>
+                <fullName>HL</fullName>
+                <default>false</default>
+                <label>HL Premier Home Lockout Benefit</label>
+            </value>
+            <value>
+                <fullName>ISF</fullName>
+                <default>false</default>
+                <label>ISF Immediate Service Fee</label>
+            </value>
+            <value>
+                <fullName>MB</fullName>
+                <default>false</default>
+                <label>MB Member Billing Call</label>
+            </value>
+            <value>
+                <fullName>MC</fullName>
+                <default>false</default>
+                <label>MC Basic Motorcycle Coverage</label>
+            </value>
+            <value>
+                <fullName>PB</fullName>
+                <default>false</default>
+                <label>PB Premier Battery Benefit</label>
+            </value>
+            <value>
+                <fullName>PIL</fullName>
+                <default>false</default>
+                <label>PIL ISF Pilot Use Only</label>
+            </value>
+            <value>
+                <fullName>PIX</fullName>
+                <default>false</default>
+                <label>PIX Premier Long Tow Benefit</label>
+            </value>
+            <value>
+                <fullName>RL</fullName>
+                <default>false</default>
+                <label>RL RV Upto 500 Limit</label>
+            </value>
+            <value>
+                <fullName>SF</fullName>
+                <default>false</default>
+                <label>SF Service Fee (Pilot Group Only)</label>
+            </value>
+            <value>
+                <fullName>XCD</fullName>
+                <default>false</default>
+                <label>XCD (Pilot Use Only) CDR Home Tow N</label>
+            </value>
+            <value>
+                <fullName>XCT</fullName>
+                <default>false</default>
+                <label>XCT (Pilot Use Only) CDR Home Tow</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Payment_Facility__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identifies a Facility that will not have payment file created for itself during its payment cycles</description>
+    <label>Non Payment Facility</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

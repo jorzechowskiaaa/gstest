@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_District_Codes__c</fullName>
+    <label>District Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>110</fullName>
+                <default>false</default>
+                <label>110 Sharepoint</label>
+            </value>
+            <value>
+                <fullName>111</fullName>
+                <default>false</default>
+                <label>111 Electronic Claim</label>
+            </value>
+            <value>
+                <fullName>112</fullName>
+                <default>false</default>
+                <label>112 Mail</label>
+            </value>
+            <value>
+                <fullName>222</fullName>
+                <default>false</default>
+                <label>222 Out Of Region</label>
+            </value>
+            <value>
+                <fullName>333</fullName>
+                <default>false</default>
+                <label>333 Mass Pike Territory</label>
+            </value>
+            <value>
+                <fullName>444</fullName>
+                <default>false</default>
+                <label>444 Member Relations</label>
+            </value>
+            <value>
+                <fullName>555</fullName>
+                <default>false</default>
+                <label>555 CT</label>
+            </value>
+            <value>
+                <fullName>601</fullName>
+                <default>false</default>
+                <label>601 New Jersey</label>
+            </value>
+            <value>
+                <fullName>602</fullName>
+                <default>false</default>
+                <label>602 New Hampshire</label>
+            </value>
+            <value>
+                <fullName>603</fullName>
+                <default>false</default>
+                <label>603 New York</label>
+            </value>
+            <value>
+                <fullName>777</fullName>
+                <default>false</default>
+                <label>777 Rhode Island</label>
+            </value>
+            <value>
+                <fullName>888</fullName>
+                <default>false</default>
+                <label>888 Mass</label>
+            </value>
+            <value>
+                <fullName>999</fullName>
+                <default>false</default>
+                <label>999 Denial</label>
+            </value>
+            <value>
+                <fullName>001 MAIN LINE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>001 MAIN LINE</label>
+            </value>
+            <value>
+                <fullName>002 ANTHRACITE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>002 ANTHRACITE</label>
+            </value>
+            <value>
+                <fullName>003 LOWER BUCKS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>003 LOWER BUCKS</label>
+            </value>
+            <value>
+                <fullName>004 DOYLESTOWN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>004 DOYLESTOWN</label>
+            </value>
+            <value>
+                <fullName>006 PLYMOUTH MEETING</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>006 PLYMOUTH MEETING</label>
+            </value>
+            <value>
+                <fullName>007 PHILADELPHIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>007 PHILADELPHIA</label>
+            </value>
+            <value>
+                <fullName>009 EAST BRUNSWICK (CCIT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>009 EAST BRUNSWICK (CCIT)</label>
+            </value>
+            <value>
+                <fullName>010 SALES ADMINISTRATOR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>010 SALES ADMINISTRATOR</label>
+            </value>
+            <value>
+                <fullName>011 WEST CHESTER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>011 WEST CHESTER</label>
+            </value>
+            <value>
+                <fullName>012 1ST FLOOR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>012 1ST FLOOR</label>
+            </value>
+            <value>
+                <fullName>013 MEMBERSHIP RECORDS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>013 MEMBERSHIP RECORDS</label>
+            </value>
+            <value>
+                <fullName>016 NORTHFIELD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>016 NORTHFIELD</label>
+            </value>
+            <value>
+                <fullName>017 BURLEIGH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>017 BURLEIGH</label>
+            </value>
+            <value>
+                <fullName>020 NORTHEAST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>020 NORTHEAST</label>
+            </value>
+            <value>
+                <fullName>021 CHELTENHAM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>021 CHELTENHAM</label>
+            </value>
+            <value>
+                <fullName>022 DOWNINGTOWN CCIT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>022 DOWNINGTOWN CCIT</label>
+            </value>
+            <value>
+                <fullName>024 SPRINGFIELD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>024 SPRINGFIELD</label>
+            </value>
+            <value>
+                <fullName>025 NEWARK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>025 NEWARK</label>
+            </value>
+            <value>
+                <fullName>026 TALLEYVILLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>026 TALLEYVILLE</label>
+            </value>
+            <value>
+                <fullName>027 AAA BY PHONE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>027 AAA BY PHONE</label>
+            </value>
+            <value>
+                <fullName>028 DOVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>028 DOVER</label>
+            </value>
+            <value>
+                <fullName>034 23RD ST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>034 23RD ST</label>
+            </value>
+            <value>
+                <fullName>035 WILKES BARRE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>035 WILKES BARRE</label>
+            </value>
+            <value>
+                <fullName>036 WEST PITTSTON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>036 WEST PITTSTON</label>
+            </value>
+            <value>
+                <fullName>037 DALLAS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>037 DALLAS</label>
+            </value>
+            <value>
+                <fullName>038 MONTOUR COUNTY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>038 MONTOUR COUNTY</label>
+            </value>
+            <value>
+                <fullName>039 BLOOMSBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>039 BLOOMSBURG</label>
+            </value>
+            <value>
+                <fullName>040 GAITHERSBURG CCIT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>040 GAITHERSBURG CCIT</label>
+            </value>
+            <value>
+                <fullName>047 MT. LAUREL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>047 MT. LAUREL</label>
+            </value>
+            <value>
+                <fullName>048 HAMILTON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>048 HAMILTON</label>
+            </value>
+            <value>
+                <fullName>049 EDISON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>049 EDISON</label>
+            </value>
+            <value>
+                <fullName>051 OCEAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>051 OCEAN</label>
+            </value>
+            <value>
+                <fullName>052 TOMS RIVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>052 TOMS RIVER</label>
+            </value>
+            <value>
+                <fullName>053 MARLBORO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>053 MARLBORO</label>
+            </value>
+            <value>
+                <fullName>054 PRINCETON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>054 PRINCETON</label>
+            </value>
+            <value>
+                <fullName>055 BRIDGEWATER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>055 BRIDGEWATER</label>
+            </value>
+            <value>
+                <fullName>056 PHILIPSBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>056 PHILIPSBURG</label>
+            </value>
+            <value>
+                <fullName>057 NEWTON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>057 NEWTON</label>
+            </value>
+            <value>
+                <fullName>058 FLEMINGTON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>058 FLEMINGTON</label>
+            </value>
+            <value>
+                <fullName>059 LAKEWOOD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>059 LAKEWOOD</label>
+            </value>
+            <value>
+                <fullName>060 RICHMOND ADMIN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>060 RICHMOND ADMIN</label>
+            </value>
+            <value>
+                <fullName>061 MIDTOWN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>061 MIDTOWN</label>
+            </value>
+            <value>
+                <fullName>062 ROANOKE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>062 ROANOKE</label>
+            </value>
+            <value>
+                <fullName>063 LYNCHBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>063 LYNCHBURG</label>
+            </value>
+            <value>
+                <fullName>064 CHARLOTTESVILLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>064 CHARLOTTESVILLE</label>
+            </value>
+            <value>
+                <fullName>065 DANVILLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>065 DANVILLE</label>
+            </value>
+            <value>
+                <fullName>066 PETERSBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>066 PETERSBURG</label>
+            </value>
+            <value>
+                <fullName>067 FREDERICKSBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>067 FREDERICKSBURG</label>
+            </value>
+            <value>
+                <fullName>068 SOUTHSIDE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>068 SOUTHSIDE</label>
+            </value>
+            <value>
+                <fullName>069 STAUNTON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>069 STAUNTON</label>
+            </value>
+            <value>
+                <fullName>070 POTOMAC MEMBERSHIP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>070 POTOMAC MEMBERSHIP</label>
+            </value>
+            <value>
+                <fullName>071 TYSON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>071 TYSON</label>
+            </value>
+            <value>
+                <fullName>072 FAIRFAX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>072 FAIRFAX</label>
+            </value>
+            <value>
+                <fullName>073 ALEXANDRIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>073 ALEXANDRIA</label>
+            </value>
+            <value>
+                <fullName>074 DC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>074 DC</label>
+            </value>
+            <value>
+                <fullName>075 WHEATON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>075 WHEATON</label>
+            </value>
+            <value>
+                <fullName>076 GAITHERSBURG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>076 GAITHERSBURG</label>
+            </value>
+            <value>
+                <fullName>077 GREENBELT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>077 GREENBELT</label>
+            </value>
+            <value>
+                <fullName>078 WINTERPOCK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>078 WINTERPOCK</label>
+            </value>
+            <value>
+                <fullName>079 LANSDOWNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>079 LANSDOWNE</label>
+            </value>
+            <value>
+                <fullName>081 LUTHERVILLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>081 LUTHERVILLE</label>
+            </value>
+            <value>
+                <fullName>082 BELAIR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>082 BELAIR</label>
+            </value>
+            <value>
+                <fullName>083 UPPER CHESAPEAKE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>083 UPPER CHESAPEAKE</label>
+            </value>
+            <value>
+                <fullName>084 FREDERICK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>084 FREDERICK</label>
+            </value>
+            <value>
+                <fullName>085 HAGERSTOWN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>085 HAGERSTOWN</label>
+            </value>
+            <value>
+                <fullName>086 SALISBURY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>086 SALISBURY</label>
+            </value>
+            <value>
+                <fullName>087 WESTMINISTER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>087 WESTMINISTER</label>
+            </value>
+            <value>
+                <fullName>088 SEVERNA PARK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>088 SEVERNA PARK</label>
+            </value>
+            <value>
+                <fullName>089 COLUMBIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>089 COLUMBIA</label>
+            </value>
+            <value>
+                <fullName>090 MPS OUT OF TERRITORY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>090 MPS OUT OF TERRITORY</label>
+            </value>
+            <value>
+                <fullName>091 OUT OF TERRITORY - DELAWARE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>091 OUT OF TERRITORY - DELAWARE</label>
+            </value>
+            <value>
+                <fullName>092 OUT OF TERRITORY - MARYLAND</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>092 OUT OF TERRITORY - MARYLAND</label>
+            </value>
+            <value>
+                <fullName>093 OUT OF TERRITORY - VIRGINIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>093 OUT OF TERRITORY - VIRGINIA</label>
+            </value>
+            <value>
+                <fullName>094 OUT OF TERRITORY - POTOMAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>094 OUT OF TERRITORY - POTOMAC</label>
+            </value>
+            <value>
+                <fullName>095 VIRGINIA MEMBERSHIP SALES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>095 VIRGINIA MEMBERSHIP SALES</label>
+            </value>
+            <value>
+                <fullName>096 OUT OF TERRITORY - VALLEY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>096 OUT OF TERRITORY - VALLEY</label>
+            </value>
+            <value>
+                <fullName>097 OUT OF TERRITORY - SHORE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>097 OUT OF TERRITORY - SHORE</label>
+            </value>
+            <value>
+                <fullName>098 OUT OF TERRITORY - OTHER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>098 OUT OF TERRITORY - OTHER</label>
+            </value>
+            <value>
+                <fullName>099 OUT OF TERRITORY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>099 OUT OF TERRITORY</label>
+            </value>
+            <value>
+                <fullName>191 MIDDLETOWN (CCIT)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>191 MIDDLETOWN (CCIT)</label>
+            </value>
+            <value>
+                <fullName>AAA OKLAHOMA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AAA OKLAHOMA</label>
+            </value>
+            <value>
+                <fullName>AAA SOUTH DAKOTA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AAA SOUTH DAKOTA</label>
+            </value>
+            <value>
+                <fullName>EFL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EFL</label>
+            </value>
+            <value>
+                <fullName>GA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GA</label>
+            </value>
+            <value>
+                <fullName>TN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TN</label>
+            </value>
+            <value>
+                <fullName>WFL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WFL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

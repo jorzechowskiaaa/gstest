@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Damons_Junk_Car_Truck_Removal</label>
+    <protected>false</protected>
+    <values>
+        <field>Operator__c</field>
+        <value xsi:type="xsd:string">Equals</value>
+    </values>
+    <values>
+        <field>Parameter__c</field>
+        <value xsi:type="xsd:string">Damons Junk Car &amp; Truck Removal</value>
+    </values>
+</CustomMetadata>

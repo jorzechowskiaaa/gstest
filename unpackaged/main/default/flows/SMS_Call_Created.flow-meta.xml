@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_call_created_sms</name>
+        <label>Send call created sms</label>
+        <locationX>176</locationX>
+        <locationY>755</locationY>
+        <actionName>sendConversationMessages</actionName>
+        <actionType>sendConversationMessages</actionType>
+        <connector>
+            <targetReference>Update_SA_Checkbox_SMS_Call_Created</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>messageDefinitionName</name>
+            <value>
+                <stringValue>Call_Created</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingDefinitionInputParameters</name>
+            <value>
+                <apexValue>[
+  {
+    &quot;name&quot;: &quot;ServiceAppointment&quot;,
+    &quot;recordIdValue&quot;: &quot;{!v_SAId}&quot;
+  }
+]</apexValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>requestType</name>
+            <value>
+                <stringValue>SendNotificationMessages</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isEnforceMessagingChannelConsent</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelConsentType</name>
+            <value>
+                <stringValue>MessagingEndUser</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>allowedSessionStatus</name>
+            <value>
+                <stringValue>Any</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>messagingEndUserIds</name>
+            <value>
+                <elementReference>v_messagingUserIds</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>sendConversationMessages</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_messaging_user_ids</name>
+        <label>Assign messaging user ids</label>
+        <locationX>176</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>v_messagingUserIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Create_messaging_user_subflow.messagingUserOutput</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_call_created_sms</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_SA_id</name>
+        <label>Assign SA id</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>v_SAId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_messaging_user_subflow</targetReference>
+        </connector>
+    </assignments>
+    <description>2025-06-16: updated for enhanced sms channels</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>f_SMSChannelName</name>
+        <dataType>String</dataType>
+        <expression>{!$Label.SMS_Channel_Name}</expression>
+    </formulas>
+    <interviewLabel>SMS - Call Created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SMS - Call Created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_work_order_record</name>
+        <label>Get work order record</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_SA_id</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_SA_Checkbox_SMS_Call_Created</name>
+        <label>Update SA Checkbox &quot;SMS - Call Created&quot;</label>
+        <locationX>176</locationX>
+        <locationY>863</locationY>
+        <inputAssignments>
+            <field>SMS_Call_Created__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_work_order_record</targetReference>
+        </connector>
+        <filterFormula>{!$Setup.Appointment_Assistant_Settings__c.AA_Org_Level_Messaging_Switch__c} = true &amp;&amp;
+{!$Record.ServiceTerritory.Enabled_For_Appointment_Assistant__c} = true &amp;&amp;
+{!$Record.SMS_Call_Created__c} = false &amp;&amp;
+{!$Record.RecordType.DeveloperName} = &quot;Breakdown&quot; &amp;&amp;
+ISNULL( {!$Record.ContactId} ) = false &amp;&amp;
+ISNULL( {!$Record.Contact.MobilePhone} ) = false &amp;&amp;
+ISNULL ( {!$Record.Address} ) = false &amp;&amp;
+{!$Record.Contact.Sms_Optin__c} = true</filterFormula>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Create_messaging_user_subflow</name>
+        <label>Create messaging user subflow</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Assign_messaging_user_ids</targetReference>
+        </connector>
+        <flowName>Create_Messaging_User_Subflow</flowName>
+        <inputAssignments>
+            <name>workOrderRecord</name>
+            <value>
+                <elementReference>Get_work_order_record</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>v_messagingUserIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_SAId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impairment_Supervisor_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that a supervisor override has been applied.</description>
+    <inlineHelpText>Check this box if a supervisor override is applied.</inlineHelpText>
+    <label>Impairment Supervisor Override</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

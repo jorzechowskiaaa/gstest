@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Technician_Hours__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please record the hours spent on-site or working with property contacts to resolve this issue. E.g., for 30 mins, list 0.5.</inlineHelpText>
+    <label>Technician Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Payment Category --></label>
+        <name>Payment_Category__c</name>
+        <picklistValues>
+            <masterLabel>BASIC</masterLabel>
+            <translation><!-- BASIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARRENT</masterLabel>
+            <translation><!-- CARRENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOMELOCK</masterLabel>
+            <translation><!-- HOMELOCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTO</masterLabel>
+            <translation><!-- MOTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS</masterLabel>
+            <translation><!-- PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER</masterLabel>
+            <translation><!-- PREMIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV</masterLabel>
+            <translation><!-- RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMAACG</masterLabel>
+            <translation><!-- TMAACG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMACONTR</masterLabel>
+            <translation><!-- TMACONTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMAFLEET</masterLabel>
+            <translation><!-- TMAFLEET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSAAR</masterLabel>
+            <translation><!-- TMSAAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTA</masterLabel>
+            <translation><!-- TMSBATTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTC</masterLabel>
+            <translation><!-- TMSBATTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMSBATTF</masterLabel>
+            <translation><!-- TMSBATTF --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

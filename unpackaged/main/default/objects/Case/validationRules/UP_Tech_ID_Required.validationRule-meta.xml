@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UP_Tech_ID_Required</fullName>
+    <active>true</active>
+    <description>Validates that Employee ID / Driver ID is entered for a technician</description>
+    <errorConditionFormula>AND(
+ $RecordType.Name = &quot;User Provisioning Request&quot;,
+ ISPICKVAL(FSL_Profile__c , &#39;Technician&#39;),
+ ISBLANK( FSL_Employee_ID__c  )
+)</errorConditionFormula>
+    <errorDisplayField>FSL_Employee_ID__c</errorDisplayField>
+    <errorMessage>Employee/Driver ID is required for technician profiles</errorMessage>
+</ValidationRule>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Battery Visit</fullName>
+        <default>false</default>
+        <label>Battery Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Manager Visit</fullName>
+        <default>false</default>
+        <label>Field Manager Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recruiting Visit</fullName>
+        <default>false</default>
+        <label>Recruiting Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trainer Visit</fullName>
+        <default>false</default>
+        <label>Trainer Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regional Manager Visit</fullName>
+        <default>false</default>
+        <label>Regional Manager Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New AAR - Orientation/Training</fullName>
+        <default>false</default>
+        <label>New AAR - Orientation/Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing AAR - Training</fullName>
+        <default>false</default>
+        <label>Existing AAR - Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Annual Garage Inspection</fullName>
+        <default>false</default>
+        <label>Annual Garage Inspection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quarterly Visit</fullName>
+        <default>false</default>
+        <label>Quarterly Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drop-In Visit - Misc.</fullName>
+        <default>false</default>
+        <label>Drop-In Visit - Misc.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recruiting</fullName>
+        <default>false</default>
+        <label>Recruiting</label>
+    </standardValue>
+</StandardValueSet>

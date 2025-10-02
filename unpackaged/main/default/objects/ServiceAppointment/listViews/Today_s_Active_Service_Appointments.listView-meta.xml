@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today_s_Active_Service_Appointments</fullName>
+    <columns>WO_Call_Type__c</columns>
+    <columns>Status</columns>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Service_Resource__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>PTA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Spotted,Scheduled,Dispatched,En Route,On Location,Tow Loaded,In Tow,Tow Complete,Canceled</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Today&#39;s Active Service Appointments</label>
+    <sharedTo>
+        <group>M198_Townie_Towing</group>
+        <roleAndSubordinatesInternal>Dispatcher_Supervisor</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>System_Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

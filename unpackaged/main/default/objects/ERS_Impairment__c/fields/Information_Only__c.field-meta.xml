@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>When Selected this is served as Information Readout popup. Do not select COD ONLY or Reconcile checkboxes if this is selected</inlineHelpText>
+    <label>Information Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

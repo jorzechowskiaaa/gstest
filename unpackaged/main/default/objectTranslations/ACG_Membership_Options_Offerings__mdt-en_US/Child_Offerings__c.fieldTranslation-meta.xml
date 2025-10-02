@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- offerings which would be available with current offering --></help>
+        <label><!-- Child Offerings --></label>
+        <name>Child_Offerings__c</name>
+    </CustomFieldTranslation>

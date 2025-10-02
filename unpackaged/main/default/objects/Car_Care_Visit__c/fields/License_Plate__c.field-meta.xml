@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>License_Plate__c</fullName>
+    <description>Vehicle License Plate</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vehicle License Plate</inlineHelpText>
+    <label>License Plate #</label>
+    <length>200</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

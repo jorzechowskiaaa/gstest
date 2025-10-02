@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Vehicle</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Location.Facility__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Primary_Service_Territory__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Location</referenceTo>
+    <relationshipLabel>Service Resources</relationshipLabel>
+    <relationshipName>Service_Resources</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

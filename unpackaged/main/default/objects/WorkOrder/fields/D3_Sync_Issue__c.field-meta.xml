@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>D3_Sync_Issue__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Will be set to true if there is an update made from D3 to FSL about a Work Order OR the update from FSL to D3 returns an error</description>
+    <inlineHelpText>Indicates that this record is out of sync with the intake system</inlineHelpText>
+    <label>D3 Sync Issue</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

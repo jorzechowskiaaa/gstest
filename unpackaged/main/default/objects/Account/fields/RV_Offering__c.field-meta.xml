@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_Offering__c</fullName>
+    <label>RV Offering</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Recreational Vehicles or Trailers up to 23 ft</fullName>
+                <default>false</default>
+                <label>Recreational Vehicles or Trailers up to 23 ft</label>
+            </value>
+            <value>
+                <fullName>Recreational Vehicles or Trailers over 24ft - 32ft</fullName>
+                <default>false</default>
+                <label>Recreational Vehicles or Trailers over 24ft - 32ft</label>
+            </value>
+            <value>
+                <fullName>Recreational Vehicles or Trailers up to 33 ft or longer</fullName>
+                <default>false</default>
+                <label>Recreational Vehicles or Trailers up to 33 ft or longer</label>
+            </value>
+            <value>
+                <fullName>Recreational Vehicles or Trailers up to 23 ft or over 24ft - 32ft</fullName>
+                <default>false</default>
+                <label>Recreational Vehicles or Trailers up to 23 ft or over 24ft - 32ft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

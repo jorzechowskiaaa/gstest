@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+        <picklistValues>
+            <masterLabel>2ND TRUCK FOR PARKING STRUCTURE</masterLabel>
+            <translation><!-- 2ND TRUCK FOR PARKING STRUCTURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-2ND TRUCK TIME</masterLabel>
+            <translation><!-- AA-2ND TRUCK TIME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-ADV FEE-ADMIN FEE</masterLabel>
+            <translation><!-- AA-ADV FEE-ADMIN FEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-ADV FEE-MISC</masterLabel>
+            <translation><!-- AA-ADV FEE-MISC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-ADV FEE-STORAGE</masterLabel>
+            <translation><!-- AA-ADV FEE-STORAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-ADV FEE-TOW AND MILEAGE</masterLabel>
+            <translation><!-- AA-ADV FEE-TOW AND MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-ENROUTE MILEAGE</masterLabel>
+            <translation><!-- AA-ENROUTE MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-EXTRA TIME</masterLabel>
+            <translation><!-- AA-EXTRA TIME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-STORAGE</masterLabel>
+            <translation><!-- AA-STORAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA-TOW MILEAGE</masterLabel>
+            <translation><!-- AA-TOW MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAR PROGRAMS</masterLabel>
+            <translation><!-- AAR PROGRAMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BACKGROUNDCK</masterLabel>
+            <translation><!-- BACKGROUNDCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASE RATE</masterLabel>
+            <translation><!-- BASE RATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC</masterLabel>
+            <translation><!-- BASIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BASIC COST</masterLabel>
+            <translation><!-- BASIC COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTERY</masterLabel>
+            <translation><!-- BATTERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTERY CUSTOMER APPEASEMENT</masterLabel>
+            <translation><!-- BATTERY CUSTOMER APPEASEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTERY FACILITY APPEASEMENT</masterLabel>
+            <translation><!-- BATTERY FACILITY APPEASEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTERY FLEET APPEASEMENT</masterLabel>
+            <translation><!-- BATTERY FLEET APPEASEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATTWITHHOLD</masterLabel>
+            <translation><!-- BATTWITHHOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR RENTAL COST</masterLabel>
+            <translation><!-- CAR RENTAL COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CK/GUARTEE</masterLabel>
+            <translation><!-- CK/GUARTEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONTINUATION TOW</masterLabel>
+            <translation><!-- CONTINUATION TOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUST APPEASE</masterLabel>
+            <translation><!-- CUST APPEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUSTOMER APPEASEMENT</masterLabel>
+            <translation><!-- CUSTOMER APPEASEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3ME</masterLabel>
+            <translation><!-- D3ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAMAGE</masterLabel>
+            <translation><!-- DAMAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEAD BATTERY</masterLabel>
+            <translation><!-- DEAD BATTERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS PRE-AUTHORIZED ADDED SVC</masterLabel>
+            <translation><!-- EDS PRE-AUTHORIZED ADDED SVC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENROUTE MILEAGE</masterLabel>
+            <translation><!-- ENROUTE MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERS ACCIDENT ADJUSTMENT</masterLabel>
+            <translation><!-- ERS ACCIDENT ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXTRA TIME</masterLabel>
+            <translation><!-- EXTRA TIME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXTRICATION</masterLabel>
+            <translation><!-- EXTRICATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACILITY COMPLAINT</masterLabel>
+            <translation><!-- FACILITY COMPLAINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLAT WITH SPARE</masterLabel>
+            <translation><!-- FLAT WITH SPARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEET COMPLAINT</masterLabel>
+            <translation><!-- FLEET COMPLAINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUEL</masterLabel>
+            <translation><!-- FUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUEL ADJUSTMENT</masterLabel>
+            <translation><!-- FUEL ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUEL SUBSIDY</masterLabel>
+            <translation><!-- FUEL SUBSIDY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAVY DUTY EXTRA TIME - TIRE</masterLabel>
+            <translation><!-- HEAVY DUTY EXTRA TIME - TIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAVY DUTY EXTRICATION ADJUSTMENT</masterLabel>
+            <translation><!-- HEAVY DUTY EXTRICATION ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAVY DUTY TIME - TOW AND EXTRICATIONS</masterLabel>
+            <translation><!-- HEAVY DUTY TIME - TOW AND EXTRICATIONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAVY DUTY TIRE ADJUSTMENT</masterLabel>
+            <translation><!-- HEAVY DUTY TIRE ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIGHWAY TOLL</masterLabel>
+            <translation><!-- HIGHWAY TOLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOLIDAY PAY</masterLabel>
+            <translation><!-- HOLIDAY PAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOME LOCKOUT COST</masterLabel>
+            <translation><!-- HOME LOCKOUT COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HVY DUTY ENROUTE MILEAGE - TIRE</masterLabel>
+            <translation><!-- HVY DUTY ENROUTE MILEAGE - TIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOCKOUT/LOCKSMITH</masterLabel>
+            <translation><!-- LOCKOUT/LOCKSMITH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOCKSMITH BASIC ADJUSTMENT</masterLabel>
+            <translation><!-- LOCKSMITH BASIC ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOCKSMITH PLUS ADJUSTMENT</masterLabel>
+            <translation><!-- LOCKSMITH PLUS ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOCKSMITH PREMIER ADJUSTMENT</masterLabel>
+            <translation><!-- LOCKSMITH PREMIER ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANAGEMENT DECISION</masterLabel>
+            <translation><!-- MANAGEMENT DECISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MED DUTY ADJUSTMENT</masterLabel>
+            <translation><!-- MED DUTY ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDIUM DUTY TOW MILEAGE</masterLabel>
+            <translation><!-- MEDIUM DUTY TOW MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTORCYCLE ADJUSTMENT</masterLabel>
+            <translation><!-- MOTORCYCLE ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTORCYCLE COST</masterLabel>
+            <translation><!-- MOTORCYCLE COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTORCYCLE RIDER ADJUSTMENT</masterLabel>
+            <translation><!-- MOTORCYCLE RIDER ADJUSTMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTWKLSING AP</masterLabel>
+            <translation><!-- NTWKLSING AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTWKLSING AR</masterLabel>
+            <translation><!-- NTWKLSING AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVER DRAWN</masterLabel>
+            <translation><!-- OVER DRAWN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVERCHARGE</masterLabel>
+            <translation><!-- OVERCHARGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAPER CHECK</masterLabel>
+            <translation><!-- PAPER CHECK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERF PAY</masterLabel>
+            <translation><!-- PERF PAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS</masterLabel>
+            <translation><!-- PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS 2ND TRUCK FOR EXTRICATION</masterLabel>
+            <translation><!-- PLUS 2ND TRUCK FOR EXTRICATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS COST</masterLabel>
+            <translation><!-- PLUS COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUS/RV COST</masterLabel>
+            <translation><!-- PLUS/RV COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER</masterLabel>
+            <translation><!-- PREMIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER COST</masterLabel>
+            <translation><!-- PREMIER COST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER LONG TOW</masterLabel>
+            <translation><!-- PREMIER LONG TOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIER RV</masterLabel>
+            <translation><!-- PREMIER RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUERTO R TAX</masterLabel>
+            <translation><!-- PUERTO R TAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP EXTRICATION</masterLabel>
+            <translation><!-- RAP EXTRICATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP FUEL</masterLabel>
+            <translation><!-- RAP FUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP GOA</masterLabel>
+            <translation><!-- RAP GOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP JUMPSTART</masterLabel>
+            <translation><!-- RAP JUMPSTART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP LOCKOUT</masterLabel>
+            <translation><!-- RAP LOCKOUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP LOCKSMITH</masterLabel>
+            <translation><!-- RAP LOCKSMITH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP STORAGE/MISC</masterLabel>
+            <translation><!-- RAP STORAGE/MISC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAP TIRE CHANGE</masterLabel>
+            <translation><!-- RAP TIRE CHANGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE-DISPATCH (TOW &amp; STORE)</masterLabel>
+            <translation><!-- RE-DISPATCH (TOW &amp; STORE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP BASIC</masterLabel>
+            <translation><!-- RECIP BASIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PLUS</masterLabel>
+            <translation><!-- RECIP PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PREM R</masterLabel>
+            <translation><!-- RECIP PREM R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP PREMRV  R</masterLabel>
+            <translation><!-- RECIP PREMRV  R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECIP RV</masterLabel>
+            <translation><!-- RECIP RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RENT</masterLabel>
+            <translation><!-- RENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV</masterLabel>
+            <translation><!-- RV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPECIAL EQUIPMENT</masterLabel>
+            <translation><!-- SPECIAL EQUIPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPECIALEVENT</masterLabel>
+            <translation><!-- SPECIALEVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STORAGE</masterLabel>
+            <translation><!-- STORAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAX REPLACEMENT</masterLabel>
+            <translation><!-- TAX REPLACEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAXES</masterLabel>
+            <translation><!-- TAXES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOLLS/PARKING</masterLabel>
+            <translation><!-- TOLLS/PARKING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOW MILEAGE</masterLabel>
+            <translation><!-- TOW MILEAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPONDER/VATS KEYS</masterLabel>
+            <translation><!-- TRANSPONDER/VATS KEYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZONE PAYMENT</masterLabel>
+            <translation><!-- ZONE PAYMENT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

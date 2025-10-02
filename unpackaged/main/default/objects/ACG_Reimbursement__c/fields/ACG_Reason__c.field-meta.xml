@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_Reason__c</fullName>
+    <label>Decision Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ACG_Decision__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>00</fullName>
+                <default>false</default>
+                <label>00 - No Receipt</label>
+            </value>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>01 - Too Old</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>02 - Unpaid Receipt</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>03 - Not Legiable Receipt</label>
+            </value>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>04 - Credit Card Receipt</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>05 - Non Plus on Date of Service</label>
+            </value>
+            <value>
+                <fullName>06</fullName>
+                <default>false</default>
+                <label>06 - Locksmith Overages</label>
+            </value>
+            <value>
+                <fullName>07</fullName>
+                <default>false</default>
+                <label>07 - Basic Member</label>
+            </value>
+            <value>
+                <fullName>08</fullName>
+                <default>false</default>
+                <label>08 - Non-Member on paid recpt</label>
+            </value>
+            <value>
+                <fullName>09</fullName>
+                <default>false</default>
+                <label>09 - Over Entitlements</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>10 - Illegal Actions</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>11 - Ineligible Expenses</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>12 - Ineligible Vehicle or Equipment</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>13 - Inaccessible Location</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>15 - Expired (Under 90 days past due)</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>16 - Cancelled (Over 90 days past due)</label>
+            </value>
+            <value>
+                <fullName>17</fullName>
+                <default>false</default>
+                <label>17 - No MC/RV Coverage</label>
+            </value>
+            <value>
+                <fullName>18</fullName>
+                <default>false</default>
+                <label>18 - SDS Refunded</label>
+            </value>
+            <value>
+                <fullName>19</fullName>
+                <default>false</default>
+                <label>19-EVERYDAY MEMBER</label>
+            </value>
+            <value>
+                <fullName>20</fullName>
+                <default>false</default>
+                <label>20 - Did Not Call AAA</label>
+            </value>
+            <value>
+                <fullName>2T</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2T-2nd Tow</label>
+            </value>
+            <value>
+                <fullName>AC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AC-Accident</label>
+            </value>
+            <value>
+                <fullName>AM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AM-Additional Monies Approved</label>
+            </value>
+            <value>
+                <fullName>BA</fullName>
+                <default>false</default>
+                <label>BA - BASIC - SERVICE FAILURE</label>
+            </value>
+            <value>
+                <fullName>BA - Basic - Service On Own</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BA - Basic - Service On Own</label>
+            </value>
+            <value>
+                <fullName>BD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BD-Breakdown</label>
+            </value>
+            <value>
+                <fullName>BE</fullName>
+                <default>false</default>
+                <label>BE - Basic - Exception Years</label>
+            </value>
+            <value>
+                <fullName>BL</fullName>
+                <default>false</default>
+                <label>BL - Basic - Locksmith</label>
+            </value>
+            <value>
+                <fullName>BP</fullName>
+                <default>false</default>
+                <label>BP - Basic - Police Requested</label>
+            </value>
+            <value>
+                <fullName>BT</fullName>
+                <default>false</default>
+                <label>BT - Basic - Turnpike/Thruway</label>
+            </value>
+            <value>
+                <fullName>CF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CF-Full Payment - Car Rental</label>
+            </value>
+            <value>
+                <fullName>CP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CP-Partial Car Rental</label>
+            </value>
+            <value>
+                <fullName>D0</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D0-INELIGIBLE VEHICLE</label>
+            </value>
+            <value>
+                <fullName>D1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D1-DUPLICATE</label>
+            </value>
+            <value>
+                <fullName>D2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D2-INELIGIBLE CIRCUMSTANCES</label>
+            </value>
+            <value>
+                <fullName>D3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D3-NO RECEIPT</label>
+            </value>
+            <value>
+                <fullName>D4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D4-NON MEMBER</label>
+            </value>
+            <value>
+                <fullName>D5</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D5-NOT COVERED</label>
+            </value>
+            <value>
+                <fullName>D6</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D6-RECEIPT ISSUE</label>
+            </value>
+            <value>
+                <fullName>D7</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D7-INELIGIBLE FOR BENEFIT</label>
+            </value>
+            <value>
+                <fullName>D8</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D8-GREATER THAN ALLOTTED DAYS</label>
+            </value>
+            <value>
+                <fullName>D9</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>D9-ENTITLEMENT LIMIT</label>
+            </value>
+            <value>
+                <fullName>DA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DA-PROVIDED TOW</label>
+            </value>
+            <value>
+                <fullName>DB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DB-NO RV COVERAGE</label>
+            </value>
+            <value>
+                <fullName>DC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DC-IMPOUND</label>
+            </value>
+            <value>
+                <fullName>DD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DD-ACCIDENT/POLICE REPORT</label>
+            </value>
+            <value>
+                <fullName>DE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DE-OVERMILEAGE</label>
+            </value>
+            <value>
+                <fullName>DF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DF-NO PHOTO ID</label>
+            </value>
+            <value>
+                <fullName>DG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DG-3-DAY WAITING PERIOD</label>
+            </value>
+            <value>
+                <fullName>DH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DH-CAR-ENTITLEMENT LIMIT</label>
+            </value>
+            <value>
+                <fullName>DI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DI-CAR-NON MEMBER</label>
+            </value>
+            <value>
+                <fullName>DJ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DJ-CAR-NO TOW</label>
+            </value>
+            <value>
+                <fullName>DK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DK-CAR-NOT COVERED</label>
+            </value>
+            <value>
+                <fullName>DL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DL-CAR-OVER TIME LIMIT</label>
+            </value>
+            <value>
+                <fullName>DM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DM-IV-LOADED OR MODIFIED</label>
+            </value>
+            <value>
+                <fullName>DN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DN-IV-COMMERCIAL VEHICLE</label>
+            </value>
+            <value>
+                <fullName>DP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DP-IC-NON MAINTAINED ROAD</label>
+            </value>
+            <value>
+                <fullName>DR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DR-IC-LOADED TRAILER OR VEHICLE</label>
+            </value>
+            <value>
+                <fullName>DS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DS-HOME-ENTITLEMENT LIMIT</label>
+            </value>
+            <value>
+                <fullName>DT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DT-HOME-NON MEMBER</label>
+            </value>
+            <value>
+                <fullName>DU</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DU-HOME-NOT COVERED</label>
+            </value>
+            <value>
+                <fullName>DV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DV-HOME-NOT RESIDENCE</label>
+            </value>
+            <value>
+                <fullName>DW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DW-HOME-OVER TIME LIMIT</label>
+            </value>
+            <value>
+                <fullName>EE</fullName>
+                <default>false</default>
+                <label>EE - Prem - Exception Years</label>
+            </value>
+            <value>
+                <fullName>EL</fullName>
+                <default>false</default>
+                <label>EL - Prem - Locksmith</label>
+            </value>
+            <value>
+                <fullName>EP</fullName>
+                <default>false</default>
+                <label>EP - Prem - Police Requested</label>
+            </value>
+            <value>
+                <fullName>ES</fullName>
+                <default>false</default>
+                <label>ES - PREM - SERVICE FAILURE</label>
+            </value>
+            <value>
+                <fullName>ES - Prem - Service on own</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ES - Prem - Service on own</label>
+            </value>
+            <value>
+                <fullName>ET</fullName>
+                <default>false</default>
+                <label>ET - Prem - Turnpike/Thruway</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EX</label>
+            </value>
+            <value>
+                <fullName>HF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HF-Full Payment - Home Lockout</label>
+            </value>
+            <value>
+                <fullName>HP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HP-Partial Home Lockout</label>
+            </value>
+            <value>
+                <fullName>LK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LK-Locksmith</label>
+            </value>
+            <value>
+                <fullName>LO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LO-Lockout</label>
+            </value>
+            <value>
+                <fullName>BA - MCIC</fullName>
+                <default>false</default>
+                <label>MCIC Basic</label>
+            </value>
+            <value>
+                <fullName>PL - MCIC</fullName>
+                <default>false</default>
+                <label>MCIC Plus</label>
+            </value>
+            <value>
+                <fullName>E - MCIC</fullName>
+                <default>false</default>
+                <label>MCIC Premier</label>
+            </value>
+            <value>
+                <fullName>ME</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ME</label>
+            </value>
+            <value>
+                <fullName>MR</fullName>
+                <default>false</default>
+                <label>MR - Member Relations Reimbursement</label>
+            </value>
+            <value>
+                <fullName>OT</fullName>
+                <default>false</default>
+                <label>OT - One-Time Exception</label>
+            </value>
+            <value>
+                <fullName>PE</fullName>
+                <default>false</default>
+                <label>PE - Plus - Exception Years</label>
+            </value>
+            <value>
+                <fullName>PL</fullName>
+                <default>false</default>
+                <label>PL - Plus - Locksmith</label>
+            </value>
+            <value>
+                <fullName>PP</fullName>
+                <default>false</default>
+                <label>PP - Plus - Police Requested</label>
+            </value>
+            <value>
+                <fullName>PS</fullName>
+                <default>false</default>
+                <label>PS - PLUS - SERVICE FAILURE</label>
+            </value>
+            <value>
+                <fullName>PS - Plus - Service on own</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PS - Plus - Service on own</label>
+            </value>
+            <value>
+                <fullName>PT</fullName>
+                <default>false</default>
+                <label>PT - Plus - Turnpike/Thruway</label>
+            </value>
+            <value>
+                <fullName>R1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>R1-RV EVENT LIMIT</label>
+            </value>
+            <value>
+                <fullName>R2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>R2-RV HOUSEHOLD LIMIT</label>
+            </value>
+            <value>
+                <fullName>RE</fullName>
+                <default>false</default>
+                <label>RE - RV - Exception Years</label>
+            </value>
+            <value>
+                <fullName>RL</fullName>
+                <default>false</default>
+                <label>RL - RV - Locksmith</label>
+            </value>
+            <value>
+                <fullName>RP</fullName>
+                <default>false</default>
+                <label>RP - RV - Police Requested</label>
+            </value>
+            <value>
+                <fullName>RT</fullName>
+                <default>false</default>
+                <label>RT - RV - Turnpike/Thruway</label>
+            </value>
+            <value>
+                <fullName>RV</fullName>
+                <default>false</default>
+                <label>RV - RV - SERVICE FAILURE</label>
+            </value>
+            <value>
+                <fullName>RV - RV - Service on own</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RV - RV - Service on own</label>
+            </value>
+            <value>
+                <fullName>SA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SA-Approved Auto Repair Settlement</label>
+            </value>
+            <value>
+                <fullName>SB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SB-Battery Service Settlement</label>
+            </value>
+            <value>
+                <fullName>SD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SD-Roadside Assistance Damage Sett</label>
+            </value>
+            <value>
+                <fullName>SL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SL-Legal Fee Reimbursement</label>
+            </value>
+            <value>
+                <fullName>S</fullName>
+                <default>false</default>
+                <label>S-Sample</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ST-Trip Continuance Claim</label>
+            </value>
+            <value>
+                <fullName>SZ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SZ-Roadside Assistance Settlement</label>
+            </value>
+            <value>
+                <fullName>VB</fullName>
+                <default>false</default>
+                <label>VB - Battery Voucher</label>
+            </value>
+            <value>
+                <fullName>WE</fullName>
+                <default>false</default>
+                <label>WE - Weather Exception</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>EE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>EL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>EP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>ET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>BA - MCIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PL - MCIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>E - MCIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>MR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>OT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>PT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>RE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>RL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>RP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>RT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>RV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>VB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <valueName>WE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>07</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>17</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied</controllingFieldValue>
+            <valueName>20</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

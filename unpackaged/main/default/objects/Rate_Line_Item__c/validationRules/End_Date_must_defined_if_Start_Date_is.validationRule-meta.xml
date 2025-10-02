@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Date_must_defined_if_Start_Date_is</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNULL(End_Date__c) &amp;&amp; !ISNULL(Start_Date__c)</errorConditionFormula>
+    <errorMessage>If Start Date is defined, End Date cannot be null</errorMessage>
+</ValidationRule>

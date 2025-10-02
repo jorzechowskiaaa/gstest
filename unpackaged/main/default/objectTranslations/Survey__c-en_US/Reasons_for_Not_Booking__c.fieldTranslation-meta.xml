@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reasons the customer provided for not booking the trip --></help>
+        <label><!-- Reasons for Not Booking? --></label>
+        <name>Reasons_for_Not_Booking__c</name>
+        <picklistValues>
+            <masterLabel>Agent Knowledge/Expertise</masterLabel>
+            <translation><!-- Agent Knowledge/Expertise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent Response</masterLabel>
+            <translation><!-- Agent Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked Elsewhere</masterLabel>
+            <translation><!-- Booked Elsewhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change of Plans</masterLabel>
+            <translation><!-- Change of Plans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Trip or Different Trip</masterLabel>
+            <translation><!-- No Trip or Different Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Attribute --></label>
+        <name>Attribute__c</name>
+        <picklistValues>
+            <masterLabel>Battery Benefit Consumed</masterLabel>
+            <translation><!-- Battery Benefit Consumed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakdown Landmark</masterLabel>
+            <translation><!-- Breakdown Landmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakdown Location</masterLabel>
+            <translation><!-- Breakdown Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Id</masterLabel>
+            <translation><!-- Call Id --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Source</masterLabel>
+            <translation><!-- Call Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Type</masterLabel>
+            <translation><!-- Call Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City</masterLabel>
+            <translation><!-- City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear Duration</masterLabel>
+            <translation><!-- Clear Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleared Time Stamp</masterLabel>
+            <translation><!-- Cleared Time Stamp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clearing Code</masterLabel>
+            <translation><!-- Clearing Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comm Ctr</masterLabel>
+            <translation><!-- Comm Ctr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Duration</masterLabel>
+            <translation><!-- Dispatch Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Method</masterLabel>
+            <translation><!-- Dispatch Method --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enroute Duration</masterLabel>
+            <translation><!-- Enroute Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enroute Timestamp</masterLabel>
+            <translation><!-- Enroute Timestamp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Nbr</masterLabel>
+            <translation><!-- Facility Nbr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Type</masterLabel>
+            <translation><!-- Facility Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Tow Duration</masterLabel>
+            <translation><!-- In Tow Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Tow Timestamp</masterLabel>
+            <translation><!-- In Tow Timestamp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is Fleet</masterLabel>
+            <translation><!-- Is Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Tow</masterLabel>
+            <translation><!-- Long Tow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership Level</masterLabel>
+            <translation><!-- Membership Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Location Duration</masterLabel>
+            <translation><!-- On Location Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Location Timestamp</masterLabel>
+            <translation><!-- On Location Timestamp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Required</masterLabel>
+            <translation><!-- Payment Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PnA Reviewed</masterLabel>
+            <translation><!-- PnA Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Code</masterLabel>
+            <translation><!-- Postal Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier Battery Eligible</masterLabel>
+            <translation><!-- Premier Battery Eligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority Code</masterLabel>
+            <translation><!-- Priority Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation><!-- Quantity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Code</masterLabel>
+            <translation><!-- Resolution Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Duration</masterLabel>
+            <translation><!-- Scheduled Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Item Code</masterLabel>
+            <translation><!-- Service Item Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Territory Group</masterLabel>
+            <translation><!-- Service Territory Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotted Duration</masterLabel>
+            <translation><!-- Spotted Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T-Code</masterLabel>
+            <translation><!-- T-Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Completion Duration</masterLabel>
+            <translation><!-- Task Completion Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Complete Duration</masterLabel>
+            <translation><!-- Tow Complete Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Destination</masterLabel>
+            <translation><!-- Tow Destination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Destination State</masterLabel>
+            <translation><!-- Tow Destination State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow Postal Code</masterLabel>
+            <translation><!-- Tow Postal Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trouble Code</masterLabel>
+            <translation><!-- Trouble Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Type</masterLabel>
+            <translation><!-- Truck Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type</masterLabel>
+            <translation><!-- Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Type</masterLabel>
+            <translation><!-- Vehicle Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Record Type</masterLabel>
+            <translation><!-- Work Order Record Type --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

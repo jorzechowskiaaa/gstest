@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UP_FacilityDispatcher_PrimST_Required</fullName>
+    <active>true</active>
+    <description>Requires Primary Service Territory for Facility Dispatchers</description>
+    <errorConditionFormula>AND(
+ $RecordType.Name = &quot;User Provisioning Request&quot;,
+  ISPICKVAL(FSL_Profile__c , &quot;Facility Dispatcher&quot;),
+  ISBLANK(   FSL_Primary_Service_Territory__c )
+)</errorConditionFormula>
+    <errorDisplayField>FSL_Primary_Service_Territory__c</errorDisplayField>
+    <errorMessage>Primary Service Territory is required for facility dispatcher profiles</errorMessage>
+</ValidationRule>

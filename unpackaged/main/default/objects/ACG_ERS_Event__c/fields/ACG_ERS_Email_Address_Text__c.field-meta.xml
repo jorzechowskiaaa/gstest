@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACG_ERS_Email_Address_Text__c</fullName>
+    <description>Text version of ERS email address field. If ERS email address is not compatible with the email field type it will be null.</description>
+    <externalId>false</externalId>
+    <label>ERS Email Address Text</label>
+    <length>64</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

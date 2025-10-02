@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Post_Breakdown_Only__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Only posts status updates to chatter on Breakdown appointments</description>
+    <label>Status_Post_Breakdown_Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Override_Reason__c</fullName>
+    <description>Required when a dispatcher attempts to change an appointment that is already on the Gantt (has a Scheduled Start Time).</description>
+    <label>Manual Override Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

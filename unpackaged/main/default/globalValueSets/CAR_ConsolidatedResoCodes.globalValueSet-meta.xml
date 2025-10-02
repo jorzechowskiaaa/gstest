@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>G101</fullName>
+        <default>false</default>
+        <label>G101 - Air-Up Tire Only</label>
+    </customValue>
+    <customValue>
+        <fullName>G102</fullName>
+        <default>false</default>
+        <label>G102 - Install Spare Tire</label>
+    </customValue>
+    <customValue>
+        <fullName>G103</fullName>
+        <default>false</default>
+        <label>G103 - Install Tire Sealant/Plug</label>
+    </customValue>
+    <customValue>
+        <fullName>G104</fullName>
+        <default>false</default>
+        <label>G104 - Bicycle Assist Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>G190</fullName>
+        <default>false</default>
+        <label>G190 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G201</fullName>
+        <default>false</default>
+        <label>G201 - Top-Up Coolant Only</label>
+    </customValue>
+    <customValue>
+        <fullName>G290</fullName>
+        <default>false</default>
+        <label>G290 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G301</fullName>
+        <default>false</default>
+        <label>G301 - Jump Start</label>
+    </customValue>
+    <customValue>
+        <fullName>G302</fullName>
+        <default>false</default>
+        <label>G302 - Boost - Battery Test Passed</label>
+    </customValue>
+    <customValue>
+        <fullName>G306</fullName>
+        <default>false</default>
+        <label>G306 - Replace Bat (New) - Test Fail</label>
+    </customValue>
+    <customValue>
+        <fullName>G307</fullName>
+        <default>false</default>
+        <label>G307 - Replace Bat (Pro Rated) - Test Fail</label>
+    </customValue>
+    <customValue>
+        <fullName>G308</fullName>
+        <default>false</default>
+        <label>G308 - Replace Bat (Full Wrnty) - Test Fail</label>
+    </customValue>
+    <customValue>
+        <fullName>G322</fullName>
+        <default>false</default>
+        <label>G322 - Boost - Charge And Retest Result</label>
+    </customValue>
+    <customValue>
+        <fullName>G390</fullName>
+        <default>false</default>
+        <label>G390 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G401</fullName>
+        <default>false</default>
+        <label>G401 - Fuel Delivery - Gasoline</label>
+    </customValue>
+    <customValue>
+        <fullName>G402</fullName>
+        <default>false</default>
+        <label>G402 - Fuel Delivery - Diesel</label>
+    </customValue>
+    <customValue>
+        <fullName>G411</fullName>
+        <default>false</default>
+        <label>G411 - Clear Flooded Engine</label>
+    </customValue>
+    <customValue>
+        <fullName>G414</fullName>
+        <default>false</default>
+        <label>G414 - Charge Electric Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>G490</fullName>
+        <default>false</default>
+        <label>G490 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G501</fullName>
+        <default>false</default>
+        <label>G501 - Release Binding Shift Lever From Park</label>
+    </customValue>
+    <customValue>
+        <fullName>G504</fullName>
+        <default>false</default>
+        <label>G504 - Free Stuck Parking Brake</label>
+    </customValue>
+    <customValue>
+        <fullName>G510</fullName>
+        <default>false</default>
+        <label>G510 - Replaced/Repaired Windshield</label>
+    </customValue>
+    <customValue>
+        <fullName>G511</fullName>
+        <default>false</default>
+        <label>G511 - Resolved Car Alarm Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>G590</fullName>
+        <default>false</default>
+        <label>G590 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G601</fullName>
+        <default>false</default>
+        <label>G601 - Fix Accelerator Linkage</label>
+    </customValue>
+    <customValue>
+        <fullName>G609</fullName>
+        <default>false</default>
+        <label>G609 - Fix Ignition Spark Short To Ground</label>
+    </customValue>
+    <customValue>
+        <fullName>G690</fullName>
+        <default>false</default>
+        <label>G690 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G701</fullName>
+        <default>false</default>
+        <label>G701 - Unlock Vehicle w/o Key</label>
+    </customValue>
+    <customValue>
+        <fullName>G702</fullName>
+        <default>false</default>
+        <label>G702 - Thaw/Lubricate Lock</label>
+    </customValue>
+    <customValue>
+        <fullName>G790</fullName>
+        <default>false</default>
+        <label>G790 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G801</fullName>
+        <default>false</default>
+        <label>G801 - Release Steering Pressure On Key Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>G803</fullName>
+        <default>false</default>
+        <label>G803 - Create Conventional Replacement Key</label>
+    </customValue>
+    <customValue>
+        <fullName>G804</fullName>
+        <default>false</default>
+        <label>G804 - Create/Program Anti-Theft Key</label>
+    </customValue>
+    <customValue>
+        <fullName>G805</fullName>
+        <default>false</default>
+        <label>G805 - Remove &quot;Club&quot; Lock</label>
+    </customValue>
+    <customValue>
+        <fullName>G809</fullName>
+        <default>false</default>
+        <label>G809 - Unlock Home</label>
+    </customValue>
+    <customValue>
+        <fullName>G890</fullName>
+        <default>false</default>
+        <label>G890 - Other Resolutions</label>
+    </customValue>
+    <customValue>
+        <fullName>G931</fullName>
+        <default>false</default>
+        <label>G931 - Extrication Only</label>
+    </customValue>
+    <customValue>
+        <fullName>N101</fullName>
+        <default>false</default>
+        <label>N101 - Damaged - No Repair &amp; No Spare</label>
+    </customValue>
+    <customValue>
+        <fullName>N103</fullName>
+        <default>false</default>
+        <label>N103 - No Install - No Locking Lug Key</label>
+    </customValue>
+    <customValue>
+        <fullName>N106</fullName>
+        <default>false</default>
+        <label>N106 - No Repair - Multiple Flats</label>
+    </customValue>
+    <customValue>
+        <fullName>N107</fullName>
+        <default>false</default>
+        <label>N107 - Unable to Repair - Bicycle Assist</label>
+    </customValue>
+    <customValue>
+        <fullName>N190</fullName>
+        <default>false</default>
+        <label>N190 - Other Problem (describe)</label>
+    </customValue>
+    <customValue>
+        <fullName>N201</fullName>
+        <default>false</default>
+        <label>N201 - Other ProblemClub Policy To Tow Overheats</label>
+    </customValue>
+    <customValue>
+        <fullName>N290</fullName>
+        <default>false</default>
+        <label>N290 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N301</fullName>
+        <default>false</default>
+        <label>N301 - Battery Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>N380</fullName>
+        <default>false</default>
+        <label>N380 - Member Requests Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N390</fullName>
+        <default>false</default>
+        <label>N390 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N396</fullName>
+        <default>false</default>
+        <label>N396 - Diagnosed, Unable To Fix (describe)</label>
+    </customValue>
+    <customValue>
+        <fullName>N401</fullName>
+        <default>false</default>
+        <label>N401 - Gasoline Unavailable On Svc Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>N403</fullName>
+        <default>false</default>
+        <label>N403 - Unable To Prime Fuel System</label>
+    </customValue>
+    <customValue>
+        <fullName>N480</fullName>
+        <default>false</default>
+        <label>N480 - Member Requests Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N481</fullName>
+        <default>false</default>
+        <label>N481 - Vehicle Mis-Fueled</label>
+    </customValue>
+    <customValue>
+        <fullName>N483</fullName>
+        <default>false</default>
+        <label>N483 - EV Out of Charge Station Range</label>
+    </customValue>
+    <customValue>
+        <fullName>N484</fullName>
+        <default>false</default>
+        <label>N484 - Known Alternator Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N490</fullName>
+        <default>false</default>
+        <label>N490 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N580</fullName>
+        <default>false</default>
+        <label>N580 - Transmission/Clutch Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>N581</fullName>
+        <default>false</default>
+        <label>N581 - Axle/Driveshaft/Suspension Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>N582</fullName>
+        <default>false</default>
+        <label>N582 - Brake System Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>N590</fullName>
+        <default>false</default>
+        <label>N590 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N601</fullName>
+        <default>false</default>
+        <label>N601 - Unable To Fix Accelerator Linkage</label>
+    </customValue>
+    <customValue>
+        <fullName>N607</fullName>
+        <default>false</default>
+        <label>N607 - Unable To Repair Ignition Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N608</fullName>
+        <default>false</default>
+        <label>N608 - Unable to Repair Fuel System Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N680</fullName>
+        <default>false</default>
+        <label>N680 - Engine Related Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>N690</fullName>
+        <default>false</default>
+        <label>N690 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N703</fullName>
+        <default>false</default>
+        <label>N703 - Unable To Obtain Replacement Key</label>
+    </customValue>
+    <customValue>
+        <fullName>N790</fullName>
+        <default>false</default>
+        <label>N790 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>N908</fullName>
+        <default>false</default>
+        <label>N908 - Vehicle Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>N909</fullName>
+        <default>false</default>
+        <label>N909 - Collision/Police Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N910</fullName>
+        <default>false</default>
+        <label>N910 - Convenience/Member Concern Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N921</fullName>
+        <default>false</default>
+        <label>N921 - Accident Assist - First Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N922</fullName>
+        <default>false</default>
+        <label>N922 - Accident Assist - Second Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N932</fullName>
+        <default>false</default>
+        <label>N932 - Extrication + Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>N950</fullName>
+        <default>false</default>
+        <label>N950 - Other Service (describe)</label>
+    </customValue>
+    <customValue>
+        <fullName>N951</fullName>
+        <default>false</default>
+        <label>N951 - Taxi/Shuttle Service</label>
+    </customValue>
+    <customValue>
+        <fullName>N980</fullName>
+        <default>false</default>
+        <label>N980 - Light Service Redispatch As Tow</label>
+    </customValue>
+    <customValue>
+        <fullName>R001</fullName>
+        <default>false</default>
+        <label>R001 - NSR - No Car And No Member</label>
+    </customValue>
+    <customValue>
+        <fullName>R002</fullName>
+        <default>false</default>
+        <label>R002 - NSR - Car But No Member</label>
+    </customValue>
+    <customValue>
+        <fullName>R003</fullName>
+        <default>false</default>
+        <label>R003 - NSR - Member But No Car</label>
+    </customValue>
+    <customValue>
+        <fullName>R006</fullName>
+        <default>false</default>
+        <label>R006 - NSR - Member Refused Service</label>
+    </customValue>
+    <customValue>
+        <fullName>R007</fullName>
+        <default>false</default>
+        <label>R007 - NSR - Incorrect Equipment Dispatched</label>
+    </customValue>
+    <customValue>
+        <fullName>R199</fullName>
+        <default>false</default>
+        <label>R199 - No Service Rendered</label>
+    </customValue>
+    <customValue>
+        <fullName>X001</fullName>
+        <default>false</default>
+        <label>X001 - Cancel Call - Service Not En Route</label>
+    </customValue>
+    <customValue>
+        <fullName>X002</fullName>
+        <default>false</default>
+        <label>X002 - Cancel Call - Service En Route</label>
+    </customValue>
+    <customValue>
+        <fullName>N896</fullName>
+        <default>false</default>
+        <label>N896 - Other Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>G304</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>G304 - Boost - Test Fail - Purchase Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>N392</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>N392</label>
+    </customValue>
+    <customValue>
+        <fullName>G317</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>G317 - Replace Battery (Mbr Reqst) - Test Pass</label>
+    </customValue>
+    <customValue>
+        <fullName>G319</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>G319 - Boost Only - Battery Tester Unavail</label>
+    </customValue>
+    <customValue>
+        <fullName>G320</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>G320 - Boost Only - Battery Test Refused</label>
+    </customValue>
+    <customValue>
+        <fullName>G321</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>G321 - Boost - Test Fail - Battery Unavail</label>
+    </customValue>
+    <customValue>
+        <fullName>R005</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>R005 - NSR - Provider Refused Service</label>
+    </customValue>
+    <masterLabel>CAR ConsolidatedResoCodes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

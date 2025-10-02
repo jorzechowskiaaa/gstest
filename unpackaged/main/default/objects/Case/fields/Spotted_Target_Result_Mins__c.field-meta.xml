@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spotted_Target_Result_Mins__c</fullName>
+    <description>Result of the Spotted Milestone compared to its target of 4 mins</description>
+    <externalId>false</externalId>
+    <formula>4 - ((Spotted_Time__c - SlaStartDate)*24*60)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Result of the Spotted Milestone compared to its target of 4 mins</inlineHelpText>
+    <label>Spotted Target Result (Mins)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

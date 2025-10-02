@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ERS Calls</fullName>
+                <default>false</default>
+                <label>ERS Calls</label>
+            </value>
+            <value>
+                <fullName>Call Adjustments</fullName>
+                <default>false</default>
+                <label>Call Adjustments</label>
+            </value>
+            <value>
+                <fullName>Facility Adjustments</fullName>
+                <default>false</default>
+                <label>Facility Adjustments</label>
+            </value>
+            <value>
+                <fullName>Reciprocals</fullName>
+                <default>false</default>
+                <label>Reciprocals</label>
+            </value>
+            <value>
+                <fullName>Reciprocal Adjustments</fullName>
+                <default>false</default>
+                <label>Reciprocal Adjustments</label>
+            </value>
+            <value>
+                <fullName>Facility Adjustment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Facility Adjustment</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Service Adjustment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service Adjustment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

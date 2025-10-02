@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Distribution__c</fullName>
+    <label>Insurance Distribution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAOP</fullName>
+                <default>false</default>
+                <label>AAOP</label>
+            </value>
+            <value>
+                <fullName>Career Agents</fullName>
+                <default>false</default>
+                <label>Career Agents</label>
+            </value>
+            <value>
+                <fullName>EIA</fullName>
+                <default>false</default>
+                <label>EIA</label>
+            </value>
+            <value>
+                <fullName>IE</fullName>
+                <default>false</default>
+                <label>IE</label>
+            </value>
+            <value>
+                <fullName>Strategic Partners</fullName>
+                <default>false</default>
+                <label>Strategic Partners</label>
+            </value>
+            <value>
+                <fullName>Service Agent</fullName>
+                <default>false</default>
+                <label>Service Agent</label>
+            </value>
+            <value>
+                <fullName>Claims Agent</fullName>
+                <default>false</default>
+                <label>Claims Agent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

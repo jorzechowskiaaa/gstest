@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action__c</fullName>
+    <label>Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allow Call</fullName>
+                <default>false</default>
+                <label>Allow Call</label>
+            </value>
+            <value>
+                <fullName>Escalation Protocol</fullName>
+                <default>false</default>
+                <label>Escalation Protocol</label>
+            </value>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Route CSR</fullName>
+                <default>false</default>
+                <label>Route CSR</label>
+            </value>
+            <value>
+                <fullName>Route ERS Admin</fullName>
+                <default>false</default>
+                <label>Route ERS Admin</label>
+            </value>
+            <value>
+                <fullName>Route SIU</fullName>
+                <default>false</default>
+                <label>Route SIU</label>
+            </value>
+            <value>
+                <fullName>Route to Operations</fullName>
+                <default>false</default>
+                <label>Route to Operations</label>
+            </value>
+            <value>
+                <fullName>Submit Reimbursement</fullName>
+                <default>false</default>
+                <label>Submit Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Training Protocol</fullName>
+                <default>false</default>
+                <label>Training Protocol</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
